@@ -46,7 +46,10 @@ export default function FlashcardDeck({ courseId, unitId, flashcards }: Flashcar
 
   function handleReviewAgain() {
     setSessionReviewed(prev => new Set([...prev, card.id]));
-    advance();
+    setIsFlipped(false);
+    if (currentIndex > 0) {
+      setCurrentIndex(i => i - 1);
+    }
   }
 
   function advance() {
@@ -119,8 +122,8 @@ export default function FlashcardDeck({ courseId, unitId, flashcards }: Flashcar
       )}
 
       {/* Flashcard */}
-      <div className="flashcard-container w-full h-64 mb-6" onClick={handleFlip}>
-        <div className={`flashcard-inner w-full h-full ${isFlipped ? 'flipped' : ''}`}>
+      <div className="flashcard-container w-full min-h-52 mb-6" onClick={handleFlip}>
+        <div className={`flashcard-inner w-full ${isFlipped ? 'flipped' : ''}`}>
           {/* Front */}
           <div className="flashcard-front bg-white rounded-2xl shadow-lg border border-gray-200 flex flex-col items-center justify-center p-8 cursor-pointer">
             <p className="text-xs uppercase tracking-widest text-indigo-400 font-semibold mb-4">Question / Term</p>
