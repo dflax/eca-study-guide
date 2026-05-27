@@ -1,0 +1,241 @@
+import type { Unit } from '@/types/study';
+
+export const unit02Conversation: Unit = {
+  id: 'unit-02-conversation',
+  number: 2,
+  title: 'Self-Introduction Conversation',
+  description: 'Prepare for the oral exam: master the self-introduction template, שם פועל (verbal noun) forms, and how to describe yourself, your school, and your city in Hebrew.',
+  notes: [
+    {
+      heading: 'The Conversation Template — Oral Exam',
+      content: 'The oral exam asks you to introduce yourself in Hebrew. Here is the full template with English translations alongside each line. Fill in the blanks with your own information.\n\n---\n\nשלום! — Hello!\n\nקוראים לי ___. — My name is ___. (Literally: "They call me ___.")\n\nאני תלמיד / תלמידה בבית ספר אמת כיתה ___.\n— I am a student at Emet school, grade ___.\n(Use תלמיד if you are male, תלמידה if you are female.)\n\nאני גר / גרה ברחוב ___ בניו יורק.\n— I live on ___ street in New York.\n(Use גר if you are male, גרה if you are female.)\n\n---\n\nDescribing New York (what it has and does not have):\n\nבניו יורק יש ___. — In New York there is ___.\nבניו יורק אין ___. — In New York there is no ___.\n\nExample sentences for the oral exam:\n• בניו יורק יש מוזאון גדול — In New York there is a big museum.\n• בניו יורק יש הרבה מסעדות — In New York there are many restaurants.\n• בניו יורק אין מדבר — In New York there is no desert.\n• בניו יורק אין חורף חם — In New York there is no warm winter.\n\n---\n\nDescribing what you do at school:\n\nבבית ספר אנחנו מתפללים כל בוקר.\n— At school we pray every morning.\n\nאני לומד / לומדת עברית.\n— I study / learn Hebrew.\n(לומד = male, לומדת = female)\n\nאני אוהב / אוהבת ___ (שם פועל).\n— I love ___ (verbal noun/gerund).\n\nExample:\n• אני אוהב לימוד עברית — I love studying Hebrew.\n• אני אוהבת קריאה — I love reading.',
+    },
+    {
+      heading: 'שם פועל — Verbal Noun (Gerund)',
+      content: 'A שם פועל (shem po\'al, literally "verb name") is the verbal noun or gerund — the "-ing" form of a verb used as a noun. In English we say "I love swimming" — "swimming" is a gerund (verbal noun). In Hebrew, שם פועל works the same way.\n\nWhy it matters: The oral exam asks you to say what you do at school and what you love. You will use שם פועל forms.\n\nStructure:\nאני אוהב + שם פועל — I love [verb-ing]\n\nCommon שם פועל forms for school activities:\n\n• לשחות → שחייה — to swim → swimming\n• ללמוד → לימוד — to study/learn → studying/learning\n• להתפלל → תפילה — to pray → prayer/praying\n• לקרוא → קריאה — to read → reading\n• לכתוב → כתיבה — to write → writing\n• לדבר → דיבור — to speak → speaking\n• לאכול → אכילה — to eat → eating\n\nExample sentences:\n• אני אוהב לימוד עברית — I love studying Hebrew.\n• אני אוהבת קריאה — I love reading.\n• תפילה חשובה — Prayer is important.\n• לימוד הוא חשוב — Studying is important.\n\nKey insight: After words like אוהב (love) or שונא (hate), Hebrew often uses the שם פועל (gerund), just like English uses the "-ing" form.',
+      bullets: [
+        'שם פועל = verbal noun (gerund) — the "-ing" form used as a noun',
+        'לימוד = studying/learning (from ללמוד)',
+        'תפילה = praying/prayer (from להתפלל)',
+        'קריאה = reading (from לקרוא)',
+        'כתיבה = writing (from לכתוב)',
+        'Use שם פועל after אוהב (love) or other opinion verbs',
+        'Example: אני אוהב לימוד — I love studying',
+      ],
+    },
+    {
+      heading: 'Oral Exam Tips — Model Answers',
+      content: 'Here are model answers for each part of the oral exam. Prepare your own personal version substituting your information.\n\nQuestion 1: מה שמך? / מה קוראים לך? — What is your name?\nModel answer: קוראים לי [your name]. שלום!\n\nQuestion 2: איפה אתה לומד? — Where do you study?\nModel answer: אני תלמיד בבית ספר אמת כיתה ט׳.\n(כיתה ט = 9th grade)\n\nQuestion 3: איפה אתה גר? — Where do you live?\nModel answer: אני גר ברחוב [street name] בניו יורק.\n\nQuestion 4: מה יש / אין בניו יורק? — What is/is not in New York?\nModel answers:\n• בניו יורק יש מוזאון, מסעדות, וקניון.\n• בניו יורק אין מדבר ואין הרים גדולים.\n\nQuestion 5: מה אתה עושה בבית ספר? — What do you do at school?\nModel answer: בבית ספר אנחנו מתפללים כל בוקר. אני לומד עברית, מתמטיקה, ומדעים. אני אוהב לימוד עברית.\n\nPreparation checklist:\n• Know how to say your name with קוראים לי\n• Know your gender form: תלמיד or תלמידה, גר or גרה\n• Prepare 3-4 sentences about what New York has (יש) and does not have (אין)\n• Prepare 2-3 sentences about school activities using שם פועל\n• Practice aloud — this is an oral exam!',
+      bullets: [
+        'Practice saying all the sentences aloud before the exam',
+        'Prepare your personal answers (your name, street, grade)',
+        'Have ready: 2 יש sentences and 2 אין sentences about New York',
+        'Have ready: 1-2 school activity sentences using שם פועל',
+        'Remember gender: use the correct form (male/female) for yourself',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-02-conversation-fc-01',
+      front: 'How do you say "My name is ___" in Hebrew?',
+      back: 'קוראים לי ___ (pronounced: kor-EEM lee)\nLiterally: "They call me ___"',
+    },
+    {
+      id: 'unit-02-conversation-fc-02',
+      front: 'How do you say "I am a student at Emet school, grade ___"?',
+      back: 'אני תלמיד/תלמידה בבית ספר אמת כיתה ___\n(Use תלמיד for male, תלמידה for female)',
+    },
+    {
+      id: 'unit-02-conversation-fc-03',
+      front: 'How do you say "I live on ___ street"?',
+      back: 'אני גר/גרה ברחוב ___\n(Use גר for male, גרה for female)',
+    },
+    {
+      id: 'unit-02-conversation-fc-04',
+      front: 'What does יש mean?',
+      back: 'There is / There are — used to state what EXISTS.\nExample: יש מוזאון בניו יורק = There is a museum in New York.',
+    },
+    {
+      id: 'unit-02-conversation-fc-05',
+      front: 'What does אין mean?',
+      back: 'There is not / There are not — used to state what does NOT EXIST.\nExample: אין מדבר בניו יורק = There is no desert in New York.',
+    },
+    {
+      id: 'unit-02-conversation-fc-06',
+      front: 'What is a שם פועל?',
+      back: 'A verbal noun (gerund) — the "-ing" form used as a noun.\nExample: לימוד = studying/learning\nUsed after אוהב: אני אוהב לימוד = I love studying.',
+    },
+    {
+      id: 'unit-02-conversation-fc-07',
+      front: 'How do you say "In New York there is a museum"?',
+      back: 'בניו יורק יש מוזאון\n(b\'New York yesh muze\'on)',
+    },
+    {
+      id: 'unit-02-conversation-fc-08',
+      front: 'How do you say "In New York there is no desert"?',
+      back: 'בניו יורק אין מדבר\n(b\'New York ein midbar)',
+    },
+    {
+      id: 'unit-02-conversation-fc-09',
+      front: 'What is the difference between תלמיד and תלמידה?',
+      back: 'תלמיד = male student\nתלמידה = female student\nHebrew nouns have grammatical gender — always use the form that matches your own gender when speaking about yourself.',
+    },
+    {
+      id: 'unit-02-conversation-fc-10',
+      front: 'How do you say "We pray every morning"?',
+      back: 'אנחנו מתפללים כל בוקר\n(anachnu mitpal\'lim kol boker)',
+    },
+    {
+      id: 'unit-02-conversation-fc-11',
+      front: 'How do you say "I love to study Hebrew"?',
+      back: 'אני אוהב/אוהבת לימוד עברית\n(Use אוהב for male, אוהבת for female)\nלימוד is the שם פועל of ללמוד (to study).',
+    },
+    {
+      id: 'unit-02-conversation-fc-12',
+      front: 'What is the שם פועל of לקרוא (to read)?',
+      back: 'קריאה (kri\'ah) = reading / reading aloud\nExample: אני אוהב קריאה = I love reading.',
+    },
+    {
+      id: 'unit-02-conversation-fc-13',
+      front: 'What is the שם פועל of ללמוד (to study)?',
+      back: 'לימוד (li\'mud) = studying / learning\nExample: לימוד חשוב = Studying is important.',
+    },
+    {
+      id: 'unit-02-conversation-fc-14',
+      front: 'What is the שם פועל of לכתוב (to write)?',
+      back: 'כתיבה (k\'tivah) = writing\nExample: אני אוהב כתיבה = I love writing.',
+    },
+    {
+      id: 'unit-02-conversation-fc-15',
+      front: 'What is the שם פועל of להתפלל (to pray)?',
+      back: 'תפילה (t\'filah) = prayer / praying\nExample: תפילה חשובה = Prayer is important.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-02-conversation-q-01',
+      question: 'You are asked "מה שמך?" (What is your name?). What is the correct way to answer in Hebrew?',
+      options: [
+        'אני שם ___',
+        'קוראים לי ___',
+        'יש לי שם ___',
+        'שמי הוא ___',
+      ],
+      correctIndex: 1,
+      explanation: 'קוראים לי ___ is the standard expression meaning "My name is ___." Literally it means "They call me ___." This is the form used in the study guide conversation template.',
+    },
+    {
+      id: 'unit-02-conversation-q-02',
+      question: 'A male student says: "אני ___ בבית ספר אמת." Which word correctly fills the blank?',
+      options: ['תלמידה', 'תלמיד', 'לומדת', 'גרה'],
+      correctIndex: 1,
+      explanation: 'תלמיד is the masculine form meaning "student." תלמידה is feminine. A male student says אני תלמיד (I am a [male] student). לומדת and גרה are also feminine forms.',
+    },
+    {
+      id: 'unit-02-conversation-q-03',
+      question: 'Which sentence correctly says "In New York there is no desert"?',
+      options: [
+        'בניו יורק יש מדבר',
+        'בניו יורק מדבר אין',
+        'בניו יורק אין מדבר',
+        'מדבר בניו יורק',
+      ],
+      correctIndex: 2,
+      explanation: 'בניו יורק אין מדבר = "In New York there is no desert." אין means "there is/are not." The word order is: location + אין + subject.',
+    },
+    {
+      id: 'unit-02-conversation-q-04',
+      question: 'What is a שם פועל?',
+      options: [
+        'A verb tense used in past tense sentences',
+        'A verbal noun (gerund) — the "-ing" form used as a noun',
+        'A type of adjective that describes nouns',
+        'A pronoun used to replace a subject',
+      ],
+      correctIndex: 1,
+      explanation: 'A שם פועל is a verbal noun (gerund) — the "-ing" form of a verb used as a noun. For example, לימוד = studying/learning (from ללמוד = to study). It is used after words like אוהב (love).',
+    },
+    {
+      id: 'unit-02-conversation-q-05',
+      question: 'Which of these is the correct שם פועל (gerund) form of לקרוא (to read)?',
+      options: ['לקרא', 'קורא', 'קריאה', 'קראתי'],
+      correctIndex: 2,
+      explanation: 'קריאה is the שם פועל of לקרוא (to read), meaning "reading." קורא is the present tense verb (reads/is reading), not the gerund form.',
+    },
+    {
+      id: 'unit-02-conversation-q-06',
+      question: 'How do you say "I love studying Hebrew" using the שם פועל form?',
+      options: [
+        'אני ללמוד עברית',
+        'אני אוהב לימוד עברית',
+        'אני לומד אוהב עברית',
+        'אני עברית לימוד',
+      ],
+      correctIndex: 1,
+      explanation: 'אני אוהב לימוד עברית = "I love studying Hebrew." The structure is: subject + אוהב + שם פועל + object. לימוד is the שם פועל of ללמוד (to study).',
+    },
+    {
+      id: 'unit-02-conversation-q-07',
+      question: 'A female student wants to say "I live on Main Street." Which sentence is correct?',
+      options: [
+        'אני גר ברחוב מיין',
+        'אני גרה ברחוב מיין',
+        'אני תלמידה ברחוב מיין',
+        'אני יש ברחוב מיין',
+      ],
+      correctIndex: 1,
+      explanation: 'גרה is the feminine form of "I live." A female student uses אני גרה (I [female] live). A male student would say אני גר.',
+    },
+    {
+      id: 'unit-02-conversation-q-08',
+      question: 'How do you say "We pray every morning" in Hebrew?',
+      options: [
+        'אנחנו לומדים כל בוקר',
+        'אנחנו אוהבים כל בוקר',
+        'אנחנו מתפללים כל בוקר',
+        'אנחנו קוראים כל בוקר',
+      ],
+      correctIndex: 2,
+      explanation: 'אנחנו מתפללים כל בוקר = "We pray every morning." מתפללים is the plural present tense of "to pray." אנחנו = we, כל = every, בוקר = morning.',
+    },
+    {
+      id: 'unit-02-conversation-q-09',
+      question: 'In the oral exam, you need to describe what New York HAS. Which sentence is correct?',
+      options: [
+        'בניו יורק אין מסעדות',
+        'ניו יורק הוא עיר',
+        'בניו יורק יש הרבה מסעדות',
+        'מסעדות בניו יורק',
+      ],
+      correctIndex: 2,
+      explanation: 'בניו יורק יש הרבה מסעדות = "In New York there are many restaurants." Use יש to state what EXISTS. The other options either use אין (there is not), lack the right structure, or are incomplete.',
+    },
+    {
+      id: 'unit-02-conversation-q-10',
+      question: 'What is the שם פועל (gerund) of להתפלל (to pray)?',
+      options: ['מתפלל', 'תפילה', 'פלל', 'להתפלל'],
+      correctIndex: 1,
+      explanation: 'תפילה (t\'filah) is the שם פועל of להתפלל, meaning "prayer" or "praying." מתפלל is the present tense verb (is praying). להתפלל is the infinitive form.',
+    },
+    {
+      id: 'unit-02-conversation-q-11',
+      question: 'The expression קוראים לי literally means:',
+      options: [
+        '"I am called ___ "',
+        '"They call me ___"',
+        '"My name is written as ___"',
+        '"I introduce myself as ___"',
+      ],
+      correctIndex: 1,
+      explanation: 'קוראים לי literally means "They call me ___." It is the standard Hebrew way to say "My name is ___." קוראים = they call (plural present), לי = to me/for me.',
+    },
+    {
+      id: 'unit-02-conversation-q-12',
+      question: 'Which of these is the correct שם פועל (gerund) form of לכתוב (to write)?',
+      options: ['כותב', 'כתיבה', 'לכתוב', 'כתב'],
+      correctIndex: 1,
+      explanation: 'כתיבה is the שם פועל of לכתוב (to write), meaning "writing." כותב is the present tense verb (writes/is writing). לכתוב is the infinitive.',
+    },
+  ],
+};

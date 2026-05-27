@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'ECA Study Guide — 9th Grade Exam Prep',
-  description: 'Interactive study guide for Emet Classical Academy 9th grade final exams. Flashcards, quizzes, and notes for all subjects.',
+  title: 'ECA Study Guide — Exam Prep',
+  description: 'Interactive study guide for Emet Classical Academy final exams. Flashcards, quizzes, and notes for all subjects.',
 };
 
 export default function RootLayout({
