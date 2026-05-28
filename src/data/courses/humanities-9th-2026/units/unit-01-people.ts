@@ -1,0 +1,266 @@
+import type { Unit } from '@/types/study';
+
+export const unit01People: Unit = {
+  id: 'unit-01-people',
+  number: 1,
+  title: 'Key Terms — People & Figures',
+  description: 'The major historical, literary, and religious figures from ancient Greece, Rome, and the Near East: who they were and why they matter.',
+  notes: [
+    {
+      heading: 'Greek Thinkers and Writers',
+      content: 'The Greeks produced a remarkable array of writers and thinkers whose works became the foundation of Western civilization. Five figures stand out from this study guide:\n\nHomer is the legendary poet credited with composing the Iliad and the Odyssey — the twin epics that defined the heroic ideal in Greek culture. Little is known about Homer himself, and some scholars debate whether a single person wrote both works.\n\nHesiod (c. 700 BCE) was an early Greek poet who wrote Theogony, which describes the origin and genealogy of the Greek gods, and Works and Days, a moral guide for human life. He is a foundational figure in Greek literature alongside Homer.\n\nHerodotus (c. 484–425 BCE) is called the "Father of History." His Histories was the first systematic attempt to record and explain historical events, especially the Greco-Persian Wars. He traveled widely and interviewed witnesses, blending history with ethnography.\n\nSocrates (470–399 BCE) was the philosophical father of the Western tradition. He wrote nothing himself — everything we know comes through Plato\'s dialogues. He is famous for the Socratic method (questioning to expose contradictions and reach truth), and for the statement "the unexamined life is not worth living." He was tried and executed for impiety and corrupting the youth of Athens.\n\nPlato (428–348 BCE) was a student of Socrates and teacher of Aristotle. He founded the Academy in Athens. His major works include The Republic, The Apology, and many dialogues. He explored ethics, politics, epistemology, and metaphysics.',
+      bullets: [
+        'Homer — Iliad (Trojan War) and Odyssey (Odysseus\'s journey); foundational epics of Western literature',
+        'Hesiod — Theogony (origin of the gods) and Works and Days (moral guide)',
+        'Herodotus — "Father of History"; wrote the Histories on the Greco-Persian Wars',
+        'Socrates — developed the Socratic method; "the unexamined life is not worth living"; executed 399 BCE',
+        'Plato — student of Socrates; wrote The Republic; founded the Academy in Athens',
+      ],
+    },
+    {
+      heading: 'Roman Figures',
+      content: 'Rome produced its own great statesmen, poets, and historians:\n\nJulius Caesar (100–44 BCE) was a Roman general and statesman. He became the most powerful man in Rome after crossing the Rubicon river in 49 BCE with his army — an act of war against the state. He was declared dictator and began reforming the Roman government, but was assassinated on the Ides of March (March 15), 44 BCE, by senators including Brutus and Cassius who feared he would make himself king.\n\nVirgil (70–19 BCE) was the greatest Roman poet. His Aeneid tells the story of Aeneas, a Trojan hero who escaped the fall of Troy and traveled to Italy, where his descendants would eventually found Rome. The poem establishes the divine destiny of Rome and was meant to celebrate Augustus Caesar\'s rule.\n\nTacitus (c. 56–120 CE) was a Roman historian known for his incisive, moralistic style. He wrote the Annals and Histories, covering the reigns of the emperors. He also wrote Germania (on the Germanic tribes) and a section describing Jewish customs with a mixture of curiosity and hostility.\n\nPontius Pilate was the Roman prefect (governor) of Judaea from 26–36 CE. According to the Gospels and confirmed by Josephus, he ordered the crucifixion of Jesus of Nazareth under pressure from Jewish religious leaders.',
+      bullets: [
+        'Julius Caesar — general and dictator; crossed the Rubicon 49 BCE; assassinated March 15, 44 BCE',
+        'Virgil — wrote the Aeneid; established Rome\'s divine founding narrative',
+        'Tacitus — historian of imperial Rome; described Jewish customs with skepticism',
+        'Pontius Pilate — Roman prefect of Judaea; ordered the crucifixion of Jesus',
+      ],
+    },
+    {
+      heading: 'Religious and Historical Figures',
+      content: 'Spanning thousands of years, these figures shaped religious history and the ancient Near East:\n\nGilgamesh was the legendary king of Uruk in ancient Mesopotamia (c. 2700 BCE) and the protagonist of the Epic of Gilgamesh, one of the world\'s oldest literary works. After his friend Enkidu dies, Gilgamesh seeks immortality — only to learn it belongs to the gods alone. His story explores the relationship between humans and the divine.\n\nCyrus the Great (c. 559–530 BCE) founded the Achaemenid Persian Empire. His most famous act was conquering Babylon in 539 BCE and issuing the Cyrus Cylinder, which allowed exiled peoples — including the Jews — to return to their homelands. It is one of the earliest known declarations of religious tolerance.\n\nJesus of Nazareth (c. 4 BCE–30 CE) was a first-century Jewish teacher from Galilee whose teachings and the belief in his resurrection form the basis of Christianity. He was crucified under Pontius Pilate.\n\nThe Apostles were the twelve disciples chosen by Jesus to spread his teachings. After the Resurrection, they became the primary missionaries of Christianity. Key apostles include Peter, John, and Judas Iscariot.\n\nPeter and Paul are two foundational figures of early Christianity. Peter (Simon Peter) was the leader of the twelve apostles and the first bishop of Rome. Paul (formerly Saul of Tarsus) was a convert who became the most prolific missionary, spreading Christianity to Gentiles across the Roman Empire.\n\nJosephus (37–100 CE) was a Jewish historian who fought as a general in the Jewish War against Rome, then surrendered and worked under Roman patronage. His Jewish War and Jewish Antiquities are crucial sources for first-century Jewish history and Roman-Jewish relations.',
+      bullets: [
+        'Gilgamesh — legendary king of Uruk; hero of the Epic of Gilgamesh, one of the world\'s oldest literary works',
+        'Cyrus the Great — Persian king; conquered Babylon; issued the Cyrus Cylinder allowing Jews to return home',
+        'Jesus of Nazareth — first-century Jewish teacher; his life and resurrection form the basis of Christianity',
+        'The Apostles — twelve disciples of Jesus who became the first Christian missionaries',
+        'Peter and Paul — foundational early Christian figures; Peter was first bishop of Rome, Paul was the great missionary to the Gentiles',
+        'Josephus — Jewish historian who worked under Roman patronage; key source for first-century Jewish history',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-01-people-fc-01',
+      front: 'Apostles',
+      back: 'The twelve disciples chosen by Jesus to spread his teachings. After the Resurrection, they became the primary missionaries of Christianity. Key apostles include Peter, John, and Judas Iscariot.',
+    },
+    {
+      id: 'unit-01-people-fc-02',
+      front: 'Cyrus the Great',
+      back: 'King of Persia (c. 559–530 BCE) who founded the Achaemenid Empire. Conquered Babylon in 539 BCE and issued the Cyrus Cylinder, which allowed the Jewish people to return to their homeland — one of the earliest recorded declarations of religious tolerance.',
+    },
+    {
+      id: 'unit-01-people-fc-03',
+      front: 'Gilgamesh',
+      back: 'Legendary king of Uruk in ancient Mesopotamia and protagonist of the Epic of Gilgamesh, one of the world\'s oldest works of literature. His quest for immortality after his friend Enkidu\'s death explores the relationship between humans and the divine.',
+    },
+    {
+      id: 'unit-01-people-fc-04',
+      front: 'Herodotus',
+      back: 'Greek writer (c. 484–425 BCE) called the "Father of History." His Histories is the first systematic attempt to record and explain historical events, particularly the Greco-Persian Wars.',
+    },
+    {
+      id: 'unit-01-people-fc-05',
+      front: 'Hesiod',
+      back: 'Greek poet (c. 700 BCE) who wrote Theogony (the origin and genealogy of the Greek gods) and Works and Days (a moral guide for human life). A foundational figure in Greek literature alongside Homer.',
+    },
+    {
+      id: 'unit-01-people-fc-06',
+      front: 'Homer',
+      back: 'Legendary Greek poet credited with composing the Iliad (the Trojan War) and the Odyssey (Odysseus\'s journey home). These epics are foundational to Western literature and establish the heroic ideal in Greek culture.',
+    },
+    {
+      id: 'unit-01-people-fc-07',
+      front: 'Jesus of Nazareth',
+      back: 'First-century Jewish teacher and preacher from Galilee (c. 4 BCE–30 CE). His teachings and the belief in his resurrection form the basis of Christianity. He was crucified under Pontius Pilate.',
+    },
+    {
+      id: 'unit-01-people-fc-08',
+      front: 'Josephus',
+      back: 'Jewish historian (37–100 CE) who wrote The Jewish War and Jewish Antiquities. A military commander who surrendered to Rome and later worked under Roman patronage; his writings are a crucial source for first-century Jewish history and Roman-Jewish relations.',
+    },
+    {
+      id: 'unit-01-people-fc-09',
+      front: 'Julius Caesar',
+      back: 'Roman general and statesman (100–44 BCE). He crossed the Rubicon in 49 BCE, became dictator of Rome, and reformed the Roman state before being assassinated by senators (including Brutus and Cassius) on the Ides of March, 44 BCE.',
+    },
+    {
+      id: 'unit-01-people-fc-10',
+      front: 'Peter and Paul',
+      back: 'Two foundational figures of early Christianity. Peter (Simon Peter) was the leader of the twelve apostles and the first bishop of Rome. Paul (formerly Saul of Tarsus) was a convert who became the most prolific missionary, spreading Christianity to Gentiles across the Roman Empire.',
+    },
+    {
+      id: 'unit-01-people-fc-11',
+      front: 'Plato',
+      back: 'Athenian philosopher (428–348 BCE), student of Socrates and teacher of Aristotle. Founded the Academy in Athens. Major works include The Republic (ideal state and justice), The Apology (Socrates\' trial), and numerous dialogues exploring ethics, knowledge, and metaphysics.',
+    },
+    {
+      id: 'unit-01-people-fc-12',
+      front: 'Pontius Pilate',
+      back: 'Roman prefect (governor) of the province of Judaea from 26–36 CE. According to the Gospels and Josephus, he ordered the crucifixion of Jesus of Nazareth under pressure from Jewish religious leaders.',
+    },
+    {
+      id: 'unit-01-people-fc-13',
+      front: 'Socrates',
+      back: 'Athenian philosopher (470–399 BCE) and teacher of Plato. Developed the Socratic method (questioning to expose contradictions). Famous for "the unexamined life is not worth living." Tried and executed for impiety and corrupting the youth of Athens in 399 BCE.',
+    },
+    {
+      id: 'unit-01-people-fc-14',
+      front: 'Tacitus',
+      back: 'Roman historian (c. 56–120 CE) who wrote the Annals and Histories. Renowned for his incisive, moralistic style and critical view of imperial Rome. Also wrote Germania and a short piece describing Jewish customs.',
+    },
+    {
+      id: 'unit-01-people-fc-15',
+      front: 'Virgil',
+      back: 'Roman poet (70–19 BCE) who wrote the Aeneid, an epic poem about Aeneas, a Trojan hero who escaped the fall of Troy and founded what would become Rome. The Aeneid establishes the divine destiny of Rome and parallels Homer\'s epics.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-01-people-q-01',
+      question: 'Which Greek writer is called the "Father of History" for his systematic account of the Greco-Persian Wars?',
+      options: [
+        'Homer',
+        'Hesiod',
+        'Herodotus',
+        'Socrates',
+      ],
+      correctIndex: 2,
+      explanation: 'Herodotus (c. 484–425 BCE) wrote the Histories, the first systematic attempt to record and explain historical events. Homer wrote epic poetry, Hesiod wrote about the gods and moral life, and Socrates was a philosopher who wrote nothing.',
+    },
+    {
+      id: 'unit-01-people-q-02',
+      question: 'Who wrote the Iliad and the Odyssey, two epics that established the heroic ideal in Greek culture?',
+      options: [
+        'Hesiod',
+        'Homer',
+        'Virgil',
+        'Plato',
+      ],
+      correctIndex: 1,
+      explanation: 'Homer is the legendary Greek poet credited with composing the Iliad (about the Trojan War) and the Odyssey (about Odysseus\'s journey home). Virgil later wrote the Aeneid in imitation of Homer.',
+    },
+    {
+      id: 'unit-01-people-q-03',
+      question: 'What is Socrates most famous for saying about the life worth living?',
+      options: [
+        '"Know thyself above all others"',
+        '"The unexamined life is not worth living"',
+        '"Justice is the advantage of the stronger"',
+        '"Virtue is its own reward"',
+      ],
+      correctIndex: 1,
+      explanation: 'Socrates famously said "the unexamined life is not worth living" at his trial in 399 BCE, as recorded by Plato in The Apology. This captures his conviction that philosophical questioning is the most important human activity.',
+    },
+    {
+      id: 'unit-01-people-q-04',
+      question: 'Plato was a student of _________ and a teacher of _________.',
+      options: [
+        'Aristotle; Socrates',
+        'Homer; Herodotus',
+        'Socrates; Aristotle',
+        'Virgil; Julius Caesar',
+      ],
+      correctIndex: 2,
+      explanation: 'Plato (428–348 BCE) was the student of Socrates and later taught Aristotle, creating one of the most famous intellectual lineages in history. He founded the Academy in Athens.',
+    },
+    {
+      id: 'unit-01-people-q-05',
+      question: 'Julius Caesar crossed the Rubicon in 49 BCE. What did this act signify?',
+      options: [
+        'He was returning home from a victorious campaign in Gaul',
+        'He was crossing from Roman territory into enemy lands',
+        'He was marching his army against the Roman state — an act of war',
+        'He was following the Senate\'s direct orders to return to Rome',
+      ],
+      correctIndex: 2,
+      explanation: 'The Rubicon river was the boundary of Caesar\'s legitimate military command. Crossing it with his army was an act of war against the Roman state. "Crossing the Rubicon" has since become an idiom for taking an irreversible step.',
+    },
+    {
+      id: 'unit-01-people-q-06',
+      question: 'Cyrus the Great\'s Cyrus Cylinder is historically significant primarily because it:',
+      options: [
+        'Described the conquest of Egypt',
+        'Allowed exiled peoples, including the Jews, to return to their homelands',
+        'Established the first monotheistic religion in Persia',
+        'Recorded the laws of the Persian Empire',
+      ],
+      correctIndex: 1,
+      explanation: 'The Cyrus Cylinder (539 BCE) is one of the earliest known declarations of religious tolerance. After conquering Babylon, Cyrus allowed exiled peoples — including the Jews in Babylonian captivity — to return to their homelands.',
+    },
+    {
+      id: 'unit-01-people-q-07',
+      question: 'The Epic of Gilgamesh is historically significant because it is:',
+      options: [
+        'The first text to describe monotheism',
+        'One of the world\'s oldest works of literature, from ancient Mesopotamia',
+        'The founding document of the Persian Empire',
+        'A Greek account of the Trojan War',
+      ],
+      correctIndex: 1,
+      explanation: 'The Epic of Gilgamesh (c. 2100 BCE) from ancient Mesopotamia (modern Iraq) is one of the world\'s oldest surviving literary works. It explores themes of mortality, friendship, and the relationship between humans and the divine.',
+    },
+    {
+      id: 'unit-01-people-q-08',
+      question: 'Who ordered the crucifixion of Jesus of Nazareth?',
+      options: [
+        'Julius Caesar',
+        'Josephus',
+        'Pontius Pilate',
+        'Tacitus',
+      ],
+      correctIndex: 2,
+      explanation: 'Pontius Pilate was the Roman prefect of Judaea from 26–36 CE. According to the Gospels and the historian Josephus, he ordered the crucifixion of Jesus under pressure from Jewish religious leaders.',
+    },
+    {
+      id: 'unit-01-people-q-09',
+      question: 'Paul (formerly Saul of Tarsus) is especially important to early Christianity because he:',
+      options: [
+        'Was the first bishop of Rome',
+        'Wrote all four Gospels',
+        'Spread Christianity to Gentiles across the Roman Empire',
+        'Served as a Roman soldier who converted at the crucifixion',
+      ],
+      correctIndex: 2,
+      explanation: 'Paul was a convert who became the most prolific missionary in early Christianity, spreading the faith to Gentiles (non-Jews) throughout the Roman Empire. Peter, not Paul, was the first bishop of Rome.',
+    },
+    {
+      id: 'unit-01-people-q-10',
+      question: 'Josephus is valuable as a historical source primarily because he:',
+      options: [
+        'Was a Roman emperor who wrote about Jewish customs',
+        'Was a Jewish historian who wrote about both Jewish and Roman perspectives on the first century CE',
+        'Translated the Hebrew Bible into Greek',
+        'Wrote the first biography of Julius Caesar',
+      ],
+      correctIndex: 1,
+      explanation: 'Josephus (37–100 CE) was a Jewish general who surrendered to Rome and later wrote under Roman patronage. His Jewish War and Jewish Antiquities provide both Jewish and Roman perspectives on the first century CE, making him an invaluable primary source.',
+    },
+    {
+      id: 'unit-01-people-q-11',
+      question: 'Which Roman poet wrote the Aeneid, establishing Rome\'s divine founding narrative?',
+      options: [
+        'Tacitus',
+        'Josephus',
+        'Homer',
+        'Virgil',
+      ],
+      correctIndex: 3,
+      explanation: 'Virgil (70–19 BCE) wrote the Aeneid, which tells the story of Aeneas — a Trojan hero whose descendants would found Rome. The poem parallels Homer\'s epics and celebrates the divine destiny of Rome under Augustus Caesar.',
+    },
+    {
+      id: 'unit-01-people-q-12',
+      question: 'Tacitus\'s writing about Jews in his Histories is notable because it:',
+      options: [
+        'Expressed deep admiration for Jewish monotheism',
+        'Was written from an outside Roman perspective, often hostile but historically valuable',
+        'Was commissioned by Jewish religious leaders to explain Judaism to Romans',
+        'Accurately recorded the Hebrew Bible from memory',
+      ],
+      correctIndex: 1,
+      explanation: 'Tacitus described Jewish customs with a mixture of curiosity and hostility, reflecting Roman misunderstanding and suspicion of Jewish distinctiveness. Despite its biases, his account is historically valuable as an outside perspective on Jewish practices.',
+    },
+  ],
+};

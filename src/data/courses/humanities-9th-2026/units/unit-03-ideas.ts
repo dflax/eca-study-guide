@@ -1,0 +1,267 @@
+import type { Unit } from '@/types/study';
+
+export const unit03Ideas: Unit = {
+  id: 'unit-03-ideas',
+  number: 3,
+  title: 'Key Terms — Ideas, Religion & Culture',
+  description: 'The philosophical, religious, and cultural vocabulary of the ancient world: from Greek philosophy and rhetoric to the Trojan War and Mesopotamian civilization.',
+  notes: [
+    {
+      heading: 'Political Philosophy Concepts',
+      content: 'The Greeks were the first to systematically investigate how individuals and societies should live — and to develop the vocabulary we still use today:\n\nPhilosophy (from Greek philos = love, sophia = wisdom) is literally the "love of wisdom." It is the systematic study of fundamental questions about existence, knowledge, ethics, reason, and the nature of reality. It began in ancient Greece with figures like Thales, Socrates, Plato, and Aristotle.\n\nJustice (Greek: dikaiosyne) is central to both political theory and moral philosophy. For Plato in The Republic, justice means each part of the soul or the state performing its proper function. In the Code of Hammurabi and the Hebrew Bible, justice involves proper ordering of society according to divine law.\n\nVirtue (Greek: arete = excellence) is the quality that enables a person to perform their function well — excellence of character. For Plato, the four cardinal virtues are wisdom, courage, temperance, and justice. Aristotle saw virtue as a mean between extremes (e.g., courage is between cowardice and recklessness).\n\nRhetoric is the art of persuasive speaking and writing. A central subject in classical Greek and Roman education. Rhetoric involved constructing arguments, using evidence effectively, and making emotional appeals to an audience. It was essential for law, politics, and public life in the ancient world.',
+      bullets: [
+        'Philosophy: systematic study of existence, knowledge, and ethics; began in ancient Greece',
+        'Justice (dikaiosyne): each part doing its proper function — central to Plato\'s Republic',
+        'Virtue (arete = excellence): excellence of character; the four cardinal virtues are wisdom, courage, temperance, and justice',
+        'Aristotle\'s virtue ethics: virtue as the mean between extremes',
+        'Rhetoric: the art of persuasive speaking and writing; essential for law and politics',
+      ],
+    },
+    {
+      heading: 'Religious Concepts',
+      content: 'The ancient world was home to a remarkable diversity of religious beliefs and practices:\n\nMonotheism is the belief in and worship of one G-d, as opposed to polytheism (many gods). Judaism, Christianity, and Islam are the three major monotheistic religions. The development of monotheism — especially in ancient Israel — was a major turning point in religious history.\n\nCovenant (Hebrew: brit) is a binding agreement or contract. In the biblical tradition, the covenant is the agreement between G-d and the Jewish people — G-d promises protection and land; the people promise to follow G-d\'s laws. This concept is central to Jewish identity and theology.\n\nCatholic comes from Greek katholikos, meaning "universal." Originally used to describe the universal Christian church as a whole. After the Great Schism (1054 CE), it came to refer specifically to the Western church in communion with Rome, led by the Pope.\n\nPagan originally comes from Latin paganus meaning "country-dweller" or "civilian." Early Christians used it to describe non-Christians who practiced polytheistic religions (since Christianity spread first in cities). Now used broadly to describe pre-Christian or non-Abrahamic religions.\n\nThe Pharisees were a major Jewish sect in first-century Judaea that emphasized strict interpretation of the Torah and the importance of oral tradition alongside the written law. After the destruction of the Temple in 70 CE, Pharisaic Judaism became the basis of what we now call rabbinic Judaism.',
+      bullets: [
+        'Monotheism: belief in one G-d; Judaism, Christianity, and Islam are the three main monotheistic religions',
+        'Covenant (brit): the binding agreement between G-d and the Jewish people',
+        'Catholic: from Greek "universal"; after the Great Schism (1054 CE), refers to the Western church under the Pope',
+        'Pagan: originally meant non-Christian polytheist; now broadly means pre-Christian or non-Abrahamic',
+        'Pharisees: Jewish sect emphasizing Torah and oral tradition; became the basis of modern rabbinic Judaism after 70 CE',
+      ],
+    },
+    {
+      heading: 'Cultures and Ideas',
+      content: 'Understanding the broader cultural and geographic context of the ancient world:\n\nCivilization is a complex, organized human society typically characterized by: urban settlements, social stratification, specialized labor, writing or record-keeping, monumental architecture, long-distance trade, and shared cultural or religious institutions. The first civilizations arose in Mesopotamia around 3500 BCE.\n\nMesopotamia (from Greek: mesos = middle, potamos = river) means "land between the rivers" — referring to the Tigris and Euphrates rivers in modern Iraq and Syria. It is one of the "cradles of civilization," home to the Sumerians, Babylonians, and Assyrians; the site of the earliest cities, writing (cuneiform), and law codes.\n\nGymnasia (singular: gymnasium) were Greek institutions serving as centers of both physical training and intellectual education. More than just gyms — they were places where young men exercised, debated philosophy, and received civic education. Socrates and other philosophers taught at gymnasia.\n\nMemphite Theology is an ancient Egyptian religious text from Memphis claiming that the god Ptah created the world through thought (in his heart/mind) and then speech (through his tongue). This creation through thought and word anticipates the Greek philosophical concept of Logos (the rational principle of creation) and parallels the opening of the Gospel of John ("In the beginning was the Word").\n\nThe Trojan War was the legendary 10-year war between a Greek coalition and the city of Troy (in modern Turkey), told in Homer\'s Iliad. Supposedly triggered by the Trojan prince Paris\'s abduction of Helen, wife of King Menelaus of Sparta. The war ended with the famous Trojan Horse stratagem.\n\nThe Sicarii were a radical Jewish group in first-century Judaea (active c. 6–73 CE). Their name comes from the Latin sica (a small curved dagger). They used hidden daggers to assassinate Roman officials and Jewish collaborators in their resistance to Roman rule.',
+      bullets: [
+        'Civilization: complex organized society with cities, writing, specialization, and shared institutions; first arose in Mesopotamia c. 3500 BCE',
+        'Mesopotamia: "land between the rivers" (Tigris and Euphrates); cradle of civilization; home to Sumerians and Babylonians',
+        'Gymnasia: Greek institutions for both physical training and philosophical education',
+        'Memphite Theology: Egyptian creation text; god Ptah created through thought and speech — anticipates the concept of Logos',
+        'Trojan War: legendary 10-year war told in Homer\'s Iliad; ended with the Trojan Horse',
+        'Sicarii: radical Jewish group; used daggers to assassinate Roman officials; contributed to the Jewish revolt against Rome',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-03-ideas-fc-01',
+      front: 'Catholic',
+      back: 'From Greek katholikos, meaning "universal." Originally described the universal Christian church as a whole. After the Great Schism (1054 CE), it came to refer specifically to the Western church in communion with Rome, led by the Pope.',
+    },
+    {
+      id: 'unit-03-ideas-fc-02',
+      front: 'Civilization',
+      back: 'A complex, organized human society characterized by: urban settlements, social stratification, specialized labor, writing/record-keeping, monumental architecture, long-distance trade, and shared cultural/religious institutions. First arose in Mesopotamia around 3500 BCE.',
+    },
+    {
+      id: 'unit-03-ideas-fc-03',
+      front: 'Covenant',
+      back: 'A binding agreement or contract. In the biblical tradition, the covenant (Hebrew: brit) is the agreement between G-d and the Jewish people — G-d promises protection and land; the people promise to follow G-d\'s laws. Central to Jewish identity and theology.',
+    },
+    {
+      id: 'unit-03-ideas-fc-04',
+      front: 'Gymnasia',
+      back: '(Singular: gymnasium) Greek institutions serving as centers of both physical training and intellectual education. More than just gyms — places where young men exercised, debated philosophy, and received civic education. Socrates and other philosophers taught at gymnasia.',
+    },
+    {
+      id: 'unit-03-ideas-fc-05',
+      front: 'Justice',
+      back: 'A central concept in Greek philosophy and political theory. In Plato\'s Republic, justice (dikaiosyne) means each part of the soul or the state performing its proper function. In the Code of Hammurabi and Hebrew Bible, justice involves proper ordering of society according to divine law.',
+    },
+    {
+      id: 'unit-03-ideas-fc-06',
+      front: 'Memphite Theology',
+      back: 'An ancient Egyptian religious text from Memphis claiming that the god Ptah created the world through thought (in his heart/mind) and then speech (through his tongue). A sophisticated creation theology connecting to the Greek concept of Logos — creation through divine reason and word.',
+    },
+    {
+      id: 'unit-03-ideas-fc-07',
+      front: 'Mesopotamia',
+      back: '"Land between the rivers" (Greek: mesos = middle, potamos = river). The region between the Tigris and Euphrates rivers (modern Iraq and Syria). One of the "cradles of civilization" — home to the Sumerians, Babylonians, and Assyrians; site of the earliest cities, writing (cuneiform), and law codes.',
+    },
+    {
+      id: 'unit-03-ideas-fc-08',
+      front: 'Monotheism',
+      back: 'The belief in and worship of one G-d, as opposed to polytheism (many gods). Judaism, Christianity, and Islam are the three major monotheistic religions. The development of monotheism — particularly in ancient Israel — was a major turning point in religious history.',
+    },
+    {
+      id: 'unit-03-ideas-fc-09',
+      front: 'Pagan',
+      back: 'Originally a Latin term (paganus) meaning "country-dweller" or "civilian." Early Christians used it to describe non-Christians who practiced polytheistic religions. Now used broadly to describe any pre-Christian or non-Abrahamic religion.',
+    },
+    {
+      id: 'unit-03-ideas-fc-10',
+      front: 'Pharisees',
+      back: 'A major Jewish sect in first-century Judaea that emphasized strict interpretation of the Torah and the importance of oral tradition alongside written law. After the Temple\'s destruction in 70 CE, Pharisaic Judaism became the basis of modern rabbinic Judaism.',
+    },
+    {
+      id: 'unit-03-ideas-fc-11',
+      front: 'Philosophy',
+      back: 'From Greek philos (love) + sophia (wisdom) = "love of wisdom." The systematic study of fundamental questions about existence, knowledge, ethics, reason, and the nature of reality. Began in ancient Greece with Thales, Socrates, Plato, and Aristotle.',
+    },
+    {
+      id: 'unit-03-ideas-fc-12',
+      front: 'Rhetoric',
+      back: 'The art of persuasive speaking and writing. A central subject in classical Greek and Roman education involving the construction of arguments, use of evidence, and emotional appeal to an audience. Essential for law, politics, and public life.',
+    },
+    {
+      id: 'unit-03-ideas-fc-13',
+      front: 'Sicarii',
+      back: 'A radical Jewish group in first-century Judaea (active c. 6–73 CE). Their name comes from the Latin sica (a small curved dagger). They used hidden daggers to assassinate Roman officials and Jewish collaborators. Josephus describes them as zealots who contributed to the Jewish revolt against Rome.',
+    },
+    {
+      id: 'unit-03-ideas-fc-14',
+      front: 'Trojan War',
+      back: 'The legendary 10-year war between a Greek coalition and the city of Troy (in modern Turkey), told in Homer\'s Iliad. Supposedly triggered by the abduction of Helen by the Trojan prince Paris. Ended with the Greeks\' famous Trojan Horse stratagem.',
+    },
+    {
+      id: 'unit-03-ideas-fc-15',
+      front: 'Virtue',
+      back: 'Excellence of character (Greek: arete = excellence). The quality that enables a person to perform their function well. For Plato, the cardinal virtues are wisdom, courage, temperance, and justice. Aristotle saw virtue as a mean between extremes.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-03-ideas-q-01',
+      question: 'The word "philosophy" literally means:',
+      options: [
+        '"Love of power"',
+        '"Study of nature"',
+        '"Love of wisdom"',
+        '"Rule by reason"',
+      ],
+      correctIndex: 2,
+      explanation: 'Philosophy comes from Greek philos (love) + sophia (wisdom) = "love of wisdom." It is the systematic study of fundamental questions about existence, knowledge, ethics, and the nature of reality.',
+    },
+    {
+      id: 'unit-03-ideas-q-02',
+      question: 'According to Plato in The Republic, Justice (dikaiosyne) means:',
+      options: [
+        'Equal punishment for all citizens regardless of class',
+        'Each part of the soul or state performing its proper function',
+        'The rule of law applying to everyone equally',
+        'The majority\'s will being enforced by the state',
+      ],
+      correctIndex: 1,
+      explanation: 'For Plato, justice means each part doing its proper function — in the soul, reason governing spirit and appetite; in the state, philosopher-kings governing guardians and producers. This is not about equal punishment but about proper order.',
+    },
+    {
+      id: 'unit-03-ideas-q-03',
+      question: 'What is the Hebrew term for "covenant," and what does it represent in Jewish theology?',
+      options: [
+        'Torah — the written law of Moses',
+        'Brit — the binding agreement between G-d and the Jewish people',
+        'Shabbat — the day of rest commanded by G-d',
+        'Talmud — the oral tradition passed down through generations',
+      ],
+      correctIndex: 1,
+      explanation: 'Brit is the Hebrew word for covenant. In Jewish theology, it refers to the binding agreement between G-d and the Jewish people: G-d promises protection and land; the people promise to follow G-d\'s laws. This covenant is central to Jewish identity.',
+    },
+    {
+      id: 'unit-03-ideas-q-04',
+      question: 'The Memphite Theology is significant in the history of religious thought because it:',
+      options: [
+        'Was the first monotheistic religion in the ancient world',
+        'Established the Jewish covenant between G-d and Israel',
+        'Described creation through divine thought and speech — anticipating the concept of Logos',
+        'Was the source of Homer\'s Iliad and Odyssey',
+      ],
+      correctIndex: 2,
+      explanation: 'The Memphite Theology describes the Egyptian god Ptah creating the universe through thought (mind) and speech (word). This creation-through-reason-and-word concept anticipates the Greek philosophical concept of Logos and parallels the Gospel of John\'s "In the beginning was the Word."',
+    },
+    {
+      id: 'unit-03-ideas-q-05',
+      question: 'The word "pagan" originally meant:',
+      options: [
+        '"Demon worshipper" in the Roman military tradition',
+        '"Country-dweller" — used by early Christians to describe non-Christian polytheists',
+        '"Heretic" — someone who rejected church doctrine',
+        '"Foreigner" — someone from outside the Roman Empire',
+      ],
+      correctIndex: 1,
+      explanation: 'Paganus originally meant "country-dweller" or "civilian" in Latin. Early Christians, whose faith spread first in cities, used it to describe rural non-Christians who practiced polytheistic religions. It was originally a somewhat dismissive social label, not a theological one.',
+    },
+    {
+      id: 'unit-03-ideas-q-06',
+      question: 'What happened to the Pharisees\' approach to Judaism after the destruction of the Temple in 70 CE?',
+      options: [
+        'It died out as Jews lost their religious identity',
+        'It merged completely with early Christianity',
+        'It became the basis of modern rabbinic Judaism',
+        'It was replaced by the Sadducees\' priestly tradition',
+      ],
+      correctIndex: 2,
+      explanation: 'After Rome destroyed the Jerusalem Temple in 70 CE, the Temple-based sacrificial worship ended. The Pharisees\' emphasis on Torah study, prayer, and oral tradition (rather than Temple sacrifice) proved adaptable. Pharisaic Judaism became the foundation of rabbinic Judaism, which is the basis of modern Jewish practice.',
+    },
+    {
+      id: 'unit-03-ideas-q-07',
+      question: 'Mesopotamia means "land between the rivers." Which two rivers gave this region its name?',
+      options: [
+        'The Nile and the Jordan',
+        'The Rhine and the Danube',
+        'The Tigris and the Euphrates',
+        'The Indus and the Ganges',
+      ],
+      correctIndex: 2,
+      explanation: 'Mesopotamia (from Greek mesos = middle, potamos = river) refers to the region between the Tigris and Euphrates rivers in modern Iraq and Syria. This region produced the world\'s first cities, the first writing (cuneiform), and the first law codes.',
+    },
+    {
+      id: 'unit-03-ideas-q-08',
+      question: 'In Aristotle\'s virtue ethics, virtue is best defined as:',
+      options: [
+        'The complete absence of negative impulses',
+        'Obedience to the laws of the state',
+        'A mean (middle point) between two extremes of behavior',
+        'The pursuit of pleasure within reason',
+      ],
+      correctIndex: 2,
+      explanation: 'Aristotle defined virtue (arete) as a mean between two extremes. For example, courage is the mean between cowardice (too little) and recklessness (too much). This "golden mean" principle is central to Aristotle\'s Nicomachean Ethics.',
+    },
+    {
+      id: 'unit-03-ideas-q-09',
+      question: 'The Trojan War, as told in Homer\'s Iliad, was supposedly triggered by:',
+      options: [
+        'The Trojans refusing to pay tribute to the Greek city-states',
+        'A trade dispute between Troy and Sparta over access to the Hellespont',
+        'The Trojan prince Paris abducting Helen, wife of the Spartan king Menelaus',
+        'The Greek hero Achilles killing the Trojan king Priam\'s son in a duel',
+      ],
+      correctIndex: 2,
+      explanation: 'According to Homer\'s Iliad and Greek mythology, the Trojan War began when the Trojan prince Paris took Helen — wife of Menelaus, king of Sparta — to Troy. Menelaus rallied the Greek kings to reclaim her, leading to the 10-year siege of Troy.',
+    },
+    {
+      id: 'unit-03-ideas-q-10',
+      question: 'Gymnasia in ancient Greece were primarily:',
+      options: [
+        'Hospitals for treating injured athletes',
+        'Centers of both physical training and philosophical education',
+        'Religious temples dedicated to the god Apollo',
+        'Public baths and recreational centers for all citizens',
+      ],
+      correctIndex: 1,
+      explanation: 'Greek gymnasia were much more than exercise facilities. They were centers where young men trained physically and engaged in philosophical discussion and civic education. Socrates and other philosophers regularly taught at gymnasia.',
+    },
+    {
+      id: 'unit-03-ideas-q-11',
+      question: 'The Sicarii were notable in first-century Judaea for:',
+      options: [
+        'Being the sect that most closely followed Pharisaic law',
+        'Using hidden daggers to assassinate Roman officials and Jewish collaborators',
+        'Translating the Hebrew Bible into Greek for Roman audiences',
+        'Being the first group to accept Jesus as the Messiah',
+      ],
+      correctIndex: 1,
+      explanation: 'The Sicarii (from Latin sica = small curved dagger) were a radical Jewish resistance group who used concealed daggers to kill Roman officials and Jews who collaborated with Rome. Josephus describes them as zealots who contributed to the Jewish revolt (66–73 CE).',
+    },
+    {
+      id: 'unit-03-ideas-q-12',
+      question: 'What key distinction separates monotheism from polytheism?',
+      options: [
+        'Monotheism requires a written holy text; polytheism does not',
+        'Monotheism holds that there is one G-d; polytheism holds that there are many gods',
+        'Monotheism is practiced only in Western cultures; polytheism only in Eastern cultures',
+        'Monotheism rejects religious ritual; polytheism embraces it',
+      ],
+      correctIndex: 1,
+      explanation: 'Monotheism (from Greek: monos = one, theos = god) is the belief in and worship of one G-d. Polytheism (poly = many) involves worship of multiple gods. Judaism, Christianity, and Islam are monotheistic; ancient Greek and Roman religion, as well as many ancient Near Eastern religions, were polytheistic.',
+    },
+  ],
+};

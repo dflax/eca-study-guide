@@ -15,6 +15,7 @@ Interactive exam prep for students at **Emet Classical Academy**. Study notes, f
 | 2025–2026 · 9th Grade Science | Dr. Shulman | 12 | 156 | 129 |
 | 2025–2026 · Hebrew | Morah Gabay | 2 | 79 | 24 |
 | 2025–2026 · Latin | Mr. Karlin | 6 | 121 | 70 |
+| 2025–2026 · Integrated Humanities | Ms. Attar | 6 | 77 | 67 |
 
 ### Science Units (Dr. Shulman)
 1. Energy
@@ -45,6 +46,14 @@ Interactive exam prep for students at **Emet Classical Academy**. Study notes, f
 6. Suffixes, Prepositions & Numbers — -ne / -que, prepositions with cases, numbers 1–10 / ordinals 1–3
 
 > Vocabulary will be expanded when the textbook becomes available.
+
+### Integrated Humanities Units (Ms. Attar)
+1. Key Terms — People & Figures (Homer, Herodotus, Socrates, Plato, Caesar, Virgil, Jesus, Josephus, and more)
+2. Political & Historical Concepts (Republic, Dictator, Pax Romana, Triumvirate, Rubicon, etc.)
+3. Ideas, Religion & Culture (Philosophy, Justice, Virtue, Covenant, Monotheism, Catholic, etc.)
+4. Essay Theme A — The Individual and the State (Plato's *Republic*, *Apology*, Aristotle's *Politics*)
+5. Essay Theme B — The Jews and Rome (Livy, Hadas, Tacitus, Josephus)
+6. Essay Theme C — Man and G-d (Numbers 35, Hammurabi, Memphite Theology, Gilgamesh, Homer)
 
 ---
 

@@ -1,0 +1,237 @@
+import type { Unit } from '@/types/study';
+
+export const unit05ThemeB: Unit = {
+  id: 'unit-05-theme-b',
+  number: 5,
+  title: 'Essay Theme B — The Jews and Rome',
+  description: 'Primary sources: Livy (Romulus and Remus, Cincinnatus, Camillus), Hadas essay on Aeneas as Roman Moses, Tacitus on the Jews, Josephus packet.',
+  notes: [
+    {
+      heading: 'The Theme',
+      content: 'This essay asks you to examine the complex relationship between Jews and Rome — a relationship involving power, religion, culture, and conflict across several centuries.\n\nKey questions to consider:\n- How did Romans view Jews? (Tacitus gives one perspective)\n- How did Jews understand themselves in relation to Rome? (Josephus gives one perspective)\n- Where did these two civilizations clash, and where did they overlap?\n- What does each civilization\'s founding narrative reveal about how they understood themselves?\n\nThe primary sources span several centuries and perspectives:\n- Livy establishes what Romans valued and how Rome understood its own founding\n- Hadas draws a parallel between the Roman founding hero Aeneas and the Jewish hero Moses\n- Tacitus shows how a Roman intellectual viewed Jews — from the outside, often with hostility\n- Josephus shows how a Jewish intellectual navigated life inside the Roman Empire\n\nAs you write, consider: how do both Rome and Israel understand themselves as peoples with a special destiny? What does each source reveal about how civilizations construct their own identity?',
+    },
+    {
+      heading: 'Livy — Roman Virtues and Roman Identity',
+      content: 'Livy (59 BCE–17 CE) wrote Ab Urbe Condita ("From the Founding of the City"), a massive history of Rome from its legendary founding. The stories assigned establish what Romans valued as their core virtues:\n\nRomulus and Remus:\nRome\'s founding myth involves twin brothers — Romulus and Remus — raised by a she-wolf. When they disagreed over the location of the new city, Romulus killed Remus. This is a striking beginning: Rome\'s founding involved fratricide (killing one\'s own brother).\n\nWhat this story reveals about Roman values: The founding of a civilization may require difficult, even violent acts. The state\'s survival and proper order override personal bonds — even family. This is a hard, unsentimental view of politics.\n\nCincinnatus:\nLucius Quinctius Cincinnatus (519–430 BCE) was a Roman nobleman who was called from his farm to serve as dictator during a military crisis. He defeated Rome\'s enemies in 15 days and immediately resigned his dictatorship and returned to farming.\n\nWhat this story reveals: Roman virtus (virtue/excellence) means civic duty above personal ambition. Cincinnatus is great precisely because he doesn\'t want power for its own sake — he serves and steps down. The ideal Roman leader serves the state, then returns to private life.\n\nCamillus and the Schoolteacher:\nDuring Rome\'s siege of the Etruscan city Falerii, a schoolteacher brought the children of the city\'s leading citizens to the Roman general Camillus, offering them as hostages to end the siege. Camillus rejected this treachery, had the teacher stripped and beaten, and sent him back to the Faliscans. Rome subsequently won the city through the Faliscans\' admiration for Roman honor.\n\nWhat this story reveals: Romans win through superior virtue, not through treachery or underhanded tactics. Honor even toward enemies is a Roman value. Rome\'s greatness comes from moral excellence, not clever manipulation.',
+      bullets: [
+        'Romulus and Remus: Rome\'s founding involved fratricide — the state\'s survival overrides personal bonds',
+        'Key Roman virtue: civic duty above personal relationships',
+        'Cincinnatus: called from farming to serve as dictator, defeated the enemy in 15 days, immediately returned to farming',
+        'Key Roman virtue: greatness through service, not power-seeking; civic duty above personal ambition',
+        'Camillus: rejected treacherous offer of enemy children as hostages; won through honor',
+        'Key Roman virtue: moral excellence and honor even toward enemies; Rome wins by being virtuous, not clever',
+        'Overall: Livy\'s Rome has a stern, disciplined, civic-minded identity — virtue is the foundation of Roman greatness',
+      ],
+    },
+    {
+      heading: 'Hadas Essay — Aeneas as Roman Moses',
+      content: 'The scholar Moses Hadas draws a remarkable set of parallels between Aeneas (Rome\'s founding hero in Virgil\'s Aeneid) and Moses (Israel\'s liberating hero in the Torah). This comparison asks you to think about how both Rome and Israel understood themselves as peoples with a divinely ordained mission.\n\nKey Parallels Between Aeneas and Moses:\n\n1. Flight from a destroyed homeland under divine command:\n   - Aeneas: flees the burning city of Troy after its defeat by the Greeks, commanded by the gods to found a new civilization\n   - Moses: leads the Israelites out of Egypt, commanded by G-d to bring them to the Promised Land\n\n2. A long, difficult journey to a promised land:\n   - Aeneas: wanders the Mediterranean for years (like Odysseus) before reaching Italy\n   - Moses: leads the Israelites through 40 years in the desert before reaching Canaan\n\n3. Divine guidance and protection throughout:\n   - Aeneas: receives guidance from his mother Venus, Jupiter, and other gods\n   - Moses: receives direct communication from G-d throughout the journey\n\n4. Founding a new civilization with a divine mission:\n   - Aeneas: his descendants will found Rome, destined to rule the world\n   - Moses: establishes the covenant and the Torah that will define the Jewish people\n\nWhat this parallel suggests:\nBoth Rome and Israel understood themselves as peoples with a special divine destiny — chosen to fulfill a mission that justified their founding struggles and hardships. This idea of a "chosen people" or "destined civilization" is a powerful way of constructing collective identity.\n\nThe parallel also raises challenging questions: If both civilizations claimed divine support and special destiny, how should we understand their conflicts? What does it mean for two "chosen peoples" to clash?',
+      bullets: [
+        'Both Aeneas and Moses flee a destroyed/oppressed homeland under divine command',
+        'Both lead their people through a long difficult journey (Mediterranean wandering / 40 years in the desert)',
+        'Both receive divine guidance and protection throughout',
+        'Both found a new civilization with a divinely ordained mission',
+        'Key insight: both Rome and Israel understood themselves as peoples with special divine destiny',
+        'This parallel invites comparison of how civilizations construct identity through founding narratives',
+      ],
+    },
+    {
+      heading: 'Tacitus on the Jews',
+      content: 'The Roman historian Tacitus (c. 56–120 CE) describes Jewish customs and history in Book 5 of his Histories, written in the context of describing the Jewish revolt against Rome (66–73 CE). His account is one of the most important Roman perspectives on Judaism, though it is often hostile and reflects significant misunderstanding.\n\nWhat Tacitus Notes About Judaism:\n- Jewish monotheism: "The Jews conceive of one G-d only" — Tacitus finds this strange; most Romans were polytheists\n- Sabbath observance: Tacitus notes the Jewish day of rest with puzzlement, theorizing it was because the Jews were lazy\n- Dietary laws: Jewish refusal to eat pork and other restrictions struck Romans as antisocial\n- Separation from non-Jews: Tacitus notes that Jews do not eat with non-Jews, intermarry, or worship with others — he interprets this as hostility toward all other peoples ("adversus omnes alios hostile odium")\n- Various origin theories: Tacitus presents multiple theories about Jewish origins (exiles from Egypt, refugees from various ancient peoples) — all with a skeptical or negative tone\n\nTacitus\'s Perspective:\nTacitus is not writing as an observer sympathetic to Judaism. He views Jewish practices as strange, antisocial, and contemptible. His description of Jewish "hatred of all other peoples" is not objective reporting — it reflects Roman frustration with a subject people who refused to assimilate into Roman culture and religion.\n\nHistorical Value:\nDespite its biases, Tacitus\'s account is historically valuable because it:\n- Confirms from an outside perspective that Jewish practices (monotheism, Sabbath, dietary laws, separation) were distinctive and consistent\n- Reveals how Rome perceived the Jewish community — a perception that influenced how Jews were treated\n- Shows the clash between Roman universalist culture (which expected conquered peoples to adopt Roman religion and customs) and Jewish particularism (the insistence on maintaining distinct religious practices)',
+      bullets: [
+        'Tacitus notes Jewish monotheism with puzzlement — most Romans were polytheists',
+        'He interprets Sabbath observance as laziness and dietary laws as antisocial',
+        'He characterizes Jewish separation from non-Jews as "hostility toward all other peoples"',
+        'His account is hostile and reflects Roman misunderstanding, but confirms the distinctiveness of Jewish practices',
+        'Historical value: reveals Roman perceptions that shaped how Jews were treated in the Empire',
+        'Key tension: Roman universalism (assimilate!) vs. Jewish particularism (maintain distinct practices)',
+      ],
+    },
+    {
+      heading: 'Josephus — A Jewish Perspective on Rome',
+      content: 'Josephus (37–100 CE) occupies a unique and controversial position in history: he was a Jewish general who fought against Rome in the Jewish War (66–73 CE), then surrendered and spent the rest of his life writing history under Roman patronage. His complex position — between two worlds — makes him an invaluable but complicated source.\n\nHis Major Works:\n- The Jewish War: a detailed account of the catastrophic Jewish revolt against Rome (66–73 CE), culminating in the destruction of the Jerusalem Temple in 70 CE. Written partly to explain to a Roman audience why the revolt happened and partly to prevent future revolts by showing how hopeless resistance was.\n- Jewish Antiquities: a massive 20-volume history tracing Jewish history from creation to Josephus\'s own time. It presents Jewish civilization, history, and culture to a Roman audience — an act of cultural advocacy.\n\nJosephus\'s Theological Interpretation:\nIn The Jewish War, Josephus argues that G-d was punishing the Jews through Rome — that the destruction of the Temple was divine judgment for Jewish sins and internal divisions. The Romans, in his view, were unwitting instruments of divine will.\n\nThis is a deeply painful theological accommodation. Josephus was trying to explain a catastrophe: how could G-d allow Rome to destroy the Temple? His answer — divine punishment — preserved Jewish theology while accepting Roman military reality.\n\nJosephus and His Critics:\nMany Jews in his own time and later viewed Josephus as a traitor — someone who surrendered to save his own life and then helped Rome present its conquest sympathetically. Later generations, however, recognized that without Josephus, much of what we know about first-century Jewish history would be lost entirely.\n\nKey Tensions in Using Josephus as a Source:\n- He writes under Roman patronage — does this bias his account?\n- He was a military failure who later justified his surrender as divinely ordained\n- Yet his works are among our most important primary sources for Jewish history and the origins of Christianity',
+      bullets: [
+        'Josephus: Jewish general who surrendered to Rome, then wrote history under Roman patronage',
+        'Jewish War: account of the 66–73 CE revolt and destruction of the Temple in 70 CE',
+        'Jewish Antiquities: 20-volume history presenting Jewish civilization to a Roman audience',
+        'Theological argument: G-d punished the Jews through Rome; Rome was an instrument of divine will',
+        'Controversial figure: seen as a traitor by many Jews, but invaluable as an historical source',
+        'Key tension: how does writing under Roman patronage affect his perspective and reliability?',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-05-theme-b-fc-01',
+      front: 'What does the story of Romulus and Remus reveal about Roman values?',
+      back: 'Romulus killed his own brother Remus when they disagreed about Rome\'s founding. This reveals a hard Roman view: the state\'s survival and proper order override personal bonds, even family. The founding of civilization may require difficult, violent acts.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-02',
+      front: 'What does the story of Cincinnatus reveal about Roman virtue?',
+      back: 'Called from farming to serve as dictator, Cincinnatus defeated Rome\'s enemies in 15 days and immediately resigned and returned to his farm. This exemplifies Roman virtus: civic duty above personal ambition; greatness through service, not power-seeking.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-03',
+      front: 'What does the Camillus and the schoolteacher story reveal about Roman values?',
+      back: 'Camillus rejected a schoolteacher\'s offer of enemy children as hostages, had the teacher beaten, and sent him back. Rome won through the enemy\'s admiration for Roman honor. Key value: Rome wins by moral excellence and honor, not through treachery or clever manipulation.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-04',
+      front: 'What parallel does Moses Hadas draw between Aeneas and Moses?',
+      back: 'Both heroes: (1) flee a destroyed/oppressed homeland under divine command, (2) lead their people through a long difficult journey to a promised land, (3) receive divine guidance throughout, and (4) found a new civilization with a divinely ordained mission. Both suggest their peoples have a special divine destiny.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-05',
+      front: 'Why is the Aeneas-Moses parallel significant for understanding Jewish-Roman relations?',
+      back: 'It shows that both Rome and Israel understood themselves as peoples with a special divine destiny — "chosen" to fulfill a mission. This raises the question: when two "chosen peoples" with divinely ordained missions clash, how do we interpret the conflict? It also shows how civilizations use founding narratives to construct identity.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-06',
+      front: 'How does Tacitus characterize Jewish practices in his Histories?',
+      back: 'Tacitus describes Jewish monotheism, Sabbath observance, dietary laws, and separation from non-Jews — all with puzzlement and hostility. He interprets Jewish distinctiveness as "hostility toward all other peoples." His account reflects Roman frustration with Jewish refusal to assimilate.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-07',
+      front: 'Despite its biases, why is Tacitus\'s account of the Jews historically valuable?',
+      back: 'It confirms from an outside Roman perspective that Jewish practices (monotheism, Sabbath, dietary laws, separation) were distinctive and consistent. It also reveals how Rome perceived the Jewish community — a perception that directly influenced how Jews were treated in the Empire.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-08',
+      front: 'Why is Josephus a controversial historical figure?',
+      back: 'He was a Jewish general who fought against Rome, surrendered, and then wrote history under Roman patronage. Many Jews viewed him as a traitor. But later generations recognized that his works (Jewish War, Jewish Antiquities) are among our most important sources for first-century Jewish history.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-09',
+      front: 'What is Josephus\'s theological explanation for Rome\'s destruction of the Temple in 70 CE?',
+      back: 'Josephus argues that G-d was punishing the Jews through Rome — the destruction of the Temple was divine judgment for Jewish sins and internal divisions. The Romans were unwitting instruments of divine will. This painful theology preserves Jewish faith while accepting Roman military reality.',
+    },
+    {
+      id: 'unit-05-theme-b-fc-10',
+      front: 'What is the central tension in Jewish-Roman relations as revealed by these sources?',
+      back: 'Roman universalism (conquered peoples should assimilate into Roman religion and culture) vs. Jewish particularism (maintaining distinct religious practices regardless of political context). Tacitus sees Jewish separation as antisocial; Josephus tries to explain Judaism to Romans; both reveal a deep cultural clash.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-05-theme-b-q-01',
+      question: 'According to Livy\'s story of Cincinnatus, what is the key Roman virtue demonstrated?',
+      options: [
+        'Military brilliance and tactical innovation',
+        'Civic duty above personal ambition — service to the state without seeking power',
+        'Religious piety and devotion to the Roman gods',
+        'Intelligence and the ability to outwit enemies',
+      ],
+      correctIndex: 1,
+      explanation: 'Cincinnatus exemplifies Roman virtus: he was called from farming, served as dictator, defeated Rome\'s enemies in 15 days, and immediately resigned and returned to his farm. He is great precisely because he didn\'t seek power for its own sake — civic duty, not ambition.',
+    },
+    {
+      id: 'unit-05-theme-b-q-02',
+      question: 'What does the Romulus and Remus story reveal about Rome\'s self-understanding?',
+      options: [
+        'That Rome was founded on principles of brotherhood and equality',
+        'That Rome\'s founders were descendants of the gods and therefore divinely righteous',
+        'That the state\'s survival and proper order can override even personal bonds (including family)',
+        'That Rome was meant to be a republic where all citizens have equal voice',
+      ],
+      correctIndex: 2,
+      explanation: 'The fact that Romulus killed Remus to establish Rome reveals a hard Roman view: the founding of a civilization may require difficult acts, and the state\'s survival overrides personal bonds, even between brothers. This unsentimental view of politics is characteristic of Roman self-understanding.',
+    },
+    {
+      id: 'unit-05-theme-b-q-03',
+      question: 'In the Hadas essay, the parallel between Aeneas and Moses suggests that:',
+      options: [
+        'Virgil borrowed the story of Moses directly when writing the Aeneid',
+        'Both Rome and Israel understood themselves as peoples with a special divine destiny',
+        'Romans secretly admired the Jewish founding narrative',
+        'Moses and Aeneas were historical contemporaries who influenced each other',
+      ],
+      correctIndex: 1,
+      explanation: 'Hadas draws the parallel to show that both Rome and Israel constructed their identity around a founding narrative of divine mission — a people chosen/destined to fulfill a special purpose. The parallel invites comparison of how civilizations use founding stories to define who they are.',
+    },
+    {
+      id: 'unit-05-theme-b-q-04',
+      question: 'How does Tacitus interpret Jewish separation from non-Jews (not eating together, not intermarrying)?',
+      options: [
+        'As a praiseworthy commitment to religious purity',
+        'As a political strategy to maintain Jewish identity under Roman rule',
+        'As hostility toward all other peoples — an antisocial attitude',
+        'As a reasonable response to Roman persecution',
+      ],
+      correctIndex: 2,
+      explanation: 'Tacitus characterizes Jewish social separation as "hostility toward all other peoples" (adversus omnes alios hostile odium). He views it negatively — as antisocial behavior rather than religious commitment. This reveals Roman frustration with a subject people who refused to assimilate.',
+    },
+    {
+      id: 'unit-05-theme-b-q-05',
+      question: 'What makes Josephus a uniquely valuable source for Jewish-Roman history?',
+      options: [
+        'He was a Roman general who converted to Judaism and wrote about the experience',
+        'He wrote as a Jewish intellectual with access to both Jewish and Roman perspectives',
+        'He was a neutral observer with no personal stake in the conflict',
+        'He was the only ancient historian to write in both Hebrew and Latin',
+      ],
+      correctIndex: 1,
+      explanation: 'Josephus wrote as someone who inhabited both worlds — a Jewish general who later worked under Roman patronage. This gives him access to Jewish sources and traditions while also writing for a Roman audience. His unique position makes his account both valuable and complicated.',
+    },
+    {
+      id: 'unit-05-theme-b-q-06',
+      question: 'In Josephus\'s theology, why did G-d allow Rome to destroy the Jerusalem Temple in 70 CE?',
+      options: [
+        'Rome was more virtuous than Israel, so G-d preferred Rome',
+        'G-d was testing the faith of the Jewish people',
+        'G-d was punishing the Jews for their sins and internal divisions — Rome was an instrument of divine judgment',
+        'G-d had abandoned the covenant with the Jewish people',
+      ],
+      correctIndex: 2,
+      explanation: 'Josephus argues that G-d punished the Jews through Rome — the destruction was divine judgment for Jewish sins and divisions. The Romans were unwilling instruments of G-d\'s will. This theology preserves faith in G-d\'s power while accepting the painful reality of Roman conquest.',
+    },
+    {
+      id: 'unit-05-theme-b-q-07',
+      question: 'The Camillus and schoolteacher story illustrates which Roman value?',
+      options: [
+        'Tactical cleverness — using every available tool to win',
+        'Honor and moral excellence — Rome wins by virtue, not treachery',
+        'Mercy toward the defeated — pardoning enemies after victory',
+        'Loyalty to allies — always supporting those who have helped Rome',
+      ],
+      correctIndex: 1,
+      explanation: 'Camillus rejected the schoolteacher\'s treacherous offer (using enemy children as hostages), had the teacher punished, and sent him back. Rome subsequently won through the enemy\'s admiration for Roman honor. The lesson: Roman greatness comes from moral excellence, not clever manipulation.',
+    },
+    {
+      id: 'unit-05-theme-b-q-08',
+      question: 'The central cultural tension between Rome and the Jewish community can be described as:',
+      options: [
+        'Military power vs. religious devotion',
+        'Roman universalism (assimilate into Roman culture) vs. Jewish particularism (maintain distinct practices)',
+        'Greek philosophy vs. biblical theology',
+        'Urban Roman life vs. rural Jewish farming communities',
+      ],
+      correctIndex: 1,
+      explanation: 'Rome expected conquered peoples to adopt Roman gods and customs as part of imperial unity. Jewish refusal to worship Roman gods, observe Roman festivals, or blend into Roman culture created ongoing friction. Tacitus\'s hostility reflects Roman frustration with Jewish particularism — the insistence on maintaining distinct practices.',
+    },
+    {
+      id: 'unit-05-theme-b-q-09',
+      question: 'Both Virgil\'s Aeneid and the Torah/Hebrew Bible can be described as "founding narratives" because they:',
+      options: [
+        'Were both written during the same historical period in the first century BCE',
+        'Both describe how their respective peoples came to occupy their homeland through divine guidance',
+        'Both were written by the same type of author — a court poet serving a king',
+        'Both describe the same historical events from different cultural perspectives',
+      ],
+      correctIndex: 1,
+      explanation: 'Both texts explain how their peoples came to their homeland through divine guidance and fulfillment of a divine mission. They provide the founding story — the "why we are who we are" — that shapes collective identity. This is what Hadas\'s parallel between Aeneas and Moses highlights.',
+    },
+    {
+      id: 'unit-05-theme-b-q-10',
+      question: 'According to Livy, what was Rome\'s primary source of greatness?',
+      options: [
+        'Military superiority and technological innovation',
+        'Divine favor expressed through territorial expansion',
+        'Civic virtue, moral excellence, and discipline',
+        'The genius of individual leaders like Romulus and Cincinnatus',
+      ],
+      correctIndex: 2,
+      explanation: 'In all three stories — Romulus and Remus, Cincinnatus, and Camillus — Livy emphasizes that Rome\'s greatness comes from virtus: civic virtue, discipline, honor, and willingness to put the common good above personal benefit. Rome wins not because it is strongest but because it is most virtuous.',
+    },
+  ],
+};

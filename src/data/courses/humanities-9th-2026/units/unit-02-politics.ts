@@ -1,0 +1,278 @@
+import type { Unit } from '@/types/study';
+
+export const unit02Politics: Unit = {
+  id: 'unit-02-politics',
+  number: 2,
+  title: 'Key Terms — Political & Historical Concepts',
+  description: 'Forms of government, Roman political factions, the fall of Rome, and the legacy of empires — vocabulary for understanding ancient political history.',
+  notes: [
+    {
+      heading: 'Forms of Government',
+      content: 'Greek political thinkers, especially Plato and Aristotle, developed a systematic analysis of the different forms of government. Understanding this framework is essential:\n\nMonarchy is rule by one person. Its corrupt form is Tyranny — where a single ruler governs for personal benefit rather than the common good. In ancient Greece, tyrants often seized power unconstitutionally with popular support against the aristocracy. They were not necessarily cruel (as the modern meaning implies), but they ruled outside established law.\n\nAristocracy (from Greek aristos = best, kratos = rule) is rule by "the best" — a hereditary upper class considered superior by birth or virtue. In Greek political theory, it is the ideal uncorrupted form of rule by the few. Its corrupt form is Oligarchy (Greek: oligos = few) — rule by a small group based on wealth rather than virtue, for their own benefit rather than the common good.\n\nPolity or Republic is rule by the many for the common good. In Latin, the Roman Republic was called res publica ("public affair") — a system where power rests with elected representatives of citizens rather than a hereditary monarch. The Roman Republic (509–27 BCE) was governed by the Senate, consuls, and popular assemblies. The corrupt form of polity is Democracy in the ancient sense — mob rule where the many govern for factional interests.\n\nDictator in the Roman Republic was not a tyrant but a legitimate emergency magistrate: appointed by the Senate with absolute power for a maximum of six months during a crisis. The famous example is Cincinnatus, who served as dictator and then immediately returned to his farm. Julius Caesar\'s permanent dictatorship violated this tradition.',
+      bullets: [
+        'Monarchy → Tyranny (corrupt form): rule by one person outside the law',
+        'Aristocracy → Oligarchy (corrupt form): rule by the best few vs. rule by the wealthy few',
+        'Polity/Republic → Democracy (corrupt form in ancient theory): rule by the many for the common good vs. mob rule',
+        'Roman Dictator: a legitimate emergency office — absolute power for up to 6 months during a crisis',
+        'Key distinction: the Greek theory judged governments by whether they governed for the common good or for personal/factional interest',
+      ],
+    },
+    {
+      heading: 'Roman Political Life',
+      content: 'The late Roman Republic was torn apart by political factions, personalities, and the question of how power should be distributed:\n\nPatricians were the original hereditary upper class of ancient Rome, claiming descent from Rome\'s founders. They initially held exclusive rights to the Senate, priesthoods, and magistracies. Over time, wealthy plebeians (common citizens) gained access to these positions.\n\nThe Optimates ("the best men") were the conservative faction defending the traditional authority of the Senate and the established aristocratic order. They opposed Julius Caesar and his supporters.\n\nThe Populaires ("supporters of the people") were the populist faction that claimed to champion the interests of common citizens (plebs) against Senate power. Julius Caesar and his uncle Marius were associated with this faction.\n\nThe Triumvirate was a political alliance of three men sharing power. The First Triumvirate (60 BCE) was an informal alliance: Julius Caesar, Pompey, and Crassus. The Second Triumvirate (43 BCE) was a formal legal body: Octavian (Augustus), Mark Antony, and Lepidus.\n\nThe Fasces were a bundle of wooden rods bound around an axe, carried by lictors (attendants) as a symbol of Roman magisterial authority. They symbolized that the collective strength of Roman citizens exceeded any individual\'s power.\n\nThe Rubicon was a river in northern Italy marking the boundary of Julius Caesar\'s legitimate military command. His crossing in 49 BCE was an irreversible act of war against the Roman state.\n\nPax Romana ("Roman Peace") was the approximately 200-year period (27 BCE to 180 CE) of relative stability and minimal military expansion within the Roman Empire, beginning with Augustus Caesar\'s reign.',
+      bullets: [
+        'Patricians: Rome\'s hereditary upper class; originally held exclusive power',
+        'Optimates: conservative Senate faction ("the best men"); opposed Caesar',
+        'Populaires: populist faction supporting common citizens; Caesar\'s faction',
+        'First Triumvirate (60 BCE): Caesar, Pompey, Crassus — informal alliance',
+        'Second Triumvirate (43 BCE): Octavian, Mark Antony, Lepidus — formal legal body',
+        'Fasces: symbol of Roman authority — bundle of rods around an axe',
+        'Pax Romana: ~200 years of Roman peace and stability, 27 BCE–180 CE',
+      ],
+    },
+    {
+      heading: 'Empires and Their Ends',
+      content: 'Understanding how Rome expanded, divided, and ultimately fell is essential context for this course:\n\nHellenism refers to the spread of Greek language, culture, philosophy, art, and ideas throughout the Mediterranean world and the Near East, especially following the conquests of Alexander the Great (336–323 BCE). Hellenism created a common Greek-speaking culture across vastly different regions — which is why the New Testament was written in Greek.\n\nThe Western Roman Empire was the western half of the Roman Empire after its administrative division (officially split 395 CE). It faced increasing pressure from Germanic invasions and fell in 476 CE when the Germanic chieftain Odoacer deposed the last Roman emperor, Romulus Augustulus.\n\nThe Byzantine Empire was the eastern continuation of the Roman Empire after 476 CE. Centered at Constantinople (modern Istanbul), it preserved Roman law, Greek culture, and Orthodox Christianity until its fall to the Ottoman Turks in 1453 CE — nearly a thousand years after the Western Empire fell.\n\nThe Capitals: Rome was the capital of the Western Roman Empire. Constantinople was founded by Emperor Constantine in 330 CE on the site of the Greek city Byzantium. It was named for him and served as the capital of the Eastern (Byzantine) Empire.\n\nThe Vandals were a Germanic people who sacked Rome in 455 CE (the second major sacking of Rome). They established a kingdom in North Africa. Their name became synonymous with wanton destruction — giving us the modern word "vandalism."',
+      bullets: [
+        'Hellenism: spread of Greek culture after Alexander the Great; explains why the Roman and Christian worlds used Greek',
+        'Western Roman Empire: fell 476 CE when Odoacer deposed Romulus Augustulus',
+        'Byzantine Empire: eastern continuation of Rome; survived until 1453 CE',
+        'Rome = capital of the West; Constantinople = capital of the East (founded 330 CE by Emperor Constantine)',
+        'Vandals: Germanic people who sacked Rome in 455 CE; gave us the word "vandalism"',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-02-politics-fc-01',
+      front: 'Aristocracy',
+      back: '"Rule by the best" (Greek: aristos = best, kratos = rule). A system where power is held by a hereditary upper class considered superior by birth or virtue. In Greek political theory, the ideal uncorrupted form of rule by the few.',
+    },
+    {
+      id: 'unit-02-politics-fc-02',
+      front: 'Byzantine Empire',
+      back: 'The eastern continuation of the Roman Empire after the fall of the Western Roman Empire in 476 CE. Centered at Constantinople (modern Istanbul), it preserved Roman law, Greek culture, and Orthodox Christianity until its fall to the Ottoman Turks in 1453 CE.',
+    },
+    {
+      id: 'unit-02-politics-fc-03',
+      front: 'Capitals of Both Empires',
+      back: 'Rome was the capital of the Western Roman Empire. Constantinople (founded by Emperor Constantine in 330 CE, on the site of the Greek city Byzantium) was the capital of the Eastern (Byzantine) Empire.',
+    },
+    {
+      id: 'unit-02-politics-fc-04',
+      front: 'Dictator (Roman Republic)',
+      back: 'A legitimate emergency magistrate appointed by the Senate with absolute power for a maximum of six months during a crisis. The office was temporary and legal (e.g., Cincinnatus). Julius Caesar\'s permanent dictatorship violated this tradition and alarmed the Senate.',
+    },
+    {
+      id: 'unit-02-politics-fc-05',
+      front: 'Fasces',
+      back: 'A bundle of wooden rods bound together around an axe with a leather strap, carried by lictors (attendants) as a symbol of Roman magisterial authority and the power of the state. Symbolized that the collective strength of Roman citizens was greater than any individual.',
+    },
+    {
+      id: 'unit-02-politics-fc-06',
+      front: 'Hellenism',
+      back: 'The spread of Greek language, culture, philosophy, art, and ideas throughout the Mediterranean world and the Near East, particularly following the conquests of Alexander the Great (336–323 BCE). Created a common Greek-speaking culture across vastly different regions.',
+    },
+    {
+      id: 'unit-02-politics-fc-07',
+      front: 'Oligarchy',
+      back: '"Rule by the few" (Greek: oligos = few). A system of government where power is held by a small group, typically based on wealth. In Greek political theory, it is the corrupt form of aristocracy — rule by the wealthy few for their own benefit rather than the common good.',
+    },
+    {
+      id: 'unit-02-politics-fc-08',
+      front: 'Optimates',
+      back: 'The conservative faction in the late Roman Republic (literally "the best men"). They defended the traditional authority of the Senate and the established aristocratic order. They opposed Julius Caesar and his supporters.',
+    },
+    {
+      id: 'unit-02-politics-fc-09',
+      front: 'Patrician',
+      back: 'The original hereditary upper class of ancient Rome, claiming descent from the founders of Rome. They initially held exclusive rights to the Senate, priesthoods, and magistracies. Over time, wealthy plebeians gained access to these positions.',
+    },
+    {
+      id: 'unit-02-politics-fc-10',
+      front: 'Pax Romana',
+      back: '"Roman Peace." The approximately 200-year period (27 BCE to 180 CE) of relative stability and minimal military expansion within the Roman Empire, beginning with Augustus Caesar\'s reign. Allowed trade, culture, and law to flourish across the empire.',
+    },
+    {
+      id: 'unit-02-politics-fc-11',
+      front: 'Populaires',
+      back: 'The populist faction in the late Roman Republic (literally "supporters of the people"). They claimed to champion the interests of common citizens (plebs) against the Senate\'s power. Julius Caesar and his uncle Marius were associated with this faction.',
+    },
+    {
+      id: 'unit-02-politics-fc-12',
+      front: 'Republic',
+      back: 'From Latin res publica ("public affair"). A system of government where power rests with elected representatives of citizens rather than a hereditary monarch. The Roman Republic (509–27 BCE) was governed by the Senate, consuls, and popular assemblies.',
+    },
+    {
+      id: 'unit-02-politics-fc-13',
+      front: 'Rubicon',
+      back: 'A river in northern Italy marking the boundary of Julius Caesar\'s legitimate military command. In 49 BCE, Caesar crossed the Rubicon with his army — an act of war against the Roman state. "Crossing the Rubicon" has become an idiom for taking an irreversible step.',
+    },
+    {
+      id: 'unit-02-politics-fc-14',
+      front: 'Triumvirate',
+      back: 'A political alliance of three men sharing power. The First Triumvirate (60 BCE): Julius Caesar, Pompey, and Crassus — informal. The Second Triumvirate (43 BCE): Octavian (Augustus), Mark Antony, and Lepidus — a formal legal body.',
+    },
+    {
+      id: 'unit-02-politics-fc-15',
+      front: 'Tyranny',
+      back: 'In ancient Greece, rule by a single person who seized power unconstitutionally, often with popular support against the aristocracy. Tyrants were not necessarily cruel (the modern meaning) but ruled outside established law. In political theory, tyranny is the corrupt form of monarchy.',
+    },
+    {
+      id: 'unit-02-politics-fc-16',
+      front: 'Vandals',
+      back: 'A Germanic people who crossed into the Roman Empire and sacked Rome in 455 CE (the second sacking of Rome). They established a kingdom in North Africa. Their name became synonymous with wanton destruction ("vandalism").',
+    },
+    {
+      id: 'unit-02-politics-fc-17',
+      front: 'Western Roman Empire',
+      back: 'The western half of the Roman Empire after its administrative division (officially split 395 CE). It fell in 476 CE when the Germanic chieftain Odoacer deposed the last Roman emperor, Romulus Augustulus.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-02-politics-q-01',
+      question: 'In Greek political theory, what is the difference between Aristocracy and Oligarchy?',
+      options: [
+        'Aristocracy is rule by one; oligarchy is rule by many',
+        'Aristocracy is virtuous rule by the best few; oligarchy is corrupt rule by the wealthy few for personal gain',
+        'Aristocracy requires a written constitution; oligarchy does not',
+        'Aristocracy is a Greek concept; oligarchy is a Roman concept',
+      ],
+      correctIndex: 1,
+      explanation: 'In Greek political theory, aristocracy (rule by the best) is the ideal uncorrupted form, while oligarchy is its corrupt counterpart — rule by a small group based on wealth rather than virtue, serving their own interests rather than the common good.',
+    },
+    {
+      id: 'unit-02-politics-q-02',
+      question: 'The Optimates in the late Roman Republic stood for:',
+      options: [
+        'The rights of common citizens against the Senate',
+        'The conquest of new territories',
+        'The traditional authority of the Senate and the aristocratic order',
+        'The personal power of Julius Caesar',
+      ],
+      correctIndex: 2,
+      explanation: 'The Optimates ("the best men") were the conservative faction who defended the traditional authority of the Senate and the established aristocratic order. They opposed Caesar and the Populaires, who claimed to champion the common people.',
+    },
+    {
+      id: 'unit-02-politics-q-03',
+      question: 'What made Julius Caesar\'s dictatorship different from traditional Roman dictatorships?',
+      options: [
+        'He was appointed by the people rather than the Senate',
+        'He held the position permanently, violating the traditional six-month limit',
+        'He refused to carry the fasces',
+        'He was the first person to hold the office of dictator',
+      ],
+      correctIndex: 1,
+      explanation: 'In the Roman Republic, the dictator was a legitimate emergency office limited to six months. Caesar\'s permanent dictatorship violated this tradition, alarming senators who feared he intended to make himself king — which led to his assassination.',
+    },
+    {
+      id: 'unit-02-politics-q-04',
+      question: 'The Pax Romana refers to:',
+      options: [
+        'The peace treaty between Rome and Carthage',
+        'Approximately 200 years of relative stability and peace within the Roman Empire (27 BCE–180 CE)',
+        'The period after the fall of the Western Roman Empire',
+        'The truce between Julius Caesar and the Senate',
+      ],
+      correctIndex: 1,
+      explanation: 'The Pax Romana ("Roman Peace") was the roughly 200-year period beginning with Augustus Caesar\'s reign in 27 BCE and lasting until about 180 CE. During this time, internal peace allowed trade, culture, and law to flourish across the empire.',
+    },
+    {
+      id: 'unit-02-politics-q-05',
+      question: 'What happened in 476 CE that historians mark as the fall of the Western Roman Empire?',
+      options: [
+        'Constantinople was sacked by the Vandals',
+        'Julius Caesar was assassinated',
+        'The Germanic chieftain Odoacer deposed the last Roman emperor, Romulus Augustulus',
+        'Rome was sacked for the first time',
+      ],
+      correctIndex: 2,
+      explanation: 'In 476 CE, the Germanic chieftain Odoacer deposed Romulus Augustulus, the last emperor of the Western Roman Empire. This is the traditional date for the fall of the Western Empire, though the Eastern (Byzantine) Empire continued until 1453 CE.',
+    },
+    {
+      id: 'unit-02-politics-q-06',
+      question: 'Which faction did Julius Caesar belong to in the late Roman Republic?',
+      options: [
+        'The Optimates',
+        'The Patricians',
+        'The Populaires',
+        'The Triumvirate',
+      ],
+      correctIndex: 2,
+      explanation: 'Caesar was associated with the Populaires — the populist faction that claimed to champion common citizens against Senate power. The Optimates were his opponents, defending the traditional Senate authority.',
+    },
+    {
+      id: 'unit-02-politics-q-07',
+      question: 'In Greek political theory, Tyranny is best described as:',
+      options: [
+        'Rule by a cruel king who oppresses the poor',
+        'Rule by a single person who seized power unconstitutionally, outside established law',
+        'Rule by a military dictator appointed in an emergency',
+        'Rule by a group of wealthy men',
+      ],
+      correctIndex: 1,
+      explanation: 'In ancient Greek political theory, a tyrant ruled outside constitutional order — often with popular support, not necessarily through cruelty. Tyranny is the corrupt form of monarchy. The modern meaning of "tyranny" (cruel oppression) came later.',
+    },
+    {
+      id: 'unit-02-politics-q-08',
+      question: 'The Byzantine Empire was centered at Constantinople, which was built on the site of which earlier Greek city?',
+      options: [
+        'Athens',
+        'Sparta',
+        'Corinth',
+        'Byzantium',
+      ],
+      correctIndex: 3,
+      explanation: 'Constantinople was founded by Emperor Constantine in 330 CE on the site of the existing Greek city of Byzantium (hence "Byzantine Empire"). Constantinople is modern-day Istanbul, Turkey.',
+    },
+    {
+      id: 'unit-02-politics-q-09',
+      question: 'Hellenism is important for understanding the ancient world primarily because it:',
+      options: [
+        'Established Latin as the universal language of the Roman Empire',
+        'Created a common Greek-speaking culture across the Mediterranean and Near East, including the world in which Christianity spread',
+        'Led directly to the fall of the Persian Empire',
+        'Was the cultural movement that produced Julius Caesar\'s reforms',
+      ],
+      correctIndex: 1,
+      explanation: 'Hellenism (the spread of Greek culture following Alexander the Great\'s conquests) created a common Greek-speaking culture across the Mediterranean and Near East. This is why the New Testament was written in Greek and why early Christianity could spread so effectively across the Roman world.',
+    },
+    {
+      id: 'unit-02-politics-q-10',
+      question: 'The First Triumvirate (60 BCE) consisted of which three figures?',
+      options: [
+        'Octavian, Mark Antony, and Lepidus',
+        'Julius Caesar, Pompey, and Crassus',
+        'Brutus, Cassius, and Caesar',
+        'Augustus, Virgil, and Livy',
+      ],
+      correctIndex: 1,
+      explanation: 'The First Triumvirate (60 BCE) was an informal power-sharing alliance among Julius Caesar, Pompey, and Crassus. The Second Triumvirate (43 BCE) — the formal legal body — consisted of Octavian (later Augustus), Mark Antony, and Lepidus.',
+    },
+    {
+      id: 'unit-02-politics-q-11',
+      question: 'The word "vandalism" derives from which ancient people?',
+      options: [
+        'The Visigoths, who sacked Rome in 410 CE',
+        'The Vandals, who sacked Rome in 455 CE',
+        'The Huns, who threatened Rome in the 5th century',
+        'The Ostrogoths, who controlled Italy after Rome\'s fall',
+      ],
+      correctIndex: 1,
+      explanation: 'The Vandals were a Germanic people who sacked Rome in 455 CE. Their name became so synonymous with wanton destruction that we still use the word "vandalism" today to describe the deliberate damage of property.',
+    },
+    {
+      id: 'unit-02-politics-q-12',
+      question: 'The Roman res publica ("public affair") refers to which form of government?',
+      options: [
+        'Monarchy',
+        'Tyranny',
+        'Republic — government through elected representatives of citizens',
+        'Aristocracy — government by the hereditary upper class',
+      ],
+      correctIndex: 2,
+      explanation: 'Res publica ("public affair") is the Latin root of "republic." It refers to a system where power rests with elected representatives of citizens rather than a hereditary monarch. The Roman Republic (509–27 BCE) was governed by the Senate, consuls, and popular assemblies.',
+    },
+  ],
+};
