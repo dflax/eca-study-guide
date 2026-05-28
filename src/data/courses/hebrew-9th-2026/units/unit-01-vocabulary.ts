@@ -8,11 +8,11 @@ export const unit01Vocabulary: Unit = {
   notes: [
     {
       heading: 'The Vocabulary List',
-      content: 'Hebrew is read right-to-left. The vocabulary below is organized by category. Learn both the Hebrew and English for each word — your exam requires both directions.\n\nPlaces in a City:\n• עיר — city\n• חנות — store / shop\n• קולנוע — cinema / movie theater\n• בית כנסת — synagogue\n• בית קפה — café / coffee house\n• גינה — garden / park\n• קניון — mall / shopping center\n• מוזאון — museum\n• מסעדה — restaurant\n• בית ספר — school\n\nAdjectives:\n• דתי — religious\n• משעמם — boring\n• מודרני — modern\n• חדש — new\n• עתיק — old / ancient\n• מעניין — interesting\n• חם — hot\n• קר — cold\n\nVerbs and Actions:\n• אוהב — loves / like\n• מרגיש — feels / feeling\n• מדבר — speaks (verb) / desert (noun — context dependent)\n• קורא — reads / reading\n• מתפללים — pray / praying\n• לומד / לומדת — study / learning (m/f)\n\nPeople and Pronouns:\n• אנשים — people\n• חבר — friend\n• אורח — guest / visitor\n• תלמיד / תלמידה — student (m/f)\n• אנחנו — we\n\nEssential Phrases and Words:\n• שלום — hello / peace\n• יש — there is / there are\n• אין — there is not / there are not\n• לפעמים — sometimes\n• קוראים לי — my name is (literally "they call me")\n• אני גר / גרה — I live (m/f)\n• ברחוב — on the street\n• בניו יורק — in New York\n• בוקר — morning\n• עברית — Hebrew\n\nSeasons:\n• חורף — winter\n• קיץ — summer\n\nClassroom:\n• כיתה — classroom / grade',
+      content: 'Hebrew is read right-to-left. The vocabulary below is organized by category. Learn both the Hebrew and English for each word — your exam requires both directions.\n\nPlaces in a City:\n• עיר — city\n• חנות — store / shop\n• קולנוע — cinema / movie theater\n• בית כנסת — synagogue\n• בית קפה — café / coffee house\n• גינה — garden / park\n• קניון — mall / shopping center\n• מוזאון — museum\n• מסעדה — restaurant\n• בית ספר — school\n\nAdjectives:\n• דתי — religious\n• משעמם — boring\n• מודרני — modern\n• חדש — new\n• עתיק — old / ancient\n• מעניין — interesting\n• חם — hot\n• קר — cold\n\nVerbs and Actions:\n• אוהב — loves / like\n• מרגיש — feels / feeling\n• מדבר — speaks / talking\n• קורא — reads / reading\n• מתפללים — pray / praying\n• לומד / לומדת — study / learning (m/f)\n\nPeople and Pronouns:\n• אנשים — people\n• חבר — friend\n• אורח — guest / visitor\n• תלמיד / תלמידה — student (m/f)\n• אנחנו — we\n\nEssential Phrases and Words:\n• שלום — hello / peace\n• יש — there is / there are\n• אין — there is not / there are not\n• לפעמים — sometimes\n• קוראים לי — my name is (literally "they call me")\n• אני גר / גרה — I live (m/f)\n• ברחוב — on the street\n• בניו יורק — in New York\n• בוקר — morning\n• עברית — Hebrew\n\nSeasons:\n• חורף — winter\n• קיץ — summer\n\nClassroom:\n• כיתה — classroom / grade',
     },
     {
       heading: 'יש and אין — The Key Concept',
-      content: 'יש and אין are two of the most important words in Hebrew for describing your city. You will use them constantly in both the oral and written exams.\n\nיש = "there is" / "there are"\nUsed to say something EXISTS in a place.\n\nאין = "there is not" / "there are not"\nUsed to say something does NOT EXIST in a place.\n\nThe structure is simple:\nLocation + יש/אין + subject\n\nExamples:\n• בניו יורק יש מוזאון — In New York there is a museum.\n• בניו יורק יש קניון — In New York there is a mall.\n• בניו יורק אין מדבר — In New York there is no desert.\n• בניו יורק אין חורף קר מאד — In New York there is not a very cold winter.\n• יש מסעדות בניו יורק — There are restaurants in New York.\n• אין מדבר בעיר שלי — There is no desert in my city.\n\nTip: These two words replace the verb "to be" in present tense existential statements. Hebrew does not use a verb "to be" in these sentences.',
+      content: 'יש and אין are two of the most important words in Hebrew for describing your city. You will use them constantly in both the oral and written exams.\n\nיש = "there is" / "there are"\nUsed to say something EXISTS in a place.\n\nאין = "there is not" / "there are not"\nUsed to say something does NOT EXIST in a place.\n\nThe structure is simple:\nLocation + יש/אין + subject\n\nExamples:\n• בניו יורק יש מוזאון — In New York there is a museum.\n• בניו יורק יש קניון — In New York there is a mall.\n• בניו יורק אין חורף חם — In New York there is no warm winter.\n• בניו יורק אין חורף קר מאד — In New York there is not a very cold winter.\n• יש מסעדות בניו יורק — There are restaurants in New York.\n• אין קניון בעיר קטנה — There is no mall in a small city.\n\nTip: These two words replace the verb "to be" in present tense existential statements. Hebrew does not use a verb "to be" in these sentences.',
       bullets: [
         'יש = something exists — "there is/are"',
         'אין = something does not exist — "there is/are not"',
@@ -34,7 +34,7 @@ export const unit01Vocabulary: Unit = {
     },
     {
       heading: 'Writing Task Preparation — 15 Sentences About My City',
-      content: 'The written exam asks you to write 15 sentences about your city (עיר) using the vocabulary list. Here is how to build strong sentences:\n\nFormula 1 — What exists in my city:\n[City/place] + יש + [vocabulary word]\nExample: בניו יורק יש מוזאון גדול — In New York there is a big museum.\n\nFormula 2 — What does not exist in my city:\n[City/place] + אין + [vocabulary word]\nExample: בניו יורק אין מדבר — In New York there is no desert.\n\nFormula 3 — Describe the city with an adjective:\nהעיר שלי + [adjective]\nExample: העיר שלי מעניינת — My city is interesting.\n\nFormula 4 — What you do in the city:\nאני + [verb] + ב[place]\nExample: אני אוכל במסעדה — I eat at a restaurant.\n\nFormula 5 — Combine vocabulary with description:\nיש [place] + [adjective] + בעיר שלי\nExample: יש בית קפה חדש בעיר שלי — There is a new café in my city.\n\nFive Model Sentences:\n1. בניו יורק יש קניון גדול — In New York there is a big mall.\n2. אין מדבר בניו יורק — There is no desert in New York.\n3. יש הרבה מסעדות בעיר שלי — There are many restaurants in my city.\n4. העיר שלי מודרנית ומעניינת — My city is modern and interesting.\n5. לפעמים אני הולך לקולנוע — Sometimes I go to the cinema.',
+      content: 'The written exam asks you to write 15 sentences about your city (עיר) using the vocabulary list. Here is how to build strong sentences:\n\nFormula 1 — What exists in my city:\n[City/place] + יש + [vocabulary word]\nExample: בניו יורק יש מוזאון גדול — In New York there is a big museum.\n\nFormula 2 — What does not exist in my city:\n[City/place] + אין + [vocabulary word]\nExample: בניו יורק אין חורף חם — In New York there is no warm winter.\n\nFormula 3 — Describe the city with an adjective:\nהעיר שלי + [adjective]\nExample: העיר שלי מעניינת — My city is interesting.\n\nFormula 4 — What you do in the city:\nאני + [verb] + ב[place]\nExample: אני אוכל במסעדה — I eat at a restaurant.\n\nFormula 5 — Combine vocabulary with description:\nיש [place] + [adjective] + בעיר שלי\nExample: יש בית קפה חדש בעיר שלי — There is a new café in my city.\n\nFive Model Sentences:\n1. בניו יורק יש קניון גדול — In New York there is a big mall.\n2. בניו יורק אין חורף חם — In New York there is no warm winter.\n3. יש הרבה מסעדות בעיר שלי — There are many restaurants in my city.\n4. העיר שלי מודרנית ומעניינת — My city is modern and interesting.\n5. לפעמים אני הולך לקולנוע — Sometimes I go to the cinema.',
       bullets: [
         'Aim for variety: use different vocabulary words across your 15 sentences',
         'Mix יש and אין sentences',
@@ -164,7 +164,7 @@ export const unit01Vocabulary: Unit = {
     {
       id: 'unit-01-vocabulary-fc-24h',
       front: 'מדבר',
-      back: 'desert (noun) / speaks (verb) — context determines meaning',
+      back: 'speaks / talking',
     },
     {
       id: 'unit-01-vocabulary-fc-25h',
@@ -324,7 +324,7 @@ export const unit01Vocabulary: Unit = {
     },
     {
       id: 'unit-01-vocabulary-fc-24e',
-      front: 'desert (place)',
+      front: 'speaks / talking',
       back: 'מדבר',
     },
     {
@@ -411,15 +411,15 @@ export const unit01Vocabulary: Unit = {
     },
     {
       id: 'unit-01-vocabulary-q-06',
-      question: 'Which Hebrew sentence correctly says "In New York there is no desert"?',
+      question: 'Which Hebrew sentence correctly says "In New York there is no warm winter"?',
       options: [
-        'בניו יורק יש מדבר',
-        'מדבר יש בניו יורק',
-        'בניו יורק אין מדבר',
-        'יש אין מדבר בניו יורק',
+        'בניו יורק יש חורף חם',
+        'חורף חם בניו יורק',
+        'בניו יורק אין חורף חם',
+        'יש אין חורף חם בניו יורק',
       ],
       correctIndex: 2,
-      explanation: 'בניו יורק אין מדבר = "In New York there is no desert." אין means "there is not." Note that מדבר can mean either "desert" (noun) or "speaks" (verb) — context determines which.',
+      explanation: 'בניו יורק אין חורף חם = "In New York there is no warm winter." אין means "there is/are not." The word order is: location + אין + subject.',
     },
     {
       id: 'unit-01-vocabulary-q-07',

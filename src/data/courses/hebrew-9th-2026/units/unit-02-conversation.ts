@@ -8,7 +8,7 @@ export const unit02Conversation: Unit = {
   notes: [
     {
       heading: 'The Conversation Template — Oral Exam',
-      content: 'The oral exam asks you to introduce yourself in Hebrew. Here is the full template with English translations alongside each line. Fill in the blanks with your own information.\n\n---\n\nשלום! — Hello!\n\nקוראים לי ___. — My name is ___. (Literally: "They call me ___.")\n\nאני תלמיד / תלמידה בבית ספר אמת כיתה ___.\n— I am a student at Emet school, grade ___.\n(Use תלמיד if you are male, תלמידה if you are female.)\n\nאני גר / גרה ברחוב ___ בניו יורק.\n— I live on ___ street in New York.\n(Use גר if you are male, גרה if you are female.)\n\n---\n\nDescribing New York (what it has and does not have):\n\nבניו יורק יש ___. — In New York there is ___.\nבניו יורק אין ___. — In New York there is no ___.\n\nExample sentences for the oral exam:\n• בניו יורק יש מוזאון גדול — In New York there is a big museum.\n• בניו יורק יש הרבה מסעדות — In New York there are many restaurants.\n• בניו יורק אין מדבר — In New York there is no desert.\n• בניו יורק אין חורף חם — In New York there is no warm winter.\n\n---\n\nDescribing what you do at school:\n\nבבית ספר אנחנו מתפללים כל בוקר.\n— At school we pray every morning.\n\nאני לומד / לומדת עברית.\n— I study / learn Hebrew.\n(לומד = male, לומדת = female)\n\nאני אוהב / אוהבת ___ (שם פועל).\n— I love ___ (verbal noun/gerund).\n\nExample:\n• אני אוהב לימוד עברית — I love studying Hebrew.\n• אני אוהבת קריאה — I love reading.',
+      content: 'The oral exam asks you to introduce yourself in Hebrew. Here is the full template with English translations alongside each line. Fill in the blanks with your own information.\n\n---\n\nשלום! — Hello!\n\nקוראים לי ___. — My name is ___. (Literally: "They call me ___.")\n\nאני תלמיד / תלמידה בבית ספר אמת כיתה ___.\n— I am a student at Emet school, grade ___.\n(Use תלמיד if you are male, תלמידה if you are female.)\n\nאני גר / גרה ברחוב ___ בניו יורק.\n— I live on ___ street in New York.\n(Use גר if you are male, גרה if you are female.)\n\n---\n\nDescribing New York (what it has and does not have):\n\nבניו יורק יש ___. — In New York there is ___.\nבניו יורק אין ___. — In New York there is no ___.\n\nExample sentences for the oral exam:\n• בניו יורק יש מוזאון גדול — In New York there is a big museum.\n• בניו יורק יש הרבה מסעדות — In New York there are many restaurants.\n• בניו יורק אין חורף חם — In New York there is no warm winter.\n• בניו יורק אין קיץ קר — In New York there is no cold summer.\n\n---\n\nDescribing what you do at school:\n\nבבית ספר אנחנו מתפללים כל בוקר.\n— At school we pray every morning.\n\nאני לומד / לומדת עברית.\n— I study / learn Hebrew.\n(לומד = male, לומדת = female)\n\nאני אוהב / אוהבת ___ (שם פועל).\n— I love ___ (verbal noun/gerund).\n\nExample:\n• אני אוהב לימוד עברית — I love studying Hebrew.\n• אני אוהבת קריאה — I love reading.',
     },
     {
       heading: 'שם פועל — Verbal Noun (Gerund)',
@@ -25,7 +25,7 @@ export const unit02Conversation: Unit = {
     },
     {
       heading: 'Oral Exam Tips — Model Answers',
-      content: 'Here are model answers for each part of the oral exam. Prepare your own personal version substituting your information.\n\nQuestion 1: מה שמך? / מה קוראים לך? — What is your name?\nModel answer: קוראים לי [your name]. שלום!\n\nQuestion 2: איפה אתה לומד? — Where do you study?\nModel answer: אני תלמיד בבית ספר אמת כיתה ט׳.\n(כיתה ט = 9th grade)\n\nQuestion 3: איפה אתה גר? — Where do you live?\nModel answer: אני גר ברחוב [street name] בניו יורק.\n\nQuestion 4: מה יש / אין בניו יורק? — What is/is not in New York?\nModel answers:\n• בניו יורק יש מוזאון, מסעדות, וקניון.\n• בניו יורק אין מדבר ואין הרים גדולים.\n\nQuestion 5: מה אתה עושה בבית ספר? — What do you do at school?\nModel answer: בבית ספר אנחנו מתפללים כל בוקר. אני לומד עברית, מתמטיקה, ומדעים. אני אוהב לימוד עברית.\n\nPreparation checklist:\n• Know how to say your name with קוראים לי\n• Know your gender form: תלמיד or תלמידה, גר or גרה\n• Prepare 3-4 sentences about what New York has (יש) and does not have (אין)\n• Prepare 2-3 sentences about school activities using שם פועל\n• Practice aloud — this is an oral exam!',
+      content: 'Here are model answers for each part of the oral exam. Prepare your own personal version substituting your information.\n\nQuestion 1: מה שמך? / מה קוראים לך? — What is your name?\nModel answer: קוראים לי [your name]. שלום!\n\nQuestion 2: איפה אתה לומד? — Where do you study?\nModel answer: אני תלמיד בבית ספר אמת כיתה ט׳.\n(כיתה ט = 9th grade)\n\nQuestion 3: איפה אתה גר? — Where do you live?\nModel answer: אני גר ברחוב [street name] בניו יורק.\n\nQuestion 4: מה יש / אין בניו יורק? — What is/is not in New York?\nModel answers:\n• בניו יורק יש מוזאון, מסעדות, וקניון.\n• בניו יורק אין חורף חם ואין הרים גדולים.\n\nQuestion 5: מה אתה עושה בבית ספר? — What do you do at school?\nModel answer: בבית ספר אנחנו מתפללים כל בוקר. אני לומד עברית, מתמטיקה, ומדעים. אני אוהב לימוד עברית.\n\nPreparation checklist:\n• Know how to say your name with קוראים לי\n• Know your gender form: תלמיד or תלמידה, גר or גרה\n• Prepare 3-4 sentences about what New York has (יש) and does not have (אין)\n• Prepare 2-3 sentences about school activities using שם פועל\n• Practice aloud — this is an oral exam!',
       bullets: [
         'Practice saying all the sentences aloud before the exam',
         'Prepare your personal answers (your name, street, grade)',
@@ -59,7 +59,7 @@ export const unit02Conversation: Unit = {
     {
       id: 'unit-02-conversation-fc-05',
       front: 'What does אין mean?',
-      back: 'There is not / There are not — used to state what does NOT EXIST.\nExample: אין מדבר בניו יורק = There is no desert in New York.',
+      back: 'There is not / There are not — used to state what does NOT EXIST.\nExample: אין חורף חם בניו יורק = There is no warm winter in New York.',
     },
     {
       id: 'unit-02-conversation-fc-06',
@@ -73,8 +73,8 @@ export const unit02Conversation: Unit = {
     },
     {
       id: 'unit-02-conversation-fc-08',
-      front: 'How do you say "In New York there is no desert"?',
-      back: 'בניו יורק אין מדבר\n(b\'New York ein midbar)',
+      front: 'How do you say "In New York there is no warm winter"?',
+      back: 'בניו יורק אין חורף חם\n(b\'New York ein choref cham)',
     },
     {
       id: 'unit-02-conversation-fc-09',
@@ -134,15 +134,15 @@ export const unit02Conversation: Unit = {
     },
     {
       id: 'unit-02-conversation-q-03',
-      question: 'Which sentence correctly says "In New York there is no desert"?',
+      question: 'Which sentence correctly says "In New York there is no warm winter"?',
       options: [
-        'בניו יורק יש מדבר',
-        'בניו יורק מדבר אין',
-        'בניו יורק אין מדבר',
-        'מדבר בניו יורק',
+        'בניו יורק יש חורף חם',
+        'בניו יורק חורף חם אין',
+        'בניו יורק אין חורף חם',
+        'חורף חם בניו יורק',
       ],
       correctIndex: 2,
-      explanation: 'בניו יורק אין מדבר = "In New York there is no desert." אין means "there is/are not." The word order is: location + אין + subject.',
+      explanation: 'בניו יורק אין חורף חם = "In New York there is no warm winter." אין means "there is/are not." The word order is: location + אין + subject.',
     },
     {
       id: 'unit-02-conversation-q-04',
