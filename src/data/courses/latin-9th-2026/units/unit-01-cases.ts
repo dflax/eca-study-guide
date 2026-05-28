@@ -1,0 +1,260 @@
+import type { Unit } from '@/types/study';
+
+export const unit01Cases: Unit = {
+  id: 'unit-01-cases',
+  number: 1,
+  title: 'The Latin Case System',
+  description: 'The six Latin cases, their names, functions, and how word endings signal grammatical role in a sentence.',
+  notes: [
+    {
+      heading: 'What Are Cases?',
+      content: 'Latin does not rely on word order to show meaning — instead, nouns change their endings (called "cases") to show their role in the sentence. There are 6 cases in Latin. Knowing a word\'s case tells you exactly what it is doing in the sentence.',
+    },
+    {
+      heading: 'The Six Cases — Names and Functions',
+      content: 'Latin has six cases, each signaling a specific grammatical role. They are presented here in traditional order.',
+      bullets: [
+        'Nominative — the subject of the sentence; who or what is doing the action. Also used for predicate nouns (nouns after a linking verb). Example: Servus laborat. (The slave works.)',
+        'Genitive — shows possession or relationship; translates as "of ___" or with an apostrophe-s. Example: Villa Domini (the master\'s villa / the villa of the master)',
+        'Dative — the indirect object; translates as "to ___" or "for ___"; the recipient of an action. Example: Dominus servo pecuniam dat. (The master gives money to the slave.)',
+        'Accusative — the direct object; who or what directly receives the action. Also used with many prepositions indicating motion toward. Example: Dominus servum videt. (The master sees the slave.)',
+        'Ablative — a versatile case; shows means ("by"), manner ("with"), accompaniment ("with"), separation ("from"), place ("in/on"), and time. Also used with many prepositions. Example: Servus cum domino ambulat. (The slave walks with the master.)',
+        'Vocative — used for direct address; calling out to someone. Usually identical to the nominative except in 2nd declension -us nouns (which end in -e). Example: Marce, veni huc! (Marcus, come here!)',
+      ],
+    },
+    {
+      heading: 'Order of Cases',
+      content: 'The traditional order (used in declension tables) is: Nominative, Genitive, Dative, Accusative, Ablative, Vocative. In Lingua Latina, cases are sometimes listed in a different order — know both.',
+    },
+    {
+      heading: 'Quick Reference — Case Uses',
+      content: 'A summary of every case with its signal words and the question to ask when identifying it.',
+      bullets: [
+        'Nominative: Subject or predicate noun. Ask: Who/what is doing the action? (or: what comes after est as a noun?)',
+        'Genitive: Possession or relationship. Ask: Of whom? Whose? Signal words: "of", apostrophe-s.',
+        'Dative: Indirect object. Ask: To whom? For whom? Signal words: "to", "for".',
+        'Accusative: Direct object or object of accusative prepositions. Ask: Whom/what does the subject act upon? Motion toward.',
+        'Ablative: Means, manner, accompaniment, separation, location, time. Signal words: "by", "with", "from", "in", "on", "at".',
+        'Vocative: Direct address. Ask: Is someone being called or spoken to directly? Looks like nominative except 2nd decl. -us → -e.',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-01-cases-fc-01',
+      front: 'What case is used for the subject of a sentence?',
+      back: 'Nominative — the subject performs the action. Also used for predicate nouns after linking verbs like est.',
+    },
+    {
+      id: 'unit-01-cases-fc-02',
+      front: 'What case shows possession ("of" or "\'s")?',
+      back: 'Genitive — translates as "of ___" or with an apostrophe-s. Example: Villa domini = the master\'s villa.',
+    },
+    {
+      id: 'unit-01-cases-fc-03',
+      front: 'What case is used for the indirect object ("to" or "for")?',
+      back: 'Dative — the recipient of an action. Ask: to whom? for whom? Example: Dominus servo pecuniam dat = The master gives money to the slave.',
+    },
+    {
+      id: 'unit-01-cases-fc-04',
+      front: 'What case is used for the direct object?',
+      back: 'Accusative — the noun that directly receives the action. Also used with prepositions showing motion toward. Example: Dominus servum videt = The master sees the slave.',
+    },
+    {
+      id: 'unit-01-cases-fc-05',
+      front: 'What case is used with most prepositions showing location or means?',
+      back: 'Ablative — a versatile case showing means ("by"), manner ("with"), accompaniment ("with"), separation ("from"), place ("in/on"), and time.',
+    },
+    {
+      id: 'unit-01-cases-fc-06',
+      front: 'What case is used for direct address?',
+      back: 'Vocative — used when calling out to someone. Usually identical to the nominative, except 2nd declension -us nouns change to -e (e.g., Marce, not Marcus).',
+    },
+    {
+      id: 'unit-01-cases-fc-07',
+      front: 'In "Servus dominum amat," what case is "dominum"?',
+      back: 'Accusative (direct object) — the slave loves the master. The -um ending marks dominus as the receiver of the action.',
+    },
+    {
+      id: 'unit-01-cases-fc-08',
+      front: 'In "Villa domini magna est," what case is "domini"?',
+      back: 'Genitive (possession) — domini means "of the master" or "the master\'s." The -i ending signals genitive of a 2nd declension noun.',
+    },
+    {
+      id: 'unit-01-cases-fc-09',
+      front: 'What case does "cum" (with) take?',
+      back: 'Ablative — cum always takes the ablative. Example: cum domino = with the master.',
+    },
+    {
+      id: 'unit-01-cases-fc-10',
+      front: 'What does the nominative case signal?',
+      back: 'The subject — who or what performs the action. Also used for predicate nouns after linking verbs like est (is).',
+    },
+    {
+      id: 'unit-01-cases-fc-11',
+      front: 'What does the accusative case signal?',
+      back: 'The direct object — who or what receives the action. Also used with prepositions of motion toward (ad, in + acc, per, etc.).',
+    },
+    {
+      id: 'unit-01-cases-fc-12',
+      front: 'In a sentence with a linking verb (est), what case is the predicate noun?',
+      back: 'Nominative — both the subject and the predicate noun are in the nominative case. Example: Servus est dominus = The slave is the master.',
+    },
+    {
+      id: 'unit-01-cases-fc-13',
+      front: 'What is the vocative of "Marcus"?',
+      back: 'Marce — 2nd declension -us nouns change -us to -e in the vocative singular. Example: Marce, veni huc! (Marcus, come here!)',
+    },
+    {
+      id: 'unit-01-cases-fc-14',
+      front: 'What are the six Latin cases in traditional order?',
+      back: 'Nominative, Genitive, Dative, Accusative, Ablative, Vocative.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-01-cases-q-01',
+      question: 'In the sentence "Puella aquam portat" (The girl carries water), what case is "aquam"?',
+      options: [
+        'Nominative',
+        'Genitive',
+        'Accusative',
+        'Ablative',
+      ],
+      correctIndex: 2,
+      explanation: '"Aquam" is the direct object — the water is what the girl carries. The -am ending marks it as accusative singular of a 1st declension noun.',
+    },
+    {
+      id: 'unit-01-cases-q-02',
+      question: 'Which case would you use to translate "the girl\'s book" (for the word "girl\'s")?',
+      options: [
+        'Nominative',
+        'Genitive',
+        'Dative',
+        'Accusative',
+      ],
+      correctIndex: 1,
+      explanation: 'The apostrophe-s (possession) is expressed by the Genitive case in Latin. "Girl\'s" = puellae (genitive of puella).',
+    },
+    {
+      id: 'unit-01-cases-q-03',
+      question: 'In "Dominus servo pecuniam dat" (The master gives money to the slave), what case is "servo"?',
+      options: [
+        'Nominative',
+        'Accusative',
+        'Dative',
+        'Ablative',
+      ],
+      correctIndex: 2,
+      explanation: '"Servo" is the indirect object — the slave is the recipient (the one to whom the money is given). Indirect objects take the Dative case.',
+    },
+    {
+      id: 'unit-01-cases-q-04',
+      question: 'Which case signals direct address — when you call out to someone?',
+      options: [
+        'Nominative',
+        'Genitive',
+        'Accusative',
+        'Vocative',
+      ],
+      correctIndex: 3,
+      explanation: 'The Vocative case is used for direct address. It is usually identical to the nominative, except 2nd declension -us nouns change the ending to -e (Marcus → Marce).',
+    },
+    {
+      id: 'unit-01-cases-q-05',
+      question: 'What case does the preposition "cum" (with) always take?',
+      options: [
+        'Genitive',
+        'Dative',
+        'Accusative',
+        'Ablative',
+      ],
+      correctIndex: 3,
+      explanation: '"Cum" always takes the Ablative case. Example: Servus cum domino ambulat = The slave walks with the master.',
+    },
+    {
+      id: 'unit-01-cases-q-06',
+      question: 'In "Villa domini pulchra est," what role does "domini" play?',
+      options: [
+        'Subject of the sentence',
+        'Direct object',
+        'Showing possession (the master\'s villa)',
+        'Indirect object',
+      ],
+      correctIndex: 2,
+      explanation: '"Domini" is in the Genitive case showing possession — it means "of the master" or "the master\'s." Villa is the subject; pulchra is the predicate adjective; est is the verb.',
+    },
+    {
+      id: 'unit-01-cases-q-07',
+      question: 'Marcus is called by name in a sentence. Which case is used for "Marce"?',
+      options: [
+        'Nominative',
+        'Accusative',
+        'Ablative',
+        'Vocative',
+      ],
+      correctIndex: 3,
+      explanation: '"Marce" is the Vocative form of Marcus. The Vocative is used for direct address. Note how -us changes to -e for 2nd declension masculine nouns in the vocative.',
+    },
+    {
+      id: 'unit-01-cases-q-08',
+      question: 'In the sentence "Servus in villa laborat" (The slave works in the villa), what case is "villa"?',
+      options: [
+        'Nominative',
+        'Accusative',
+        'Ablative',
+        'Dative',
+      ],
+      correctIndex: 2,
+      explanation: '"In villa" = in the villa (location, no motion). The preposition "in" takes the Ablative when showing location. If it showed motion into, it would take the Accusative (in villam).',
+    },
+    {
+      id: 'unit-01-cases-q-09',
+      question: 'Which two cases can a noun after "est" (is) be, when it is a predicate noun?',
+      options: [
+        'Genitive and Dative',
+        'Nominative and Nominative (both subject and predicate noun are nominative)',
+        'Nominative and Accusative',
+        'Accusative and Ablative',
+      ],
+      correctIndex: 1,
+      explanation: 'After a linking verb like est, both the subject and the predicate noun are in the Nominative case. Example: Servus est dominus = The slave is the master (both servus and dominus are nominative).',
+    },
+    {
+      id: 'unit-01-cases-q-10',
+      question: 'Translate the case use: "The master gives a gift to the daughter." Which case is "daughter" in Latin?',
+      options: [
+        'Nominative — she is the subject',
+        'Accusative — she receives the gift directly',
+        'Dative — she is the indirect object (recipient)',
+        'Genitive — it is her gift',
+      ],
+      correctIndex: 2,
+      explanation: '"Daughter" is the indirect object — the one to whom the gift is given. Indirect objects take the Dative case. (Dominus filiae donum dat.)',
+    },
+    {
+      id: 'unit-01-cases-q-11',
+      question: 'Which statement about Latin word order is correct?',
+      options: [
+        'Latin word order is identical to English: Subject-Verb-Object',
+        'Latin uses word order (not case endings) to show grammatical function',
+        'Latin uses case endings (not word order) to show grammatical function',
+        'In Latin, only the verb ending matters — nouns have no endings',
+      ],
+      correctIndex: 2,
+      explanation: 'Latin uses case endings — not word order — to show the grammatical function of nouns. This is why Latin sentences can be arranged in many different word orders while keeping the same meaning.',
+    },
+    {
+      id: 'unit-01-cases-q-12',
+      question: 'In "Servus cum domina ambulat," what case is "domina" and why?',
+      options: [
+        'Nominative — domina is the subject',
+        'Ablative — cum always takes the ablative',
+        'Accusative — domina receives the walking',
+        'Dative — domina is the indirect object',
+      ],
+      correctIndex: 1,
+      explanation: '"Cum" (with) always takes the Ablative case. "Domina" is therefore ablative singular. The sentence means: The slave walks with the mistress.',
+    },
+  ],
+};

@@ -1,10 +1,12 @@
 import type { Course } from '@/types/study';
 import { scienceNinth2026 } from './courses/science-9th-2026';
 import { hebrewNinth2026 } from './courses/hebrew-9th-2026';
+import { latinNinth2026 } from './courses/latin-9th-2026';
 
 export const allCourses: Course[] = [
   scienceNinth2026,
   hebrewNinth2026,
+  latinNinth2026,
 ];
 
 export function getCourse(id: string): Course | undefined {

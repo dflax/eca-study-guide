@@ -14,6 +14,7 @@ Interactive exam prep for students at **Emet Classical Academy**. Study notes, f
 |--------|---------|-------|------------|----------------|
 | 2025–2026 · 9th Grade Science | Dr. Shulman | 12 | 156 | 129 |
 | 2025–2026 · Hebrew | Morah Gabay | 2 | 79 | 24 |
+| 2025–2026 · Latin | Mr. Karlin | 6 | 121 | 70 |
 
 ### Science Units (Dr. Shulman)
 1. Energy
@@ -34,6 +35,16 @@ Interactive exam prep for students at **Emet Classical Academy**. Study notes, f
 2. Self-Introduction Conversation & שם פועל Grammar
 
 > More Hebrew units will be added when textbook pages 1–117 become available.
+
+### Latin Units (Mr. Karlin)
+1. The Latin Case System — names, functions, and order of all 6 cases
+2. 1st & 2nd Declension — full noun and adjective declension tables
+3. Pronouns — meus/tuus/suus, is/ea/id, hic/haec/hoc, ille/illa/illud, qui/quae/quod
+4. Verbs — 3rd person indicative, 2nd person imperative, active vs. passive
+5. Vocabulary — core words from *Lingua Latina* Chapters I–VIII (bidirectional Latin ↔ English)
+6. Suffixes, Prepositions & Numbers — -ne / -que, prepositions with cases, numbers 1–10 / ordinals 1–3
+
+> Vocabulary will be expanded when the textbook becomes available.
 
 ---
 

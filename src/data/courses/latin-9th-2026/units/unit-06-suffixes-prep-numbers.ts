@@ -1,0 +1,272 @@
+import type { Unit } from '@/types/study';
+
+export const unit06SuffixesPrepNumbers: Unit = {
+  id: 'unit-06-suffixes-prep-numbers',
+  number: 6,
+  title: 'Suffixes, Prepositions & Numbers',
+  description: 'The suffixes -ne and -que, prepositions with their required cases, and Latin cardinal and ordinal numbers.',
+  notes: [
+    {
+      heading: 'The Suffix -ne',
+      content: 'The suffix -ne is attached to the end of the first word (usually the verb or the most emphatic word) of a sentence to form a yes/no question. It has no translation of its own — it simply signals that a question is being asked.\n\nEstne Roma in Italia? = Is Rome in Italy? (Est + ne)\nAmatne dominus servum? = Does the master love the slave?\nSuntne servi in villa? = Are the slaves in the villa?\n\nThe answer to a -ne question is either:\n  ita / ita est = yes (literally: "thus / thus it is")\n  non / minime = no / not at all',
+      bullets: [
+        '-ne is attached to the first (most emphatic) word — usually the verb',
+        'Estne...? = Is...? | Suntne...? = Are...? | Amatne...? = Does...love?',
+        'ita / ita est = yes | non / minime = no / not at all',
+        '-ne itself is untranslated — it only signals a yes/no question',
+      ],
+    },
+    {
+      heading: 'The Suffix -que',
+      content: 'The suffix -que means "and" and is attached to the END of the second of two connected words. It is "enclitic" — it clings to the word before it. It connects two words or clauses of equal weight and often feels more formal or emphatic than et.\n\nCorrect: Marcus Iuliaque = Marcus and Julia (-que attaches to Iulia, the second item)\nWrong: Marcusque Iulia (this puts -que on the first item — incorrect)\n\nClassic example: senatus populusque Romanus (SPQR) = the Senate and the Roman people\nAnother example: terra marique = on land and sea (terra + mari + que)\n\nRule: -que attaches to the SECOND item and means "and [the first thing] and [this thing]."',
+      bullets: [
+        '-que = "and" — attaches to the END of the SECOND item',
+        'Marcusque = "and Marcus" only when Marcus is the SECOND item',
+        'Correct: terra marique = on land and sea',
+        'SPQR: senatus populusque Romanus = the Senate and the Roman people',
+        '-que often sounds more formal/poetic than et',
+      ],
+    },
+    {
+      heading: 'Prepositions and Their Cases',
+      content: 'Prepositions in Latin always govern a specific case. Memorize which case each preposition requires — this is tested directly.\n\nPREPOSITIONS WITH THE ACCUSATIVE (often motion toward or extent):\n  ad = to, toward\n  ante = before, in front of\n  apud = at, near, among\n  circum = around\n  contra = against\n  in + acc = into, onto (motion toward)\n  inter = between, among\n  ob = on account of, because of\n  per = through, by means of\n  post = after, behind\n  prope = near\n  propter = because of, on account of\n  sub + acc = under (motion toward)\n  trans = across\n\nPREPOSITIONS WITH THE ABLATIVE (often location or separation):\n  a / ab = from, by (agent in passive sentences)\n  cum = with (accompaniment)\n  de = down from, about, concerning\n  e / ex = out of, from\n  in + abl = in, on (location — no motion)\n  pro = in front of, on behalf of, in place of\n  sine = without\n  sub + abl = under (location — no motion)\n\nKEY DISTINCTION: "in" takes the accusative for motion INTO (in villam = into the villa) and the ablative for location IN (in villa = in the villa).',
+      bullets: [
+        'Accusative prepositions (motion/extent): ad, ante, apud, circum, contra, in+acc, inter, ob, per, post, prope, propter, sub+acc, trans',
+        'Ablative prepositions (location/separation): a/ab, cum, de, e/ex, in+abl, pro, sine, sub+abl',
+        'in + accusative = INTO (motion): in villam = into the villa',
+        'in + ablative = IN (location): in villa = in the villa',
+        'cum always ablative: cum domino = with the master',
+        'sine always ablative: sine aqua = without water',
+        'a/ab + ablative = by [agent] in passive sentences',
+      ],
+    },
+    {
+      heading: 'Numbers',
+      content: 'Cardinal numbers (how many) 1–10:\n  1 = unus, una, unum\n  2 = duo, duae, duo\n  3 = tres, tria\n  4 = quattuor\n  5 = quinque\n  6 = sex\n  7 = septem\n  8 = octo\n  9 = novem\n  10 = decem\n\nNote: unus, duo, and tres decline (change their endings). Numbers 4–10 are indeclinable (never change ending).\n\nOrdinal numbers (in what order), decline like 1st/2nd declension adjectives (bonus -a -um):\n  primus, -a, -um = first\n  secundus, -a, -um = second\n  tertius, -a, -um = third',
+      bullets: [
+        '1–3 decline: unus/una/unum; duo/duae/duo; tres/tria',
+        '4–10 are indeclinable: quattuor, quinque, sex, septem, octo, novem, decem',
+        'Ordinals 1–3: primus, secundus, tertius (decline like bonus -a -um)',
+        'Memory tip for 1–10: u-du-tre-qua-quin-sex-sep-oc-no-dec',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-01',
+      front: 'What does the suffix -ne do?',
+      back: 'Turns a statement into a yes/no question. It attaches to the first (most emphatic) word of the sentence — usually the verb. It has no meaning of its own. Example: Estne Roma in Italia? = Is Rome in Italy?',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-02',
+      front: 'What does the suffix -que mean, and how is it used?',
+      back: '"And" — it is enclitic, attached to the END of the SECOND of two connected items. Example: Marcus Iuliaque = Marcus and Julia (-que on Iulia, the second item).',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-03',
+      front: 'Give an example of -que used correctly.',
+      back: 'Marcus Iuliaque = Marcus and Julia. NOT "Marcusque Iulia" — the -que attaches to the second item.\nSPQR: senatus populusque Romanus = the Senate and the Roman people.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-04',
+      front: 'What case does "ad" take?',
+      back: 'Accusative — ad = to, toward. Motion toward something. Example: ad villam = to/toward the villa.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-05',
+      front: 'What case does "cum" take?',
+      back: 'Ablative — cum = with (accompaniment). Example: cum domino = with the master.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-06',
+      front: 'What case does "sine" take?',
+      back: 'Ablative — sine = without. Example: sine aqua = without water; sine domino = without the master.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-07',
+      front: 'What case does "in" take when showing motion into something?',
+      back: 'Accusative — in + accusative = into, onto (motion). Example: in villam = into the villa; in hortum = into the garden.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-08',
+      front: 'What case does "in" take when showing location inside something?',
+      back: 'Ablative — in + ablative = in, on (location, no motion). Example: in villa = in the villa; in horto = in the garden.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-09',
+      front: 'What case does "a/ab" take, and what does it signal in a passive sentence?',
+      back: 'Ablative — a/ab = from, by. In passive sentences, a/ab + ablative signals the agent (the one performing the action). Example: a domino = by the master.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-10',
+      front: 'What does "per" mean and what case does it take?',
+      back: '"Through, by means of" — takes the Accusative. Example: per silvam = through the forest; per viam = along/through the road.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-11',
+      front: 'Give the Latin cardinal numbers 1–10.',
+      back: 'unus, duo, tres, quattuor, quinque, sex, septem, octo, novem, decem.\n(1–3 decline; 4–10 are indeclinable)',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-12',
+      front: 'Give the Latin ordinal numbers 1–3.',
+      back: 'primus, -a, -um (first)\nsecundus, -a, -um (second)\ntertius, -a, -um (third)\n\nAll three decline like bonus -a -um (1st/2nd declension adjective).',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-13',
+      front: 'What is the difference between "in villam" and "in villa"?',
+      back: 'in villam (accusative) = into the villa (motion — going into)\nin villa (ablative) = in the villa (location — being inside)\n\nThe difference is motion (acc) vs. location (abl).',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-fc-14',
+      front: 'Translate: "Servi sine domino laborant."',
+      back: 'The slaves work without the master. (sine + ablative; servi = nom pl subject; laborant = 3pl active verb)',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-01',
+      question: '"Estne dominus in villa?" — what does the -ne suffix do here?',
+      options: [
+        'It makes the sentence negative (not)',
+        'It turns the statement into a yes/no question',
+        'It means "and"',
+        'It shows the case of dominus',
+      ],
+      correctIndex: 1,
+      explanation: '-ne attached to est creates the question "Is the master in the villa?" It signals a yes/no question. The -ne itself has no translation — only the question it creates.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-02',
+      question: 'Which sentence uses -que CORRECTLY?',
+      options: [
+        'Marcusque Iulia',
+        'Marcus Iuliaque',
+        'queMarque Julia',
+        'Marcus que Iulia',
+      ],
+      correctIndex: 1,
+      explanation: '-que attaches to the END of the SECOND item: Marcus Iuliaque = Marcus and Julia. "Marcusque Iulia" is wrong because -que is on the first item.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-03',
+      question: 'What case does "prope" (near) take?',
+      options: [
+        'Genitive',
+        'Dative',
+        'Accusative',
+        'Ablative',
+      ],
+      correctIndex: 2,
+      explanation: 'prope takes the Accusative: prope villam = near the villa. It is in the category of prepositions that take the accusative (prope, ad, per, trans, circum, etc.).',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-04',
+      question: 'Translate "in hortum" vs. "in horto."',
+      options: [
+        'in hortum = in the garden; in horto = into the garden',
+        'in hortum = into the garden (motion, acc); in horto = in the garden (location, abl)',
+        'Both mean the same thing',
+        'in hortum = from the garden; in horto = through the garden',
+      ],
+      correctIndex: 1,
+      explanation: 'in + accusative (hortum) = into the garden — motion. in + ablative (horto) = in the garden — location. The case of the noun after "in" determines the meaning.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-05',
+      question: 'What does "a magistro" mean in the sentence "Puella a magistro laudatur"?',
+      options: [
+        'to the teacher (dative)',
+        'the teacher (nominative)',
+        'by the teacher (ablative agent in a passive sentence)',
+        'of the teacher (genitive)',
+      ],
+      correctIndex: 2,
+      explanation: 'a/ab + ablative signals the agent in a passive sentence. "A magistro" = by the teacher. "Laudatur" = is praised (passive). The full sentence: The girl is praised by the teacher.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-06',
+      question: 'Which Latin number is indeclinable (never changes its form)?',
+      options: [
+        'unus',
+        'duo',
+        'tres',
+        'quinque',
+      ],
+      correctIndex: 3,
+      explanation: 'quinque (5) is indeclinable — it never changes its ending. Numbers 4–10 (quattuor through decem) are all indeclinable. Only unus, duo, and tres decline.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-07',
+      question: 'Translate: "Servi per silvam currunt."',
+      options: [
+        'The slaves run from the forest',
+        'The slaves run through the forest',
+        'The slaves run into the forest',
+        'The slaves run near the forest',
+      ],
+      correctIndex: 1,
+      explanation: 'per + accusative = through, by means of. "Per silvam" = through the forest. The sentence: The slaves run through the forest.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-08',
+      question: 'What is the Latin for "first" (ordinal number, masculine nominative singular)?',
+      options: [
+        'unus',
+        'primus',
+        'secundus',
+        'tertius',
+      ],
+      correctIndex: 1,
+      explanation: 'primus, -a, -um = first (ordinal). It declines like bonus -a -um. Compare: unus = one (cardinal — how many); primus = first (ordinal — in what order).',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-09',
+      question: 'Which preposition takes the ABLATIVE and means "out of" or "from"?',
+      options: [
+        'ad',
+        'per',
+        'ex',
+        'trans',
+      ],
+      correctIndex: 2,
+      explanation: 'ex / e = out of, from — takes the ablative. Example: ex villa = out of the villa. Compare: ad (acc) = toward; per (acc) = through; trans (acc) = across.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-10',
+      question: '"Suntne servi in horto?" — how would you answer "yes" in Latin?',
+      options: [
+        'minime',
+        'non',
+        'ita est',
+        'numquam',
+      ],
+      correctIndex: 2,
+      explanation: 'ita est (or ita) = yes. The -ne question "Are the slaves in the garden?" is answered with ita est (yes) or non / minime (no / not at all).',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-11',
+      question: 'What does "circum villam" mean?',
+      options: [
+        'in the villa',
+        'from the villa',
+        'around the villa',
+        'through the villa',
+      ],
+      correctIndex: 2,
+      explanation: 'circum + accusative = around. "Circum villam" = around the villa. circum is one of the prepositions that always takes the accusative.',
+    },
+    {
+      id: 'unit-06-suffixes-prep-numbers-q-12',
+      question: 'In "terra marique," what does the -que suffix attach to, and what does the phrase mean?',
+      options: [
+        '-que attaches to terra; means "earth and sea"',
+        '-que attaches to mari (the ablative of mare); means "on land and sea"',
+        '-que attaches to the whole phrase; means "both land and sea"',
+        '-que cannot attach to nouns — only verbs',
+      ],
+      correctIndex: 1,
+      explanation: '-que attaches to mari (abl. of mare, sea), the second item: terra marique = on land and sea. This is a classic example of -que connecting two ablatives of location.',
+    },
+  ],
+};
