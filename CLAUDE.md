@@ -4,21 +4,26 @@
 
 Build and maintain the **ECA Study Guide** — an interactive exam prep web app for students at Emet Classical Academy. Daniel is the solo developer and product owner. The goal is to help students (primarily Jack and his friends) study for final exams across multiple subjects.
 
-The live site is at [eca-study-guide.vercel.app](https://eca-study-guide.vercel.app). Every push to `main` auto-deploys via Vercel.
+The live site is at [eca-study-guide.vercel.app](https://eca-study-guide.vercel.app). Every push to `master` auto-deploys via Vercel.
 
 ---
 
 ## Repository & Project Layout
 
 ```
-/Users/dflax/Sites/eca-study-guide/
-  CLAUDE.md                          ← you are here
-  Project_Context.md                 ← high-level project state (maintain this)
-  documentation/                     ← source PDFs (study guides from teachers)
-  eca-study-guide/                   ← the Next.js web app (git repo root)
+/Users/dflax/Sites/eca-study-guide/   ← git repo root AND Next.js app root
+  CLAUDE.md                           ← you are here
+  Project_Context.md                  ← high-level project state (maintain this)
+  documentation/                      ← source PDFs (study guides from teachers)
+  src/                                ← Next.js source
+  package.json
+  next.config.ts
+  tsconfig.json
 ```
 
 **Git remote:** `git@github.com:dflax/eca-study-guide.git`
+
+> **Vercel root directory:** must be set to repo root (blank/`./`) — not a subdirectory.
 
 ---
 
@@ -28,7 +33,7 @@ The live site is at [eca-study-guide.vercel.app](https://eca-study-guide.vercel.
 - **Styling:** Tailwind CSS + shadcn/ui
 - **Package manager:** pnpm
 - **Progress storage:** localStorage (no database — intentional for V1)
-- **Hosting:** Vercel — push to `main` = live deploy
+- **Hosting:** Vercel — push to `master` = live deploy
 
 ---
 
@@ -105,7 +110,7 @@ Do not leave the README showing stale numbers. It is the project's public face o
 pnpm build                          # must pass — never commit a broken build
 git add [specific files]            # never `git add -A` blindly
 git commit -m "descriptive message"
-git push origin main                # triggers Vercel deploy
+git push origin master              # triggers Vercel deploy
 ```
 
 Commit messages should say what changed and why, not just what files were touched.
@@ -170,7 +175,7 @@ Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 | ID | Display Name | Teacher | Units |
 |----|-------------|---------|-------|
 | `science-9th-2026` | 2025–2026 · 9th Grade Science | Dr. Shulman | 12 |
-| `hebrew-9th-2026` | 2025–2026 · Hebrew | Morah Gabay | 2 (expanding) |
+| `hebrew-9th-2026` | 2025–2026 · Hebrew | Morah Gabay | 3 (expanding) |
 | `latin-9th-2026` | 2025–2026 · Latin | Mr. Karlin | 6 |
 | `humanities-9th-2026` | 2025–2026 · Integrated Humanities | Ms. Attar | 6 |
 
