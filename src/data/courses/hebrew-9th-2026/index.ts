@@ -1,6 +1,7 @@
 import type { Course } from '@/types/study';
 import { unit01Vocabulary } from './units/unit-01-vocabulary';
 import { unit02Conversation } from './units/unit-02-conversation';
+import { unit03Reading } from './units/unit-03-reading';
 
 export const hebrewNinth2026: Course = {
   id: 'hebrew-9th-2026',
@@ -14,5 +15,6 @@ export const hebrewNinth2026: Course = {
   units: [
     unit01Vocabulary,
     unit02Conversation,
+    unit03Reading,
   ],
 };

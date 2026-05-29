@@ -1,0 +1,245 @@
+import type { Unit } from '@/types/study';
+
+export const unit03Reading: Unit = {
+  id: 'unit-03-reading',
+  number: 3,
+  title: 'Reading Practice — A Student\'s Introduction',
+  description: 'Practice reading a Hebrew self-introduction passage, learn to state your age with אני בן/בת, and answer comprehension questions — all patterns you will see on the exam.',
+  notes: [
+    {
+      heading: 'The Model Passage — Read and Understand',
+      content: 'Read this passage carefully. It is the same format as the reading comprehension section on your exam. A student named דן (Dan) introduces himself:\n\n---\n\nשלום! קוראים לי דן. אני תלמיד בבית ספר אמת, כיתה ט\'.\nאני בן 15. אני גר ברחוב פאינט בניו יורק, ברוקלין.\n\n---\n\nHello! My name is Dan. I am a student at Emet School, 9th grade.\nI am 15 years old. I live on Point Street in New York, Brooklyn.\n\n---\n\nבניו יורק יש מוזאון גדול.\nבניו יורק יש הרבה מסעדות.\nבניו יורק יש קניון.\nבניו יורק אין חורף חם.\nבניו יורק אין קיץ קר.\n\n---\n\nIn New York there is a big museum.\nIn New York there are many restaurants.\nIn New York there is a mall.\nIn New York there is no warm winter.\nIn New York there is no cold summer.\n\n---\n\nבבית ספר אנחנו מתפללים כל בוקר.\nאנחנו לומדים עברית. אני אוהב לימוד.\nלפעמים אני הולך לקולנוע.\n\n---\n\nAt school we pray every morning.\nWe study Hebrew. I love studying.\nSometimes I go to the cinema.',
+      bullets: [
+        'Read the whole passage first before looking at any questions',
+        'Identify each יש/אין sentence — those are the most common comprehension targets',
+        'Note the school description: מתפללים כל בוקר (we pray every morning)',
+        'Notice how the passage uses words from unit-01 and unit-02 — review those if anything is unfamiliar',
+      ],
+    },
+    {
+      heading: 'New Phrase: Saying Your Age — אני בן/בת',
+      content: 'The passage introduces a phrase that is not in units 1–2 but will almost certainly come up in your oral exam: stating your age.\n\nThe structure is:\nאני בן [number] — I am [number] years old (male speaker)\nאני בת [number] — I am [number] years old (female speaker)\n\nבן literally means "son" and בת literally means "daughter," but in this construction they mean "of age [number]."\n\nExamples:\n• אני בן 15 — I am 15 years old. (male)\n• אני בת 14 — I am 14 years old. (female)\n• אני בן 16 — I am 16 years old. (male)\n\nKey numbers for your introduction:\n• 13 — שלוש עשרה\n• 14 — ארבע עשרה\n• 15 — חמש עשרה\n• 16 — שש עשרה\n• 17 — שבע עשרה\n• 18 — שמונה עשרה\n\nFor the oral exam, you only need to say the numeral — the teacher knows what number it is. The critical thing is to use בן (male) or בת (female) correctly.',
+      bullets: [
+        'בן = son / used by males to state age: אני בן 15',
+        'בת = daughter / used by females to state age: אני בת 15',
+        'The pattern is always: אני + בן/בת + number',
+        'You do not need to spell out the number in Hebrew — saying the numeral is fine',
+        'This phrase fits naturally right after saying your name and school',
+      ],
+    },
+    {
+      heading: 'Fill-In Practice — Write About Yourself',
+      content: 'Use the model passage to write your own introduction. Fill in each blank with your own information.\n\nשלום! קוראים לי _______________.\nאני תלמיד / תלמידה בבית ספר אמת, כיתה _______________.\nאני בן / בת _______________.\nאני גר / גרה ברחוב _______________ בניו יורק.\n\nNow write THREE יש sentences and TWO אין sentences about New York:\n\nבניו יורק יש _______________.\nבניו יורק יש _______________.\nבניו יורק יש _______________.\nבניו יורק אין _______________.\nבניו יורק אין _______________.\n\nFinish with one sentence about school:\nבבית ספר _______________ כל בוקר.',
+      bullets: [
+        'Cross off each fill-in blank as you complete it',
+        'Use vocabulary from unit-01 for the יש/אין sentences',
+        'Use your real name, street, grade, and age',
+        'Practice saying this aloud — the oral exam will ask exactly these questions',
+        'Male students: use תלמיד, גר, בן | Female students: use תלמידה, גרה, בת',
+      ],
+    },
+    {
+      heading: 'Reading Comprehension — How to Answer Questions',
+      content: 'When you see a reading passage on the exam, comprehension questions will ask about specific details. Here is how to approach them:\n\nStep 1: Find the יש/אין sentences — these are the easiest to answer.\n• "What is in New York?" → scan for יש sentences\n• "What is NOT in New York?" → scan for אין sentences\n\nStep 2: Find personal details — name, age, school, street.\n• "How old is the student?" → look for אני בן/בת\n• "Where does the student live?" → look for אני גר/גרה\n• "What grade?" → look for כיתה\n\nStep 3: Find the school description.\n• "What do they do at school?" → look for the בבית ספר sentences\n\nUsing the model passage above, practice these questions:\n• מה שמו של התלמיד? — What is the student\'s name? (קוראים לו דן)\n• בן כמה הוא? — How old is he? (הוא בן 15)\n• איפה הוא גר? — Where does he live? (הוא גר בניו יורק, ברוקלין)\n• מה יש בניו יורק? — What is in New York? (מוזאון, מסעדות, קניון)\n• מה אין בניו יורק? — What is NOT in New York? (חורף חם, קיץ קר)\n• מה הם עושים כל בוקר? — What do they do every morning? (מתפללים)',
+      bullets: [
+        'Scan for key words: יש, אין, אני בן/בת, אני גר/גרה, כיתה, קוראים לי',
+        'You do not need to understand every word — look for the answer to the specific question',
+        'Most answers appear word-for-word in the text; you do not need to invent new sentences',
+        'Practice translating the comprehension questions themselves — they use the same vocabulary',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-03-reading-fc-01',
+      front: 'אני בן 15',
+      back: 'I am 15 years old. (male speaker)\nבן = son — used by males to state age.\nPattern: אני בן + number',
+    },
+    {
+      id: 'unit-03-reading-fc-02',
+      front: 'אני בת 15',
+      back: 'I am 15 years old. (female speaker)\nבת = daughter — used by females to state age.\nPattern: אני בת + number',
+    },
+    {
+      id: 'unit-03-reading-fc-03',
+      front: 'בן כמה אתה? / בת כמה את?',
+      back: 'How old are you? (male / female)\nבן כמה = how many [years] old (asked to a male)\nבת כמה = how many [years] old (asked to a female)\nAnswer: אני בן/בת ___',
+    },
+    {
+      id: 'unit-03-reading-fc-04',
+      front: 'ברוקלין',
+      back: 'Brooklyn\nUsed in addresses: אני גר בברוקלין — I live in Brooklyn.\nOften appears in reading passages about New York.',
+    },
+    {
+      id: 'unit-03-reading-fc-05',
+      front: 'הולך',
+      back: 'goes / going (male)\nExample: לפעמים אני הולך לקולנוע — Sometimes I go to the cinema.\nFemale form: הולכת',
+    },
+    {
+      id: 'unit-03-reading-fc-06',
+      front: 'מה שמו של התלמיד?',
+      back: 'What is the student\'s name?\nA common reading comprehension question.\nAnswer using: קוראים לו ___ (His name is ___)\nNote: לו = to him (for male), לה = to her (for female)',
+    },
+    {
+      id: 'unit-03-reading-fc-07',
+      front: 'בן כמה הוא?',
+      back: 'How old is he?\nA common reading comprehension question.\nAnswer: הוא בן ___ — He is ___ years old.\nFor a female: היא בת ___ — She is ___ years old.',
+    },
+    {
+      id: 'unit-03-reading-fc-08',
+      front: 'What is the difference between בן and בת in the age construction?',
+      back: 'בן = used by or about a male\n• אני בן 15 — I am 15 (male speaking)\n• הוא בן 15 — He is 15\n\nבת = used by or about a female\n• אני בת 15 — I am 15 (female speaking)\n• היא בת 15 — She is 15',
+    },
+    {
+      id: 'unit-03-reading-fc-09',
+      front: 'מה יש בניו יורק?',
+      back: 'What is in New York?\nA common reading comprehension question — look for יש sentences.\nModel answer: בניו יורק יש מוזאון, מסעדות, וקניון.\n(In New York there is a museum, restaurants, and a mall.)',
+    },
+    {
+      id: 'unit-03-reading-fc-10',
+      front: 'מה אין בניו יורק?',
+      back: 'What is NOT in New York?\nA common reading comprehension question — look for אין sentences.\nModel answer: בניו יורק אין חורף חם ואין קיץ קר.\n(In New York there is no warm winter and no cold summer.)',
+    },
+    {
+      id: 'unit-03-reading-fc-11',
+      front: 'הוא / היא',
+      back: 'הוא = he\nהיא = she\n\nUsed when answering comprehension questions about someone in a passage:\n• הוא בן 15 — He is 15.\n• היא גרה בניו יורק — She lives in New York.',
+    },
+    {
+      id: 'unit-03-reading-fc-12',
+      front: 'Complete this sentence from the model passage:\nבבית ספר אנחנו ___ כל בוקר.',
+      back: 'מתפללים\nבבית ספר אנחנו מתפללים כל בוקר.\nAt school we pray every morning.\n(This sentence appears in both the reading passage and the oral exam template.)',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-03-reading-q-01',
+      question: 'In the model passage, how old is דן (Dan)?',
+      options: ['13', '14', '15', '16'],
+      correctIndex: 2,
+      explanation: 'The passage says אני בן 15 — I am 15 years old. בן is used by a male speaker to state age.',
+    },
+    {
+      id: 'unit-03-reading-q-02',
+      question: 'A male student wants to say "I am 14 years old." Which is correct?',
+      options: ['אני בת 14', 'אני בן 14', 'אני יש 14', 'אני גר 14'],
+      correctIndex: 1,
+      explanation: 'אני בן 14 = I am 14 years old (male speaker). בן is used by males. בת is the female form. יש and גר are unrelated words.',
+    },
+    {
+      id: 'unit-03-reading-q-03',
+      question: 'A female student wants to say "I am 15 years old." Which is correct?',
+      options: ['אני בן 15', 'אני גרה 15', 'אני בת 15', 'אני תלמידה 15'],
+      correctIndex: 2,
+      explanation: 'אני בת 15 = I am 15 years old (female speaker). Females use בת to state age. בן is the male form.',
+    },
+    {
+      id: 'unit-03-reading-q-04',
+      question: 'The comprehension question בן כמה הוא? is asking:',
+      options: [
+        'Where does he live?',
+        'What grade is he in?',
+        'How old is he?',
+        'What is his name?',
+      ],
+      correctIndex: 2,
+      explanation: 'בן כמה הוא? means "How old is he?" בן כמה literally means "son of how many" — it is the standard Hebrew way to ask a male\'s age. The answer format is הוא בן ___ (He is ___ years old).',
+    },
+    {
+      id: 'unit-03-reading-q-05',
+      question: 'Reading the model passage: Where does דן live?',
+      options: [
+        'Manhattan, New York',
+        'Brooklyn, New York',
+        'Tel Aviv, Israel',
+        'Queens, New York',
+      ],
+      correctIndex: 1,
+      explanation: 'The passage says אני גר ברחוב פאינט בניו יורק, ברוקלין — I live on Point Street in New York, Brooklyn.',
+    },
+    {
+      id: 'unit-03-reading-q-06',
+      question: 'Which of these does the model passage say IS in New York (יש)?',
+      options: [
+        'חורף חם (warm winter)',
+        'קיץ קר (cold summer)',
+        'מוזאון גדול (big museum)',
+        'הרים גדולים (big mountains)',
+      ],
+      correctIndex: 2,
+      explanation: 'The passage says בניו יורק יש מוזאון גדול — In New York there is a big museum. The passage also says there is NO warm winter (אין חורף חם) and NO cold summer (אין קיץ קר).',
+    },
+    {
+      id: 'unit-03-reading-q-07',
+      question: 'Which of these does the model passage say is NOT in New York (אין)?',
+      options: [
+        'קניון (mall)',
+        'מסעדות (restaurants)',
+        'חורף חם (warm winter)',
+        'מוזאון (museum)',
+      ],
+      correctIndex: 2,
+      explanation: 'The passage says בניו יורק אין חורף חם — In New York there is no warm winter. קניון, מסעדות, and מוזאון are all mentioned with יש (they DO exist in New York).',
+    },
+    {
+      id: 'unit-03-reading-q-08',
+      question: 'What does the model passage say about what the students do every morning?',
+      options: [
+        'אנחנו לומדים עברית כל בוקר',
+        'אנחנו הולכים לקולנוע כל בוקר',
+        'אנחנו אוכלים כל בוקר',
+        'אנחנו מתפללים כל בוקר',
+      ],
+      correctIndex: 3,
+      explanation: 'The passage says בבית ספר אנחנו מתפללים כל בוקר — At school we pray every morning. מתפללים = we pray, כל = every, בוקר = morning.',
+    },
+    {
+      id: 'unit-03-reading-q-09',
+      question: 'In a reading comprehension question, the teacher asks מה שמו של התלמיד? What are they asking?',
+      options: [
+        'How old is the student?',
+        'What is the student\'s name?',
+        'Where does the student live?',
+        'What grade is the student in?',
+      ],
+      correctIndex: 1,
+      explanation: 'מה שמו של התלמיד? means "What is the student\'s name?" שם = name, שמו = his name. The answer uses: קוראים לו ___ (His name is ___).',
+    },
+    {
+      id: 'unit-03-reading-q-10',
+      question: 'What does the passage say דן does sometimes (לפעמים)?',
+      options: [
+        'Goes to the restaurant',
+        'Studies at the library',
+        'Goes to the cinema',
+        'Visits the museum',
+      ],
+      correctIndex: 2,
+      explanation: 'The passage says לפעמים אני הולך לקולנוע — Sometimes I go to the cinema. לפעמים = sometimes, הולך = goes, קולנוע = cinema.',
+    },
+    {
+      id: 'unit-03-reading-q-11',
+      question: 'The comprehension question בת כמה היא? is asking about:',
+      options: [
+        'A male student\'s age',
+        'A female student\'s age',
+        'The name of a female student',
+        'Where a female student lives',
+      ],
+      correctIndex: 1,
+      explanation: 'בת כמה היא? means "How old is she?" בת כמה is the question form for a female. היא = she. The answer format is היא בת ___ (She is ___ years old).',
+    },
+    {
+      id: 'unit-03-reading-q-12',
+      question: 'Which is the correct way to answer "how old is he?" in Hebrew if he is 16?',
+      options: [
+        'הוא בת 16',
+        'הוא יש 16',
+        'הוא בן 16',
+        'הוא גר 16',
+      ],
+      correctIndex: 2,
+      explanation: 'הוא בן 16 = He is 16 years old. הוא = he, בן = used with males for age statements. Never use בת for a male, or יש/גר for age.',
+    },
+  ],
+};
