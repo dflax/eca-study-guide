@@ -1,7 +1,8 @@
 export interface Course {
   id: string;
   displayName: string;  // e.g., "2025–2026 · 9th Grade Science · Ms. Johnson"
-  year: string;         // e.g., "2025-2026"
+  year: string;         // e.g., "2025-2026". For general-topics courses, a stable non-year slug like "general".
+  category: 'school-year' | 'general'; // 'school-year' groups by `year`; 'general' lands in the General Topics section
   subject: string;      // e.g., "9th Grade Science"
   teacher: string;      // e.g., "[Teacher Name]"
   school: string;       // e.g., "Emet Classical Academy"

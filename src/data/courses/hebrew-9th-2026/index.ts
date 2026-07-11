@@ -7,6 +7,7 @@ export const hebrewNinth2026: Course = {
   id: 'hebrew-9th-2026',
   displayName: '2025–2026 · Hebrew · Morah Gabay',
   year: '2025-2026',
+  category: 'school-year',
   subject: 'Hebrew',
   teacher: 'Morah Gabay',
   school: 'Emet Classical Academy',

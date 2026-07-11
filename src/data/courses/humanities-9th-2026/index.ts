@@ -10,6 +10,7 @@ export const humanitiesNinth2026: Course = {
   id: 'humanities-9th-2026',
   displayName: '2025–2026 · Integrated Humanities · Ms. Attar',
   year: '2025-2026',
+  category: 'school-year',
   subject: 'Integrated Humanities',
   teacher: 'Ms. Attar',
   school: 'Emet Classical Academy',

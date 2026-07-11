@@ -8,9 +8,11 @@ import ProgressRing from './ProgressRing';
 
 interface CourseCardProps {
   course: Course;
+  isFavorite?: boolean;
+  onToggleFavorite?: (courseId: string) => void;
 }
 
-export default function CourseCard({ course }: CourseCardProps) {
+export default function CourseCard({ course, isFavorite = false, onToggleFavorite }: CourseCardProps) {
   const [overallPercent, setOverallPercent] = useState(0);
   const [mounted, setMounted] = useState(false);
 
@@ -34,7 +36,35 @@ export default function CourseCard({ course }: CourseCardProps) {
     <Link href={`/${course.id}`} className="block group">
       <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 overflow-hidden border border-gray-100 h-full">
         {/* Top color bar */}
-        <div className="h-2 bg-indigo-600" />
+        <div className="h-2 bg-indigo-600 relative">
+          {onToggleFavorite && (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                onToggleFavorite(course.id);
+              }}
+              aria-label={isFavorite ? 'Remove from My Courses' : 'Add to My Courses'}
+              aria-pressed={isFavorite}
+              className="absolute top-3 right-3 z-10 flex items-center justify-center w-8 h-8 rounded-full bg-white/90 shadow-sm hover:bg-white transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="18"
+                height="18"
+                fill={isFavorite ? '#ef4444' : 'none'}
+                stroke={isFavorite ? '#ef4444' : '#9ca3af'}
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+            </button>
+          )}
+        </div>
         <div className="p-6">
           <div className="flex items-start justify-between gap-4 mb-3">
             <div>

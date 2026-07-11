@@ -1,17 +1,64 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import type { Course } from '@/types/study';
 import { allCourses } from '@/data/index';
 import CourseCard from '@/components/CourseCard';
 import { getUserProfile } from '@/lib/progress';
+import { getFavorites, toggleFavorite } from '@/lib/favorites';
+
+function formatYearLabel(year: string): string {
+  return `${year.replace('-', '–')} School Year`;
+}
+
+function CourseGrid({
+  courses,
+  favorites,
+  onToggleFavorite,
+}: {
+  courses: Course[];
+  favorites: Set<string>;
+  onToggleFavorite: (courseId: string) => void;
+}) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {courses.map(course => (
+        <CourseCard
+          key={course.id}
+          course={course}
+          isFavorite={favorites.has(course.id)}
+          onToggleFavorite={onToggleFavorite}
+        />
+      ))}
+    </div>
+  );
+}
 
 export default function LibraryPage() {
   const [userName, setUserName] = useState<string>('');
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const profile = getUserProfile();
     if (profile) setUserName(profile.name);
+    setFavorites(new Set(getFavorites()));
   }, []);
+
+  const handleToggleFavorite = (courseId: string) => {
+    setFavorites(new Set(toggleFavorite(courseId)));
+  };
+
+  const favoriteCourses = allCourses.filter(c => favorites.has(c.id));
+  const generalCourses = allCourses.filter(c => c.category === 'general');
+
+  const yearGroups = new Map<string, Course[]>();
+  for (const course of allCourses) {
+    if (course.category !== 'school-year') continue;
+    const group = yearGroups.get(course.year);
+    if (group) group.push(course);
+    else yearGroups.set(course.year, [course]);
+  }
+  const sortedYears = [...yearGroups.keys()].sort((a, b) => b.localeCompare(a));
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -45,16 +92,30 @@ export default function LibraryPage() {
 
       {/* Course Library */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-gray-900">My Courses</h2>
+        <div className="flex items-center justify-end mb-2">
           <span className="text-sm text-gray-500">{allCourses.length} course{allCourses.length !== 1 ? 's' : ''} available</span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {allCourses.map(course => (
-            <CourseCard key={course.id} course={course} />
-          ))}
-        </div>
+        {favoriteCourses.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">My Courses</h2>
+            <CourseGrid courses={favoriteCourses} favorites={favorites} onToggleFavorite={handleToggleFavorite} />
+          </section>
+        )}
+
+        {sortedYears.map(year => (
+          <section key={year} className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">{formatYearLabel(year)}</h2>
+            <CourseGrid courses={yearGroups.get(year)!} favorites={favorites} onToggleFavorite={handleToggleFavorite} />
+          </section>
+        ))}
+
+        {generalCourses.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">General Topics</h2>
+            <CourseGrid courses={generalCourses} favorites={favorites} onToggleFavorite={handleToggleFavorite} />
+          </section>
+        )}
 
         {allCourses.length === 0 && (
           <div className="text-center py-20 text-gray-400">

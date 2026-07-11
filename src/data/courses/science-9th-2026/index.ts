@@ -16,6 +16,7 @@ export const scienceNinth2026: Course = {
   id: 'science-9th-2026',
   displayName: '2025–2026 · 9th Grade Science · Dr. Shulman',
   year: '2025-2026',
+  category: 'school-year',
   subject: '9th Grade Science',
   teacher: 'Dr. Shulman',
   school: 'Emet Classical Academy',

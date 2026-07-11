@@ -10,6 +10,7 @@ export const latinNinth2026: Course = {
   id: 'latin-9th-2026',
   displayName: '2025–2026 · Latin · Mr. Karlin',
   year: '2025-2026',
+  category: 'school-year',
   subject: 'Latin',
   teacher: 'Mr. Karlin',
   school: 'Emet Classical Academy',
