@@ -8,7 +8,7 @@ import { getUserProfile } from '@/lib/progress';
 import { getFavorites, toggleFavorite } from '@/lib/favorites';
 
 function formatYearLabel(year: string): string {
-  return `${year.replace('-', '–')} School Year`;
+  return `${year.replace('-', '–')} Courses`;
 }
 
 function CourseGrid({
@@ -112,7 +112,7 @@ export default function LibraryPage() {
 
         {generalCourses.length > 0 && (
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">General Topics</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">General Courses</h2>
             <CourseGrid courses={generalCourses} favorites={favorites} onToggleFavorite={handleToggleFavorite} />
           </section>
         )}
