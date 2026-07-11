@@ -2,20 +2,28 @@
 
 Interactive exam prep for students at **Emet Classical Academy**. Study notes, flashcards, and quizzes — organized by subject, unit, and teacher — accessible from any device via a shared URL.
 
-**Live site:** [eca-study-guide.vercel.app](https://eca-study-guide.vercel.app)
+**Live site:** [ecastudyguide.org](https://www.ecastudyguide.org)
 
 ---
 
 ## What's Inside
 
-### Subjects
+Courses are organized on the homepage into sections by school year (newest first), plus a **General Topics** section for subjects that aren't tied to a specific school year or class.
+
+### 2025–2026 School Year
 
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
-| 2025–2026 · 9th Grade Science | Dr. Shulman | 12 | 156 | 129 |
-| 2025–2026 · Hebrew | Morah Gabay | 2 | 79 | 24 |
-| 2025–2026 · Latin | Mr. Karlin | 6 | 121 | 70 |
-| 2025–2026 · Integrated Humanities | Ms. Attar | 6 | 77 | 67 |
+| 9th Grade Science | Dr. Shulman | 12 | 156 | 129 |
+| Hebrew | Morah Gabay | 3 | 91 | 36 |
+| Latin | Mr. Karlin | 6 | 121 | 70 |
+| Integrated Humanities | Ms. Attar | 6 | 77 | 67 |
+
+### General Topics
+
+| Course | Units | Flashcards | Quiz Questions |
+|--------|-------|------------|----------------|
+| NY State Driver's Permit Test Prep | 12 | 195 | 146 |
 
 ### Science Units (Dr. Shulman)
 1. Energy
@@ -34,6 +42,7 @@ Interactive exam prep for students at **Emet Classical Academy**. Study notes, f
 ### Hebrew Units (Morah Gabay)
 1. Vocabulary — City & School (bidirectional flashcards: Hebrew ↔ English)
 2. Self-Introduction Conversation & שם פועל Grammar
+3. Reading Practice — A Student's Introduction
 
 > More Hebrew units will be added when textbook pages 1–117 become available.
 
@@ -54,6 +63,21 @@ Interactive exam prep for students at **Emet Classical Academy**. Study notes, f
 4. Essay Theme A — The Individual and the State (Plato's *Republic*, *Apology*, Aristotle's *Politics*)
 5. Essay Theme B — The Jews and Rome (Livy, Hadas, Tacitus, Josephus)
 6. Essay Theme C — Man and G-d (Numbers 35, Hammurabi, Memphite Theology, Gilgamesh, Homer)
+
+### NY State Driver's Permit Test Prep (Self-Study)
+Based on the official NY DMV Driver's Manual. Every fact, fine, point value, and BAC threshold is drawn directly from the manual text.
+1. Driver Licenses & the Learner Permit
+2. How to Keep Your License
+3. Owning a Vehicle — Registration, Title & Inspection
+4. Traffic Control — Signs, Signals & Pavement Markings
+5. Intersections, Right-of-Way & Turns
+6. How to Pass & School Buses
+7. Parallel Parking & Parking Regulations
+8. Defensive Driving
+9. Alcohol, Drugs & the Law
+10. Special Driving Conditions
+11. Sharing the Road
+12. Crashes & Modern Vehicle Technology
 
 ---
 
@@ -82,7 +106,7 @@ No accounts or logins required. Each student enters their name on first visit. P
 | Styling | Tailwind CSS + shadcn/ui |
 | Package manager | pnpm |
 | Progress storage | localStorage (no database) |
-| Hosting | Vercel (auto-deploys on push to `main`) |
+| Hosting | Vercel (auto-deploys on push to `master`) |
 
 ---
 

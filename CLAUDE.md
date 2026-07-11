@@ -153,10 +153,13 @@ All progress stored in `localStorage` under key `eca_study_progress`. Structure:
 Each subject gets a distinct color (Tailwind color name set in the course `color` field):
 - Science: `indigo`
 - Hebrew: `emerald`
-- Bible: `amber` (planned)
-- History: `rose` (planned)
+- Latin: `amber`
+- Integrated Humanities: `purple`
+- NY State Driver's Permit Test Prep: `sky`
+- Bible: TBD (planned)
+- History: TBD (planned)
 
-The course `displayName` format is: `'YYYY–YYYY · Subject · Teacher'`
+School-year courses use the `displayName` format: `'YYYY–YYYY · Subject · Teacher'`. General Topics courses (no fixed school year — `category: 'general'`, `year: 'general'`) use a plain subject-only `displayName` with `teacher: 'Self-Study'`.
 Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 
 ---
@@ -178,6 +181,7 @@ Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 | `hebrew-9th-2026` | 2025–2026 · Hebrew | Morah Gabay | 3 (expanding) |
 | `latin-9th-2026` | 2025–2026 · Latin | Mr. Karlin | 6 |
 | `humanities-9th-2026` | 2025–2026 · Integrated Humanities | Ms. Attar | 6 |
+| `ny-drivers-permit` | NY State Driver's Permit Test Prep | Self-Study | 12 |
 
 ---
 
