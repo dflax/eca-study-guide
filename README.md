@@ -23,7 +23,7 @@ Courses are organized on the homepage into sections by school year (newest first
 
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
-| 10th Grade Integrated Science II | TBD | 7 | 82 | 59 |
+| 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 |
 
 ### General Topics
 

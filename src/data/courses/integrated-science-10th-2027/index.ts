@@ -9,11 +9,11 @@ import { unit07ComparingMacromolecules } from './units/unit-07-comparing-macromo
 
 export const integratedScienceTenth2027: Course = {
   id: 'integrated-science-10th-2027',
-  displayName: '2026–2027 · 10th Grade Integrated Science II',
+  displayName: '2026–2027 · 10th Grade Integrated Science II · Dr. Shulman',
   year: '2026-2027',
   category: 'school-year',
   subject: '10th Grade Integrated Science II',
-  teacher: 'Emet Classical Academy',
+  teacher: 'Dr. Shulman',
   school: 'Emet Classical Academy',
   description: 'Unit 1 review, The Chemistry of Life: water and bonding, functional groups, proteins, nucleic acids, carbohydrates, and lipids. Notes, flashcards, and quizzes built from the Unit 1 study guide.',
   color: 'rose',
