@@ -1,0 +1,280 @@
+import type { Unit } from '@/types/study';
+
+export const unit02MacromoleculesFunctionalGroups: Unit = {
+  id: 'unit-02-macromolecules-functional-groups',
+  number: 2,
+  title: 'Macromolecules & Functional Groups',
+  description: 'Carbon skeletons, functional groups, elements in each biomolecule, monomers, dehydration synthesis, hydrolysis, and identifying structures.',
+  notes: [
+    {
+      heading: 'Carbon: The Skeleton of Life',
+      content: 'Carbon forms the skeleton of all organic macromolecules because it can form four bonds. This allows carbon to build long, continuous chains (and rings) with diverse shapes.',
+      bullets: [
+        'In skeletal (line) drawings, every corner and end of a line is a carbon atom',
+        'Counting carbons: a zigzag with 6 vertices/ends = 6 C; a 5-sided ring = 5 C; a branched "Y" shape with 4 ends/vertices = 4 C',
+        'Functional groups attached to the carbon skeleton add O, N, P (and S) atoms',
+      ],
+    },
+    {
+      heading: 'Four Macromolecule Classes & Their Monomers',
+      content: 'Large biological molecules are built from smaller repeating units called monomers.',
+      bullets: [
+        'Carbohydrates → monomer: monosaccharide (e.g., glucose)',
+        'Proteins → monomer: amino acid',
+        'Nucleic acids → monomer: nucleotide',
+        'Lipids are not true polymers, but include fats (triglycerides), phospholipids, and steroids',
+      ],
+    },
+    {
+      heading: 'Dehydration Synthesis & Hydrolysis',
+      content: 'Dehydration synthesis (a condensation reaction) links two monomers together. Water is a PRODUCT because a water molecule is removed to form the new bond.\n\nHydrolysis breaks apart a macromolecule by adding water. Water is a REACTANT because it is used up to break the bond.',
+      bullets: [
+        'Dehydration synthesis: builds up; releases H₂O',
+        'Hydrolysis ("water-splitting"): breaks down; uses H₂O',
+      ],
+    },
+    {
+      heading: 'Functional Groups',
+      content: 'Functional groups are clusters of atoms attached to the carbon skeleton that give a molecule its chemical properties. All four below are polar.',
+      bullets: [
+        'Hydroxyl / alcohol (–OH): polar; found in carbohydrates, some amino acids, and nucleic acids',
+        'Amino / amine (–NH₂): polar and basic; found in ALL amino acids and in the nitrogenous bases of nucleic acids',
+        'Carboxyl / carboxylic acid (–COOH): polar and acidic; found in ALL amino acids',
+        'Phosphate (–PO₄²⁻): polar; found in phospholipids and nucleic acids',
+      ],
+    },
+    {
+      heading: 'Which Elements Are in Which Molecules?',
+      content: 'Every biological molecule has C, H, and O. Nitrogen, phosphorus, and sulfur appear only in certain classes.',
+      bullets: [
+        'Carbohydrates (and glucose): C, H, O',
+        'Lipids (triglycerides) and steroids: C, H, O',
+        'Phospholipids: C, H, O, P',
+        'Proteins and enzymes: C, H, O, N, and S (sulfur in some amino acids)',
+        'Nucleic acids and DNA: C, H, O, N, P',
+      ],
+    },
+    {
+      heading: 'Identifying Structures',
+      content: 'Know how to recognize each class of macromolecule from a drawing.',
+      bullets: [
+        'Four fused carbon rings = steroid (a lipid)',
+        'Glycerol backbone with three long hydrocarbon tails = fat / triglyceride (a lipid)',
+        'Central carbon with an amino group, carboxyl group, H, and a side chain = amino acid (protein monomer)',
+        'Two rings of sugar joined together = carbohydrate (disaccharide)',
+        'Sugar + nitrogenous base + phosphate(s) (e.g., ATP) = nucleotide',
+        'Two amino acids joined by a C–N peptide bond = dipeptide',
+      ],
+    },
+  ],
+  flashcards: [
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-01',
+      front: 'What element forms the skeleton of all organic macromolecules? Why?',
+      back: 'Carbon, because it can form four bonds, creating long continuous chains with diverse shapes.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-02',
+      front: 'What additional elements are found in functional groups attached to the skeleton?',
+      back: 'Oxygen, nitrogen, phosphorus (and sulfur).',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-03',
+      front: 'What kind of reaction links two monomers together? Is water a product or reactant?',
+      back: 'Dehydration synthesis. Water is a PRODUCT.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-04',
+      front: 'What kind of reaction breaks apart a macromolecule? Is water a product or reactant?',
+      back: 'Hydrolysis. Water is a REACTANT.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-05',
+      front: 'Monomer of carbohydrates',
+      back: 'Monosaccharide (e.g., glucose)',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-06',
+      front: 'Monomer of nucleic acids',
+      back: 'Nucleotide',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-07',
+      front: 'Monomer of proteins',
+      back: 'Amino acid',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-08',
+      front: 'Hydroxyl (alcohol) group: formula, properties, and where found',
+      back: '–OH. Polar. Found in carbohydrates, some amino acids, and nucleic acids.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-09',
+      front: 'Amino (amine) group: formula, properties, and where found',
+      back: '–NH₂. Polar and basic. Found in all amino acids and in the nitrogenous bases of nucleic acids.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-10',
+      front: 'Carboxyl (carboxylic acid) group: formula, properties, and where found',
+      back: '–COOH. Polar and acidic. Found in all amino acids.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-11',
+      front: 'Phosphate group: formula, properties, and where found',
+      back: '–PO₄²⁻. Polar. Found in phospholipids and nucleic acids.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-12',
+      front: 'Which functional group is acidic? Which is basic?',
+      back: 'Acidic: carboxylic acid (–COOH). Basic: amine (–NH₂).',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-13',
+      front: 'Which functional groups are found in ALL amino acids?',
+      back: 'The amino group (–NH₂) and the carboxyl group (–COOH). Some amino acids also have a hydroxyl (–OH) in their side chain.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-14',
+      front: 'Which elements are found in proteins?',
+      back: 'Carbon, hydrogen, oxygen, nitrogen, and sulfur (S in some amino acids).',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-15',
+      front: 'Which elements are found in nucleic acids (DNA/RNA)?',
+      back: 'Carbon, hydrogen, oxygen, nitrogen, and phosphorus.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-16',
+      front: 'Which elements are found in carbohydrates, triglycerides, and steroids?',
+      back: 'Only carbon, hydrogen, and oxygen.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-17',
+      front: 'Identify a structure with four fused carbon rings.',
+      back: 'A steroid (a type of lipid).',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-18',
+      front: 'In a skeletal line drawing, how do you count the carbon atoms?',
+      back: 'Each corner (vertex) and each end of a line is one carbon atom. (Example: a 5-sided ring has 5 carbons.)',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-fc-19',
+      front: 'What class of molecule is ATP?',
+      back: 'ATP is a nucleotide (a sugar, a nitrogenous base, and phosphate groups) — the type of monomer in nucleic acids.',
+    },
+  ],
+  quiz: [
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-01',
+      question: 'Why does carbon form the skeleton of organic macromolecules?',
+      options: [
+        'It forms four bonds, allowing long chains with diverse shapes',
+        'It is the most electronegative element',
+        'It forms only ionic bonds',
+        'It forms two bonds, making straight chains only',
+      ],
+      correctIndex: 0,
+      explanation: 'Carbon\'s four bonds allow long continuous chains, branches, and rings.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-02',
+      question: 'Which reaction links two monomers together, and what happens to water?',
+      options: [
+        'Hydrolysis; water is a reactant',
+        'Hydrolysis; water is a product',
+        'Dehydration synthesis; water is a reactant',
+        'Dehydration synthesis; water is a product',
+      ],
+      correctIndex: 3,
+      explanation: 'Dehydration synthesis removes water as the monomers are joined, so water is a product.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-03',
+      question: 'Which reaction breaks apart a macromolecule?',
+      options: ['Dehydration synthesis, using water', 'Hydrolysis, using water as a reactant', 'Hydrolysis, releasing water as a product', 'Condensation, using water'],
+      correctIndex: 1,
+      explanation: 'Hydrolysis ("water-breaking") adds water to split bonds, so water is a reactant.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-04',
+      question: 'How many carbon atoms are in a skeletal drawing of a five-sided ring?',
+      options: ['4', '5', '6', '10'],
+      correctIndex: 1,
+      explanation: 'Each corner of the pentagon is a carbon atom, so there are 5.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-05',
+      question: 'Which pair of monomer and macromolecule class is correct?',
+      options: [
+        'Nucleotide → protein',
+        'Amino acid → carbohydrate',
+        'Monosaccharide → carbohydrate',
+        'Monosaccharide → nucleic acid',
+      ],
+      correctIndex: 2,
+      explanation: 'Carbohydrates are built from monosaccharides, proteins from amino acids, and nucleic acids from nucleotides.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-06',
+      question: 'Which functional group is acidic?',
+      options: ['Hydroxyl (–OH)', 'Amino (–NH₂)', 'Carboxyl (–COOH)', 'Phosphate (–PO₄²⁻)'],
+      correctIndex: 2,
+      explanation: 'The carboxyl group (carboxylic acid) is the acidic group in this unit; the amino group is basic.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-07',
+      question: 'Which functional groups are found in ALL amino acids?',
+      options: [
+        'Hydroxyl and phosphate',
+        'Amino and carboxyl',
+        'Amino and phosphate',
+        'Carboxyl and hydroxyl',
+      ],
+      correctIndex: 1,
+      explanation: 'Every amino acid has an amino group and a carboxyl group. Hydroxyl appears only in some side chains.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-08',
+      question: 'Which functional group is found in phospholipids and nucleic acids?',
+      options: ['Carboxyl', 'Amino', 'Phosphate', 'Methyl only'],
+      correctIndex: 2,
+      explanation: 'Phosphate groups are found in phospholipids (the polar head) and in the backbone of nucleic acids.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-09',
+      question: 'Which macromolecule class contains sulfur (in some of its monomers)?',
+      options: ['Carbohydrates', 'Triglycerides', 'Proteins', 'Nucleic acids'],
+      correctIndex: 2,
+      explanation: 'Some amino acids contain sulfur. Proteins (and enzymes) can therefore contain S, while nucleic acids contain P instead.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-10',
+      question: 'Which of these molecules contains ONLY carbon, hydrogen, and oxygen?',
+      options: ['DNA', 'Enzymes', 'Glucose', 'Nucleic acids'],
+      correctIndex: 2,
+      explanation: 'Glucose is C₆H₁₂O₆. DNA contains N and P; enzymes (proteins) contain N and S.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-11',
+      question: 'A drawing shows a molecule made of four fused carbon rings with a short side chain. What is it?',
+      options: ['A steroid', 'A triglyceride', 'An amino acid', 'A nucleotide'],
+      correctIndex: 0,
+      explanation: 'Four fused rings plus a side chain is the structure of a steroid (a lipid).',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-12',
+      question: 'The molecule ATP (a sugar, a nitrogenous base, and three phosphate groups) is best classified as a:',
+      options: ['Amino acid', 'Monosaccharide', 'Nucleotide', 'Fatty acid'],
+      correctIndex: 2,
+      explanation: 'Sugar + base + phosphate is a nucleotide, the monomer of nucleic acids.',
+    },
+    {
+      id: 'unit-02-macromolecules-functional-groups-q-13',
+      question: 'Two amino acids joined by a C–N bond form a:',
+      options: ['Disaccharide', 'Dipeptide', 'Triglyceride', 'Dinucleotide'],
+      correctIndex: 1,
+      explanation: 'Joining two amino acids makes a dipeptide (linked by a peptide bond).',
+    },
+  ],
+};

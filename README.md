@@ -19,6 +19,12 @@ Courses are organized on the homepage into sections by school year (newest first
 | Latin | Mr. Karlin | 6 | 121 | 70 |
 | Integrated Humanities | Ms. Attar | 6 | 77 | 67 |
 
+### 2026–2027 School Year
+
+| Course | Teacher | Units | Flashcards | Quiz Questions |
+|--------|---------|-------|------------|----------------|
+| 10th Grade Integrated Science II | TBD | 7 | 82 | 59 |
+
 ### General Topics
 
 | Course | Units | Flashcards | Quiz Questions |
@@ -38,6 +44,15 @@ Courses are organized on the homepage into sections by school year (newest first
 10. Stoichiometry
 11. Kinetic Molecular Theory
 12. Lab Skills
+
+### Integrated Science II Units — Unit 1: Chemistry of Life (2026–2027)
+1. Water & Chemical Bonds
+2. Macromolecules & Functional Groups
+3. Proteins
+4. Nucleic Acids
+5. Carbohydrates
+6. Lipids
+7. Comparing the Macromolecules
 
 ### Hebrew Units (Morah Gabay)
 1. Vocabulary — City & School (bidirectional flashcards: Hebrew ↔ English)
