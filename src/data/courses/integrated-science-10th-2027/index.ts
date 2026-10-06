@@ -17,6 +17,12 @@ export const integratedScienceTenth2027: Course = {
   school: 'Emet Classical Academy',
   description: 'Unit 1 review, The Chemistry of Life: water and bonding, functional groups, proteins, nucleic acids, carbohydrates, and lipids. Notes, flashcards, and quizzes built from the Unit 1 study guide.',
   color: 'rose',
+  summaryQuiz: {
+    title: 'Summary Quiz — All Units',
+    description: '30 questions drawn at random from a pool of 500 covering all seven units. Every attempt is a new mix, balanced across the units.',
+    questionCount: 30,
+    poolSize: 500,
+  },
   units: [
     unit01WaterAndBonding,
     unit02MacromoleculesFunctionalGroups,

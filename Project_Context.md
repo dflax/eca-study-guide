@@ -124,3 +124,11 @@ A unit is considered "complete" when: notes viewed + ≥80% of flashcards learne
 - `pnpm build` passes with zero TypeScript errors as of 2026-05-26
 - All 7 routes build successfully (static home + 6 dynamic routes)
 - Deploy to Vercel: push to main branch, connect repo in Vercel dashboard
+
+## Summary Quizzes (course-level)
+
+- Optional `summaryQuiz` config on `Course` enables a cross-unit quiz at `/[courseId]/summary-quiz` (entry card on the course page).
+- Question pools live outside the `Course` object (`src/data/summary-quizzes.ts` → `getSummaryPool`) so they're only bundled into the summary page.
+- `src/lib/summary-quiz.ts` samples after mount: units get an even share (30 across 7 units = 4 each, 2 random units get 5), questions from the previous attempt are skipped when possible, and option order is shuffled.
+- Attempts are saved under unit id `summary-quiz` (does not affect unit completion).
+- Currently only `integrated-science-10th-2027` (500-question pool: existing unit quizzes + `summary-pool/unit-0N.ts`).

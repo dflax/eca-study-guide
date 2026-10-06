@@ -9,6 +9,18 @@ export interface Course {
   description: string;
   color: string;        // Tailwind color class prefix e.g., "indigo"
   units: Unit[];
+  summaryQuiz?: SummaryQuizConfig; // Optional cross-unit quiz drawn from a large question pool
+}
+
+export interface SummaryQuizConfig {
+  title: string;
+  description: string;
+  questionCount: number;  // questions per attempt
+  poolSize: number;       // total questions in the pool (display only; verified at build by the pool module)
+}
+
+export interface PoolQuestion extends QuizQuestion {
+  unitNumber: number;     // which unit the question belongs to, used to balance each attempt
 }
 
 export interface Unit {

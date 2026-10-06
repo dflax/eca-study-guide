@@ -23,7 +23,7 @@ Courses are organized on the homepage into sections by school year (newest first
 
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
-| 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 |
+| 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
 
 ### General Topics
 
@@ -53,6 +53,8 @@ Courses are organized on the homepage into sections by school year (newest first
 5. Carbohydrates
 6. Lipids
 7. Comparing the Macromolecules
+
+**Summary Quiz — All Units:** 30 questions drawn at random from a 500-question pool (the 59 unit-quiz questions plus 441 summary-only questions), balanced across all seven units and reshuffled on every attempt. Pool lives in `src/data/courses/integrated-science-10th-2027/summary-pool/`.
 
 ### Hebrew Units (Morah Gabay)
 1. Vocabulary — City & School (bidirectional flashcards: Hebrew ↔ English)

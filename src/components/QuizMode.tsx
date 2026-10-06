@@ -8,11 +8,14 @@ interface QuizModeProps {
   courseId: string;
   unitId: string;
   quiz: QuizQuestion[];
+  onRestart?: () => void;   // if set, "Try Again" calls this (e.g. to draw a fresh question set) instead of replaying the same quiz
+  backHref?: string;        // defaults to the unit page
+  backLabel?: string;
 }
 
 type AnswerState = 'unanswered' | 'answered';
 
-export default function QuizMode({ courseId, unitId, quiz }: QuizModeProps) {
+export default function QuizMode({ courseId, unitId, quiz, onRestart, backHref, backLabel }: QuizModeProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [answerState, setAnswerState] = useState<AnswerState>('unanswered');
@@ -52,6 +55,10 @@ export default function QuizMode({ courseId, unitId, quiz }: QuizModeProps) {
   }
 
   function handleRestart() {
+    if (onRestart) {
+      onRestart();
+      return;
+    }
     setCurrentIndex(0);
     setSelectedIndex(null);
     setAnswerState('unanswered');
@@ -82,13 +89,13 @@ export default function QuizMode({ courseId, unitId, quiz }: QuizModeProps) {
             onClick={handleRestart}
             className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-xl transition-colors"
           >
-            Try Again
+            {onRestart ? 'New Questions' : 'Try Again'}
           </button>
           <a
-            href={`/${courseId}/${unitId}`}
+            href={backHref ?? `/${courseId}/${unitId}`}
             className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-8 rounded-xl transition-colors"
           >
-            Back to Unit
+            {backLabel ?? 'Back to Unit'}
           </a>
         </div>
       </div>
