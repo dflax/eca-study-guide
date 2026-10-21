@@ -8,22 +8,22 @@ export const unit01BeforeTheRenaissance: Unit = {
   notes: [
     {
       heading: 'The Black Death and Workers\' Bargaining Power',
-      content: 'The Black Death (bubonic plague) reached Europe in 1347 and swept through it by about 1351, killing roughly one-third or more of the population. The sudden shortage of people meant a sudden shortage of labor. Surviving workers were suddenly scarce, so landlords and employers had to compete for them.\n\nThat gave survivors real bargaining power: they could demand higher wages, move to find better pay, and refuse the old terms of serfdom. This is the key cause-and-effect to remember: fewer workers = more bargaining power for each worker.',
+      content: 'The Bubonic Plague / Black Death (1348–1350) wiped out about one-third of Europe and created economic, social, and political instability. The sudden shortage of people meant a sudden shortage of labor. Surviving workers were suddenly scarce, so landlords and employers had to compete for them (Jack\'s notes: fewer workers, added demand for hard labor, and improved peasant life).\n\nThat gave survivors real bargaining power: they could demand higher wages, move to find better pay, and refuse the old terms of serfdom. This is the key cause-and-effect to remember: fewer workers = more bargaining power for each worker.',
       bullets: [
-        'Black Death: plague that killed a huge share of Europe\'s population, 1347–1351',
+        'Black Death: plague (1348–1350) that killed about one-third of Europe\'s population',
         'Result: labor shortage, so surviving workers demanded higher wages and better terms',
         'Effect: the old feudal arrangement (serfs tied to the land) began to weaken',
       ],
     },
     {
       heading: 'The Ordinance of Labourers (1349)',
-      content: 'England\'s King Edward III responded with the Ordinance of Labourers (1349), a law meant to turn back the effects of the Black Death. Its goal was to freeze wages at pre-plague levels. Workers were to be paid the same amount as before the plague, even though they had been demanding more.\n\nTwo requirements show the attempt to control workers: (1) able-bodied people had to accept work when it was offered, and (2) they had to take it at the old, pre-plague wage, and employers were forbidden to pay more. A follow-up Statute of Labourers (1351) tried to enforce it further.\n\nIt largely failed: labor was too scarce, and employers kept paying more anyway. Resentment over such laws helped fuel later unrest such as the Peasants\' Revolt of 1381.',
+      content: 'England\'s King Edward III responded with the Ordinance of Labourers (1349), a law meant to turn back the effects of the Black Death. Its goal was to freeze wages at pre-plague levels. Workers were to be paid the same amount as before the plague, even though they had been demanding more.\n\nThe class source (the 1349 text, followed by the Statute of 1351) orders two things: (1) every able-bodied man and woman under sixty, with no trade, craft, or land of their own, must accept work when it is offered, and only at the wages that were customary in 1346, before the plague; and (2) no one may give alms to healthy beggars who could work, because beggars were refusing to labor while they could live on charity. Together these show an attempt to control workers and the post-plague labor problem: high wages and scarce labor.\n\nIt largely failed: labor was too scarce, and employers kept paying more anyway. Resentment over such laws helped fuel later unrest such as the Peasants\' Revolt of 1381.',
       bullets: [
         'Passed 1349 under Edward III, in England',
-        'Requirement 1: able-bodied workers must work when asked',
-        'Requirement 2: wages fixed at pre-plague (c. 1346) levels; paying or demanding more was illegal',
+        'Requirement 1: able-bodied people under 60 must accept offered work at pre-plague (1346) wages',
+        'Requirement 2: no giving alms to healthy beggars who are able to work',
         'Purpose: control workers and protect landlords after the plague',
-        'Jack\'s note: workers were paid the same amount as before the Black Death, even though they had increased their wages',
+        'Jack\'s note: workers were paid the same amount as before the Black Death, even though they had increased their wages; the government tried to find ways to control high labor costs',
       ],
     },
     {
@@ -37,7 +37,7 @@ export const unit01BeforeTheRenaissance: Unit = {
     },
     {
       heading: 'The Great Schism',
-      content: 'The Great Schism (also called the Western Schism, 1378–1417) was a split inside the Western Church in which rival popes, one in Rome and one in Avignon (later a third at Pisa), each claimed to be the true pope and excommunicated each other\'s followers. It came after the Avignon papacy (1309–1377), when popes lived in France under heavy French influence. The Council of Constance (1414–1418) finally ended it by electing a single pope, Martin V.\n\nNote: this is not the East–West Schism of 1054 that split the Catholic and Orthodox churches. Here "Great Schism" means the rival-popes split.\n\nWhen Christians could not tell which pope was real, and each side was accused of corruption, confidence in Church authority dropped sharply.',
+      content: 'The Great Schism (also called the Western Schism, 1378–1417) was a split inside the Western Church in which two popes, one in Rome and one in Avignon, claimed authority (a third was later added at Pisa). Jack\'s notes: 2–3 popes in 3 cities. It came after the Avignon papacy (1309–1377), when popes lived in France under heavy French influence (Jack\'s note: trouble with French kings, which weakened the papacy). The Council of Constance (1414–1418) finally ended it by electing a single pope, Martin V.\n\nNote: this is not the East–West Schism of 1054 that split the Catholic and Orthodox churches. Here "Great Schism" means the rival-popes split.\n\nWhen Christians could not tell which pope was real, and each side was accused of corruption, confidence in Church authority dropped sharply.',
       bullets: [
         'Rival popes in Rome and Avignon, 1378–1417',
         'Ended at the Council of Constance, 1417',
@@ -46,29 +46,31 @@ export const unit01BeforeTheRenaissance: Unit = {
     },
     {
       heading: 'What Is the Renaissance? Change and Continuity',
-      content: 'Renaissance means "rebirth." It is the period (roughly the 14th through 16th centuries, beginning in Italy) of renewed interest in the literature, art, and ideas of ancient Greece and Rome. Historians describe history in terms of change (what is new) and continuity (what stays the same).\n\nThe Renaissance brought real change: new attention to the individual and human potential, classical learning, new art techniques, and printing. But there was important continuity: Christianity stayed central. Most Renaissance thinkers and artists were devout, and much of their best work (paintings, sculpture, buildings) served religious purposes.\n\nWhy was Europe ready? The plague had shaken old arrangements, Church scandals had raised questions about authority, and new access to classical texts (through printing, the movement of Greek manuscripts and scholars westward, and scholarly contact with the wider Mediterranean world) gave thinkers new models.',
+      content: 'Renaissance means "rebirth" (French). In this course the Italian Renaissance runs roughly 1375–1527, though period boundaries are debated. It is a period of renewed interest in the literature, art, and ideas of ancient Greece and Rome. Historians describe history in terms of change (what is new) and continuity (what stays the same).\n\nThe Renaissance brought real change: new attention to the individual and human potential, classical learning, new art techniques, and printing. But there was important continuity: Christianity stayed central. Most Renaissance thinkers and artists were devout, and much of their best work (paintings, sculpture, buildings) served religious purposes.\n\nWhy was Europe ready? Your class reading lists five contributing factors: (1) the crisis in the Church (corruption and the Great Schism); (2) the Black Death; (3) the discovery of Greek and Roman artifacts, such as Petrarch\'s discovery of some of Cicero\'s lost letters in 1345, and statues and Roman art found in the soil; (4) the printing press (c. 1436) and movable type (c. 1450), which spread ideas more easily; and (5) the Fall of Constantinople to the Ottomans in 1453, which led Christian scholars to flee west with their ancient Greek and Roman texts and sparked new interest in learning Greek.\n\nWas there actually a Renaissance? The periodization problem: there is no bright dividing line between eras, since one flows into the next (Jack noted the periods are very close and don\'t have specific dates). Continuity: the Middle Ages already loved Latin and Greek texts, and late-medieval ideas flowed into the Renaissance. Change: the label is useful because it names a clear shift toward modernity, a reexamination of Greco-Roman culture seen through a Christian lens. A strong one-sentence judgment: although the Renaissance grew out of the Middle Ages, it was also a real rebirth of Greek and Roman learning, so it was both.',
       bullets: [
-        'Renaissance — "rebirth"; revival of classical learning and art beginning in Italy',
+        'Renaissance — "rebirth"; revival of classical learning and art beginning in Italy (c. 1375–1527 in this course)',
         'Continuity — something that remains the same across a period of change',
         'Change example: focus on human potential and classical models',
         'Continuity example: Christianity remained central to life and art',
-        'Access to classical texts increased through developments such as printing and the arrival of Greek manuscripts and scholars (check your 002A.2 reading for the exact developments your class covered)',
+        'Fall of Constantinople (1453): Christian scholars fled west with Greek and Roman texts',
+        'Printing press (c. 1436) and movable type (c. 1450): ideas and classical texts spread faster',
+        'Discovery of artifacts: Petrarch found some of Cicero\'s lost letters (1345); Roman statues dug up',
       ],
     },
   ],
   flashcards: [
-    { id: 'unit-01-before-the-renaissance-fc-01', front: 'Black Death', back: 'The bubonic plague pandemic that struck Europe from 1347 to about 1351 and killed roughly a third or more of the population. The resulting labor shortage gave surviving workers more bargaining power.' },
-    { id: 'unit-01-before-the-renaissance-fc-02', front: 'Ordinance of Labourers', back: 'English law of 1349 (Edward III) meant to turn back the effects of the Black Death. It made workers accept work when offered and froze wages at pre-plague levels. Largely unsuccessful.' },
+    { id: 'unit-01-before-the-renaissance-fc-01', front: 'Black Death', back: 'The bubonic plague pandemic of 1348–1350 that wiped out about one-third of Europe and caused economic, social, and political instability. The resulting labor shortage gave surviving workers more bargaining power.' },
+    { id: 'unit-01-before-the-renaissance-fc-02', front: 'Ordinance of Labourers', back: 'English law of 1349 (Edward III) meant to turn back the effects of the Black Death. It required able-bodied people under 60 to accept work at pre-plague (1346) wages and forbade giving alms to healthy beggars who could work. Largely unsuccessful.' },
     { id: 'unit-01-before-the-renaissance-fc-03', front: 'simony', back: 'The buying and selling of Church offices or spiritual benefits. Named after Simon Magus in the Book of Acts.' },
     { id: 'unit-01-before-the-renaissance-fc-04', front: 'nepotism', back: 'Favoring relatives, especially by giving them Church or government offices regardless of their qualifications. From Latin nepos, "nephew."' },
     { id: 'unit-01-before-the-renaissance-fc-05', front: 'indulgence', back: 'A Church grant that reduces the temporal punishment due for sin. It became controversial when it was sold for money.' },
-    { id: 'unit-01-before-the-renaissance-fc-06', front: 'Great Schism', back: 'The Western Schism (1378–1417): rival popes in Rome and Avignon (later also Pisa) each claimed to be the true pope. Ended by the Council of Constance. Not the 1054 East–West split.' },
+    { id: 'unit-01-before-the-renaissance-fc-06', front: 'Great Schism', back: 'The Western Schism (1378–1417): two popes in Rome and Avignon (later also Pisa) each claimed to be the true pope. Ended by the Council of Constance. Not the 1054 East–West split.' },
     { id: 'unit-01-before-the-renaissance-fc-07', front: 'Renaissance', back: '"Rebirth." The period (c. 1300s–1500s), starting in Italy, of renewed interest in classical Greek and Roman learning, art, and ideas, with new attention to human potential.' },
     { id: 'unit-01-before-the-renaissance-fc-08', front: 'continuity', back: 'What stays the same over time, even during a period of big change. Example: Christianity remained central through the Renaissance.' },
     { id: 'unit-01-before-the-renaissance-fc-09', front: '1. How did the Black Death change surviving workers\' bargaining power?', back: 'So many people died that labor was scarce. Surviving workers could demand higher wages, move to find better pay, and resist old servile obligations, so their bargaining power increased.' },
-    { id: 'unit-01-before-the-renaissance-fc-10', front: '2. What two requirements in the Ordinance of Labourers show an attempt to control workers after the plague?', back: '(1) Able-bodied workers had to accept work when it was offered. (2) They had to take it at pre-plague wages, and no one could pay or demand more. Together these tried to freeze wages and keep workers in place.' },
+    { id: 'unit-01-before-the-renaissance-fc-10', front: '2. What two requirements in the Ordinance of Labourers show an attempt to control workers after the plague?', back: '(1) Able-bodied people under 60 without other work had to accept offered work, and only at pre-plague (1346) wages. (2) People could not give alms to healthy beggars able to work. Together these tried to control high labor costs and keep workers working.' },
     { id: 'unit-01-before-the-renaissance-fc-11', front: '3. How did Church corruption and rival popes weaken confidence in Church authority?', back: 'Simony, nepotism, and the sale of indulgences made Church leaders look worldly and greedy. The Great Schism, with rival popes each claiming to be the real one, made it unclear who had true authority, so people trusted the institution less.' },
-    { id: 'unit-01-before-the-renaissance-fc-12', front: '4. Name two developments in 002A.2 that increased access to classical texts or ideas.', back: 'General answer: (1) the printing press / movable type made copies cheaper and more widespread; (2) Greek manuscripts and scholars reached the West (for example from Byzantium, especially after 1453). Also: contact with Arab and Byzantine scholarship. Check your class reading for the exact two.' },
+    { id: 'unit-01-before-the-renaissance-fc-12', front: '4. Name two developments in 002A.2 that increased access to classical texts or ideas.', back: 'From the 002A reading, any two of: the discovery of Greek and Roman artifacts and texts (Petrarch found some of Cicero\'s lost letters in 1345; statues and Roman art were dug up); the printing press (c. 1436) and movable type (c. 1450), which spread ideas more easily; and the Fall of Constantinople (1453), when Christian scholars fled west bringing ancient Greek and Roman texts and sparking interest in learning Greek.' },
   ],
   quiz: [
     {
@@ -81,7 +83,7 @@ export const unit01BeforeTheRenaissance: Unit = {
         'Machines replaced the need for lords',
       ],
       correctIndex: 1,
-      explanation: 'With roughly a third or more of the population dead, there were far fewer workers. Landlords and employers had to compete for them, so wages and bargaining power rose.',
+      explanation: 'With about a third of the population dead, there were far fewer workers. Landlords and employers had to compete for them, so wages and bargaining power rose.',
     },
     {
       id: 'unit-01-before-the-renaissance-q-02',
@@ -99,13 +101,13 @@ export const unit01BeforeTheRenaissance: Unit = {
       id: 'unit-01-before-the-renaissance-q-03',
       question: 'Which pair of requirements was part of the Ordinance of Labourers?',
       options: [
-        'Workers must accept work when offered, and at pre-plague wages',
+        'Able-bodied workers must accept work at pre-plague wages, and no alms for healthy beggars',
         'Workers must join the army, and pay a church tax',
         'Workers may choose their lord, and set their own wages',
         'Workers must learn Latin, and attend Mass daily',
       ],
       correctIndex: 0,
-      explanation: 'Both requirements aimed at control: take the job offered, and take it at the old wage.',
+      explanation: 'The able-bodied had to take offered work at the old (1346) wage, and no one could give alms to healthy beggars able to work. Both aimed at controlling labor.',
     },
     {
       id: 'unit-01-before-the-renaissance-q-04',

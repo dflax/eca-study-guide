@@ -54,10 +54,51 @@ export const unit02ItalianHumanism: Unit = {
     },
     {
       heading: 'Rabbi Akiva: Stalks of Grain and Loaves of Bread',
-      content: 'In a well-known rabbinic story, Rabbi Akiva is asked which is better, the works of God or the works of human beings. He answers that human works are better, and shows stalks of grain and loaves of bread: God gives the raw grain, but people must grind, knead, and bake it to make something nourishing.\n\nThe lesson: human work completes and improves what God created. People are God\'s partners in the world, and their labor, skill, and creativity matter. This parallels the Renaissance emphasis on human ability and dignity (compare deus secundus in Unit 4).',
+      content: 'The class primary source is Midrash Tanchuma, Tazria 5. The evil Turnus Rufus asks Rabbi Akiva, "Which are the greater works, those of the Holy One Blessed is He or those of flesh and blood?" Akiva answers, "Those of flesh and blood are greater." Turnus Rufus objects: "But the Heavens and Earth, is Man able to make such as those?" Akiva replies, "Don\'t speak to me about something which is beyond Man, which he has no mastery over; rather speak of things which are found among people." Then Turnus Rufus asks, "Why do you circumcise?" and Akiva says he knew he would ask that, which is why he began by saying that the works of Man are better than the works of the Holy One. Akiva brings stalks of grain and loaves of bread: "These are the works of the Holy One Blessed is He, and these are the works of Man. Aren\'t these better than the stalks?"\n\nThe lesson: human work completes and improves what God created. God provides the grain; people grind, knead, and bake it into bread. Jack\'s note: human action is the bread, grain is God\'s action, and the bread tastes better than the grain. Circumcision makes the same point: God made the human body, and people perfect it. This parallels the Renaissance emphasis on human ability and dignity (compare deus secundus in Unit 4).',
       bullets: [
+        'Source: Midrash Tanchuma, Tazria 5 (Rabbi Akiva and Turnus Rufus)',
         'Stalks of grain = what God provides; loaves of bread = what human work makes of it',
-        'Human work completes creation; people are partners with God',
+        'Akiva\'s claim: the works of Man are better, because human work completes creation',
+        'Akiva avoids things beyond human mastery (heavens and earth) and points to what people make',
+      ],
+    },
+    {
+      heading: 'When, Where, and What Was Reborn',
+      content: 'In this course the Italian Renaissance runs roughly 1375–1527, though period boundaries are debated. It was centered on Florence, a city-state in central Italy dominated by the Medici for much of the fifteenth century. Italy was then a handful of small states, such as Florence, Milan, Naples, Piedmont, Venice, and the Papal States (the Kingdom of Italy was not proclaimed until 1861). The Renaissance began in the northern half of the peninsula, the region with Europe\'s greatest cities and towns and its most vibrant commercial trade. On the 1494 map of Italy in your guide, Florence is in the north-center; other states shown include Milan, Venice, the Papal States, and Naples.\n\nThe Renaissance looked back to the Greeks and Romans, which is why it is called a "rebirth." Greek culture had been known in the West earlier: through Latin translations, through Roman works that referred to it, through Latin translations of Arabic translations, and through Latin translations arising from Greek texts and intellectuals of the Byzantine Empire. Many historians say it was not a true rebirth but a continuation of the Middle Ages. Still, Renaissance figures saw themselves as reviving an old Greco-Roman tradition, and they developed new ideas from the ancient texts, so both revival and change shaped the period. Renaissance culture was influenced by the Hebrew Bible and Christianity, so it viewed Greco-Roman culture through a new, spiritual lens. For example, in paintings of the Akeidah (the binding of Isaac), Caravaggio and Rembrandt mixed realistic, emotional human portrayal with spiritual significance.',
+      bullets: [
+        'Italian Renaissance: roughly 1375–1527; centered on Florence under the Medici',
+        'Italian states c. 1494: Florence, Milan, Venice, Naples, Piedmont, Papal States',
+        'Greek learning reached the West earlier through Latin translations, Roman works, Arabic translations, and Byzantine texts',
+        'Revival and change both shaped the period; viewed through a Christian lens',
+      ],
+    },
+    {
+      heading: 'Worldly Beauty, Religion, and Human Possibility',
+      content: 'Medieval Christian thought placed great weight on salvation and the afterlife. Renaissance humanists gave added prestige to civic action, education, and human accomplishment, while Christian belief and practice remained central. The Renaissance also emphasized beauty in secular life, such as decorating homes (not just churches). Jack\'s notes on Palmer & Colton: the Renaissance allowed enjoyment of wealth and beautiful things, the opposite of medieval darkness and self-denial, and it stressed community and family.\n\nNeo-Platonism, in the cue list in your guide, is the movement that combined Plato\'s ideas with Christianity to argue that this world matters, because earthly beauty and human action reflect the divine. (Check your class notes for your teacher\'s exact wording.)',
+      bullets: [
+        'Middle Ages: salvation and afterlife, ascetic ideals',
+        'Renaissance adds: human potential, worldly beauty, active and civic life',
+        'Both kept Christianity central',
+      ],
+    },
+    {
+      heading: 'Politics, Education, and Courtesy',
+      content: 'Politics: the era reintroduced Cicero and the classics, with their emphasis on human leadership. For a long time, medieval political theory had been concerned with the proper regime and natural law. Natural law says there is a specific order to the world that people should maintain, partly by using natural reason to determine what is right and what is good for people. In the Renaissance there was renewed interest in good individual leaders and their abilities, as opposed to abstract ways of deciding how a society should be run by laws. A new twist: unlike the Greeks and Romans, who stressed the virtues necessary in a leader, the Renaissance stressed that individuals could be uniquely great. Even the titles show it: Plato wrote the Republic, and Aristotle the Politics, both abstract and theoretical, but Machiavelli named his book The Prince, thinking about a real-world leader.\n\nEducation became more orderly, with secondary schools before university that divided students into levels. There was renewed interest in Greek, and Latin was learned with more focus on ancient classical texts instead of just the Latin Bible (the Vulgate) and later medieval works.\n\nCourtesy: courtly conduct and manners were important before the Renaissance and continued to develop. Castiglione\'s Book of the Courtier made cultivated conduct, conversation, and accomplishment central to its ideal courtier. It shows a particular ideal of social formation, not that medieval people had no manners.',
+      bullets: [
+        'Medieval politics: proper regime and natural law. Renaissance: particular leader, real city',
+        'Plato\'s Republic and Aristotle\'s Politics (abstract) vs. Machiavelli\'s The Prince (a real-world leader)',
+        'Education: secondary schools, Greek, classical Latin over the Vulgate',
+        'Castiglione\'s Book of the Courtier: ideal courtier with cultivated conduct and accomplishment',
+      ],
+    },
+    {
+      heading: 'Humanism in Literature: Petrarch, Cicero, Bruni',
+      content: 'Humanism, a focus on human potential and accomplishment, was born at the end of the Middle Ages with writers like Petrarch and flourished at the beginning of the Renaissance. It centered on classical languages and humane letters as a way of forming the cultivated person. Many humanists were Christians; Erasmus exemplifies Christian humanism in the Northern Renaissance. Writing focused on human experience, and "humane letters" aimed to make a person humane: able to live the most human life possible, full of culture and liberty.\n\nThere was a return to classical Latin, preferred over ecclesiastical (church) Latin for its style and worldliness; the Latin of Cicero and Livy was lively, while medieval Latin was often technical. Humanists also moved forward with the vernacular: Florentine Italian became the dominant form of Italian across Italy, and over a long period national languages formed (English and French did the same).\n\nBruni and civic humanism: Leonardo Bruni used ancient learning for a present political purpose in Florence. Jack\'s notes: Bruni wrote a history of Florence to inspire the locals, and he showed that effective ability to speak and write could be a worthwhile skill to influence public policy and government. On humanism generally, Jack noted that humanists focused on nature, experience, and good manners rather than just church teachings.',
+      bullets: [
+        'Petrarch — early humanist; found some of Cicero\'s lost letters (1345)',
+        'Erasmus — Christian humanism in the Northern Renaissance',
+        'Bruni — civic humanism: wrote a history of Florence; used rhetoric to influence public policy',
+        'Classical Latin (Cicero, Livy) over church Latin; Florentine Italian became the standard Italian',
       ],
     },
     {
@@ -85,8 +126,14 @@ export const unit02ItalianHumanism: Unit = {
     { id: 'unit-02-italian-humanism-fc-13', front: '6. What did humanists study, and what did they hope education would develop in a person?', back: 'They studied the humane letters (grammar, rhetoric, poetry, history, moral philosophy) through classical authors. They hoped it would develop the whole person: wisdom, virtue, eloquence, and ability to serve in civic life.' },
     { id: 'unit-02-italian-humanism-fc-14', front: '7. Why could a Renaissance writer value both classical Latin and the vernacular?', back: 'Classical Latin offered a model of eloquence and reached scholars across Europe. The vernacular reached ordinary readers and expressed local culture (as in Dante). Each had a different purpose and audience.' },
     { id: 'unit-02-italian-humanism-fc-15', front: '8. How does the emphasis on a particular leader in The Prince differ from an inquiry into an ideal regime?', back: 'The Prince is practical: it advises a specific ruler how to gain and keep power in the real world. An inquiry into an ideal regime (like Plato\'s Republic) asks what the best, most just society would be, even if unrealistic.' },
-    { id: 'unit-02-italian-humanism-fc-16', front: '9. What do Rabbi Akiva\'s stalks of grain and loaves of bread show about human work?', back: 'God provides the raw material (grain), but human work turns it into something better (bread). Human labor and creativity complete and improve creation, and people are partners with God.' },
+    { id: 'unit-02-italian-humanism-fc-16', front: '9. What do Rabbi Akiva\'s stalks of grain and loaves of bread show about human work?', back: 'In Midrash Tanchuma, Tazria 5, Akiva tells Turnus Rufus the works of Man are better than the works of God: God gives the grain, but human work turns it into bread, which is better. Human action completes and improves what God provides.' },
     { id: 'unit-02-italian-humanism-fc-17', front: '10. Give one Renaissance change and one important Christian continuity.', back: 'Change: new emphasis on humanism, classical learning, and human dignity and ability. Continuity: Christianity stayed central. Most thinkers were devout and much art and writing served religious purposes.' },
+    { id: 'unit-02-italian-humanism-fc-18', front: 'Bruni (civic humanism)', back: 'Leonardo Bruni used ancient learning for a present political purpose in Florence: he wrote a history of Florence to inspire its people and showed that effective speaking and writing could influence public policy.' },
+    { id: 'unit-02-italian-humanism-fc-19', front: 'Castiglione, Book of the Courtier', back: 'Renaissance book making cultivated conduct, conversation, and accomplishment central to its ideal courtier; evidence of an ideal of social formation, not that medieval people had no manners.' },
+    { id: 'unit-02-italian-humanism-fc-20', front: 'Vulgate', back: 'The Latin translation of the Bible. Renaissance education turned from the Vulgate and later medieval Latin works toward ancient classical texts, and renewed interest in Greek.' },
+    { id: 'unit-02-italian-humanism-fc-21', front: 'Italian Renaissance dates and center', back: 'Roughly 1375–1527 (in this course), centered on Florence under the Medici; began in northern Italy, Europe\'s region of greatest cities and commerce.' },
+    { id: 'unit-02-italian-humanism-fc-22', front: 'Plato\'s Republic, Aristotle\'s Politics, and Machiavelli\'s The Prince', back: 'Republic and Politics are abstract and theoretical (the proper regime). The Prince is about a real-world leader. The title shows the Renaissance shift toward particular, exceptional individuals.' },
+    { id: 'unit-02-italian-humanism-fc-23', front: 'Akeidah paintings (Caravaggio, Rembrandt)', back: 'Paintings of the binding of Isaac that mix emotional, realistic human portrayal with spiritual significance; an example of the Renaissance looking at the Bible with a human lens.' },
   ],
   quiz: [
     {
@@ -182,7 +229,7 @@ export const unit02ItalianHumanism: Unit = {
     },
     {
       id: 'unit-02-italian-humanism-q-09',
-      question: 'What do Rabbi Akiva\'s stalks of grain and loaves of bread show about human work?',
+      question: 'In Midrash Tanchuma, Tazria 5, what do Rabbi Akiva\'s stalks of grain and loaves of bread show about human work?',
       options: [
         'Human work is worthless compared to God\'s',
         'Farming is better than baking',

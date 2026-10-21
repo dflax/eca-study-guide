@@ -8,14 +8,20 @@ import { unit06FourCountryCases } from './units/unit-06-four-country-cases';
 
 export const historyTenth2027: Course = {
   id: 'history-10th-2027',
-  displayName: '2026–2027 · 10th Grade History',
+  displayName: '2026–2027 · 10th Grade History · Dr. Levine',
   year: '2026-2027',
   category: 'school-year',
   subject: '10th Grade History',
-  teacher: 'Emet Classical Academy',
+  teacher: 'Dr. Levine',
   school: 'Emet Classical Academy',
   description: 'Module 002 review, Renaissance and New Monarchies: the world before the Renaissance, Italian humanism, Renaissance art, the Northern Renaissance, and the new monarchies of Spain, France, England, and the Habsburg lands. Built from the Renaissance and New Monarchies study guide for the October 26 quiz; more units will be added as the course continues.',
   color: 'red',
+  summaryQuiz: {
+    title: 'Summary Quiz — All Units',
+    description: '24 questions drawn at random from a pool of 294 covering all six units. Every attempt is a new mix, balanced across the units.',
+    questionCount: 24,
+    poolSize: 294,
+  },
   units: [
     unit01BeforeTheRenaissance,
     unit02ItalianHumanism,

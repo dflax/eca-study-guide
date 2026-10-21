@@ -35,6 +35,15 @@ export const unit03RenaissanceArt: Unit = {
       ],
     },
     {
+      heading: 'Medieval vs. Renaissance Visual Language at a Glance',
+      content: 'Your 002A.3 cue list sets medieval and Renaissance approaches side by side: Painting, symbolic or inverse perspective vs. linear perspective and a human viewpoint. Sculpture, church setting and symbolic form vs. freestanding body, motion, and anatomy. Architecture, Gothic, vertical, and church-centered vs. classical forms and civic space (Gothic architecture emerged around Paris in the mid-twelfth century and spread across Europe). Earlier devotional images could emphasize sacred meaning over bodily naturalism, but medieval styles varied, so this is not a universal contrast.',
+      bullets: [
+        'Painting: symbolic or inverse perspective → linear perspective, human viewpoint',
+        'Sculpture: church setting, symbolic form → freestanding body, motion, anatomy',
+        'Architecture: Gothic, vertical, church → classical forms and civic space',
+      ],
+    },
+    {
       heading: 'Raphael\'s School of Athens',
       content: 'The School of Athens (c. 1509–1511, Vatican) shows the great philosophers of antiquity gathered in a grand classical building. The floor tiles and the lines of the architecture (arches, coffers) converge on a vanishing point between the two central figures, Plato and Aristotle, so the painted space itself directs attention to them.\n\nPlato points upward, toward the realm of ideal forms and ideas. Aristotle holds his hand out flat, palm down, toward the earth and the observable world. Their gestures distinguish their approaches to truth: Plato seeks truth in the ideal; Aristotle in practical, earthly experience.',
       bullets: [
