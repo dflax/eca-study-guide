@@ -157,7 +157,7 @@ Each subject gets a distinct color (Tailwind color name set in the course `color
 - Integrated Humanities: `purple`
 - NY State Driver's Permit Test Prep: `sky`
 - Bible: TBD (planned)
-- History: TBD (planned)
+- 10th Grade History (2026–2027): `red`
 
 School-year courses use the `displayName` format: `'YYYY–YYYY · Subject · Teacher'`. General Topics courses (no fixed school year — `category: 'general'`, `year: 'general'`) use a plain subject-only `displayName` with `teacher: 'Self-Study'`.
 Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
@@ -182,6 +182,7 @@ Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 | `latin-9th-2026` | 2025–2026 · Latin | Mr. Karlin | 6 |
 | `humanities-9th-2026` | 2025–2026 · Integrated Humanities | Ms. Attar | 6 |
 | `integrated-science-10th-2027` | 2026–2027 · 10th Grade Integrated Science II · Dr. Shulman | Dr. Shulman | 7 |
+| `history-10th-2027` | 2026–2027 · 10th Grade History | TBD | 6 (expanding) |
 | `ny-drivers-permit` | NY State Driver's Permit Test Prep | Self-Study | 12 |
 
 ---
@@ -190,7 +191,6 @@ Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 
 - Additional Hebrew units from textbook pages 1–117 (when textbook is available)
 - Bible (9th grade) study guide
-- History (9th grade) study guide
 - Supabase backend for cross-device progress sync
 - Swift iOS app
 - Database-backed content management (no-deploy content updates)

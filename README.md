@@ -24,6 +24,7 @@ Courses are organized on the homepage into sections by school year (newest first
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
 | 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
+| 10th Grade History | TBD | 6 | 99 | 67 |
 
 ### General Topics
 
@@ -55,6 +56,17 @@ Courses are organized on the homepage into sections by school year (newest first
 7. Comparing the Macromolecules
 
 **Summary Quiz — All Units:** 30 questions drawn at random from a 500-question pool (the 59 unit-quiz questions plus 441 summary-only questions), balanced across all seven units and reshuffled on every attempt. Pool lives in `src/data/courses/integrated-science-10th-2027/summary-pool/`.
+
+### 10th Grade History — Renaissance & New Monarchies (2026–2027)
+Built from the Module 002 study guide (quiz Oct 26, 2026). Every flashcard set includes the guide's numbered review questions with model answers.
+1. Before the Renaissance (Black Death, Ordinance of Labourers, Church corruption, Great Schism)
+2. Italian Humanism & Classical Revival
+3. Renaissance Art & Visual Language
+4. The Northern Renaissance
+5. The New Monarchies: General Trends
+6. The New Monarchies: Four Country Cases
+
+> More History units will be added as the course continues.
 
 ### Hebrew Units (Morah Gabay)
 1. Vocabulary — City & School (bidirectional flashcards: Hebrew ↔ English)

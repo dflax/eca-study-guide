@@ -4,6 +4,7 @@ import { hebrewNinth2026 } from './courses/hebrew-9th-2026';
 import { latinNinth2026 } from './courses/latin-9th-2026';
 import { humanitiesNinth2026 } from './courses/humanities-9th-2026';
 import { integratedScienceTenth2027 } from './courses/integrated-science-10th-2027';
+import { historyTenth2027 } from './courses/history-10th-2027';
 import { nyDriversPermit } from './courses/ny-drivers-permit';
 
 export const allCourses: Course[] = [
@@ -12,6 +13,7 @@ export const allCourses: Course[] = [
   latinNinth2026,
   humanitiesNinth2026,
   integratedScienceTenth2027,
+  historyTenth2027,
   nyDriversPermit,
 ];
 

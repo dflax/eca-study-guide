@@ -1,0 +1,196 @@
+import type { Unit } from '@/types/study';
+
+export const unit05NewMonarchiesTrends: Unit = {
+  id: 'unit-05-new-monarchies-trends',
+  number: 5,
+  title: 'The New Monarchies: General Trends (002C.2)',
+  description: 'Why kings grew stronger in the late 1400s: towns and royal charters, pikemen and longbowmen, parliaments, and two Latin maxims about law and power.',
+  notes: [
+    {
+      heading: 'Serfs, Towns, and Royal Charters',
+      content: 'In the medieval world, a serf was a peasant bound to the land of a noble lord, owing labor and dues, and not free to leave. As towns and trade grew, townspeople wanted more freedom and protection from local nobles.\n\nA charter is a written grant of rights and privileges. A royal charter, issued by the king, let a town govern itself and protected its local rights from the nobles (the lords). Jack\'s summary: a royal charter makes the town an ally of the king, because the charter could protect local rights from the lords and made townspeople only have to respond to the king.\n\nThe result was a win for both sides: the town gained independence from the noble, and the king gained a loyal ally and a source of taxes and money outside noble control. This is why townspeople could support a king against powerful nobles.',
+      bullets: [
+        'Serf — peasant bound to a lord\'s land',
+        'Charter — written grant of rights; a royal charter came from the king',
+        'Town gets independence from its noble; king gains an ally and revenue',
+        'Townspeople answer only to the king, not to the local lord',
+      ],
+    },
+    {
+      heading: 'New Military Technology: Infantry, Pikemen, and Longbowmen',
+      content: 'Infantry are soldiers who fight on foot. Pikemen carry very long spears and, in disciplined formation, can stop a cavalry charge (the Swiss were famous for this). Longbowmen fire arrows rapidly from long distances (the English longbow won battles such as Crécy and Agincourt).\n\nBefore this, armored knights on horseback (noble cavalry) dominated battle, so kings depended on nobles to supply them. Pikemen and longbowmen were cheaper, could be hired or trained from commoners, and could defeat knights. Kings who could pay for infantry no longer needed to depend on noble cavalry, which weakened the nobles\' leverage over the crown. (Gunpowder weapons later continued this trend.)',
+      bullets: [
+        'Infantry — foot soldiers',
+        'Pikemen — long-spear fighters who stop cavalry charges',
+        'Longbowmen — archers with a powerful, rapid-firing bow',
+        'Result: kings less dependent on noble knights',
+      ],
+    },
+    {
+      heading: 'Parliament and Sovereignty',
+      content: 'A parliament is an assembly representing important groups in the realm (for example nobles, clergy, and townspeople) that advises the king, and often must consent to new taxes. A sovereign is the supreme authority in a state, the one whose power is highest and not subject to a higher earthly ruler.\n\nNew monarchs were strengthening sovereignty, but still operated alongside institutions such as parliaments, law, and custom.',
+      bullets: [
+        'Parliament — representative assembly that advises the king and often approves taxes',
+        'Sovereign — supreme authority in a state',
+      ],
+    },
+    {
+      heading: 'Salus populi suprema lex esto',
+      content: 'Salus populi suprema lex (esto) means "the welfare of the people shall be the supreme law" (from the Roman statesman Cicero). It can justify stronger government: a king may need strong powers (taxes, armies, order) to protect the people\'s welfare. It can also justify opposition to a tyrant: if a ruler harms the people instead of serving their welfare, he is failing the standard that justifies his authority, and resisting him can be defended.',
+      bullets: [
+        'Meaning: the welfare of the people is the highest law',
+        'Can justify stronger government to protect the people',
+        'Can justify resisting a tyrant who harms the people',
+      ],
+    },
+    {
+      heading: 'Quod principi placuit legis habet vigorem',
+      content: 'Quod principi placuit legis habet vigorem means "what pleases the prince has the force of law" (a maxim from Roman law, associated with Ulpian and preserved in Justinian\'s Digest). It bases law on the ruler\'s will, not on public welfare. It supports absolute-style royal power: whatever the monarch wants becomes law.\n\nContrast: salus populi grounds government in the good of the people, which limits the ruler. Quod principi placuit grounds law in the ruler\'s will, which does not.',
+      bullets: [
+        'Meaning: what pleases the prince has the force of law',
+        'Law rests on the ruler\'s will (absolutist), not on public welfare',
+        'Contrast with salus populi: welfare-based, which limits rulers',
+      ],
+    },
+    {
+      heading: 'Stronger Government Did Not Mean Unlimited Monarchy',
+      content: 'New monarchs gained power over nobles, armies, taxes, and law courts. But they did not automatically become unlimited rulers. Parliaments and assemblies often had to approve taxes; laws, charters, and customs bound the king; the Church remained an independent authority; and nobles and towns still had rights. Strong government and limited government could exist together.',
+      bullets: [
+        'Parliaments and assemblies, laws, customs, charters, the Church, and nobles still limited kings',
+      ],
+    },
+  ],
+  flashcards: [
+    { id: 'unit-05-new-monarchies-trends-fc-01', front: 'serf', back: 'A peasant legally bound to a noble lord\'s land, owing labor and dues and not free to leave.' },
+    { id: 'unit-05-new-monarchies-trends-fc-02', front: 'charter', back: 'A written grant of rights and privileges. A royal charter lets a town govern itself and protects its rights from local nobles, making the town the king\'s ally.' },
+    { id: 'unit-05-new-monarchies-trends-fc-03', front: 'infantry', back: 'Soldiers who fight on foot, as opposed to knights on horseback (cavalry).' },
+    { id: 'unit-05-new-monarchies-trends-fc-04', front: 'pikemen', back: 'Foot soldiers with very long spears (pikes). In tight formation they can stop a cavalry charge.' },
+    { id: 'unit-05-new-monarchies-trends-fc-05', front: 'longbowmen', back: 'Archers with the powerful English longbow, able to fire quickly over long range; won battles like Crécy and Agincourt.' },
+    { id: 'unit-05-new-monarchies-trends-fc-06', front: 'parliament', back: 'A representative assembly of important groups (nobles, clergy, townspeople) that advises the king and often approves taxes.' },
+    { id: 'unit-05-new-monarchies-trends-fc-07', front: 'salus populi suprema lex', back: '"The welfare of the people is the supreme law" (Cicero). Can justify strong government for the people\'s good, and opposition to a tyrant who harms them.' },
+    { id: 'unit-05-new-monarchies-trends-fc-08', front: 'quod principi placuit legis habet vigorem', back: '"What pleases the prince has the force of law" (Roman law, Ulpian/Justinian). Law rests on the ruler\'s will, supporting absolute power.' },
+    { id: 'unit-05-new-monarchies-trends-fc-09', front: 'sovereign', back: 'The supreme authority in a state, with power above all others within it.' },
+    { id: 'unit-05-new-monarchies-trends-fc-10', front: '23. Why could townspeople support a king against powerful nobles?', back: 'A royal charter could protect town rights from the local lords and meant townspeople answered only to the king. Towns gained independence and the king gained an ally and revenue.' },
+    { id: 'unit-05-new-monarchies-trends-fc-11', front: '24. Why did pikemen and longbowmen reduce kings\' dependence on noble cavalry?', back: 'Disciplined pikemen and longbowmen could defeat mounted knights and were cheaper and drawn from commoners. Kings who paid for infantry no longer needed noble cavalry, weakening nobles\' leverage.' },
+    { id: 'unit-05-new-monarchies-trends-fc-12', front: '25. How could salus populi suprema lex justify both stronger government and opposition to a tyrant?', back: 'If the people\'s welfare is the highest law, a king may need strong powers to protect it. But a ruler who harms the people violates that standard, so resisting him can be justified.' },
+    { id: 'unit-05-new-monarchies-trends-fc-13', front: '26. How does quod principi placuit legis habet vigorem differ from an argument based on public welfare?', back: 'It bases law on the ruler\'s will ("what pleases the prince") rather than on the people\'s good, so it supports unlimited royal power. Public welfare arguments limit the ruler by the people\'s good.' },
+    { id: 'unit-05-new-monarchies-trends-fc-14', front: '27. Why did stronger royal government not automatically mean unlimited monarchy?', back: 'Kings were still limited by parliaments (often needed to approve taxes), laws and customs, charters, the Church, and the rights of nobles and towns.' },
+  ],
+  quiz: [
+    {
+      id: 'unit-05-new-monarchies-trends-q-01',
+      question: 'Why could townspeople support a king against powerful nobles?',
+      options: [
+        'Nobles refused to take any taxes',
+        'A royal charter protected town rights from the lords and made townspeople answer only to the king',
+        'Kings gave towns to nobles',
+        'Townspeople wanted to become serfs',
+      ],
+      correctIndex: 1,
+      explanation: 'A charter gave the town independence from the noble and tied it to the king as an ally.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-02',
+      question: 'A royal charter increases a town\'s independence from a noble. How does it also strengthen the king?',
+      options: [
+        'It makes the town his loyal ally and source of revenue',
+        'It gives the king the noble\'s land',
+        'It abolishes parliament',
+        'It forces the town to join the Church',
+      ],
+      correctIndex: 0,
+      explanation: 'The town gains freedom from the lord and owes loyalty to the king.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-03',
+      question: 'What is a serf?',
+      options: [
+        'A traveling merchant',
+        'A knight',
+        'A peasant bound to a noble\'s land',
+        'A member of parliament',
+      ],
+      correctIndex: 2,
+      explanation: 'Serfs owed labor and dues and could not freely leave the land.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-04',
+      question: 'Why did pikemen and longbowmen reduce kings\' dependence on noble cavalry?',
+      options: [
+        'They could defeat mounted knights and were drawn from commoners the king could pay',
+        'They were always nobles',
+        'They were slower and weaker than knights',
+        'They only fought at sea',
+      ],
+      correctIndex: 0,
+      explanation: 'Infantry could stop and beat knights, so kings needed noble cavalry less.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-05',
+      question: 'What does "salus populi suprema lex" mean?',
+      options: [
+        'The king is above the law',
+        'The welfare of the people is the supreme law',
+        'Nobles shall govern',
+        'Peace through strength',
+      ],
+      correctIndex: 1,
+      explanation: 'Cicero\'s maxim: the people\'s welfare is the highest law.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-06',
+      question: 'How could salus populi suprema lex be used to oppose a tyrant?',
+      options: [
+        'A ruler who harms the people fails the standard that justifies his authority',
+        'It says tyrants are always right',
+        'It bans all rulers',
+        'It makes the Church supreme',
+      ],
+      correctIndex: 0,
+      explanation: 'If the people\'s welfare is highest, a ruler who harms them can be resisted.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-07',
+      question: '"Quod principi placuit legis habet vigorem" means:',
+      options: [
+        'The people choose the law',
+        'The Church makes the law',
+        'What pleases the prince has the force of law',
+        'Law protects the people',
+      ],
+      correctIndex: 2,
+      explanation: 'A Roman-law maxim grounding law in the ruler\'s will.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-08',
+      question: 'How does "quod principi placuit..." differ from an argument based on public welfare?',
+      options: [
+        'It also stresses the people\'s good',
+        'It rests law on the ruler\'s will rather than the people\'s welfare',
+        'It limits the king more',
+        'It was written by Cicero',
+      ],
+      correctIndex: 1,
+      explanation: 'It supports absolute-style power; public-welfare arguments limit rulers by the people\'s good.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-09',
+      question: 'Which institution commonly limited the power of new monarchs, for example by approving taxes?',
+      options: ['Parliament', 'The infantry', 'The serfs', 'The vernacular'],
+      correctIndex: 0,
+      explanation: 'Parliaments and similar assemblies often had to consent to taxes, so kings were not unlimited.',
+    },
+    {
+      id: 'unit-05-new-monarchies-trends-q-10',
+      question: 'Why did stronger royal government not automatically mean unlimited monarchy?',
+      options: [
+        'Because kings had no power',
+        'Because parliaments, laws, customs, the Church, and the rights of nobles and towns still limited kings',
+        'Because nobles disappeared',
+        'Because armies were abolished',
+      ],
+      correctIndex: 1,
+      explanation: 'Strong government and limited government could coexist.',
+    },
+  ],
+};

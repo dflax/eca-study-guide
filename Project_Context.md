@@ -79,6 +79,18 @@ A Next.js 16 study guide app built to prepare Jack for his 9th grade final exams
 
 ---
 
+### History — 10th Grade · 2026–2027
+
+| Field | Value |
+|-------|-------|
+| `id` | `history-10th-2027` |
+| `displayName` | 2026–2027 · 10th Grade History |
+| `teacher` | Placeholder `Emet Classical Academy` (real teacher name TBD) |
+| `color` | `red` |
+| Units | 6 (Renaissance & New Monarchies, Module 002), 99 flashcards, 67 quiz questions |
+
+Built from `documentation/20261021 Jack History Quiz Review Materials.pdf` (quiz Oct 26, 2026). Units map to guide sections 002A.1–2, 002A.3, 002B, 002C.1, 002C.2, 002C.3; the guide's 36 numbered review questions are flashcards in the matching unit. More units expected as the course continues.
+
 ## Data Model
 
 Defined in `src/types/study.ts`:
