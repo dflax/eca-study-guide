@@ -24,7 +24,7 @@ Courses are organized on the homepage into sections by school year (newest first
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
 | 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
-| 10th Grade History | Dr. Levine | 6 | 105 | 69 (+ 296-question summary pool) |
+| 10th Grade History | Dr. Levine | 8 | 250 | 110 (+ 499-question summary pool) |
 
 ### General Topics
 
@@ -58,15 +58,17 @@ Courses are organized on the homepage into sections by school year (newest first
 **Summary Quiz — All Units:** 30 questions drawn at random from a 500-question pool (the 59 unit-quiz questions plus 441 summary-only questions), balanced across all seven units and reshuffled on every attempt. Pool lives in `src/data/courses/integrated-science-10th-2027/summary-pool/`.
 
 ### 10th Grade History — Renaissance & New Monarchies (2026–2027, Dr. Levine)
-Built from the Module 002 study guide (quiz Oct 26, 2026). Every flashcard set includes the guide's numbered review questions with model answers.
+Built from the Module 002 study guide and the class packets 002A–002C (quiz Oct 26, 2026). Every flashcard set includes the guide's numbered review questions with model answers.
 1. Before the Renaissance (Black Death, Ordinance of Labourers, Church corruption, Great Schism)
 2. Italian Humanism & Classical Revival
 3. Renaissance Art & Visual Language
 4. The Northern Renaissance
 5. The New Monarchies: General Trends
 6. The New Monarchies: Four Country Cases
+7. Class Readings: Pico & Petrarch (002B.2, 002C)
+8. Quiz Focus & 2-Point Comparison Practice (002Q)
 
-**Summary Quiz — All Units:** 24 questions drawn at random from a 296-question pool (the 69 unit-quiz questions plus 227 summary-only questions), balanced across all six units and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
+**Summary Quiz — All Units:** 24 questions drawn at random from a 499-question pool (the 110 unit-quiz questions plus 389 summary-only questions), balanced across all eight units and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
 
 > More History units will be added as the course continues.
 
@@ -170,7 +172,6 @@ Each unit file exports a `Unit` object with three arrays: `notes`, `flashcards`,
 
 **Planned subjects:**
 - Bible (9th grade)
-- History (9th grade)
 - Additional Hebrew units (textbook pages 1–117)
 
 ---

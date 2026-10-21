@@ -1,0 +1,147 @@
+import type { Unit } from '@/types/study';
+
+export const unit08QuizFocus: Unit = {
+  id: 'unit-08-quiz-focus-and-comparisons',
+  number: 8,
+  title: 'Quiz Focus & 2-Point Comparison Practice (002Q)',
+  description: 'The quiz notice for Monday, October 26 turned into a checklist, plus model answers for the kinds of comparisons the 2-point response may ask for.',
+  notes: [
+    {
+      heading: 'What the Quiz Notice Says',
+      content: 'Your teacher\'s quiz notice (002C.2 and 002C.3) says the quiz is on Monday, October 26: 10 multiple-choice questions plus one 2-point response, 12 core points plus 1 optional bonus point, 15 minutes, closed notes. The study guide to use is 002SG1, and Wednesday\'s review is an oral game.\n\nThe notice lists the topics: printing; Erasmus and Christian humanism; Faust; Cusa and limited human creativity; North/Italy emphasis; infantry; Ferdinand and Isabella; the Habsburg dynasty versus imperial centralization; charters; limits on stronger monarchy; and one Northern/New Monarchy comparison.',
+      bullets: [
+        '10 multiple-choice questions + one 2-point response; 15 minutes; closed notes',
+        'Printing → Unit 4 (Gutenberg, movable type)',
+        'Erasmus / Christian humanism → Unit 4',
+        'Faust → Unit 4',
+        'Cusa and limited human creativity (deus secundus) → Unit 4',
+        'North/Italy emphasis → Units 2 and 4',
+        'Infantry (pikemen, longbowmen) → Unit 5',
+        'Charters → Unit 5',
+        'Limits on stronger monarchy → Units 5 and 6',
+        'Ferdinand and Isabella → Unit 6',
+        'Habsburg dynasty vs. imperial centralization → Unit 6',
+        'One Northern/New Monarchy comparison → this unit',
+      ],
+    },
+    {
+      heading: 'How to Write a 2-Point Comparison',
+      content: 'A comparison answer earns its points by naming both sides and giving one fact for each. A reliable pattern is two sentences: Sentence 1 states the similarity or difference as a claim, using "although" or "while." Sentence 2 backs it up with one specific fact from each side.\n\nThe class writing prompts use the same idea: one comparison claim and one short evidence fact for each side. Practice saying these out loud, since the guide says the questions can be practiced orally.',
+      bullets: [
+        'Claim: one clear similarity or difference',
+        'Evidence: one specific fact for EACH side',
+        'Use "although" or "while" to show both sides at once',
+      ],
+    },
+    {
+      heading: 'Model Comparison: Italian vs. Northern Renaissance',
+      content: 'While the Italian Renaissance put more emphasis on aesthetics, art, and the classical revival, the Northern Renaissance was more overtly religious and mystical in its view of God. Evidence: Italian artists such as Michelangelo and Raphael perfected anatomy and perspective, while Northern thinkers such as Erasmus and Nicholas of Cusa focused on Christian humanism and the human relationship with God. Both included a great deal of art, religious art in particular, so these are general tendencies with overlap.',
+    },
+    {
+      heading: 'Model Comparison: Northern Renaissance and New Monarchies',
+      content: 'Several comparisons work for "one Northern/New Monarchy comparison." Here are three, each with a fact from both sides.\n\nTechnology and old elites: Gutenberg\'s movable type made books cheaper and faster to produce, while pikemen and longbowmen were cheaper than armored knights. In both cases, new inexpensive technology reduced dependence on an older elite (hand-copied books, noble cavalry).\n\nChange without rupture: Erasmus criticized abuses in the Church while resisting the religious rupture associated with Luther, and Henry VII strengthened royal government while ruling within England\'s common law and Parliament. Both sought change within existing institutions rather than abolishing them.\n\nLimits: Faust shows that knowledge and goodness do not necessarily go together, so knowledge needs moral limits; salus populi suprema lex and the continuing power of parliaments, nobles, and the Church show that stronger kings were also limited.',
+      bullets: [
+        'Printing and infantry: cheaper technology weakened an older elite',
+        'Erasmus and Henry VII: reform within existing institutions',
+        'Faust and the maxims: knowledge and power both need limits',
+      ],
+    },
+    {
+      heading: 'Model Comparison: England vs. France; Habsburgs vs. the Empire',
+      content: 'England and France: Henry VII and Louis XI both weakened powerful nobles and strengthened royal government, though their institutions and fiscal powers differed. Evidence: Henry VII restrained great nobles\' military independence and strengthened administration and finance while ruling within common law and Parliament; Louis XI reduced nobles\' independence, expanded royal taxation, and strengthened a royally controlled military. France\'s later Concordat of Bologna (1516, Francis I) gave the crown influence over Church appointments.\n\nHabsburg dynasty versus imperial centralization: the Habsburgs grew powerful through alliances, inheritance, marriage (and election), and under Charles V combined the imperial title with extensive dynastic lands. But the Holy Roman Empire stayed a patchwork of territories with many rulers, so the dynasty was exceptionally powerful without turning the Empire into a centralized state.',
+    },
+    {
+      heading: 'Model Comparison: The Two Latin Maxims; Good vs. Bad Second God',
+      content: 'Salus populi suprema lex says the welfare of the people is the highest law, which can justify strong government and also opposition to a tyrant (examples: John of Salisbury, Aquinas, Magna Carta 1215). Quod principi placuit legis habet vigorem says what pleases the prince has the force of law, supporting princely lawmaking. They show competing emphases: rulers must act for the good of the people, or they can do what they like.\n\nCusa\'s deus secundus: the bad way to understand "second god" is self-deification (Eden, Tower of Babel, the ruler of Tyre claiming to be a god); the good way is partnership: God acts through man, who builds, creates, and civilizes the world as a party to the covenant. Human creativity is real but limited under God.',
+    },
+  ],
+  flashcards: [
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-01', front: 'Quiz format for Monday, October 26', back: '10 multiple-choice questions plus one 2-point response; 12 core points plus 1 optional bonus point; 15 minutes; closed notes.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-02', front: 'Topics on the quiz notice', back: 'Printing; Erasmus/Christian humanism; Faust; Cusa and limited human creativity; North/Italy emphasis; infantry; Ferdinand and Isabella; Habsburg dynasty vs. imperial centralization; charters; limits on stronger monarchy; one Northern/New Monarchy comparison.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-03', front: 'Pattern for a 2-point comparison answer', back: 'Sentence 1: a clear similarity or difference, using "although" or "while." Sentence 2: one specific fact from EACH side.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-04', front: 'Compare the Italian and Northern Renaissance.', back: 'While the Italian Renaissance emphasized aesthetics and classical art, the Northern Renaissance was more overtly religious and mystical. Italy: Michelangelo, Raphael. North: Erasmus, Cusa. Both had a great deal of religious art.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-05', front: 'Compare printing and infantry (Northern Renaissance vs. New Monarchies).', back: 'Both were cheaper technologies that weakened an older elite: movable type made books cheaper than hand copying, and pikemen and longbowmen were cheaper than armored knights, so kings depended less on noble cavalry.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-06', front: 'Compare Erasmus and Henry VII.', back: 'Both sought change within existing institutions. Erasmus criticized abuses in the Church but resisted the rupture with Luther; Henry VII strengthened the crown while ruling within common law and Parliament.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-07', front: 'Compare Faust and the limits on monarchy.', back: 'Faust shows knowledge does not guarantee goodness, so it needs moral limits. Stronger kings were also limited, by parliaments, law, custom, the Church, and nobles, and the idea that the welfare of the people is the highest law.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-08', front: 'Compare England (Henry VII) and France (Louis XI).', back: 'Similarity: both weakened powerful nobles and strengthened royal government. Difference: their institutions and fiscal powers differed; Henry VII ruled within common law and Parliament, while Louis XI expanded royal taxation and a royally controlled military.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-09', front: 'Compare Habsburg power with imperial centralization.', back: 'Habsburg power grew through alliances, inheritance, marriage, and election and was exceptionally large under Charles V, but the Holy Roman Empire stayed a patchwork of many rulers and territories, so it never became a centralized state.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-10', front: 'Compare the two Latin maxims.', back: 'Salus populi suprema lex: the people\'s welfare is the highest law (supports strong government and opposition to tyranny). Quod principi placuit legis habet vigorem: what pleases the prince has the force of law (supports princely lawmaking).' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-11', front: 'Good vs. bad understanding of "second god" (deus secundus)', back: 'Bad: self-deification (Eden, Babel, the ruler of Tyre). Good: partnership; God acts through man, who builds, creates, and civilizes the world as a party to the covenant. Human creativity is limited under God.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-12', front: 'Spain vs. the Holy Roman Empire: what is the shared lesson?', back: 'In both cases, dynastic success did not equal a centralized state. Spain was a dynastic union of Castile and Aragon with separate laws and institutions; the Habsburgs\' power did not centralize the Empire.' },
+    { id: 'unit-08-quiz-focus-and-comparisons-fc-13', front: 'Why would townspeople support a king, and what limited stronger kings anyway?', back: 'Charters protected towns from nobles and private noble warfare, so towns favored royal law and order. Kings were still limited by parliaments, laws, customs, the Church, and the powerful nobles.' },
+  ],
+  quiz: [
+    {
+      id: 'unit-08-quiz-focus-and-comparisons-q-01',
+      question: 'Which pair best describes the Italian and Northern Renaissance emphases?',
+      options: [
+        'Italian: mysticism and Scripture; Northern: aesthetics and art',
+        'Italian: printing and trade; Northern: sculpture and banking',
+        'Italian: aesthetics and art; Northern: more religious and mystical',
+        'Italian: monarchy and law; Northern: city republics',
+      ],
+      correctIndex: 2,
+      explanation: 'The class framing is Italian = aesthetics, Northern = more religious and mystical, with overlap in religious art.',
+    },
+    {
+      id: 'unit-08-quiz-focus-and-comparisons-q-02',
+      question: 'Which comparison correctly links printing with the new infantry?',
+      options: [
+        'Both were costly tools used mainly by nobles',
+        'Both were cheap tools that weakened an old elite',
+        'Both were inventions supported by the Habsburgs',
+        'Both were practices that the Church forbade',
+      ],
+      correctIndex: 1,
+      explanation: 'Movable type replaced hand copying and pikemen/longbowmen replaced reliance on armored noble cavalry.',
+    },
+    {
+      id: 'unit-08-quiz-focus-and-comparisons-q-03',
+      question: 'What do Erasmus and Henry VII have in common in the comparison used in this unit?',
+      options: [
+        'Both wanted to abolish the old institutions',
+        'Both worked to strengthen the Church\'s taxes',
+        'Both opposed the spread of printed books',
+        'Both sought change without breaking with institutions',
+      ],
+      correctIndex: 3,
+      explanation: 'Erasmus resisted the rupture with Luther; Henry VII strengthened the crown within common law and Parliament.',
+    },
+    {
+      id: 'unit-08-quiz-focus-and-comparisons-q-04',
+      question: 'A strong 2-point comparison answer should include:',
+      options: [
+        'A date and one name from the unit',
+        'A long summary of the whole unit',
+        'One claim and one fact from each side',
+        'A definition of a single key term',
+      ],
+      correctIndex: 2,
+      explanation: 'State the claim, then back it with one specific fact for each side, using although/while.',
+    },
+    {
+      id: 'unit-08-quiz-focus-and-comparisons-q-05',
+      question: 'How did Henry VII and Louis XI differ, according to the class packet?',
+      options: [
+        'Only Louis XI weakened the nobles',
+        'Their institutions and fiscal powers differed',
+        'Only Henry VII had a royal army',
+        'Louis XI founded the Tudor dynasty',
+      ],
+      correctIndex: 1,
+      explanation: 'Both weakened powerful nobles and strengthened royal government, though their institutions and fiscal powers differed.',
+    },
+    {
+      id: 'unit-08-quiz-focus-and-comparisons-q-06',
+      question: 'Which phrase fits the "bad" way to understand deus secundus?',
+      options: [
+        'God acts through man as a partner',
+        'Man builds and civilizes the world as a party to the covenant',
+        'Man is limited and depends on God',
+        'Self-deification, as in the Tower of Babel',
+      ],
+      correctIndex: 3,
+      explanation: 'Self-deification is the bad reading; partnership is the good one.',
+    },
+  ],
+};

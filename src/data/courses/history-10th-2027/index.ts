@@ -5,6 +5,8 @@ import { unit03RenaissanceArt } from './units/unit-03-renaissance-art';
 import { unit04NorthernRenaissance } from './units/unit-04-northern-renaissance';
 import { unit05NewMonarchiesTrends } from './units/unit-05-new-monarchies-trends';
 import { unit06FourCountryCases } from './units/unit-06-four-country-cases';
+import { unit07PicoAndPetrarch } from './units/unit-07-pico-and-petrarch';
+import { unit08QuizFocus } from './units/unit-08-quiz-focus-and-comparisons';
 
 export const historyTenth2027: Course = {
   id: 'history-10th-2027',
@@ -18,9 +20,9 @@ export const historyTenth2027: Course = {
   color: 'red',
   summaryQuiz: {
     title: 'Summary Quiz — All Units',
-    description: '24 questions drawn at random from a pool of 296 covering all six units. Every attempt is a new mix, balanced across the units.',
+    description: '24 questions drawn at random from a pool of 499 covering all eight units. Every attempt is a new mix, balanced across the units.',
     questionCount: 24,
-    poolSize: 296,
+    poolSize: 499,
   },
   units: [
     unit01BeforeTheRenaissance,
@@ -29,5 +31,7 @@ export const historyTenth2027: Course = {
     unit04NorthernRenaissance,
     unit05NewMonarchiesTrends,
     unit06FourCountryCases,
+    unit07PicoAndPetrarch,
+    unit08QuizFocus,
   ],
 };
