@@ -87,7 +87,7 @@ A Next.js 16 study guide app built to prepare Jack for his 9th grade final exams
 | `displayName` | 2026–2027 · 10th Grade History · Dr. Levine |
 | `teacher` | Dr. Levine |
 | `color` | `red` |
-| Units | 6 (Renaissance & New Monarchies, Module 002), 105 flashcards, 67 quiz questions, 294-question summary pool (24 per attempt) |
+| Units | 6 (Renaissance & New Monarchies, Module 002), 105 flashcards, 69 quiz questions, 296-question summary pool (24 per attempt) |
 
 Built from `documentation/20261021 Jack History Quiz Review Materials.pdf` plus the 002A and 002A.3 class scans (same folder) (quiz Oct 26, 2026). Units map to guide sections 002A.1–2, 002A.3, 002B, 002C.1, 002C.2, 002C.3; the guide's 36 numbered review questions are flashcards in the matching unit. More units expected as the course continues.
 
@@ -143,4 +143,4 @@ A unit is considered "complete" when: notes viewed + ≥80% of flashcards learne
 - Question pools live outside the `Course` object (`src/data/summary-quizzes.ts` → `getSummaryPool`) so they're only bundled into the summary page.
 - `src/lib/summary-quiz.ts` samples after mount: units get an even share (30 across 7 units = 4 each, 2 random units get 5), questions from the previous attempt are skipped when possible, and option order is shuffled.
 - Attempts are saved under unit id `summary-quiz` (does not affect unit completion).
-- `integrated-science-10th-2027` (500-question pool) and `history-10th-2027` (294-question pool): existing unit quizzes + `summary-pool/unit-0N.ts`.
+- `integrated-science-10th-2027` (500-question pool) and `history-10th-2027` (296-question pool): existing unit quizzes + `summary-pool/unit-0N.ts`.

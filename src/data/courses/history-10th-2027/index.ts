@@ -18,9 +18,9 @@ export const historyTenth2027: Course = {
   color: 'red',
   summaryQuiz: {
     title: 'Summary Quiz — All Units',
-    description: '24 questions drawn at random from a pool of 294 covering all six units. Every attempt is a new mix, balanced across the units.',
+    description: '24 questions drawn at random from a pool of 296 covering all six units. Every attempt is a new mix, balanced across the units.',
     questionCount: 24,
-    poolSize: 294,
+    poolSize: 296,
   },
   units: [
     unit01BeforeTheRenaissance,

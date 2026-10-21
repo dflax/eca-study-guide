@@ -24,7 +24,7 @@ Courses are organized on the homepage into sections by school year (newest first
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
 | 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
-| 10th Grade History | Dr. Levine | 6 | 105 | 67 (+ 294-question summary pool) |
+| 10th Grade History | Dr. Levine | 6 | 105 | 69 (+ 296-question summary pool) |
 
 ### General Topics
 
@@ -66,7 +66,7 @@ Built from the Module 002 study guide (quiz Oct 26, 2026). Every flashcard set i
 5. The New Monarchies: General Trends
 6. The New Monarchies: Four Country Cases
 
-**Summary Quiz — All Units:** 24 questions drawn at random from a 294-question pool (the 67 unit-quiz questions plus 227 summary-only questions), balanced across all six units and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
+**Summary Quiz — All Units:** 24 questions drawn at random from a 296-question pool (the 69 unit-quiz questions plus 227 summary-only questions), balanced across all six units and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
 
 > More History units will be added as the course continues.
 
