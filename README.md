@@ -24,7 +24,7 @@ Courses are organized on the homepage into sections by school year (newest first
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
 | 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
-| 10th Grade History | Dr. Levine | 8 | 250 | 110 (+ 499-question summary pool) |
+| 10th Grade History | Dr. Levine | 8 | 250 | 110 (+ 434-question summary pool) |
 
 ### General Topics
 
@@ -68,7 +68,7 @@ Built from the Module 002 study guide and the class packets 002A–002C (quiz Oc
 7. Class Readings: Pico & Petrarch (002B.2, 002C)
 8. Quiz Focus & 2-Point Comparison Practice (002Q)
 
-**Summary Quiz — All Units:** 24 questions drawn at random from a 499-question pool (the 110 unit-quiz questions plus 389 summary-only questions), balanced across all eight units and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
+**Summary Quiz — Units 1–6:** 24 questions drawn at random from a 434-question pool (the 96 unit-quiz questions from units 1–6 plus 338 summary-only questions), balanced across units 1–6 (units 7–8 are study-only) and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
 
 > More History units will be added as the course continues.
 

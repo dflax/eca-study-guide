@@ -23,13 +23,6 @@ export const unit04Pool: QuizQuestion[] = [
     explanation: 'Individual metal letters are arranged, inked, pressed, and then rearranged and reused.',
   },
   {
-    id: 'summary-u04-q-004',
-    question: 'What was the first major book printed with movable type in Europe?',
-    options: ['The Divine Comedy', 'The Gutenberg Bible', 'The Courtier', 'The Canterbury Tales'],
-    correctIndex: 1,
-    explanation: 'The Gutenberg Bible, c. 1455.',
-  },
-  {
     id: 'summary-u04-q-005',
     question: 'Before movable type, books were:',
     options: ['Mass-produced in workshops using metal letters', 'Copied by hand, which was slow and costly', 'Printed on rolled parchment by guild presses', 'Dictated aloud and rarely written down at all'],
@@ -107,13 +100,6 @@ export const unit04Pool: QuizQuestion[] = [
     explanation: 'Humans create only from what already exists, and their knowledge is partial.',
   },
   {
-    id: 'summary-u04-q-016',
-    question: 'What does Cusa\'s "learned ignorance" teach?',
-    options: ['The wise person avoids study to protect the faith', 'The wise person values knowledge over devotion to God', 'The wise person knows the limits of human knowledge', 'The uneducated person knows God better than scholars'],
-    correctIndex: 2,
-    explanation: 'Because humans are finite, the wise person knows how little they can know.',
-  },
-  {
     id: 'summary-u04-q-017',
     question: 'How does deus secundus relate to Rabbi Akiva\'s bread?',
     options: ['Both say humans should avoid changing what God made', 'Both say God creates only what humans can understand', 'Both say human work and creativity complete what God provides', 'Both say human knowledge is useless without priests'],
@@ -182,13 +168,6 @@ export const unit04Pool: QuizQuestion[] = [
     options: ['German goldsmith and printer', 'Italian goldsmith and sculptor', 'German cardinal and mathematician', 'Flemish painter and engraver'],
     correctIndex: 0,
     explanation: 'He was a goldsmith from Mainz who developed printing with movable type.',
-  },
-  {
-    id: 'summary-u04-q-027',
-    question: 'Which person financed Gutenberg\'s printing venture (general history, not in the class handouts)?',
-    options: ['Nicholas of Cusa', 'Johann Fust', 'Christopher Marlowe', 'Erasmus of Rotterdam'],
-    correctIndex: 1,
-    explanation: 'Johann Fust lent Gutenberg money for his press. This detail is outside the class handouts.',
   },
   {
     id: 'summary-u04-q-028',

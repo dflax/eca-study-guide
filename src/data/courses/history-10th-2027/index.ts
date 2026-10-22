@@ -19,10 +19,10 @@ export const historyTenth2027: Course = {
   description: 'Module 002 review, Renaissance and New Monarchies: the world before the Renaissance, Italian humanism, Renaissance art, the Northern Renaissance, and the new monarchies of Spain, France, England, and the Habsburg lands. Built from the Renaissance and New Monarchies study guide for the October 26 quiz; more units will be added as the course continues.',
   color: 'red',
   summaryQuiz: {
-    title: 'Summary Quiz — All Units',
-    description: '24 questions drawn at random from a pool of 499 covering all eight units. Every attempt is a new mix, balanced across the units.',
+    title: 'Summary Quiz — Units 1–6',
+    description: '24 questions drawn at random from a pool of 434 covering the six quiz units (units 1–6). Every attempt is a new mix, balanced across the units.',
     questionCount: 24,
-    poolSize: 499,
+    poolSize: 434,
   },
   units: [
     unit01BeforeTheRenaissance,

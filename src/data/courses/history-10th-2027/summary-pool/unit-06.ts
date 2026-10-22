@@ -121,13 +121,6 @@ export const unit06Pool: QuizQuestion[] = [
     explanation: 'They created an Inquisition, conquered Granada, and expelled Jews who refused to convert.',
   },
   {
-    id: 'summary-u06-q-018',
-    question: 'Louis XI is nicknamed the:',
-    options: ['The Spider King', 'The Sun King of Versailles', 'The Lionheart of the Crusades', 'The Magnificent patron of Florence'],
-    correctIndex: 0,
-    explanation: 'Louis XI (1461–1483) was called the Spider King.',
-  },
-  {
     id: 'summary-u06-q-019',
     question: 'Louis XI strengthened the crown by:',
     options: ['Dividing royal lands among the great nobles to win their loyalty', 'Ending royal taxes and relying on noble armies for defense', 'Sharing royal power with the great nobles instead of townspeople', 'Expanding royal lands, building an army, taxing, and using townspeople'],
@@ -242,9 +235,9 @@ export const unit06Pool: QuizQuestion[] = [
   {
     id: 'summary-u06-q-035',
     question: 'Who wrote Don Quixote?',
-    options: ['Niccolò Machiavelli, author of The Prince', 'Desiderius Erasmus, author of The Praise of Folly', 'Dante Alighieri, author of The Divine Comedy', 'Miguel de Cervantes, in 1605 and 1615'],
+    options: ['Niccolò Machiavelli, author of The Prince', 'Desiderius Erasmus, author of The Praise of Folly', 'Dante Alighieri, author of The Divine Comedy', 'Miguel de Cervantes, a Spanish Golden Age author'],
     correctIndex: 3,
-    explanation: 'Cervantes published it in 1605 and 1615.',
+    explanation: 'Miguel de Cervantes wrote Don Quixote, Spain\'s most famous cultural achievement of the Golden Age.',
   },
   {
     id: 'summary-u06-q-036',
