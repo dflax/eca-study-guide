@@ -9,7 +9,7 @@ import { unit07ComparingMacromolecules } from './units/unit-07-comparing-macromo
 
 export const integratedScienceTenth2027: Course = {
   id: 'integrated-science-10th-2027',
-  displayName: '2026–2027 · 10th Grade Integrated Science II · Dr. Shulman',
+  displayName: '2026–2027 · 10th Grade Integrated Science II · Unit 1: Chemistry of Life · Dr. Shulman',
   year: '2026-2027',
   category: 'school-year',
   subject: '10th Grade Integrated Science II',

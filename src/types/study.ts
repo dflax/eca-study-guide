@@ -37,6 +37,13 @@ export interface NoteSection {
   heading: string;
   content: string;      // Plain text with \n for newlines
   bullets?: string[];   // Optional bullet list items
+  image?: NoteImage;    // Optional diagram shown below the text
+}
+
+export interface NoteImage {
+  src: string;          // Path under /public, e.g. "/images/<course>/diagram.jpg"
+  alt: string;          // Describes the diagram for screen readers
+  caption?: string;
 }
 
 export interface Flashcard {

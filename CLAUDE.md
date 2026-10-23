@@ -181,7 +181,8 @@ Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 | `hebrew-9th-2026` | 2025–2026 · Hebrew | Morah Gabay | 3 (expanding) |
 | `latin-9th-2026` | 2025–2026 · Latin | Mr. Karlin | 6 |
 | `humanities-9th-2026` | 2025–2026 · Integrated Humanities | Ms. Attar | 6 |
-| `integrated-science-10th-2027` | 2026–2027 · 10th Grade Integrated Science II · Dr. Shulman | Dr. Shulman | 7 |
+| `integrated-science-10th-2027` | 2026–2027 · 10th Grade Integrated Science II · Unit 1: Chemistry of Life · Dr. Shulman | Dr. Shulman | 7 |
+| `integrated-science-energy-10th-2027` | 2026–2027 · 10th Grade Integrated Science II · Unit 2: Energy · Dr. Shulman | Dr. Shulman | 6 |
 | `history-10th-2027` | 2026–2027 · 10th Grade History · Dr. Levine | Dr. Levine | 8 (expanding) |
 | `ny-drivers-permit` | NY State Driver's Permit Test Prep | Self-Study | 12 |
 

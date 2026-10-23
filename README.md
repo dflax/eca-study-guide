@@ -23,7 +23,8 @@ Courses are organized on the homepage into sections by school year (newest first
 
 | Course | Teacher | Units | Flashcards | Quiz Questions |
 |--------|---------|-------|------------|----------------|
-| 10th Grade Integrated Science II | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
+| 10th Grade Integrated Science II — Unit 1: Chemistry of Life | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
+| 10th Grade Integrated Science II — Unit 2: Energy | Dr. Shulman | 6 | 164 | 64 (+ 328-question summary pool) |
 | 10th Grade History | Dr. Levine | 8 | 250 | 110 (+ 434-question summary pool) |
 
 ### General Topics
@@ -56,6 +57,17 @@ Courses are organized on the homepage into sections by school year (newest first
 7. Comparing the Macromolecules
 
 **Summary Quiz — All Units:** 30 questions drawn at random from a 500-question pool (the 59 unit-quiz questions plus 441 summary-only questions), balanced across all seven units and reshuffled on every attempt. Pool lives in `src/data/courses/integrated-science-10th-2027/summary-pool/`.
+
+### Integrated Science II Units — Unit 2: Energy (2026–2027)
+Built from the Unit 2 study guide, the review sheet (with the answer key's three errors corrected and flagged), and Jack's class notes. Notes can include diagrams (`image` field on a note section).
+1. Energy, Reactions & ATP
+2. Cellular Respiration
+3. Photosynthesis
+4. Mitochondria, Chloroplasts & Proton Gradients
+5. Autotrophs, Heterotrophs, Domains & Endosymbiosis
+6. Review Sheet Practice
+
+**Summary Quiz — Unit 2 Energy:** 30 questions drawn at random from a 328-question pool (the 64 unit-quiz questions plus 264 summary-only questions), balanced across the six units. Pool lives in `src/data/courses/integrated-science-energy-10th-2027/summary-pool/`.
 
 ### 10th Grade History — Renaissance & New Monarchies (2026–2027, Dr. Levine)
 Built from the Module 002 study guide and the class packets 002A–002C (quiz Oct 26, 2026). Every flashcard set includes the guide's numbered review questions with model answers.

@@ -79,6 +79,16 @@ A Next.js 16 study guide app built to prepare Jack for his 9th grade final exams
 
 ---
 
+### Integrated Science II — Unit 2: Energy · 2026–2027
+
+| Field | Value |
+|---|---|
+| `id` | `integrated-science-energy-10th-2027` |
+| `displayName` | 2026–2027 · 10th Grade Integrated Science II · Unit 2: Energy · Dr. Shulman |
+| Units | 6 (164 flashcards, 64 unit-quiz questions, 328-question summary pool) |
+
+Built from the Unit 2 study guide and review sheet PDFs (`documentation/20261021 Integrated Science II - Unit 2 Energy Study Guide.pdf`, `20261022 Jack ... Review Sheet.pdf`). Separate course from Unit 1 so each exam has its own summary quiz. The teacher's review-sheet key has errors on Q2, Q4 and Q20 B; the content uses the corrected answers and flags them. Notes support an optional `image` (files in `public/images/integrated-science-10th-2027/`).
+
 ### History — 10th Grade · 2026–2027
 
 | Field | Value |
@@ -143,4 +153,4 @@ A unit is considered "complete" when: notes viewed + ≥80% of flashcards learne
 - Question pools live outside the `Course` object (`src/data/summary-quizzes.ts` → `getSummaryPool`) so they're only bundled into the summary page.
 - `src/lib/summary-quiz.ts` samples after mount: units get an even share (30 across 7 units = 4 each, 2 random units get 5), questions from the previous attempt are skipped when possible, and option order is shuffled.
 - Attempts are saved under unit id `summary-quiz` (does not affect unit completion).
-- `integrated-science-10th-2027` (500-question pool) and `history-10th-2027` (434-question pool, units 1–6): existing unit quizzes + `summary-pool/unit-0N.ts`.
+- `integrated-science-10th-2027` (500-question pool), `integrated-science-energy-10th-2027` (328-question pool) and `history-10th-2027` (434-question pool, units 1–6): existing unit quizzes + `summary-pool/unit-0N.ts`.

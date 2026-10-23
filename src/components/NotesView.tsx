@@ -50,6 +50,20 @@ export default function NotesView({ courseId, unitId, notes }: NotesViewProps) {
               ))}
             </ul>
           )}
+          {section.image && (
+            <figure className="mt-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={section.image.src}
+                alt={section.image.alt}
+                className="w-full rounded-lg border border-gray-200"
+                loading="lazy"
+              />
+              {section.image.caption && (
+                <figcaption className="mt-2 text-sm text-gray-500">{section.image.caption}</figcaption>
+              )}
+            </figure>
+          )}
         </section>
       ))}
     </div>
