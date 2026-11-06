@@ -146,7 +146,7 @@ Every course has a **question bank** much larger than its fixed unit quiz. Each 
 - **Focused practice** — after a wrong answer, *Try another question on this topic* gives an extra question on the same topic right away (it does not change the quiz score). The explanation also links to the matching **notes section** and **flashcards** for that topic, opening in a new tab so the quiz isn't lost.
 - **Weak-area quizzes** — the results screen shows how the learner did by topic. *Practice my weak areas* builds a new quiz weighted toward topics that need work, and can be repeated until every topic is mastered.
 
-**Mastery:** a topic is mastered when the learner scores **80% or better on it in two quizzes in a row** (a sitting with fewer than two answers on the topic doesn't count). Practice follow-ups and weak-area quizzes count toward mastery, but weak-area quizzes are not recorded as unit quiz attempts. Everything is stored in the browser's localStorage, like the rest of the progress.
+**Mastery:** a topic is mastered when the learner scores **80% or better on it in two quizzes in a row** (a sitting needs at least two answers on the topic to count toward mastery, but a miss on even one question marks the topic as needing work). Practice follow-ups and weak-area quizzes count toward mastery, but weak-area quizzes are not recorded as unit quiz attempts. Everything is stored in the browser's localStorage, like the rest of the progress.
 
 ---
 

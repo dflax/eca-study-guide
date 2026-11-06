@@ -36,7 +36,11 @@ async function main() {
   await test('mastery: a later bad sitting breaks mastery; sittings of 1 answer are ignored', () => {
     assert.equal(topicStatus([sess(5, 5), sess(5, 5), sess(1, 5)]), 'needs-work');
     assert.equal(topicStatus([sess(5, 5), sess(1, 1)]), 'building');
-    assert.equal(topicStatus([sess(0, 1)]), 'new');
+    assert.equal(topicStatus([sess(1, 1)]), 'new');
+  });
+  await test('mastery: a single miss (0 of 1) is needs-work, not ignored', () => {
+    assert.equal(topicStatus([sess(0, 1)]), 'needs-work');
+    assert.equal(topicStatus([sess(5, 5), sess(5, 5), sess(0, 1)]), 'needs-work');
   });
   await test('mastery: only the last two qualifying sittings matter', () => {
     assert.equal(topicStatus([sess(0, 5), sess(5, 5), sess(5, 5)]), 'mastered');
@@ -114,6 +118,13 @@ async function main() {
   await test('weak topics: same topic name in another unit is tracked separately', () => {
     const weak = findWeakTopics(bank, { 'u2::A': [sess(0, 4)] });
     assert.deepEqual(weak, [{ unitId: 'u2', topic: 'A', weight: 3 }]);
+  });
+  await test('weak quiz: a topic missed once on a one-question sitting is included', () => {
+    const weak = findWeakTopics(bank.filter(b => b.unitId === 'u1'), { 'u1::B': [sess(0, 1)], 'u1::C': [sess(1, 1)] });
+    assert.deepEqual(weak, [{ unitId: 'u1', topic: 'B', weight: 3 }]);
+    const quiz = buildWeakAreaQuiz(bank, weak, 5, {});
+    assert.equal(quiz.length, 5);
+    assert.ok(quiz.every(x => x.topic === 'B' && x.unitId === 'u1'));
   });
   await test('weak quiz: only weak topics, weighted toward the weakest', () => {
     const weak = [{ unitId: 'u1', topic: 'A', weight: 3 }, { unitId: 'u1', topic: 'B', weight: 1 }];

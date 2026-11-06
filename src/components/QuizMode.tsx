@@ -35,6 +35,7 @@ interface Result {
 }
 
 const optionLabels = ['A', 'B', 'C', 'D'];
+const PASS_PERCENT = 70;   // overall "Great job" message; matches unit completion elsewhere. Topic mastery uses MASTERY_THRESHOLD.
 
 const STATUS_STYLE: Record<TopicStatus, { label: string; className: string }> = {
   mastered: { label: 'Mastered', className: 'bg-green-100 text-green-700' },
@@ -239,7 +240,7 @@ export default function QuizMode({
 
   if (finished) {
     const percentage = Math.round((score / quiz.length) * 100);
-    const passed = percentage >= MASTERY_THRESHOLD;
+    const passed = percentage >= PASS_PERCENT;
     const allMastered = topicRows.length > 0 && topicRows.every(r => r.status === 'mastered');
     const hasTopics = topicRows.length > 0;
     return (
@@ -337,7 +338,7 @@ export default function QuizMode({
         <div className="mb-4 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
           <p className="text-xs font-bold uppercase tracking-wide text-amber-700">Practice question</p>
           <p className="text-sm text-amber-800">
-            More on <span className="font-semibold">{followUp.topic}</span>. This does not change your quiz score.
+            One more on the topic you just missed. This does not change your quiz score.
           </p>
         </div>
         <QuestionView
@@ -394,7 +395,8 @@ export default function QuizMode({
 
       <p className="text-xs text-indigo-500 font-semibold uppercase tracking-wide mb-3">
         Question {currentIndex + 1}
-        {question.topic && <span className="text-gray-400 normal-case tracking-normal font-medium"> · {question.topic}</span>}
+        {/* Topic names can give away the answer, so they only appear once the question is answered. */}
+        {question.topic && answerState === 'answered' && <span className="text-gray-400 normal-case tracking-normal font-medium"> · {question.topic}</span>}
       </p>
       <QuestionView
         question={question}

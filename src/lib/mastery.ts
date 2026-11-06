@@ -15,15 +15,17 @@ function counted(sessions: TopicSession[]): TopicSession[] {
 }
 
 /**
- * Mastered = the last two qualifying sittings were each at or above 80%.
- * Needs-work = the latest qualifying sitting was below 80%.
+ * Needs-work = the latest sitting on the topic was below 80%, however few answers it had (a single
+ * miss on a one-question topic must still send the learner back to it).
+ * Mastered = the last two qualifying sittings (2+ answers each) were both at or above 80%.
  * Building = on track but not yet confirmed by a second good sitting.
  */
 export function topicStatus(sessions: TopicSession[] | undefined): TopicStatus {
-  const c = counted(sessions ?? []);
+  const all = sessions ?? [];
+  if (all.length === 0) return 'new';
+  if (sessionPercent(all[all.length - 1]) < MASTERY_THRESHOLD) return 'needs-work';
+  const c = counted(all);
   if (c.length === 0) return 'new';
-  const latest = c[c.length - 1];
-  if (sessionPercent(latest) < MASTERY_THRESHOLD) return 'needs-work';
   const lastN = c.slice(-SESSIONS_REQUIRED);
   if (lastN.length === SESSIONS_REQUIRED && lastN.every(s => sessionPercent(s) >= MASTERY_THRESHOLD)) return 'mastered';
   return 'building';

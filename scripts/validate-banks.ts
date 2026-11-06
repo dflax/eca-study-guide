@@ -37,6 +37,7 @@ async function main() {
       const headings = unit.notes.map(n => n.heading);
       const headingSet = new Set(headings);
       const slugs = headings.map(topicSlug);
+      if (slugs.some(sl => sl === '')) errors.push(`${unit.id}: a note heading has no ASCII letters or digits, so it cannot form a URL anchor`);
       if (new Set(slugs).size !== slugs.length) errors.push(`${unit.id}: two note headings share a URL anchor`);
 
       const qs = bank.questions.filter(q => q.unitId === unit.id);
