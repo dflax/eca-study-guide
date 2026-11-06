@@ -56,11 +56,22 @@ export const unit04TrafficControl: Unit = {
         'Double solid lines: you cannot pass or change lanes, except to turn left into/out of a driveway or to make a U-turn.',
         'One solid line: you may pass or change lanes only when obstructions or traffic conditions make it necessary.',
         'Diamond symbol: marks a reserved lane (bus, HOV, bicycles, or other special vehicles) — you may not enter unless your vehicle qualifies.',
+        'On city streets, a reserved lane may be separated by a broken white line; there, vehicles that are not HOV may enter only to make a right turn at the next intersection.',
       ],
     },
     {
       heading: 'Stop Lines and Crosswalk Lines',
-      content: 'At an intersection controlled by a STOP sign, YIELD sign, or traffic light, there may be a stop line and/or a crosswalk (two parallel lines). You must stop before the stop line if there is one, or before the crosswalk if there is no stop line. Arrows painted on the pavement show which lanes must be used for which movements — you must be in the correct lane before reaching the solid line separating lanes.',
+      content: 'At an intersection controlled by a STOP sign, YIELD sign, or traffic light, there may be a stop line and/or a crosswalk (two parallel lines). You must stop before the stop line if there is one, or before the crosswalk if there is no stop line. Arrows painted on the pavement show which lanes must be used for which movements — you must be in the correct lane before reaching the solid line separating lanes.\n\nYou need to stop at a stop line or crosswalk only when a light, sign or traffic officer requires it, or to yield to a pedestrian, in-line skater or scooter at a marked or unmarked crosswalk. A single stop line may be set farther back so large vehicles such as tractor-trailers and buses have room to turn without making other traffic back up; stop before it.',
+    },
+    {
+      heading: 'Work Area, Route and Other Signs',
+      content: 'Work area signs are orange with black letters or symbols and warn that people are working on or near the roadway; traffic may be controlled by a flag person. A work area speed limit as low as 25 MPH can be posted. Even if no limit is posted, you must drive at a reduced speed through the work zone and you must always obey flag persons.',
+      bullets: [
+        'Route signs show interstate, U.S., state or county routes; the shape tells you the type of route',
+        'A warning sign may be joined with a yellow and black "recommended speed" sign, meaning reduced speed is advised in that area',
+        'A red circle with a slash over a symbol on a regulation sign means that action, such as a right turn, is not allowed or that some vehicles are restricted',
+        'Destination signs (green) show direction and distance to places; service signs (blue) show rest areas, gas stations, camping and medical facilities',
+      ],
     },
     {
       heading: 'Traffic Officers',
@@ -88,6 +99,13 @@ export const unit04TrafficControl: Unit = {
     { id: 'unit-04-traffic-control-fc-18', front: 'Whose directions take precedence over signs, signals, and pavement markings?', back: 'A traffic officer\'s directions always take precedence.' },
     { id: 'unit-04-traffic-control-fc-19', front: 'Who is authorized to direct traffic, besides police officers?', back: 'Fire police, highway work-area flag persons, school crossing guards, and school bus drivers.' },
     { id: 'unit-04-traffic-control-fc-20', front: 'What does an edge line that angles toward the center of the road indicate?', back: 'The road is narrower ahead.' },
+    { id: 'unit-04-traffic-control-fc-21', front: 'What color are work area signs, and how low can a work area speed limit be posted?', back: 'Orange with black letters or symbols. A work area speed limit as low as 25 MPH can be posted, and you must always obey flag persons.' },
+    { id: 'unit-04-traffic-control-fc-22', front: 'What does the shape of a route sign tell you?', back: 'The type of route you are on: interstate, U.S., state or county.' },
+    { id: 'unit-04-traffic-control-fc-23', front: 'Why may a single stop line be placed farther back at an intersection?', back: 'To give large vehicles such as tractor-trailers and buses room to turn without other traffic having to back up. Stop before it.' },
+    { id: 'unit-04-traffic-control-fc-24', front: 'When may a non-HOV vehicle enter a reserved lane marked by broken white line sections on a city street?', back: 'When making a right turn at the next intersection.' },
+    { id: 'unit-04-traffic-control-fc-25', front: 'What does a yellow and black "recommended speed" sign attached to a warning sign mean?', back: 'Reduced speed is advised in that area.' },
+    { id: 'unit-04-traffic-control-fc-26', front: 'Where must you stop at a STOP sign if there is no stop line and no crosswalk?', back: 'Before entering the intersection, at the point nearest the intersection that gives you a view of traffic on the intersecting roadway.' },
+    { id: 'unit-04-traffic-control-fc-27', front: 'When must you come to a full stop at a YIELD sign?', back: 'When traffic conditions require it. Otherwise slow down, check carefully, and yield the right-of-way.' },
   ],
   quiz: [
     { id: 'unit-04-traffic-control-q-01', question: 'A regulation sign is normally what shape and color?', options: ['Yellow diamond', 'White rectangle with black letters', 'Orange diamond', 'Blue rectangle'], correctIndex: 1, explanation: 'Regulation signs are normally white rectangles with black (sometimes red) letters or symbols.' },

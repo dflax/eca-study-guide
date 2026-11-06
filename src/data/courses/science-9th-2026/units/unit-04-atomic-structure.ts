@@ -50,6 +50,25 @@ export const unit04AtomicStructure: Unit = {
         '3.400 has 4 sig figs (trailing zeros after decimal point count)',
       ],
     },
+    {
+      heading: "Relative and Percent Abundance",
+      content: "Relative abundance is the fraction of all atoms of an element that are a particular isotope. Percent abundance is that fraction written as a percent.\n\nRelative abundance = (atoms of the isotope) ÷ (total atoms of the element)\nPercent abundance = relative abundance × 100%\n\nExample: In a sample of 200 atoms, 150 are Isotope A and 50 are Isotope B.\n  Isotope A: 150 ÷ 200 = 0.75 (75%)\n  Isotope B: 50 ÷ 200 = 0.25 (25%)\n\nTo use abundance in average atomic mass, convert each percent to a decimal first (75% → 0.75). All relative abundances for an element add up to 1.00 (100%).\n\nExample: Boron has B-10 (10.01 amu, 20.0%) and B-11 (11.01 amu, 80.0%).\n  Average = (10.01 × 0.200) + (11.01 × 0.800) = 2.00 + 8.81 = 10.81 amu",
+      bullets: [
+        "Relative abundance is a decimal (0 to 1); percent abundance is out of 100",
+        "Percent abundances of all isotopes add up to 100%",
+        "If an element has only two isotopes, percent of the second = 100% − percent of the first",
+      ],
+    },
+    {
+      heading: "Cathode Ray and Gold Foil Experiments",
+      content: "You should be able to tell what can (and cannot) be concluded from each experiment.\n\nCathode Ray Experiment (Thomson): A beam in a vacuum tube was bent toward a positive plate. Conclusions: the beam is made of negatively charged particles (electrons); electrons are found in all matter and are much lighter than atoms; atoms are therefore divisible and contain subatomic parts. It did NOT show where the positive charge is or reveal a nucleus.\n\nGold Foil Experiment (Rutherford): Alpha particles were fired at thin gold foil. Most passed straight through, a few were deflected, and a very few bounced almost straight back. Conclusions: atoms are mostly empty space; there is a tiny, dense, positively charged nucleus holding most of the mass. It did NOT show exactly where electrons are or that electrons orbit in fixed paths.",
+      bullets: [
+        "Cathode ray: negative particles exist in every atom (plum pudding model)",
+        "Gold foil: most particles passed through, so most of the atom is empty space",
+        "Gold foil: a few bounced back, so the positive charge is concentrated in a tiny nucleus",
+        "Neither experiment shows how electrons are arranged around the nucleus",
+      ],
+    },
   ],
   flashcards: [
     {
@@ -121,6 +140,26 @@ export const unit04AtomicStructure: Unit = {
       id: 'unit-04-atomic-structure-fc-14',
       front: 'How many significant figures does 1002.0 have?',
       back: '5 significant figures. The zero between the 1 and 2 is significant (between nonzero digits). The trailing zero after the decimal point is also significant.',
+    },
+    {
+      id: 'unit-04-atomic-structure-fc-15',
+      front: "How do you find relative abundance and percent abundance of an isotope?",
+      back: "Relative abundance = atoms of that isotope ÷ total atoms of the element (a decimal). Percent abundance = relative abundance × 100%. Example: 25 of 100 atoms → 0.25 or 25%.",
+    },
+    {
+      id: 'unit-04-atomic-structure-fc-16',
+      front: "Boron has B-10 (10.01 amu, 20.0%) and B-11 (11.01 amu, 80.0%). What is the average atomic mass?",
+      back: "(10.01 × 0.200) + (11.01 × 0.800) = 2.00 + 8.81 = 10.81 amu. Convert the percents to decimals before multiplying.",
+    },
+    {
+      id: 'unit-04-atomic-structure-fc-17',
+      front: "What can be concluded from the cathode ray experiment?",
+      back: "The beam is made of negatively charged particles (electrons) that are in all matter and much smaller than atoms, so atoms are not indivisible. It does not reveal a nucleus.",
+    },
+    {
+      id: 'unit-04-atomic-structure-fc-18',
+      front: "What can NOT be concluded from the gold foil experiment?",
+      back: "It cannot show where the electrons are or that they follow fixed orbits. It shows only that atoms are mostly empty space with a small, dense, positive nucleus.",
     },
   ],
   quiz: [

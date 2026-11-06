@@ -53,6 +53,16 @@ export const unit04Verbs: Unit = {
       ],
     },
     {
+      heading: 'Translating Sentences',
+      content: 'The final exam also asks you to translate sentences from Latin into English and from English into Latin. Case endings and verb endings tell you each word\'s job, so word order does not.\n\nLatin to English: (1) find the verb, usually last, and read its person, number and voice; (2) find the subject in the nominative; (3) find the direct object in the accusative, the indirect object in the dative, and any prepositional phrase; (4) put the sentence together in English order.\n\nEnglish to Latin: (1) choose the verb ending that matches the subject and voice; (2) put the subject in the nominative, the direct object in the accusative and the indirect object in the dative; (3) make every adjective agree with its noun in case, number and gender; (4) place the verb last.\n\nExample: The slaves carry water to the villa. = Servi aquam ad villam portant.',
+      bullets: [
+        'Verb usually last; subject nominative; direct object accusative; indirect object dative',
+        'Adjectives agree with their nouns in case, number and gender',
+        'Prepositions: ad + accusative = to; in + ablative = in; cum + ablative = with',
+        'Review the stories in Lingua Latina Chapters I-VIII: the best preparation for translation',
+      ],
+    },
+    {
       heading: 'Key Verb Vocabulary',
       content: 'Master these verbs with their 3rd person active and passive forms.',
       bullets: [
@@ -149,6 +159,16 @@ export const unit04Verbs: Unit = {
       id: 'unit-04-verbs-fc-14',
       front: 'In Latin word order, where does the verb typically appear?',
       back: 'At the end of the sentence. Example: Servus in villa laborat = The slave works in the villa (laborat comes last).',
+    },
+    {
+      id: 'unit-04-verbs-fc-15',
+      front: 'What are the steps for translating a Latin sentence into English?',
+      back: 'Find the verb (usually last) and read its person, number and voice; find the subject (nominative); find the direct object (accusative), indirect object (dative) and prepositional phrases; then rebuild the sentence in English order.',
+    },
+    {
+      id: 'unit-04-verbs-fc-16',
+      front: 'Translate into Latin: "The slaves carry water."',
+      back: 'Servi aquam portant. (servi = nominative plural subject; aquam = accusative direct object; portant = 3rd person plural active, placed last)',
     },
   ],
   quiz: [

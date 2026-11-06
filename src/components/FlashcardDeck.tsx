@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import type { Flashcard } from '@/types/study';
 import { getUnitProgress, markFlashcardLearned } from '@/lib/progress';
 
@@ -8,9 +9,10 @@ interface FlashcardDeckProps {
   courseId: string;
   unitId: string;
   flashcards: Flashcard[];
+  focusLabel?: string;   // set when the deck was narrowed to one topic (e.g. from a missed quiz question)
 }
 
-export default function FlashcardDeck({ courseId, unitId, flashcards }: FlashcardDeckProps) {
+export default function FlashcardDeck({ courseId, unitId, flashcards, focusLabel }: FlashcardDeckProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [learnedIds, setLearnedIds] = useState<Set<string>>(new Set());
@@ -100,6 +102,15 @@ export default function FlashcardDeck({ courseId, unitId, flashcards }: Flashcar
 
   return (
     <div className="flex flex-col items-center px-4 py-8 max-w-2xl mx-auto w-full">
+      {focusLabel && (
+        <div className="w-full mb-4 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 text-sm text-amber-800 flex items-center justify-between gap-3 flex-wrap">
+          <span>Showing {flashcards.length} cards for <span className="font-semibold">{focusLabel}</span></span>
+          <a href={`/${courseId}/${unitId}/flashcards`} className="font-semibold underline underline-offset-2">
+            Show all cards
+          </a>
+        </div>
+      )}
+
       {/* Progress */}
       <div className="w-full mb-6">
         <div className="flex justify-between text-sm text-gray-500 mb-2">
@@ -139,19 +150,25 @@ export default function FlashcardDeck({ courseId, unitId, flashcards }: Flashcar
       </div>
 
       {/* Action buttons */}
-      <div className="flex gap-4 w-full justify-center">
+      <div className="flex gap-3 w-full justify-center">
         <button
           onClick={handleGotIt}
-          className="flex-1 max-w-[200px] bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-base"
+          className="flex-1 max-w-[200px] bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-xl transition-colors text-base"
         >
           Got it
         </button>
         <button
           onClick={handleReviewAgain}
-          className="flex-1 max-w-[200px] bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-xl transition-colors text-base"
+          className="flex-1 max-w-[200px] bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-4 rounded-xl transition-colors text-base"
         >
           Review again
         </button>
+        <Link
+          href={`/${courseId}/${unitId}/quiz`}
+          className="flex-1 max-w-[200px] bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 font-semibold py-3 px-4 rounded-xl transition-colors text-base text-center"
+        >
+          Jump to quiz
+        </Link>
       </div>
 
       {/* Hint */}

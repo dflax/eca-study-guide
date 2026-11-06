@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import type { NoteSection } from '@/types/study';
 import { markNotesViewed } from '@/lib/progress';
+import { topicSlug } from '@/lib/topics';
 
 interface NotesViewProps {
   courseId: string;
@@ -26,7 +27,7 @@ export default function NotesView({ courseId, unitId, notes }: NotesViewProps) {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 space-y-8">
       {notes.map((section, i) => (
-        <section key={i} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+        <section key={i} id={topicSlug(section.heading)} className="scroll-mt-24 bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4 pb-3 border-b border-gray-100">
             {section.heading}
           </h2>

@@ -8,7 +8,7 @@ export const unit03Reading: Unit = {
   notes: [
     {
       heading: 'The Model Passage — Read and Understand',
-      content: 'Read this passage carefully. It is the same format as the reading comprehension section on your exam. A student named דן (Dan) introduces himself:\n\n---\n\nשלום! קוראים לי דן. אני תלמיד בבית ספר אמת, כיתה ט\'.\nאני בן 15. אני גר ברחוב פאינט בניו יורק, ברוקלין.\n\n---\n\nHello! My name is Dan. I am a student at Emet School, 9th grade.\nI am 15 years old. I live on Point Street in New York, Brooklyn.\n\n---\n\nבניו יורק יש מוזאון גדול.\nבניו יורק יש הרבה מסעדות.\nבניו יורק יש קניון.\nבניו יורק אין חורף חם.\nבניו יורק אין קיץ קר.\n\n---\n\nIn New York there is a big museum.\nIn New York there are many restaurants.\nIn New York there is a mall.\nIn New York there is no warm winter.\nIn New York there is no cold summer.\n\n---\n\nבבית ספר אנחנו מתפללים כל בוקר.\nאנחנו לומדים עברית. אני אוהב לימוד.\nלפעמים אני הולך לקולנוע.\n\n---\n\nAt school we pray every morning.\nWe study Hebrew. I love studying.\nSometimes I go to the cinema.',
+      content: 'Read this passage carefully. It is the same format as the reading comprehension section on your exam. A student named דן (Dan) introduces himself:\n\n---\n\nשלום! קוראים לי דן. אני תלמיד בבית ספר אמת, כיתה ט\'.\nאני בן 15. אני גר ברחוב פאינט בניו יורק, ברוקלין.\n\n---\n\nHello! My name is Dan. I am a student at Emet School, 9th grade.\nI am 15 years old. I live on Point Street in New York, Brooklyn.\n\n---\n\nבניו יורק יש מוזאון גדול.\nבניו יורק יש הרבה מסעדות.\nבניו יורק יש קניון.\nבניו יורק אין חורף חם.\nבניו יורק אין קיץ קר.\n\n---\n\nIn New York there is a big museum.\nIn New York there are many restaurants.\nIn New York there is a mall.\nIn New York there is no warm winter.\nIn New York there is no cold summer.\n\n---\n\nבבית ספר אנחנו מתפללים כל בוקר.\nאנחנו לומדים עברית. אני אוהב ללמוד.\nלפעמים אני הולך לקולנוע.\n\n---\n\nAt school we pray every morning.\nWe study Hebrew. I love to study.\nSometimes I go to the cinema.',
       bullets: [
         'Read the whole passage first before looking at any questions',
         'Identify each יש/אין sentence — those are the most common comprehension targets',
@@ -109,6 +109,16 @@ export const unit03Reading: Unit = {
       id: 'unit-03-reading-fc-12',
       front: 'Complete this sentence from the model passage:\nבבית ספר אנחנו ___ כל בוקר.',
       back: 'מתפללים\nבבית ספר אנחנו מתפללים כל בוקר.\nAt school we pray every morning.\n(This sentence appears in both the reading passage and the oral exam template.)',
+    },
+    {
+      id: 'unit-03-reading-fc-13',
+      front: 'Which words does a BOY use to fill in the personal-information lines?',
+      back: 'תלמיד (student), גר (live), בן (age)\nExample: אני תלמיד. אני גר בניו יורק. אני בן 15.',
+    },
+    {
+      id: 'unit-03-reading-fc-14',
+      front: 'Which words does a GIRL use to fill in the personal-information lines?',
+      back: 'תלמידה (student), גרה (live), בת (age)\nExample: אני תלמידה. אני גרה בניו יורק. אני בת 15.',
     },
   ],
   quiz: [

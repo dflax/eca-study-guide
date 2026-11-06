@@ -8,7 +8,7 @@ export const unit01Vocabulary: Unit = {
   notes: [
     {
       heading: 'The Vocabulary List',
-      content: 'Hebrew is read right-to-left. The vocabulary below is organized by category. Learn both the Hebrew and English for each word — your exam requires both directions.\n\nPlaces in a City:\n• עיר — city\n• חנות — store / shop\n• קולנוע — cinema / movie theater\n• בית כנסת — synagogue\n• בית קפה — café / coffee house\n• גינה — garden / park\n• קניון — mall / shopping center\n• מוזאון — museum\n• מסעדה — restaurant\n• בית ספר — school\n\nAdjectives:\n• דתי — religious\n• משעמם — boring\n• מודרני — modern\n• חדש — new\n• עתיק — old / ancient\n• מעניין — interesting\n• חם — hot\n• קר — cold\n\nVerbs and Actions:\n• אוהב — loves / like\n• מרגיש — feels / feeling\n• מדבר — speaks / talking\n• קורא — reads / reading\n• מתפללים — pray / praying\n• לומד / לומדת — study / learning (m/f)\n\nPeople and Pronouns:\n• אנשים — people\n• חבר — friend\n• אורח — guest / visitor\n• תלמיד / תלמידה — student (m/f)\n• אנחנו — we\n\nEssential Phrases and Words:\n• שלום — hello / peace\n• יש — there is / there are\n• אין — there is not / there are not\n• לפעמים — sometimes\n• קוראים לי — my name is (literally "they call me")\n• אני גר / גרה — I live (m/f)\n• ברחוב — on the street\n• בניו יורק — in New York\n• בוקר — morning\n• עברית — Hebrew\n\nSeasons:\n• חורף — winter\n• קיץ — summer\n\nClassroom:\n• כיתה — classroom / grade',
+      content: 'Hebrew is read right-to-left. The vocabulary below is organized by category. Learn both the Hebrew and English for each word — your exam requires both directions.\n\nPlaces in a City:\n• עיר — city\n• חנות — store / shop\n• קולנוע — cinema / movie theater\n• בית כנסת — synagogue\n• בית קפה — café / coffee house\n• גינה — garden / park\n• קניון — mall / shopping center\n• מוזאון — museum\n• מסעדה — restaurant\n• בית ספר — school\n\nAdjectives:\n• דתי — religious\n• משעמם — boring\n• מודרני — modern\n• חדש — new\n• עתיק — old / ancient\n• מעניין — interesting\n• חם — hot\n• קר — cold\n\nVerbs and Actions:\n• אוהב — loves / like\n• מרגיש — feels / feeling\n• מדבר — speaks / talking\n• קורא — reads / reading\n• מתפללים — pray / praying\n• לומד / לומדת — study / learning (m/f)\n\nPeople and Pronouns:\n• אנשים — people\n• חבר — friend\n• אורח — guest / visitor\n• תלמיד / תלמידה — student (m/f)\n• אנחנו — we\n\nEssential Phrases and Words:\n• שלום — hello / peace\n• יש — there is / there are\n• אין — there is not / there are not\n• לפעמים — sometimes\n• קוראים לי — my name is (literally "they call me")\n• אני גר / גרה — I live (m/f)\n• ברחוב — on the street\n• בניו יורק — in New York\n• בוקר — morning\n• עברית — Hebrew\n\nSeasons:\n• חורף — winter\n• קיץ — summer\n\nClassroom:\n• כיתה — classroom / grade\n\nThings:\n• אוטובוס — bus\n• אוכל — food',
     },
     {
       heading: 'יש and אין — The Key Concept',
@@ -18,7 +18,7 @@ export const unit01Vocabulary: Unit = {
         'אין = something does not exist — "there is/are not"',
         'Structure: Place + יש/אין + what exists',
         'No verb "to be" needed — יש and אין do the work',
-        'For the written exam: write 15 sentences about your city using יש and אין with the vocabulary list',
+        'For the written exam: write sentences about your city that use 15 words from the vocabulary list, including יש and אין',
       ],
     },
     {
@@ -33,14 +33,25 @@ export const unit01Vocabulary: Unit = {
       ],
     },
     {
-      heading: 'Writing Task Preparation — 15 Sentences About My City',
-      content: 'The written exam asks you to write 15 sentences about your city (עיר) using the vocabulary list. Here is how to build strong sentences:\n\nFormula 1 — What exists in my city:\n[City/place] + יש + [vocabulary word]\nExample: בניו יורק יש מוזאון גדול — In New York there is a big museum.\n\nFormula 2 — What does not exist in my city:\n[City/place] + אין + [vocabulary word]\nExample: בניו יורק אין חורף חם — In New York there is no warm winter.\n\nFormula 3 — Describe the city with an adjective:\nהעיר שלי + [adjective]\nExample: העיר שלי מעניינת — My city is interesting.\n\nFormula 4 — What you do in the city:\nאני + [verb] + ב[place]\nExample: אני אוכל במסעדה — I eat at a restaurant.\n\nFormula 5 — Combine vocabulary with description:\nיש [place] + [adjective] + בעיר שלי\nExample: יש בית קפה חדש בעיר שלי — There is a new café in my city.\n\nFive Model Sentences:\n1. בניו יורק יש קניון גדול — In New York there is a big mall.\n2. בניו יורק אין חורף חם — In New York there is no warm winter.\n3. יש הרבה מסעדות בעיר שלי — There are many restaurants in my city.\n4. העיר שלי מודרנית ומעניינת — My city is modern and interesting.\n5. לפעמים אני הולך לקולנוע — Sometimes I go to the cinema.',
+      heading: 'Writing Task Preparation — Sentences With 15 Words: Me and My City',
+      content: 'The written exam (אני והעיר שלי — "Me and My City") says: כתבו משפטים על העיר שלכם עם 15 מילים — write sentences about your city that use 15 words from the vocabulary list. Here is how to build strong sentences:\n\nFormula 1 — What exists in my city:\n[City/place] + יש + [vocabulary word]\nExample: בניו יורק יש מוזאון גדול — In New York there is a big museum.\n\nFormula 2 — What does not exist in my city:\n[City/place] + אין + [vocabulary word]\nExample: בניו יורק אין חורף חם — In New York there is no warm winter.\n\nFormula 3 — Describe the city with an adjective:\nהעיר שלי + [adjective]\nExample: העיר שלי מעניינת — My city is interesting.\n\nFormula 4 — What you do in the city:\nאני + [verb] + ב[place]\nExample: אני אוכל במסעדה — I eat at a restaurant.\n\nFormula 5 — Combine vocabulary with description:\nיש [place] + [adjective] + בעיר שלי\nExample: יש בית קפה חדש בעיר שלי — There is a new café in my city.\n\nFive Model Sentences:\n1. בניו יורק יש קניון גדול — In New York there is a big mall.\n2. בניו יורק אין חורף חם — In New York there is no warm winter.\n3. יש הרבה מסעדות בעיר שלי — There are many restaurants in my city.\n4. העיר שלי מודרנית ומעניינת — My city is modern and interesting.\n5. לפעמים אני הולך לקולנוע — Sometimes I go to the cinema.',
       bullets: [
-        'Aim for variety: use different vocabulary words across your 15 sentences',
+        'Aim for variety: your sentences together should use 15 different vocabulary words',
         'Mix יש and אין sentences',
         'Use adjectives to add description',
         'You can describe seasons: בחורף קר בניו יורק — In winter it is cold in New York',
         'Mention different types of places: religious (בית כנסת), cultural (מוזאון), social (בית קפה)',
+      ],
+    },
+    {
+      heading: 'The Final Exam Format',
+      content: 'The Hebrew final (בחינת סוף השנה, level רמה 1,2) has two parts, and the vocabulary list in this unit is shared by both.\n\nOral exam — בחינה בדיבור — June 8 (6.8):\nYou speak about yourself: your name (שם), that you are a student (תלמיד) at the school, your grade (כיתה), where you live, what there is (יש) and is not (אין) in New York, what is fun to do in New York, what you do at Emet school, and what you love to do at Emet school. Fun things to do and school activities use the שם פועל (infinitive) form.\n\nWritten exam — בחינה בכתב — June 12 (6.12):\nכתבו משפטים על העיר שלכם עם 15 מילים. אני והעיר שלי. — Write sentences about your city that use 15 words. "Me and My City."\n\nWords — מילים:\nThe full vocabulary list (see the first section of this unit) is the word bank for both parts.\n\nTextbook pages — עמודים בספר:\nPages 1-117.',
+      bullets: [
+        'בחינה בדיבור = oral (speaking) exam — June 8',
+        'בחינה בכתב = written exam — June 12',
+        'Written task: sentences about your city using 15 vocabulary words — "Me and My City" (אני והעיר שלי)',
+        'The oral exam covers name, school, grade, address, what New York has / lacks, fun things to do, and school life',
+        'Textbook coverage listed on the guide: pages 1-117',
       ],
     },
   ],
@@ -366,6 +377,51 @@ export const unit01Vocabulary: Unit = {
       id: 'unit-01-vocabulary-fc-32e',
       front: 'loves / like',
       back: 'אוהב',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-33h',
+      front: 'תלמיד',
+      back: 'student (male)\nFemale: תלמידה',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-34h',
+      front: 'תלמידה',
+      back: 'student (female)\nMale: תלמיד',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-35h',
+      front: 'גרה',
+      back: 'lives (female): אני גרה\nMale form: גר',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-36h',
+      front: 'לומדת',
+      back: 'studies / learns (female): אני לומדת\nMale form: לומד',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-37h',
+      front: 'העיר שלי',
+      back: 'my city\nExample: העיר שלי מעניינת — My city is interesting.',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-38h',
+      front: 'הרבה',
+      back: 'many / a lot\nExample: יש הרבה מסעדות בעיר שלי',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-39h',
+      front: 'בחינה בכתב',
+      back: 'written exam\n(בחינה בדיבור = oral exam)',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-40h',
+      front: 'משפטים',
+      back: 'sentences\n(Singular: משפט)',
+    },
+    {
+      id: 'unit-01-vocabulary-fc-41h',
+      front: 'מילים',
+      back: 'words\nThe written exam asks for sentences with 15 words.',
     },
   ],
   quiz: [

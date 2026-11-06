@@ -1,0 +1,29 @@
+import type { QuizQuestion } from '@/types/study';
+
+const T0 = "Possessive Pronouns — meus, tuus, suus";
+const T1 = "is, ea, id (he, she, it / that)";
+const T2 = "hic, haec, hoc (this) and ille, illa, illud (that)";
+const T3 = "qui, quae, quod (who, which, that — relative pronoun)";
+
+export const unit03Bank: QuizQuestion[] = [
+  { id: "unit-03-pronouns-b-01", topic: T0, question: "Which word means 'your' (belonging to one person)?", options: ["meus", "suus", "tuus", "eius"], correctIndex: 2, explanation: "tuus, tua, tuum means your (singular); meus is my; suus is reflexive." },
+  { id: "unit-03-pronouns-b-02", topic: T0, question: "In 'Dominus filiam suam amat,' whose daughter does the master love?", options: ["His own daughter", "Someone else's daughter", "The slave's daughter", "Your daughter"], correctIndex: 0, explanation: "Suus is reflexive and refers back to the subject, dominus." },
+  { id: "unit-03-pronouns-b-03", topic: T0, question: "Which form of 'meus' modifies 'filiae' in the dative singular ('to my daughter')?", options: ["meo", "meam", "mei", "meae"], correctIndex: 3, explanation: "Filiae is feminine dative singular, so meus becomes meae." },
+  { id: "unit-03-pronouns-b-04", topic: T0, question: "In 'Puella librum eius portat,' whose book is it?", options: ["The girl's own book", "Another person's, not the girl's own", "The slave's own book", "Both the girl's and her friend's"], correctIndex: 1, explanation: "Eius is used when the possessor is not the subject; the girl's own would be suum." },
+  { id: "unit-03-pronouns-b-05", topic: T0, question: "In 'Servi dominum suum amant,' whose master do the slaves love?", options: ["Their own master", "The master's own slave", "Your master", "A stranger's master"], correctIndex: 0, explanation: "Suus refers back to the plural subject servi, so their own." },
+  { id: "unit-03-pronouns-b-06", topic: T1, question: "Which form is the genitive singular of is, ea, id (all genders)?", options: ["huius", "illius", "cuius", "eius"], correctIndex: 3, explanation: "Eius is the genitive singular of is/ea/id; huius belongs to hic and illius to ille." },
+  { id: "unit-03-pronouns-b-07", topic: T1, question: "What is the accusative singular feminine of is, ea, id?", options: ["eum", "eam", "eas", "ea"], correctIndex: 1, explanation: "Accusative singular: eum (m), eam (f), id (n)." },
+  { id: "unit-03-pronouns-b-08", topic: T1, question: "What is the dative and ablative plural of is, ea, id?", options: ["eius", "eos", "eis", "ei"], correctIndex: 2, explanation: "Eis serves for the dative and ablative plural in all genders." },
+  { id: "unit-03-pronouns-b-09", topic: T1, question: "What is the genitive plural feminine of is, ea, id?", options: ["eorum", "eas", "eae", "earum"], correctIndex: 3, explanation: "Genitive plural: eorum (m), earum (f), eorum (n)." },
+  { id: "unit-03-pronouns-b-10", topic: T1, question: "What is the neuter nominative and accusative singular of is, ea, id?", options: ["is", "id", "ea", "eum"], correctIndex: 1, explanation: "The neuter singular nominative and accusative is id." },
+  { id: "unit-03-pronouns-b-11", topic: T1, question: "Translate: 'Servus eum videt.'", options: ["The slave sees her", "He sees the slave", "The slave sees him", "The slave sees them"], correctIndex: 2, explanation: "Eum is accusative singular masculine, so it is the object: him." },
+  { id: "unit-03-pronouns-b-12", topic: T1, question: "What is the accusative plural masculine of is, ea, id?", options: ["eos", "eas", "ea", "eum"], correctIndex: 0, explanation: "Accusative plural: eos (m), eas (f), ea (n)." },
+  { id: "unit-03-pronouns-b-13", topic: T2, question: "What is the accusative singular feminine of hic, haec, hoc?", options: ["hunc", "hoc", "hanc", "haec"], correctIndex: 2, explanation: "Accusative singular: hunc (m), hanc (f), hoc (n)." },
+  { id: "unit-03-pronouns-b-14", topic: T2, question: "What is the nominative plural masculine of hic?", options: ["hi", "hae", "haec", "his"], correctIndex: 0, explanation: "Nominative plural: hi (m), hae (f), haec (n)." },
+  { id: "unit-03-pronouns-b-15", topic: T2, question: "What is the genitive singular of ille, illa, illud (all genders)?", options: ["huius", "eius", "illi", "illius"], correctIndex: 3, explanation: "Illius is the genitive singular of ille; the dative singular is illi." },
+  { id: "unit-03-pronouns-b-16", topic: T2, question: "Which pronoun fits 'that town far away' (neuter nominative singular): '___ oppidum'?", options: ["ille", "illud", "illa", "hoc"], correctIndex: 1, explanation: "Ille/illa/illud means that (farther away); the neuter nominative singular is illud." },
+  { id: "unit-03-pronouns-b-17", topic: T3, question: "Which form is the genitive singular of qui, quae, quod?", options: ["cuius", "quorum", "cui", "quibus"], correctIndex: 0, explanation: "Cuius (whose, of whom) is the genitive singular for all genders." },
+  { id: "unit-03-pronouns-b-18", topic: T3, question: "What is the nominative plural feminine of qui, quae, quod?", options: ["quas", "qui", "quarum", "quae"], correctIndex: 3, explanation: "Nominative plural: qui (m), quae (f), quae (n)." },
+  { id: "unit-03-pronouns-b-19", topic: T3, question: "In 'Puella quae in horto laborat laeta est,' what case is 'quae' and why?", options: ["Accusative, as the object of laborat", "Nominative, as the subject of laborat", "Genitive, because it shows possession", "Ablative, because of 'in'"], correctIndex: 1, explanation: "Quae is the subject of laborat inside the relative clause; it is feminine singular to match puella." },
+  { id: "unit-03-pronouns-b-20", topic: T3, question: "What is the accusative plural masculine of qui, quae, quod?", options: ["quas", "quorum", "quos", "quibus"], correctIndex: 2, explanation: "Accusative plural: quos (m), quas (f), quae (n)." },
+];

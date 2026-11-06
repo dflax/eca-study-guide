@@ -1,4 +1,4 @@
-import type { AllProgress, UnitProgress, QuizAttempt } from '@/types/study';
+import type { AllProgress, UnitProgress, QuizAttempt, TopicSession, QuestionRecord } from '@/types/study';
 
 const STORAGE_KEY = 'eca_study_progress';
 
@@ -71,11 +71,73 @@ export function resetUnitProgress(courseId: string, unitId: string) {
   const data = getAll();
   if (data.courses[courseId]) {
     delete data.courses[courseId][unitId];
-    saveAll(data);
   }
+  const sessions = data.topicSessions?.[courseId];
+  if (sessions) {
+    for (const k of Object.keys(sessions)) {
+      if (k.startsWith(`${unitId}::`)) delete sessions[k];
+    }
+  }
+  saveAll(data);
 }
 
 export function getLastQuizScore(courseId: string, unitId: string): QuizAttempt | null {
   const prog = getUnitProgress(courseId, unitId);
   return prog.quizAttempts.length > 0 ? prog.quizAttempts[prog.quizAttempts.length - 1] : null;
+}
+
+// ---- Topic mastery + per-question history (powers focused practice and weak-area quizzes) ----
+
+export function topicKey(unitId: string, topic: string): string {
+  return `${unitId}::${topic}`;
+}
+
+export function getTopicSessions(courseId: string): Record<string, TopicSession[]> {
+  return getAll().topicSessions?.[courseId] ?? {};
+}
+
+export function getQuestionHistory(courseId: string): Record<string, QuestionRecord> {
+  return getAll().questionHistory?.[courseId] ?? {};
+}
+
+export function recordQuestionResult(courseId: string, questionId: string, correct: boolean) {
+  const data = getAll();
+  data.questionHistory ??= {};
+  data.questionHistory[courseId] ??= {};
+  const prev = data.questionHistory[courseId][questionId];
+  data.questionHistory[courseId][questionId] = {
+    attempts: (prev?.attempts ?? 0) + 1,
+    correct: (prev?.correct ?? 0) + (correct ? 1 : 0),
+    lastCorrect: correct,
+    lastDate: new Date().toISOString(),
+  };
+  saveAll(data);
+}
+
+const MAX_SESSIONS_PER_TOPIC = 10;
+
+export function recordTopicSessions(
+  courseId: string,
+  results: { unitId: string; topic: string; correct: boolean }[],
+) {
+  const byKey = new Map<string, { correct: number; total: number }>();
+  for (const r of results) {
+    if (!r.topic) continue;
+    const k = topicKey(r.unitId, r.topic);
+    const agg = byKey.get(k) ?? { correct: 0, total: 0 };
+    agg.total += 1;
+    if (r.correct) agg.correct += 1;
+    byKey.set(k, agg);
+  }
+  if (byKey.size === 0) return;
+  const data = getAll();
+  data.topicSessions ??= {};
+  data.topicSessions[courseId] ??= {};
+  const date = new Date().toISOString();
+  for (const [k, agg] of byKey) {
+    const list = data.topicSessions[courseId][k] ?? [];
+    list.push({ ...agg, date });
+    data.topicSessions[courseId][k] = list.slice(-MAX_SESSIONS_PER_TOPIC);
+  }
+  saveAll(data);
 }

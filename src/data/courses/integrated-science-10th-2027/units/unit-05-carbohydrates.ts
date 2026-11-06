@@ -17,6 +17,16 @@ export const unit05Carbohydrates: Unit = {
       ],
     },
     {
+      heading: 'Building & Breaking Down Carbohydrates',
+      content: 'A monosaccharide is a single sugar (glucose, C₆H₁₂O₆). Two monosaccharides joined together make a disaccharide (C₁₂H₂₂O₁₁ when built from two glucoses), and long chains make a polysaccharide. Monomers are linked by dehydration synthesis, which releases one water molecule for each bond made. Hydrolysis splits the bonds again and uses one water molecule per bond.',
+      bullets: [
+        'Dehydration synthesis: water is a PRODUCT. Joining n sugars releases n − 1 water molecules (2 glucoses → 1 water; 10 glucoses → 9 water)',
+        'Hydrolysis: water is a REACTANT. Splitting a disaccharide into two monosaccharides uses 1 water',
+        'Hydrolysis of starch ultimately gives glucose monomers',
+        'Two glucoses (C₆H₁₂O₆ + C₆H₁₂O₆) minus one water gives C₁₂H₂₂O₁₁',
+      ],
+    },
+    {
       heading: 'Structural vs. Energy-Storage Polysaccharides',
       content: 'The same monomer (glucose) can build very different polysaccharides depending on how the monomers are arranged.',
       bullets: [
@@ -65,6 +75,16 @@ export const unit05Carbohydrates: Unit = {
       id: 'unit-05-carbohydrates-fc-08',
       front: 'Which functional group is found in carbohydrates?',
       back: 'Hydroxyl / alcohol (–OH).',
+    },
+    {
+      id: 'unit-05-carbohydrates-fc-09',
+      front: 'How many water molecules are released when n monosaccharides are joined into one chain?',
+      back: 'n − 1 water molecules (dehydration synthesis releases one water per bond). Two glucoses make a disaccharide and release 1 water.',
+    },
+    {
+      id: 'unit-05-carbohydrates-fc-10',
+      front: 'Monosaccharide vs. disaccharide vs. polysaccharide',
+      back: 'Monosaccharide: one sugar (glucose, C₆H₁₂O₆). Disaccharide: two sugars joined (C₁₂H₂₂O₁₁). Polysaccharide: a long chain of sugars (starch, glycogen, cellulose). Hydrolysis breaks them back into monosaccharides.',
     },
   ],
   quiz: [

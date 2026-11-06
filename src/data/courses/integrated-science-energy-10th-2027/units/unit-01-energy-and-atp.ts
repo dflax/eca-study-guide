@@ -76,6 +76,30 @@ export const unit01EnergyAndAtp: Unit = {
       ],
     },
     {
+      heading: 'Lipids: Fats, Phospholipids, and Cholesterol',
+      content: 'The study guide includes reference pages on lipids, the molecules cells use for long-term energy storage. Lipids are nonpolar, built mostly from carbon-carbon and carbon-hydrogen bonds, and they do three jobs: energy storage, building the plasma membrane, and cell signaling.',
+      bullets: [
+        'Triacylglycerol (fat): a glycerol backbone joined to three fatty acids. The fatty acids attach by dehydration synthesis, so each bond releases a water molecule',
+        'Saturated fatty acid: hydrocarbon chain with single bonds only. Saturated fats might contribute to plaque formation in the arteries',
+        'Unsaturated fatty acid: one or more double bonds. A cis double bond puts a bend or kink in the chain, so the fats cannot pack tightly and stay liquid at room temperature (olive, corn, canola, and cod liver oil). Unsaturated fats help lower blood cholesterol',
+        'Cis vs. trans: if the hydrogens at a double bond are on the same side it is cis; on opposite sides it is trans',
+        'Phospholipid: glycerol, two fatty acids, and a phosphate group (modified by an alcohol). It is amphipathic: the fatty acid tails are hydrophobic and the phosphate head is hydrophilic. Phospholipids form the plasma membrane bilayer',
+        'Cholesterol: the most common steroid, made of four fused hydrocarbon rings. The liver makes it, and it is the precursor of steroid hormones, vitamin D, and bile salts. Sterols sit in the plasma membrane within the phospholipid bilayer',
+      ],
+    },
+    {
+      heading: 'The Four Macromolecule Classes and Water',
+      content: 'The study guide also has a summary chart of the four classes of organic molecules and a page on water. Carbohydrates and lipids are the two classes that matter for energy storage in this unit.',
+      bullets: [
+        'Nucleic acids (DNA, RNA): store and transmit information (RNA can also catalyze reactions). Subunits are nucleotides, joined by phosphodiester bonds',
+        'Carbohydrates: energy storage and cell identification (sugars, cell walls, exoskeletons). Subunits are monosaccharides, joined by glycosidic bonds',
+        'Proteins: cell structure, signaling, and catalysis (cytoskeleton, signaling molecules, enzymes). Subunits are amino acids, joined by peptide bonds',
+        'Lipids: plasma membrane, energy storage, and cell signaling (phospholipids, triacylglycerol, cholesterol and other steroids). Nonpolar, with many C-C and C-H bonds',
+        'Big molecules are built from subunits by dehydration synthesis (water released) and broken apart by hydrolysis (water added)',
+        'Water is polar, a good solvent, and reactive: it is the molecule released and used in dehydration synthesis and hydrolysis',
+      ],
+    },
+    {
       heading: 'What the Study Guide Says You Must Know',
       content: 'These are the teacher\'s "You should know" items that belong to this unit.',
       bullets: [
@@ -221,6 +245,46 @@ export const unit01EnergyAndAtp: Unit = {
       id: 'unit-01-energy-and-atp-fc-27',
       front: 'What does cellular respiration do in terms of energy storage and use?',
       back: 'It converts stored energy (glucose, from carbohydrates) into ATP, the usable form.',
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-28',
+      front: 'What is a triacylglycerol (fat) made of?',
+      back: "A glycerol backbone joined to three fatty acids. Each fatty acid is attached by dehydration synthesis.",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-29',
+      front: 'What is a phospholipid, and why is it called amphipathic?',
+      back: "Glycerol, two fatty acids, and a phosphate group. The fatty acid tails are hydrophobic and the phosphate head is hydrophilic, so it has both a water-fearing and a water-loving part.",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-30',
+      front: 'What is cholesterol, and what is it used for?',
+      back: "The most common steroid (four fused hydrocarbon rings). It is a component of the plasma membrane and the precursor of steroid hormones, vitamin D, and bile salts.",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-31',
+      front: 'Saturated vs. unsaturated fatty acids',
+      back: "Saturated: single bonds only, straight chains. Unsaturated: one or more double bonds. A cis double bond kinks the chain so the fat stays liquid at room temperature.",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-32',
+      front: 'Cis vs. trans double bond',
+      back: "Cis: the hydrogens are on the same side of the double bond, causing a bend. Trans: the hydrogens are on opposite sides.",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-33',
+      front: 'Name the four classes of organic molecules and their subunits.',
+      back: "Nucleic acids (nucleotides), carbohydrates (monosaccharides), proteins (amino acids), and lipids (fatty acids and glycerol).",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-34',
+      front: 'Which bond joins the subunits of each macromolecule class?',
+      back: "Nucleic acids: phosphodiester. Carbohydrates: glycosidic. Proteins: peptide. Lipids: not a repeating chain, but built from many C-C and C-H bonds (fatty acids attach to glycerol by dehydration synthesis).",
+    },
+    {
+      id: 'unit-01-energy-and-atp-fc-35',
+      front: 'What are the main jobs of carbohydrates and lipids?',
+      back: "Carbohydrates: short-term energy storage and cell identification. Lipids: long-term energy storage, the plasma membrane, and cell signaling.",
     },
   ],
   quiz: [

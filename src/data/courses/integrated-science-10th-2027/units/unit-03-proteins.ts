@@ -92,6 +92,11 @@ export const unit03Proteins: Unit = {
       front: 'What is a dipeptide?',
       back: 'Two amino acids joined by a peptide bond.',
     },
+    {
+      id: 'unit-03-proteins-fc-13',
+      front: 'What are enzymes, and what does their function depend on?',
+      back: 'Enzymes are proteins that speed up chemical reactions. Their function depends on their 3D shape; if the shape is disrupted they stop working properly.',
+    },
   ],
   quiz: [
     {

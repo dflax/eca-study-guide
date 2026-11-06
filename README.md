@@ -12,26 +12,28 @@ Courses are organized on the homepage into sections by school year (newest first
 
 ### 2025–2026 School Year
 
-| Course | Teacher | Units | Flashcards | Quiz Questions |
+| Course | Teacher | Units | Flashcards | Quiz Questions (question bank) |
 |--------|---------|-------|------------|----------------|
-| 9th Grade Science | Dr. Shulman | 12 | 156 | 129 |
-| Hebrew | Morah Gabay | 3 | 91 | 36 |
-| Latin | Mr. Karlin | 6 | 121 | 70 |
-| Integrated Humanities | Ms. Attar | 6 | 77 | 67 |
+| 9th Grade Science | Dr. Shulman | 12 | 174 | 129 (421) |
+| Hebrew | Morah Gabay | 3 | 110 | 36 (105) |
+| Latin | Mr. Karlin | 6 | 139 | 70 (205) |
+| Integrated Humanities | Ms. Attar | 6 | 77 | 67 (207) |
 
 ### 2026–2027 School Year
 
-| Course | Teacher | Units | Flashcards | Quiz Questions |
+| Course | Teacher | Units | Flashcards | Quiz Questions (question bank) |
 |--------|---------|-------|------------|----------------|
-| 10th Grade Integrated Science II — Unit 1: Chemistry of Life | Dr. Shulman | 7 | 82 | 59 (+ 500-question summary pool) |
-| 10th Grade Integrated Science II — Unit 2: Energy | Dr. Shulman | 6 | 164 | 64 (+ 328-question summary pool) |
-| 10th Grade History | Dr. Levine | 8 | 250 | 110 (+ 434-question summary pool) |
+| 10th Grade Integrated Science II — Unit 1: Chemistry of Life | Dr. Shulman | 7 | 88 | 59 (500, incl. 500-question summary pool) |
+| 10th Grade Integrated Science II — Unit 2: Energy | Dr. Shulman | 6 | 172 | 64 (356, incl. 328-question summary pool) |
+| 10th Grade History | Dr. Levine | 8 | 250 | 110 (573, incl. 432-question summary pool) |
 
 ### General Topics
 
-| Course | Units | Flashcards | Quiz Questions |
+| Course | Units | Flashcards | Quiz Questions (question bank) |
 |--------|-------|------------|----------------|
-| NY State Driver's Permit Test Prep | 12 | 195 | 146 |
+| NY State Driver's Permit Test Prep | 12 | 313 | 146 (418) |
+
+*Quiz Questions* is the fixed first-attempt quiz in each unit. The number in parentheses is the course's **question bank**, which powers retakes, practice questions and weak-area quizzes (see Adaptive Practice below).
 
 ### Science Units (Dr. Shulman)
 1. Energy
@@ -80,7 +82,7 @@ Built from the Module 002 study guide and the class packets 002A–002C (quiz Oc
 7. Class Readings: Pico & Petrarch (002B.2, 002C)
 8. Quiz Focus & 2-Point Comparison Practice (002Q)
 
-**Summary Quiz — Units 1–6:** 24 questions drawn at random from a 434-question pool (the 96 unit-quiz questions from units 1–6 plus 338 summary-only questions), balanced across units 1–6 (units 7–8 are study-only) and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
+**Summary Quiz — Units 1–6:** 24 questions drawn at random from a 432-question pool (the unit-quiz questions from units 1–6 plus summary-only questions), balanced across units 1–6 (units 7–8 are study-only) and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
 
 > More History units will be added as the course continues.
 
@@ -134,6 +136,18 @@ Every unit has three modes:
 - **Flashcards** — Tap to flip. Mark cards as learned or flag for review. Progress is saved.
 - **Quiz** — Multiple choice, one question at a time. Immediate feedback with explanations. Scores are saved.
 
+Flashcards also have a **Jump to quiz** button next to *Got it* and *Review again*, so a learner can go straight to the quiz without finishing the deck.
+
+## Adaptive Practice
+
+Every course has a **question bank** much larger than its fixed unit quiz. Each question is tagged with a topic (the heading of a note section in its unit), which drives three things:
+
+- **New Questions** — at the end of any quiz, take a full new quiz drawn from the bank. Questions the learner hasn't seen yet come first.
+- **Focused practice** — after a wrong answer, *Try another question on this topic* gives an extra question on the same topic right away (it does not change the quiz score). The explanation also links to the matching **notes section** and **flashcards** for that topic, opening in a new tab so the quiz isn't lost.
+- **Weak-area quizzes** — the results screen shows how the learner did by topic. *Practice my weak areas* builds a new quiz weighted toward topics that need work, and can be repeated until every topic is mastered.
+
+**Mastery:** a topic is mastered when the learner scores **80% or better on it in two quizzes in a row** (a sitting with fewer than two answers on the topic doesn't count). Practice follow-ups and weak-area quizzes count toward mastery, but weak-area quizzes are not recorded as unit quiz attempts. Everything is stored in the browser's localStorage, like the rest of the progress.
+
 ---
 
 ## How Progress Works
@@ -165,7 +179,9 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ```bash
-pnpm build   # production build check
+pnpm build              # production build check
+pnpm validate:banks     # validate every course's question bank (run before committing content)
+pnpm test:quiz          # unit tests for the quiz-building and mastery logic
 ```
 
 ---
@@ -178,7 +194,8 @@ All course content lives in TypeScript data files — no database, no CMS. Addin
 1. Create `src/data/courses/[course-id]/index.ts` with course metadata
 2. Create `src/data/courses/[course-id]/units/unit-01-*.ts` (and more as needed)
 3. Register the course in `src/data/index.ts`
-4. Run `pnpm build` to verify — then push to deploy
+4. Add a `bank/` folder (`index.ts`, `topics.ts`, optional `unit-NN.ts` files) and register it in `src/data/banks.ts` — see an existing course such as `ny-drivers-permit`
+5. Run `pnpm validate:banks` and `pnpm build` to verify — then push to deploy
 
 Each unit file exports a `Unit` object with three arrays: `notes`, `flashcards`, and `quiz`. See any existing unit file for the pattern.
 
@@ -202,10 +219,18 @@ src/
   data/
     courses/
       science-9th-2026/         # Science course + 12 unit files
+        bank/                   # Question bank: topics.ts (tags + flashcard links), unit-NN.ts (new questions)
       hebrew-9th-2026/          # Hebrew course + unit files
     index.ts                    # Registers all courses
+    banks.ts                    # Registers each course's question bank (loaded on demand)
+    assemble-bank.ts            # Builds a bank from unit quizzes + pools + new questions
   lib/
-    progress.ts                 # localStorage read/write helpers
+    progress.ts                 # localStorage read/write helpers (incl. topic mastery history)
+    mastery.ts                  # 80% / two-sittings mastery rule
+    quiz-builder.ts             # Fresh, weak-area and follow-up question selection
+scripts/
+  validate-banks.ts             # Content validator for every course's bank
+  test-quiz-logic.ts            # Unit tests for the pure quiz logic
   types/
     study.ts                    # TypeScript interfaces
 ```

@@ -150,7 +150,7 @@ export const unit05Pool: QuizQuestion[] = [
   },
   {
     id: 'summary-u05-q-022',
-    question: '"Quod principi placuit legis habet vigorem" means:',
+    question: 'The Latin maxim "Quod principi placuit legis habet vigorem" translates as:',
     options: ['What benefits the people has the force of law', 'What pleases the prince has the force of law', 'What the nobles approve has the force of law', 'What the Church teaches has the force of law'],
     correctIndex: 1,
     explanation: 'Some rulers, feeling they had a right to do what they pleased, argued for this principle. (General background: it comes from Roman law.)',

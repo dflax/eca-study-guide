@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getCourse, getUnit } from '@/data/index';
 import Header from '@/components/Header';
-import QuizMode from '@/components/QuizMode';
+import QuizSession from '@/components/QuizSession';
 import { getUserProfile } from '@/lib/progress';
 
 interface QuizPageProps {
@@ -48,7 +48,7 @@ export default function QuizPage({ params }: QuizPageProps) {
         </div>
       </div>
 
-      <QuizMode courseId={courseId} unitId={unitId} quiz={unit.quiz} />
+      <QuizSession course={course} progressUnitId={unitId} unitId={unitId} baseQuiz={unit.quiz} />
     </div>
   );
 }

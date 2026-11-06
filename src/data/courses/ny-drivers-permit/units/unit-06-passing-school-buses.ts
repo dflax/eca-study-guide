@@ -8,7 +8,7 @@ export const unit06PassingSchoolBuses: Unit = {
   notes: [
     {
       heading: 'How to Pass on the Left',
-      content: 'The left lane is normally used for passing. You cannot pass a vehicle on the left if: your lane has a solid yellow center line; you cannot safely return to the right lane before a solid yellow center line for the right lane, or before an oncoming vehicle comes within 200 feet (60 m); you approach a curve or hilltop on a two-way road and cannot see over/around it; you are within 100 feet (30 m) of a railroad crossing on a two-way road with obstructed view; you are within 100 feet of a tunnel/bridge/viaduct on a two-way road with obstructed view; or passing would interfere with oncoming traffic.\n\nBefore passing, check mirrors and signal, then look over your left shoulder (mirrors alone leave blind spots). Move completely into the left lane, and before returning right, make sure you can see the front bumper of the passed vehicle in your interior mirror, plus check over your right shoulder.',
+      content: 'The left lane is normally used for passing. You cannot pass a vehicle on the left if: your lane has a solid yellow center line; you cannot safely return to the right lane before a solid yellow center line for the right lane, or before an oncoming vehicle comes within 200 feet (60 m); you approach a curve or hilltop on a two-way road and cannot see over/around it; you are within 100 feet (30 m) of a railroad crossing on a two-way road; you are within 100 feet of a tunnel/bridge/viaduct on a two-way road with obstructed view; or passing would interfere with oncoming traffic.\n\nBefore passing, check mirrors and signal, then look over your left shoulder (mirrors alone leave blind spots). Move completely into the left lane, and before returning right, make sure you can see the front bumper of the passed vehicle in your interior mirror, plus check over your right shoulder.',
     },
     {
       heading: 'How to Pass on the Right',
@@ -29,11 +29,30 @@ export const unit06PassingSchoolBuses: Unit = {
         'Most school bus-related deaths/injuries occur when children cross the street AFTER exiting the bus — drive slowly after passing a bus that has just discharged children.',
       ],
     },
+    {
+      heading: 'General Passing Rules',
+      content: 'You must not exceed the speed limit to pass another vehicle, and you should pass or change lanes only with caution and only when necessary. The law requires you to signal a lane change with turn signals or hand and arm signals at least 100 feet (30 m) before you make it.',
+      bullets: [
+        'Never depend on mirrors alone; correctly adjusted mirrors still leave blind spots, so look quickly over your shoulder before changing lanes or passing',
+        'You cannot drive on or across the shoulder or edge line to pass unless a sign allows it or a traffic officer directs it',
+        'Never pass a vehicle that has stopped at a crosswalk to let a pedestrian cross',
+        'When passing at an intersection on the right, watch for oncoming vehicles about to turn left into your path and for pedestrians, bicyclists, in-line skaters and moped riders on the right side of the road',
+      ],
+    },
+    {
+      heading: 'School Bus Stop-Arm Camera Penalties',
+      content: 'A 2019 law lets school districts and municipalities use stop-arm cameras on school buses to penalize the OWNERS of vehicles that pass a school bus that is stopped to pick up or drop off passengers with its red lights flashing.',
+      bullets: [
+        'First violation: $250 penalty',
+        'Second violation within 18 months: $275 penalty',
+        'Third (or more) violation within 18 months: $300 penalty',
+      ],
+    },
   ],
   flashcards: [
     { id: 'unit-06-passing-school-buses-fc-01', front: 'Under what road-line condition can you never pass on the left?', back: 'When your lane has a solid yellow center line.' },
     { id: 'unit-06-passing-school-buses-fc-02', front: 'How close can an oncoming vehicle be before you may not safely attempt to pass on the left?', back: 'You cannot pass if you cannot safely return to the right lane before an oncoming vehicle comes within 200 feet (60 m).' },
-    { id: 'unit-06-passing-school-buses-fc-03', front: 'Within how many feet of a railroad crossing (with obstructed view, two-way road) is passing on the left prohibited?', back: '100 feet (30 m).' },
+    { id: 'unit-06-passing-school-buses-fc-03', front: 'Within how many feet of a railroad crossing on a two-way road is passing on the left prohibited?', back: '100 feet (30 m).' },
     { id: 'unit-06-passing-school-buses-fc-04', front: 'Name two situations where passing on the right is legally allowed.', back: 'When a vehicle ahead makes a left turn; or on a two-way or one-way road marked/wide enough for two or more lanes in each direction, where passing isn\'t restricted (any two).' },
     { id: 'unit-06-passing-school-buses-fc-05', front: 'When passing a motorcycle, how much lane width should you give it?', back: 'The same full-lane width you would give any other vehicle — never share the lane with it.' },
     { id: 'unit-06-passing-school-buses-fc-06', front: 'When overtaking a bicyclist, on which side must you pass, and how?', back: 'You must pass on the left, at a safe distance, until the bicycle has been cleared.' },
@@ -45,6 +64,13 @@ export const unit06PassingSchoolBuses: Unit = {
     { id: 'unit-06-passing-school-buses-fc-12', front: 'What happens to your license after a third conviction for passing a stopped school bus within three years?', back: 'Your driver license will be revoked for a minimum of six months.' },
     { id: 'unit-06-passing-school-buses-fc-13', front: 'When do most school bus-related deaths and injuries actually occur?', back: 'While children cross the street after being discharged from the bus — not in collisions involving the bus itself.' },
     { id: 'unit-06-passing-school-buses-fc-14', front: 'Before returning to the right lane after passing, what should you see in your interior rear-view mirror?', back: 'The front bumper of the vehicle you just passed.' },
+    { id: 'unit-06-passing-school-buses-fc-15', front: 'How far ahead of a lane change must you signal, and may you exceed the speed limit to pass?', back: 'Signal at least 100 feet (30 m) ahead. You must not exceed the speed limit to pass another vehicle.' },
+    { id: 'unit-06-passing-school-buses-fc-16', front: 'May you pass on the right by driving on the shoulder?', back: 'No. You cannot drive on or across the shoulder or edge line unless a sign allows it or a traffic officer directs it.' },
+    { id: 'unit-06-passing-school-buses-fc-17', front: 'What are the school bus stop-arm camera penalties for vehicle owners?', back: '$250 for a first violation, $275 for a second within 18 months, and $300 for a third or more within 18 months.' },
+    { id: 'unit-06-passing-school-buses-fc-18', front: 'Why must you look over your shoulder before changing lanes instead of relying on mirrors?', back: 'Even correctly adjusted mirrors leave blind spots behind both sides of your vehicle.' },
+    { id: 'unit-06-passing-school-buses-fc-19', front: 'How do you recognize a school bus, and where are its yellow warning lights?', back: 'A "SCHOOL BUS" sign, red lights on top and yellow-orange color. Yellow warning lights are on the front and back near the roof. Vehicles for people with disabilities can be equipped as school buses.' },
+    { id: 'unit-06-passing-school-buses-fc-20', front: 'Who is penalized by a school bus stop-arm camera?', back: 'The owner of the vehicle that passed the stopped bus with its red lights flashing.' },
+    { id: 'unit-06-passing-school-buses-fc-21', front: 'May you pass a vehicle that has stopped at a crosswalk for a pedestrian?', back: 'Never.' },
   ],
   quiz: [
     { id: 'unit-06-passing-school-buses-q-01', question: 'You want to pass a vehicle on the left, but there is a solid yellow line in your lane. What must you do?', options: ['Pass anyway if no cars are coming', 'You cannot pass', 'Pass only at night', 'Sound your horn and pass'], correctIndex: 1, explanation: 'You cannot pass on the left if your lane has a solid yellow center line.' },

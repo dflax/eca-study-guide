@@ -164,7 +164,7 @@ export const unit01Pool: QuizQuestion[] = [
   },
   {
     id: 'summary-u01-q-024',
-    question: 'What did Petrarch discover in 1345?',
+    question: 'Which discovery did Petrarch make in 1345?',
     options: ['The printing press in Germany', 'A sea route to Asia', 'The text of the Gutenberg Bible', 'Some of Cicero\'s lost letters'],
     correctIndex: 3,
     explanation: 'Petrarch discovered some of Cicero\'s lost letters in 1345, an example of the recovery of classical texts.',

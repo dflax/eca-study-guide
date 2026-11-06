@@ -99,7 +99,7 @@ export const unit08Vsepr: Unit = {
     {
       id: 'unit-08-vsepr-fc-11',
       front: 'Between HF and HCl, which has stronger IMF and why?',
-      back: 'HF has stronger IMF. Both can form hydrogen bonds (H bonded to F or Cl). However, F is more electronegative than Cl, making the H-F bond MORE polarized → stronger hydrogen bond and dipole-dipole interactions.',
+      back: 'HF has stronger IMF. HF can form hydrogen bonds (H bonded directly to F), while HCl cannot (Cl is not N, O, or F) and has only dipole-dipole forces. F is also more electronegative than Cl, so the H-F bond is MORE polarized.',
     },
     {
       id: 'unit-08-vsepr-fc-12',

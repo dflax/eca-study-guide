@@ -9,18 +9,41 @@ export const unit08DefensiveDriving: Unit = {
     {
       heading: 'Driver Distractions',
       content: 'A distraction is anything that takes your attention away from driving — including mental distractions, not just physical ones. Avoid cell phone/texting, stressful conversations, eating, and unsecured children or pets while driving. You are responsible for operating your vehicle safely at all times.',
+      bullets: [
+        'Sit in a comfortable but vertical position with both hands on the wheel; slouching or driving one-handed makes control harder',
+        'Keep scanning: look well ahead, keep your eyes moving, notice the sides of the road, and check your mirrors every few seconds',
+        'Avoid arguments and stressful or emotional conversations with passengers, and avoid eating while driving',
+        'Be sure children are properly restrained and pets are secured in a pet carrier or portable kennel',
+        'Do not drive if you are very weary, are on medication that affects you, or have been drinking alcohol',
+      ],
     },
     {
       heading: 'Aggressive Driving & Road Rage',
       content: 'Aggressive driving includes speeding, following too closely, frequent lane changes without signaling, and passing on the shoulder. Aggressive driving is a traffic-safety-law violation; road rage is a criminal-law violation (angry, hostile behavior that can escalate to violence) — aggressive driving can turn into road rage but is not the same thing.\n\nIf confronted by an aggressive driver: do not make eye contact, remain calm, try to move away safely, do not challenge them with speed, wear your seat belt, ignore gestures, and report them to law enforcement (with vehicle description/plate/location/direction). If followed, drive to the nearest police station rather than stopping.',
+      bullets: [
+        'Aggressive drivers speed, tailgate, change lanes quickly without signaling, pass on the shoulder, and sometimes run stop signs and red lights or pass stopped school buses',
+        'Do not challenge an aggressive driver with increased speed or try to hold your position in your lane',
+        'To avoid becoming aggressive yourself: allow enough travel time, avoid the heaviest traffic times, and call ahead if you are late',
+        'Even if you have the right-of-way, be prepared to yield; waiting a few seconds is far better than risking a crash',
+      ],
     },
     {
       heading: 'Speed',
       content: 'You must obey the posted speed limit. If no limit is posted, the default maximum is 55 mph (88 km/h) — but New York City has a default limit of 25 mph (48 km/h) unless another limit is posted. Some highways also have minimum speed limits, since driving too slowly can be dangerous too.',
+      bullets: [
+        'The posted limit is not always a safe speed: on a slippery or fogged-in road you can be ticketed for a speed that is "not reasonable" for the conditions, even below the limit',
+        'Minimum speed limits keep traffic flowing; driving too slowly can be as dangerous as driving too fast',
+      ],
     },
     {
       heading: 'Allow Yourself Space — The Two-Second Rule',
       content: 'Four of every 10 crashes are rear-end collisions, usually from following too closely (tailgating). For a proper space cushion, use the two-second rule: pick a fixed point the vehicle ahead passes, then count "one-thousand-one, one-thousand-two." If you reach that point before finishing the count, you\'re following too closely. Increase to 3–4 seconds in bad weather or behind large trucks.',
+      bullets: [
+        'Brake early and gently when you prepare to stop or turn, to warn drivers behind you',
+        'If a driver tailgates you, move to another lane if possible, or slow down and pull off the road to let them pass; signal when leaving and returning to the road',
+        'Do not brake suddenly or unnecessarily to "teach a lesson"; it can startle the driver behind you and escalate into road rage',
+        'Leave "escape" room to your left and right in case you must change lanes quickly or pull over to avoid a hazard',
+      ],
     },
     {
       heading: 'Seat Belts, Child Safety Seats & Air Bags',
@@ -39,14 +62,32 @@ export const unit08DefensiveDriving: Unit = {
     {
       heading: 'Work Zones',
       content: 'Speeding fines DOUBLE in a work zone, even if no workers are present. Orange diamond "work zone" signs warn of hazards ahead; a flagger has the same legal authority as a sign. Merge into the correct lane as soon as you see a lane-closure warning — don\'t speed to the end of the closing lane. Keep at least a two-second following distance to avoid the most common work-zone crash: rear-end collisions.',
+      bullets: [
+        'A flagger is a worker who motions for you to stop, continue with caution or change lanes; you can be ticketed for disobeying a flagger',
+        'Flashing signs, arrows or "lane closed ahead" signs mean merge into the correct lane when it is safe, at the first notice',
+        'Some work zones move (painting lines, patching, mowing); obey the signs until you pass the one that says the work zone has ended',
+        'If you know where a work zone is, consider an alternate route or detour',
+      ],
     },
     {
       heading: 'Roundabouts',
       content: 'A roundabout is a circular intersection where entering traffic yields to circulating traffic, which moves counterclockwise. Speeds within a roundabout are designed to be 30 mph (50 km/h) or less. When entering: look left, yield to traffic already circulating, and wait for an adequate gap. Once in the roundabout, you have the right-of-way over entering traffic; signal right before your exit. Bicyclists may use the travel lane like any other vehicle — do not pass a bicycle inside a roundabout.',
+      bullets: [
+        'Traffic moves counterclockwise around the central island; look to the left and yield at the yield line',
+        'If another car is waiting at the yield line ahead of you, do not stop in the crosswalk; keep it clear for pedestrians',
+        'Yield to pedestrians in the crosswalk when entering and exiting',
+        'Use your right turn signal as you approach your exit',
+      ],
     },
     {
       heading: 'Drowsy & Fatigued Driving',
       content: 'Driving and sleep do not mix — fatigue slows reaction time and impairs judgment, just like drugs or alcohol. Young people are among the highest-risk groups because they tend to stay up late, sleep too little, and drive at night. If you\'re drowsy: pull off into a safe area for a brief nap (15–45 minutes); caffeine can help but takes about 30 minutes to enter the bloodstream. Do not depend on the radio or open windows to stay awake — find a safe place to stop.',
+      bullets: [
+        'Warning signs: eyes closing or going out of focus, trouble keeping your head up, constant yawning, wandering thoughts, not remembering the last few miles, drifting between lanes or hitting rumble strips',
+        'Prevention: get enough sleep, drive long trips with a companion, and schedule a stop every 100 miles or two hours',
+        'Avoid alcohol and medications that can impair you, and do not drive for at least 15 minutes after waking',
+        'Highest risk: people who are sleep-deprived, driving at night or alone, shift workers, and people with undiagnosed sleep disorders',
+      ],
     },
     {
       heading: 'Cell Phones & Texting',
@@ -60,6 +101,13 @@ export const unit08DefensiveDriving: Unit = {
     {
       heading: 'Vehicle Condition',
       content: 'It is the operator\'s responsibility to ensure the vehicle is safe. Pay special attention to brakes, steering, lights, tires, and the horn. Tires must have at least 2/32 of an inch of tread (check with the "penny test" — if you can see all of Lincoln\'s head, the tire is too worn).',
+      bullets: [
+        'Brakes that pull to one side may be wet or need adjustment; if you notice any change in brake performance, have them checked immediately',
+        'Steering should not have much free play; a whine on sharp turns can signal a problem with power steering',
+        'Keep lights clean and replace broken lenses, which cause dangerous glare; keep windows clean and wiper blades in good condition',
+        'It is illegal to drive on tires with cuts down to the cords, bumps or bulges',
+        'The horn is safety equipment to warn others; use it properly, not to express anger',
+      ],
     },
   ],
   flashcards: [
@@ -83,6 +131,18 @@ export const unit08DefensiveDriving: Unit = {
     { id: 'unit-08-defensive-driving-fc-18', front: 'What penalty applies to a probationary or junior license holder convicted of texting or hand-held phone use?', back: '120-day suspension for a first conviction; revocation of at least one year for a subsequent conviction within 6 months of restoration.' },
     { id: 'unit-08-defensive-driving-fc-19', front: 'Is hands-free phone use allowed while driving in New York?', back: 'Yes — a hands-free mobile telephone can be used at any time.' },
     { id: 'unit-08-defensive-driving-fc-20', front: 'What is the minimum legal tire tread depth, and how can you check it?', back: '2/32 of an inch — check with the "penny test": if you can see all of Lincoln\'s head in the tread groove, the tire is too worn.' },
+    { id: 'unit-08-defensive-driving-fc-21', front: 'What is a driver distraction?', back: 'Anything that takes your attention away from driving, including mental activities, not just taking your eyes off the road or hands off the wheel.' },
+    { id: 'unit-08-defensive-driving-fc-22', front: 'How should you sit and handle passengers and pets while driving?', back: 'Sit vertical and comfortable with both hands on the wheel, avoid stressful conversations and eating, restrain children, and secure pets in a carrier or kennel.' },
+    { id: 'unit-08-defensive-driving-fc-23', front: 'What should you do if an aggressive driver confronts you?', back: 'Do not make eye contact, stay calm, ignore gestures, try to move away safely, and report the driver. If followed, drive to the nearest police station and do not get out.' },
+    { id: 'unit-08-defensive-driving-fc-24', front: 'Name warning signs of drowsy driving.', back: 'Eyes closing or losing focus, constant yawning, trouble keeping your head up, wandering thoughts, not remembering recent miles, drifting between lanes or hitting rumble strips.' },
+    { id: 'unit-08-defensive-driving-fc-25', front: 'What should a drowsy driver do?', back: 'Pull off to a safe area and take a brief nap (15 to 45 minutes); caffeine takes about 30 minutes to work. Do not rely on the radio or an open window.' },
+    { id: 'unit-08-defensive-driving-fc-26', front: 'How often should you stop on a long trip to avoid fatigue?', back: 'Every 100 miles or two hours, and travel with a companion if possible.' },
+    { id: 'unit-08-defensive-driving-fc-27', front: 'What might it mean if your brakes pull to one side?', back: 'They may be wet or need adjustment or repair. Dry wet brakes by riding the pedal lightly; otherwise have a mechanic check them.' },
+    { id: 'unit-08-defensive-driving-fc-28', front: 'What is the horn for?', back: 'Warning other drivers or pedestrians of possible problems, not for expressing anger.' },
+    { id: 'unit-08-defensive-driving-fc-29', front: 'Why is a posted speed limit not always a safe speed?', back: 'Conditions such as slippery roads or fog can make the limit too fast; you can be ticketed for a speed "not reasonable" for the conditions. Too slow can also be dangerous, so some roads have minimum speeds.' },
+    { id: 'unit-08-defensive-driving-fc-30', front: 'What is the most common crash in a work zone, and how do you reduce the risk?', back: 'Rear-end collisions. Keep at least a two-second following distance and merge early when a lane is closing.' },
+    { id: 'unit-08-defensive-driving-fc-31', front: 'What should you do about pedestrians and bicyclists in a roundabout?', back: 'Yield to pedestrians in the crosswalk when entering and exiting, never stop in the crosswalk, and do not pass a bicycle inside the roundabout.' },
+    { id: 'unit-08-defensive-driving-fc-32', front: 'How should you respond to a tailgater?', back: 'Move to another lane if possible, or slow down and pull off to let them pass. Do not brake suddenly or unnecessarily.' },
   ],
   quiz: [
     { id: 'unit-08-defensive-driving-q-01', question: 'If no speed limit is posted on a New York State road, what is the default maximum speed?', options: ['45 mph', '55 mph', '65 mph', '25 mph'], correctIndex: 1, explanation: 'The default maximum is 55 mph (88 km/h) if no limit is posted, EXCEPT in New York City, where the default is 25 mph.' },

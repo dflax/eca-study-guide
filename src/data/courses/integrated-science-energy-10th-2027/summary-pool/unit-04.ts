@@ -200,14 +200,14 @@ export const unit04Pool: QuizQuestion[] = [
   {
     id: 'summary-u04-q-029',
     question: 'A poison blocks ATP synthase in a mitochondrion but leaves the ETC pumps working. What would you most likely see?',
-    options: ['Protons would flow freely back and ATP would rise', 'ATP made would be about the same as before', 'Protons would build up inside the matrix instead', 'Protons would pile up outside but little ATP is made'],
+    options: ['Protons would flow freely back and ATP would rise sharply', 'ATP made would be about the same as before', 'Protons would build up inside the matrix instead', 'Protons would pile up outside but little ATP is made'],
     correctIndex: 3,
     explanation: 'The pumps keep moving H⁺ into the intermembrane space, but without ATP synthase the protons cannot flow back through, so little ATP is made.',
   },
   {
     id: 'summary-u04-q-030',
     question: 'Which of these is found in BOTH a mitochondrion and a chloroplast?',
-    options: ['ATP synthase driven by a proton gradient', 'Chlorophyll in a thylakoid membrane', 'The Calvin cycle in the stroma', 'The Krebs cycle in the matrix'],
+    options: ['ATP synthase driven by a proton gradient', 'Chlorophyll embedded in a thylakoid membrane', 'The Calvin cycle in the stroma', 'The Krebs cycle in the matrix'],
     correctIndex: 0,
     explanation: 'Both organelles use proton gradients across a membrane to power ATP synthase. Chlorophyll and the Calvin cycle are only in chloroplasts, and the Krebs cycle is only in mitochondria.',
   },
@@ -228,7 +228,7 @@ export const unit04Pool: QuizQuestion[] = [
   {
     id: 'summary-u04-q-033',
     question: 'Which pair gives the energy source for the ETC in each organelle?',
-    options: ['Mitochondrion: sunlight; chloroplast: NADH and FADH₂', 'Mitochondrion: CO₂; chloroplast: glucose and oxygen', 'Mitochondrion: water; chloroplast: FADH₂ and CO₂', 'Mitochondrion: NADH and FADH₂; chloroplast: water, via light'],
+    options: ['Mitochondrion: sunlight; chloroplast: NADH and FADH₂ from food', 'Mitochondrion: CO₂; chloroplast: glucose and oxygen', 'Mitochondrion: water; chloroplast: FADH₂ and CO₂', 'Mitochondrion: NADH and FADH₂; chloroplast: water, via light'],
     correctIndex: 3,
     explanation: 'Mitochondria use electrons carried by NADH and FADH₂ from food. In chloroplasts, light-energized electrons come from split water.',
   },
@@ -242,14 +242,14 @@ export const unit04Pool: QuizQuestion[] = [
   {
     id: 'summary-u04-q-035',
     question: 'Which organisms contain chloroplasts?',
-    options: ['All eukaryotic cells, animals included', 'Plants and other photosynthetic eukaryotes', 'All bacterial cells without exception', 'Only animal cells and fungal cells'],
+    options: ['All eukaryotic cells, animals and fungi included', 'Plants and other photosynthetic eukaryotes', 'All bacterial cells without exception', 'Only animal cells and fungal cells'],
     correctIndex: 1,
     explanation: 'Chloroplasts are found in plants (and algae, background). Animals and fungi do not have them.',
   },
   {
     id: 'summary-u04-q-036',
     question: 'Which cells have mitochondria?',
-    options: ['Only plant cells, not animal cells', 'Only animal cells, not plant cells', 'Most eukaryotic cells, plant and animal', 'Only bacterial cells, not eukaryotes'],
+    options: ['Only plant cells, and not animal cells at all', 'Only animal cells, not plant cells', 'Most eukaryotic cells, plant and animal', 'Only bacterial cells, not eukaryotes'],
     correctIndex: 2,
     explanation: 'Plant cells also carry out cellular respiration, so they have mitochondria as well as chloroplasts.',
   },
@@ -291,7 +291,7 @@ export const unit04Pool: QuizQuestion[] = [
   {
     id: 'summary-u04-q-042',
     question: 'Which feature do the folds in the inner mitochondrial membrane most likely help with?',
-    options: ['Storing extra glucose for later', 'Letting more light into the organelle', 'Fitting more ETC proteins and ATP synthase', 'Keeping the matrix free of water'],
+    options: ['Storing extra glucose for later', 'Letting more sunlight into the organelle interior', 'Fitting more ETC proteins and ATP synthase', 'Keeping the matrix free of water'],
     correctIndex: 2,
     explanation: 'Folds increase the membrane surface area, so more ETC complexes and ATP synthases fit in the organelle (a reasonable inference, since the ETC is in this membrane).',
   },

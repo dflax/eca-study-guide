@@ -24,11 +24,11 @@ export const unit06ThemeC: Unit = {
     },
     {
       heading: 'The Code of Hammurabi — Divine Authority and Human Law',
-      content: 'Hammurabi (1792–1750 BCE) was the king of Babylon who compiled one of history\'s most famous law codes. The code is preserved on a stele (stone pillar) showing Hammurabi receiving the laws from Shamash, the sun-god — the god of justice.\n\nKey Themes in the Code of Hammurabi:\n\n1. Divine authorization for law:\nThe prologue of the code states that Hammurabi was chosen by the gods to rule and to bring justice to the land. Law is not merely human invention — it is divinely sanctioned. The king is G-d\'s agent on earth, responsible for implementing divine justice.\n\n2. Lex talionis — proportional punishment:\nThe Code is famous for "an eye for an eye, a tooth for a tooth" (lex talionis = law of retaliation). This principle represents proportional punishment — the punishment should match the offense, no more and no less. This was actually progressive for its time, replacing unlimited blood vengeance with measured, proportional responses.\n\n3. Social stratification in punishment:\nUnlike the biblical principle of equal divine value, Hammurabi\'s Code explicitly differentiates punishments based on social class:\n   - Free man (awilu): receives one punishment\n   - Freed person (mushkenu): receives a different (often lesser) punishment\n   - Slave (wardum): receives yet another punishment\nInjury to a slave is often punished with a fine to the owner, not the slave. This reveals a society where legal rights depend on social status.\n\n4. Divine order through royal law:\nThe gods care about order and justice, but they work through the king as their earthly representative. The king\'s job is to implement the divine will for a just and ordered society.',
+      content: 'Hammurabi (1792–1750 BCE) was the king of Babylon who compiled one of history\'s most famous law codes. The code is preserved on a stele (stone pillar) showing Hammurabi receiving the laws from Shamash, the sun-god — the god of justice.\n\nKey Themes in the Code of Hammurabi:\n\n1. Divine authorization for law:\nThe prologue of the code states that Hammurabi was chosen by the gods to rule and to bring justice to the land. Law is not merely human invention — it is divinely sanctioned. The king is G-d\'s agent on earth, responsible for implementing divine justice.\n\n2. Lex talionis — proportional punishment:\nThe Code is famous for "an eye for an eye, a tooth for a tooth" (lex talionis = law of retaliation). This principle represents proportional punishment — the punishment should match the offense, no more and no less. This was actually progressive for its time, replacing unlimited blood vengeance with measured, proportional responses.\n\n3. Social stratification in punishment:\nUnlike the biblical principle of equal divine value, Hammurabi\'s Code explicitly differentiates punishments based on social class:\n   - Free man (awilu): receives one punishment\n   - Commoner (mushkenu): a class between free men and slaves, receiving a different (often lesser) punishment\n   - Slave (wardum): receives yet another punishment\nInjury to a slave is often punished with a fine to the owner, not the slave. This reveals a society where legal rights depend on social status.\n\n4. Divine order through royal law:\nThe gods care about order and justice, but they work through the king as their earthly representative. The king\'s job is to implement the divine will for a just and ordered society.',
       bullets: [
         'Hammurabi receives laws from Shamash (sun-god, god of justice) — divine authorization for royal law',
         'Lex talionis: "eye for an eye" — proportional punishment; progressive compared to unlimited vengeance',
-        'Highly stratified: punishments differ based on social class (free man, freed person, slave)',
+        'Highly stratified: punishments differ based on social class (free man, commoner, slave)',
         'Compare to Numbers 35: both ground law in divine authority, but Hammurabi ties punishment to social status',
         'The king is G-d\'s agent on earth — law flows from divine authority through the king to the people',
         'Divine purpose: the gods want order and justice in human society',
@@ -91,7 +91,7 @@ export const unit06ThemeC: Unit = {
     {
       id: 'unit-06-theme-c-fc-04',
       front: 'How does the Code of Hammurabi treat people differently based on social class?',
-      back: 'Hammurabi\'s Code explicitly differentiates punishments based on social class: free man (awilu), freed person (mushkenu), and slave (wardum) receive different punishments for the same offense. Injury to a slave is often punished with a fine to the owner. Contrast with Numbers 35, which treats human life as having equal divine value regardless of status.',
+      back: 'Hammurabi\'s Code explicitly differentiates punishments based on social class: free man (awilu), commoner (mushkenu), and slave (wardum) receive different punishments for the same offense. Injury to a slave is often punished with a fine to the owner. Contrast with Numbers 35, which treats human life as having equal divine value regardless of status.',
     },
     {
       id: 'unit-06-theme-c-fc-05',
@@ -159,7 +159,7 @@ export const unit06ThemeC: Unit = {
         'Hammurabi\'s Code only covers intentional crimes; Numbers 35 only covers accidental ones',
       ],
       correctIndex: 1,
-      explanation: 'Hammurabi\'s Code explicitly gives different punishments for the same offense depending on whether the victim is a free man, freed person, or slave. Numbers 35 does not differentiate by social status — every human life has divine value regardless of class, reflecting the covenant\'s emphasis on equal dignity before G-d.',
+      explanation: 'Hammurabi\'s Code explicitly gives different punishments for the same offense depending on whether the victim is a free man, commoner, or slave. Numbers 35 does not differentiate by social status — every human life has divine value regardless of class, reflecting the covenant\'s emphasis on equal dignity before G-d.',
     },
     {
       id: 'unit-06-theme-c-q-04',

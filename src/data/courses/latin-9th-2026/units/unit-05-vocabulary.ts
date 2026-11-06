@@ -354,6 +354,86 @@ export const unit05Vocabulary: Unit = {
       front: 'beautiful, handsome (Latin adjective)',
       back: 'pulcher, pulchra, pulchrum',
     },
+    {
+      id: 'unit-05-vocabulary-fc-26',
+      front: 'vir, viri (m)',
+      back: 'man, husband [2nd declension; no -us ending in the nominative, like puer]',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-27',
+      front: 'femina, -ae (f)',
+      back: 'woman',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-28',
+      front: 'filius, -i (m)  |  filia, -ae (f)',
+      back: 'son  |  daughter',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-29',
+      front: 'fluvius, -i (m)  |  rivus, -i (m)',
+      back: 'river  |  stream, brook',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-30',
+      front: 'atrium, -i (n)  |  cubiculum, -i (n)  |  triclinium, -i (n)',
+      back: 'entrance hall (main room)  |  bedroom, room  |  dining room',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-31',
+      front: 'Roma, Italia, Graecia, Gallia, Germania (all -ae, f)',
+      back: 'Rome, Italy, Greece, Gaul (modern France), Germany',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-32',
+      front: 'et  |  sed  |  aut  |  non',
+      back: 'and  |  but  |  or  |  not',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-33',
+      front: 'semper  |  saepe  |  numquam',
+      back: 'always  |  often  |  never',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-34',
+      front: 'nunc  |  iam  |  tum',
+      back: 'now  |  now, already, soon  |  then, at that time',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-35',
+      front: 'ibi  |  hic (adverb)  |  ubi',
+      back: 'there  |  here (not the pronoun hic, haec, hoc)  |  where',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-36',
+      front: 'quid  |  quis  |  cur',
+      back: 'what  |  who  |  why',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-37',
+      front: 'quoque  |  etiam  |  enim  |  ergo',
+      back: 'also, too (follows the word it modifies)  |  also, even, still  |  for, indeed (second word in its clause)  |  therefore',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-38',
+      front: 'longus, -a, -um  |  latus, -a, -um  |  multus, -a, -um',
+      back: 'long  |  wide, broad  |  much (singular), many (plural)',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-39',
+      front: 'Romanus, -a, -um  |  Graecus, -a, -um',
+      back: 'Roman  |  Greek',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-40',
+      front: 'littera, -ae (f)  |  numerus, -i (m)',
+      back: 'letter of the alphabet (plural litterae = a letter, correspondence)  |  number',
+    },
+    {
+      id: 'unit-05-vocabulary-fc-41',
+      front: 'What does a Latin dictionary entry for a noun give?',
+      back: 'The nominative singular, the genitive singular ending, and the gender (m, f or n). The genitive tells you the declension: -ae = 1st, -i = 2nd. Adjectives give masculine, feminine and neuter forms.',
+    },
   ],
   quiz: [
     {

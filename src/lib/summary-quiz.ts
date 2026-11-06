@@ -1,15 +1,7 @@
 import type { PoolQuestion, QuizQuestion } from '@/types/study';
+import { shuffle, shuffleOptions } from '@/lib/quiz-builder';
 
 const LAST_SEEN_KEY = 'eca_summary_quiz_last_seen';
-
-function shuffle<T>(items: T[]): T[] {
-  const a = [...items];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 function readLastSeen(courseId: string): Set<string> {
   if (typeof window === 'undefined') return new Set();
@@ -28,18 +20,6 @@ function writeLastSeen(courseId: string, ids: string[]) {
   } catch {
     // Non-critical: repeat-avoidance just won't persist.
   }
-}
-
-// Returns a copy with options shuffled and correctIndex remapped. Never mutates the pool.
-function shuffleOptions(q: PoolQuestion): QuizQuestion {
-  const order = shuffle(q.options.map((_, i) => i));
-  return {
-    id: q.id,
-    question: q.question,
-    options: order.map(i => q.options[i]),
-    correctIndex: order.indexOf(q.correctIndex),
-    explanation: q.explanation,
-  };
 }
 
 /**
@@ -70,7 +50,8 @@ export function buildSummaryQuiz(courseId: string, pool: PoolQuestion[], count: 
     picked.push(...[...fresh, ...stale].slice(0, want));
   });
 
-  const quiz = shuffle(picked).map(shuffleOptions);
+  // Drop unitNumber; the tagging fields (unitId, topic, flashcardIds) ride along.
+  const quiz: QuizQuestion[] = shuffle(picked).map(({ unitNumber: _unitNumber, ...q }) => shuffleOptions(q));
   writeLastSeen(courseId, quiz.map(q => q.id));
   return quiz;
 }

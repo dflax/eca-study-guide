@@ -3,12 +3,9 @@
 import { useState, useEffect, use } from 'react';
 import { notFound } from 'next/navigation';
 import { getCourse } from '@/data/index';
-import { getSummaryPool } from '@/data/summary-quizzes';
 import Header from '@/components/Header';
-import QuizMode from '@/components/QuizMode';
+import QuizSession from '@/components/QuizSession';
 import { getUserProfile } from '@/lib/progress';
-import { buildSummaryQuiz } from '@/lib/summary-quiz';
-import type { QuizQuestion } from '@/types/study';
 
 const SUMMARY_UNIT_ID = 'summary-quiz';
 
@@ -19,25 +16,16 @@ interface SummaryQuizPageProps {
 export default function SummaryQuizPage({ params }: SummaryQuizPageProps) {
   const { courseId } = use(params);
   const course = getCourse(courseId);
-  const pool = getSummaryPool(courseId);
 
   const [userName, setUserName] = useState('');
-  const [quiz, setQuiz] = useState<QuizQuestion[] | null>(null);
-  const [attempt, setAttempt] = useState(0);
 
-  if (!course || !course.summaryQuiz || !pool) notFound();
+  if (!course || !course.summaryQuiz) notFound();
   const config = course.summaryQuiz;
 
   useEffect(() => {
     const profile = getUserProfile();
     if (profile) setUserName(profile.name);
   }, []);
-
-  // Sample after mount (Math.random during render would cause a hydration mismatch).
-  // Bumping `attempt` draws a fresh set.
-  useEffect(() => {
-    setQuiz(buildSummaryQuiz(courseId, pool, config.questionCount));
-  }, [courseId, pool, config.questionCount, attempt]);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -62,22 +50,13 @@ export default function SummaryQuizPage({ params }: SummaryQuizPageProps) {
         </div>
       </div>
 
-      {quiz ? (
-        <QuizMode
-          key={attempt}
-          courseId={courseId}
-          unitId={SUMMARY_UNIT_ID}
-          quiz={quiz}
-          onRestart={() => {
-            setQuiz(null);
-            setAttempt(a => a + 1);
-          }}
-          backHref={`/${courseId}`}
-          backLabel="Back to Course"
-        />
-      ) : (
-        <div className="flex justify-center py-20 text-gray-500">Building your quiz…</div>
-      )}
+      <QuizSession
+        course={course}
+        progressUnitId={SUMMARY_UNIT_ID}
+        summaryCount={config.questionCount}
+        backHref={`/${courseId}`}
+        backLabel="Back to Course"
+      />
     </div>
   );
 }

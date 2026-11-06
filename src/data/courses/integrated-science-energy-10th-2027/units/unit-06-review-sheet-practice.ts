@@ -79,6 +79,30 @@ export const unit06ReviewSheet: Unit = {
         'Autotrophs vs heterotrophs, and which processes each uses',
       ],
     },
+    {
+      heading: 'Review: Cellular Respiration and Fermentation',
+      content: 'The multiple-choice questions and the 100 m dash free response lean on the same respiration facts. Keep these together.',
+      bullets: [
+        'Equation: glucose + oxygen → carbon dioxide + water + ATP (Q5). Most of it happens in the mitochondria (Q6)',
+        'Glycolysis: cytoplasm, anaerobic, the first stage. Krebs cycle: mitochondrial matrix (Q13). ETC: inner mitochondrial membrane',
+        'Oxygen is the final electron acceptor of the ETC and becomes water',
+        'Aerobic respiration makes much more ATP per glucose than fermentation (Q11)',
+        'Low oxygen: muscle cells use lactic acid fermentation (Q9); it recycles NADH to NAD⁺ so glycolysis continues, and makes no extra ATP',
+      ],
+    },
+    {
+      heading: 'Review: Photosynthesis and Electron Flow',
+      content: 'The multiple-choice questions on photosynthesis and the comparison with respiration, collected in one place.',
+      bullets: [
+        'Reactants of photosynthesis: carbon dioxide, water, and sunlight (Q2). Glucose and oxygen are the products',
+        'Chlorophyll inside chloroplasts gives leaves their green color (Q3)',
+        'Calvin cycle: uses ATP, NADPH, and CO₂ to build glucose (Q4)',
+        'Electron direction: respiration glucose → ETC; photosynthesis ETC → glucose (Q7)',
+        'Final electron acceptor: oxygen in respiration, NADP⁺ in photosynthesis (Q12)',
+        'Glucose is stored because ATP is too unstable for long-term storage and cells need energy when sunlight is unavailable (Q14)',
+        'Photosynthesis and respiration are interdependent: the products of one are the reactants of the other (Q10)',
+      ],
+    },
   ],
   flashcards: [
     {

@@ -27,6 +27,17 @@ export const unit07ComparingMacromolecules: Unit = {
       ],
     },
     {
+      heading: 'Monomers, Reactions & Functional Groups Review',
+      content: 'The exam also mixes in earlier ideas: which monomer builds each class, how monomers are joined and split, which bonds hold DNA and proteins together, and which functional groups appear in which molecules.',
+      bullets: [
+        'Monomers: monosaccharide (carbohydrates), amino acid (proteins), nucleotide (nucleic acids). Lipids have no monomer listed',
+        'Dehydration synthesis links monomers (water is a product); hydrolysis breaks them apart (water is a reactant)',
+        'Peptide bonds link amino acids; DNA bases are held by hydrogen bonds and the backbone by covalent bonds',
+        'All amino acids have –NH₂ and –COOH; only some have –OH. Nucleic acids have –OH, –NH₂ (bases) and –PO₄²⁻; phospholipids have phosphate; carbohydrates have –OH',
+        'All four functional groups are polar; –COOH is acidic and –NH₂ is basic',
+      ],
+    },
+    {
       heading: 'Identify the Molecule',
       content: 'Practice classification from drawings:',
       bullets: [
@@ -99,6 +110,21 @@ export const unit07ComparingMacromolecules: Unit = {
       id: 'unit-07-comparing-macromolecules-fc-12',
       front: 'Class of macromolecule: two sugar rings joined together',
       back: 'Carbohydrate.',
+    },
+    {
+      id: 'unit-07-comparing-macromolecules-fc-13',
+      front: 'Which elements does each macromolecule class contain?',
+      back: 'Carbohydrates, triglycerides, steroids: C, H, O. Phospholipids: C, H, O, P. Proteins and enzymes: C, H, O, N, S. Nucleic acids and DNA: C, H, O, N, P.',
+    },
+    {
+      id: 'unit-07-comparing-macromolecules-fc-14',
+      front: 'Match each monomer to its macromolecule class.',
+      back: 'Monosaccharide: carbohydrate. Amino acid: protein. Nucleotide: nucleic acid. Lipids are not made of a listed monomer.',
+    },
+    {
+      id: 'unit-07-comparing-macromolecules-fc-15',
+      front: 'What is the role of water in dehydration synthesis vs. hydrolysis?',
+      back: 'Dehydration synthesis links monomers and releases water (a product). Hydrolysis breaks macromolecules apart and uses water (a reactant).',
     },
   ],
   quiz: [

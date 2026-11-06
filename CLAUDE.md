@@ -64,8 +64,9 @@ Each unit file exports a `Unit` object matching `src/types/study.ts`. Always che
 1. Create `src/data/courses/[course-id]/index.ts`
 2. Create unit files under `src/data/courses/[course-id]/units/`
 3. Register in `src/data/index.ts`
-4. Run `pnpm build` — must pass before committing
-5. **Update README.md** (see below)
+4. Add `src/data/courses/[course-id]/bank/` (`index.ts`, `topics.ts`, `unit-NN.ts`) and register it in `src/data/banks.ts` — copy `ny-drivers-permit/bank/`. Every question's `topic` must equal a note section `heading` in its unit
+5. Run `pnpm validate:banks` and `pnpm build` — both must pass before committing
+6. **Update README.md** (see below)
 
 ### Next.js 15 Route Params
 Always async in route handlers:
@@ -119,9 +120,9 @@ Commit messages should say what changed and why, not just what files were touche
 
 ## Quality Gate
 
-Before every commit: `pnpm build` must produce zero TypeScript errors and compile successfully.
+Before every commit: `pnpm build` must produce zero TypeScript errors and compile successfully, and `pnpm validate:banks` and `pnpm test:quiz` must pass.
 
-There are no automated test suites in this project. Build success + manual spot-check is the quality gate.
+There is no browser test suite. Build + bank validator + quiz-logic tests + manual spot-check is the quality gate.
 
 ---
 

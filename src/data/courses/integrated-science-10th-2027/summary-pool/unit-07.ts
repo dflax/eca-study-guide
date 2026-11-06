@@ -346,7 +346,7 @@ export const unit07Pool: QuizQuestion[] = [
   },
   {
     id: 'summary-u07-q-050',
-    question: 'Which molecule is the odd one out based on the elements it contains?',
+    question: 'Which molecule differs from the other three in the set of elements it contains?',
     options: ['DNA', 'Glucose', 'Triglyceride', 'Steroid'],
     correctIndex: 0,
     explanation: 'DNA contains N and P in addition to C, H, and O, while the others contain only C, H, and O.',
@@ -367,14 +367,14 @@ export const unit07Pool: QuizQuestion[] = [
   },
   {
     id: 'summary-u07-q-053',
-    question: 'Which molecule is the odd one out because it belongs to a different class than the other three?',
+    question: 'Which molecule belongs to a different macromolecule class than the other three?',
     options: ['Enzyme', 'ATP', 'Hemoglobin', 'A dipeptide'],
     correctIndex: 1,
     explanation: 'ATP is a nucleotide (nucleic acid class), while the others are proteins or protein pieces.',
   },
   {
     id: 'summary-u07-q-054',
-    question: 'Which molecule is the odd one out because it belongs to a different class than the other three?',
+    question: 'Which of these molecules is not in the same class as the other three?',
     options: ['DNA', 'RNA', 'ATP', 'Tryptophan'],
     correctIndex: 3,
     explanation: 'DNA, RNA, and ATP relate to nucleic acids, while tryptophan is an amino acid.',

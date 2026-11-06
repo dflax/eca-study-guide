@@ -97,7 +97,7 @@ Built from the Unit 2 study guide and review sheet PDFs (`documentation/20261021
 | `displayName` | 2026–2027 · 10th Grade History · Dr. Levine |
 | `teacher` | Dr. Levine |
 | `color` | `red` |
-| Units | 8 (Renaissance & New Monarchies, Module 002), 250 flashcards, 110 quiz questions, 434-question summary pool from units 1–6 (24 per attempt) |
+| Units | 8 (Renaissance & New Monarchies, Module 002), 250 flashcards, 110 quiz questions, 432-question summary pool from units 1–6 (24 per attempt) |
 
 Built from `documentation/20261021 Jack History Quiz Review Materials.pdf` plus the 002A, 002A.3, 002B, 002B.2, 002C, 002C.1, 002C.2 and 002C.3 class scans (same folder) (quiz Oct 26, 2026). Units map to guide sections 002A.1–2, 002A.3, 002B, 002C.1, 002C.2, 002C.3; the guide's 36 numbered review questions are flashcards in the matching unit. More units expected as the course continues.
 
@@ -109,7 +109,9 @@ Defined in `src/types/study.ts`:
 - **`Unit`** — id, number, title, description, notes[], flashcards[], quiz[]
 - **`NoteSection`** — heading, content (plain text with `\n`), optional bullets[]
 - **`Flashcard`** — id, front, back
-- **`QuizQuestion`** — id, question, options[4], correctIndex (0–3), explanation
+- **`QuizQuestion`** — id, question, options[4], correctIndex (0–3), explanation; optional `unitId`, `topic`, `flashcardIds` set when it comes from a bank
+- **`BankQuestion` / `CourseBank` / `CourseTopicData`** — a tagged question; a course's whole bank plus `summaryUnitIds`; the hand-written tags (`flashcards` per note heading, `questionTopics` per existing question)
+- **`TopicSession` / `QuestionRecord`** — per-topic sitting results and per-question history, stored in optional `AllProgress.topicSessions` / `questionHistory`
 - **`UnitProgress`** — flashcardsLearned[], flashcardsSkipped[], quizAttempts[], notesViewed, lastVisited
 - **`AllProgress`** — user profile + per-course per-unit progress map (stored in `localStorage`)
 
@@ -131,6 +133,15 @@ A unit is considered "complete" when: notes viewed + ≥80% of flashcards learne
 
 ---
 
+## Adaptive Practice (question banks)
+
+- Each course has `src/data/courses/<id>/bank/` (`index.ts`, `topics.ts`, optional `unit-NN.ts`). `assembleBank()` merges unit quiz + summary pool + new bank questions (de-duplicated by id) and tags each with unit, **topic = exact note `heading`**, and the topic's flashcard ids. `src/data/banks.ts` registers the loaders; banks are code-split and loaded on demand by `QuizSession`, never put on `Unit`/`Course`.
+- Quiz pages render `QuizSession` (loads the bank, serves the first attempt, "New Questions", weak-area quiz, same-topic follow-ups) which renders `QuizMode`. Pure logic is in `src/lib/quiz-builder.ts` and `src/lib/mastery.ts`.
+- **Mastery:** last two qualifying sittings (≥2 answers on the topic) each ≥80%. Follow-up practice questions count toward topic stats but not the quiz score; weak-area quizzes are not recorded as unit quiz attempts. Pass message threshold in `QuizMode` is 80% (was 70%).
+- Wrong answers link (new tab) to `/<course>/<unit>/notes#<slug of heading>` and `/<course>/<unit>/flashcards?cards=<ids>`.
+- `pnpm validate:banks` (content validator: 4 options, topics are real headings, ≥25 questions per unit, ≥4 per topic, answer-length bias) and `pnpm test:quiz` (logic tests) — run both before committing content changes.
+- When adding or changing a note heading, update the `bank/topics.ts` entries that use it; the validator will flag stale topics.
+
 ## Key Decisions
 
 - **No database** — all content is static TypeScript; progress lives in `localStorage`
@@ -150,7 +161,7 @@ A unit is considered "complete" when: notes viewed + ≥80% of flashcards learne
 ## Summary Quizzes (course-level)
 
 - Optional `summaryQuiz` config on `Course` enables a cross-unit quiz at `/[courseId]/summary-quiz` (entry card on the course page).
-- Question pools live outside the `Course` object (`src/data/summary-quizzes.ts` → `getSummaryPool`) so they're only bundled into the summary page.
+- The summary quiz draws from the course question bank (see Adaptive Practice), restricted to `CourseBank.summaryUnitIds` (units present in the course's `summary-pool`; History units 7–8 are excluded on purpose).
 - `src/lib/summary-quiz.ts` samples after mount: units get an even share (30 across 7 units = 4 each, 2 random units get 5), questions from the previous attempt are skipped when possible, and option order is shuffled.
 - Attempts are saved under unit id `summary-quiz` (does not affect unit completion).
-- `integrated-science-10th-2027` (500-question pool), `integrated-science-energy-10th-2027` (328-question pool) and `history-10th-2027` (434-question pool, units 1–6): existing unit quizzes + `summary-pool/unit-0N.ts`.
+- `integrated-science-10th-2027` (500-question pool), `integrated-science-energy-10th-2027` (328-question pool) and `history-10th-2027` (432-question pool, units 1–6): existing unit quizzes + `summary-pool/unit-0N.ts`.

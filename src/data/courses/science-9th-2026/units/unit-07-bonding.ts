@@ -32,7 +32,7 @@ export const unit07Bonding: Unit = {
     },
     {
       heading: 'Naming Covalent Compounds',
-      content: 'Covalent compounds form between two nonmetals. Use Greek numerical prefixes to indicate the number of each atom.\n\nPrefixes:\n1 = mono- (only on second element, or if ambiguous)\n2 = di-\n3 = tri-\n4 = tetra-\n5 = penta-\n6 = hexa-\n7 = hepta-\n8 = octa-\n\nRules:\n• First element: use prefix only if more than one (usually omit "mono" for first)\n• Second element: always use prefix + "-ide" ending\n• Drop the last vowel of prefix if element name starts with a vowel\n\nExamples:\n• CO = carbon monoxide\n• CO₂ = carbon dioxide\n• N₂O₄ = dinitrogen tetroxide\n• PCl₅ = phosphorus pentachloride\n\nFormula from name:\n• Use the prefixes to determine the subscripts directly\n• Example: dinitrogen trioxide → N₂O₃',
+      content: 'Covalent compounds form between two nonmetals. Use Greek numerical prefixes to indicate the number of each atom.\n\nPrefixes:\n1 = mono- (only on second element, or if ambiguous)\n2 = di-\n3 = tri-\n4 = tetra-\n5 = penta-\n6 = hexa-\n7 = hepta-\n8 = octa-\n9 = nona-\n10 = deca-\n\nRules:\n• First element: use prefix only if more than one (usually omit "mono" for first)\n• Second element: always use prefix + "-ide" ending\n• Drop the final a or o of the prefix before an element name that starts with a vowel (mono + oxide = monoxide, tetra + oxide = tetroxide, penta + oxide = pentoxide); di- and tri- keep their i (dioxide, trioxide)\n\nExamples:\n• CO = carbon monoxide\n• CO₂ = carbon dioxide\n• N₂O₄ = dinitrogen tetroxide\n• PCl₅ = phosphorus pentachloride\n\nFormula from name:\n• Use the prefixes to determine the subscripts directly\n• Example: dinitrogen trioxide → N₂O₃',
     },
     {
       heading: 'Lewis Structures and the Octet Rule',
@@ -42,6 +42,16 @@ export const unit07Bonding: Unit = {
         'Step 2: Connect atoms with single bonds first',
         'Step 3: Complete octets on outer atoms',
         'Step 4: Use multiple bonds if central atom needs more electrons',
+      ],
+    },
+    {
+      heading: "Why Different Bond Types Form",
+      content: "The type of bond depends on how strongly each atom pulls on valence electrons (effective nuclear charge and electronegativity).\n\n• Metal + nonmetal (ionic): the nonmetal has a much higher effective nuclear charge and attraction for electrons than the metal. It pulls the valence electron(s) completely away from the metal. The electrons are located mostly on the anion, and the ions are held together by attraction between opposite charges.\n• Nonmetal + nonmetal (covalent): both atoms have a strong, similar pull on electrons, so neither can take them from the other. The shared electrons are located between the two nuclei and are attracted to both.\n• Metal + metal (metallic): metals have low effective nuclear charge on their valence electrons and hold them weakly. Neither atom pulls strongly enough to keep the electrons, so they are delocalized in a sea that moves freely among positive metal ions.",
+      bullets: [
+        "Ionic: electrons located on the anion (transferred)",
+        "Covalent: electrons located between the two atoms (shared)",
+        "Metallic: electrons delocalized throughout the metal (sea of electrons)",
+        "Bigger difference in attraction for electrons = more ionic character",
       ],
     },
   ],
@@ -115,6 +125,16 @@ export const unit07Bonding: Unit = {
       id: 'unit-07-bonding-fc-14',
       front: 'What is the formula for carbon tetrachloride?',
       back: 'CCl₄. Carbon (no prefix = 1 carbon), tetrachloride (tetra = 4, chloride = Cl). So: 1 carbon and 4 chlorine atoms → CCl₄. This is a covalent compound (nonmetal + nonmetal).',
+    },
+    {
+      id: 'unit-07-bonding-fc-15',
+      front: "Where are the electrons located in ionic, covalent, and metallic bonds?",
+      back: "Ionic: transferred to and located mostly on the anion. Covalent: shared, located between the two bonded nuclei. Metallic: delocalized in a sea of electrons that move freely around metal cations.",
+    },
+    {
+      id: 'unit-07-bonding-fc-16',
+      front: "Why do two nonmetals share electrons instead of transferring them?",
+      back: "Both nonmetals have a high effective nuclear charge and attract electrons strongly. Neither can fully pull the electrons away from the other, so they share them.",
     },
   ],
   quiz: [

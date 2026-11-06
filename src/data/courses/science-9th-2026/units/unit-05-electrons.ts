@@ -37,7 +37,25 @@ export const unit05Electrons: Unit = {
         'Cation = lost electrons → positive charge (CAT-ion → pawsitive)',
         'Anion = gained electrons → negative charge',
         'Ions still have the same number of protons as the neutral atom — only electrons change',
-        'Noble gases have 8 valence electrons (full outer shell) — most stable configuration',
+        'Noble gases have a full outer shell (8 valence electrons; helium has 2) — most stable configuration',
+      ],
+    },
+    {
+      heading: "Orbital Shapes",
+      content: "The region where an electron is likely to be found has a characteristic shape for each subshell.\n\n• s orbital: spherical (a ball) around the nucleus. One orbital per s subshell.\n• p orbitals: dumbbell-shaped (two lobes). There are three p orbitals, one along each of the x, y, and z axes, at right angles to each other.\n• d orbitals: five orbitals; most have a four-lobed \"cloverleaf\" shape.\n\nBigger shells have bigger orbitals. Electrons in an orbital behave like a standing wave around the nucleus, so higher shells have nodes (places of zero probability): the 1st shell has no nodes (the first mode of the electron probability wave), the 2nd shell has 1 node, the 3rd has 2 nodes, and so on.",
+      bullets: [
+        "s = sphere (1 orbital); p = dumbbell (3 orbitals); d = cloverleaf shapes (5 orbitals)",
+        "The three p orbitals point along the x, y, and z axes",
+        "Nodes = shell number − 1",
+      ],
+    },
+    {
+      heading: "Orbital Box Diagrams (Pauli and Hund)",
+      content: "An electron diagram can be drawn with one box per orbital and arrows for electrons. You must apply two rules correctly:\n\n• Pauli exclusion principle: each box holds at most 2 electrons, and they are drawn as opposite arrows (↑↓).\n• Hund's rule: when boxes have equal energy (like the three 2p boxes), put one arrow in each box before pairing any up.\n\nExample: Oxygen (1s² 2s² 2p⁴)\n  1s: [↑↓]   2s: [↑↓]   2p: [↑↓] [↑] [↑]\nThe fourth 2p electron pairs up only after each 2p box has one arrow.\n\nExample: Nitrogen (1s² 2s² 2p³)\n  1s: [↑↓]   2s: [↑↓]   2p: [↑] [↑] [↑]  (all unpaired)\n\nNoble gas shorthand may be used: oxygen = [He] 2s² 2p⁴.",
+      bullets: [
+        "Count the arrows: they must equal the number of electrons",
+        "Paired arrows point in opposite directions",
+        "Unpaired electrons in the same subshell all point the same way first",
       ],
     },
   ],
@@ -111,6 +129,26 @@ export const unit05Electrons: Unit = {
       id: 'unit-05-electrons-fc-14',
       front: 'What is the difference between a shell and a subshell?',
       back: 'A shell is a main energy level (n = 1, 2, 3...). Each shell contains one or more subshells (s, p, d, f). Shell 1 has only 1s. Shell 2 has 2s and 2p. Shell 3 has 3s, 3p, and 3d.',
+    },
+    {
+      id: 'unit-05-electrons-fc-15',
+      front: "What shapes do s, p, and d orbitals have?",
+      back: "s is spherical; p is dumbbell-shaped, with three p orbitals along the x, y, and z axes; d orbitals are mostly four-lobed cloverleaf shapes (five d orbitals).",
+    },
+    {
+      id: 'unit-05-electrons-fc-16',
+      front: "Draw the orbital box diagram for the 2p subshell of nitrogen.",
+      back: "Nitrogen has 3 electrons in 2p. By Hund's rule each of the three boxes gets one arrow: [↑] [↑] [↑]. No pairing occurs.",
+    },
+    {
+      id: 'unit-05-electrons-fc-17',
+      front: "Draw the orbital box diagram for the 2p subshell of oxygen.",
+      back: "Oxygen has 4 electrons in 2p: [↑↓] [↑] [↑]. Each box gets one electron first (Hund), then the fourth electron pairs with opposite spin (Pauli).",
+    },
+    {
+      id: 'unit-05-electrons-fc-18',
+      front: "Why is the arrow pair in one orbital box drawn with opposite directions?",
+      back: "Pauli exclusion principle: two electrons in the same orbital must have opposite spins, shown as ↑ and ↓.",
     },
   ],
   quiz: [

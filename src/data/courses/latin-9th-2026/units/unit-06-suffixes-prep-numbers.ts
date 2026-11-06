@@ -18,10 +18,10 @@ export const unit06SuffixesPrepNumbers: Unit = {
     },
     {
       heading: 'The Suffix -que',
-      content: 'The suffix -que means "and" and is attached to the END of the second of two connected words. It is "enclitic" — it clings to the word before it. It connects two words or clauses of equal weight and often feels more formal or emphatic than et.\n\nCorrect: Marcus Iuliaque = Marcus and Julia (-que attaches to Iulia, the second item)\nWrong: Marcusque Iulia (this puts -que on the first item — incorrect)\n\nClassic example: senatus populusque Romanus (SPQR) = the Senate and the Roman people\nAnother example: terra marique = on land and sea (terra + mari + que)\n\nRule: -que attaches to the SECOND item and means "and [the first thing] and [this thing]."',
+      content: 'The suffix -que means "and" and is attached to the END of the second of two connected words. It is "enclitic" — it clings to the word before it. It connects two words or clauses of equal weight and often feels more formal or emphatic than et.\n\nCorrect: Marcus Iuliaque = Marcus and Julia (-que attaches to Iulia, the second item)\nWrong: Marcusque Iulia (this puts -que on the first item — incorrect)\n\nClassic example: senatus populusque Romanus (SPQR) = the Senate and the Roman people\nAnother example: terra marique = on land and sea (terra + mari + que)\n\nRule: -que attaches to the END of the SECOND item and joins it to the first (A + Bque = A and B).',
       bullets: [
         '-que = "and" — attaches to the END of the SECOND item',
-        'Marcusque = "and Marcus" only when Marcus is the SECOND item',
+        'Marcus Iuliaque = Marcus and Julia (the -que sits on Iulia, the second name)',
         'Correct: terra marique = on land and sea',
         'SPQR: senatus populusque Romanus = the Senate and the Roman people',
         '-que often sounds more formal/poetic than et',

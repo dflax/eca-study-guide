@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, use } from 'react';
-import { notFound } from 'next/navigation';
+import { notFound, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { getCourse, getUnit } from '@/data/index';
 import Header from '@/components/Header';
@@ -17,6 +17,7 @@ export default function FlashcardsPage({ params }: FlashcardsPageProps) {
   const course = getCourse(courseId);
   const unit = getUnit(courseId, unitId);
 
+  const searchParams = useSearchParams();
   const [userName, setUserName] = useState('');
 
   if (!course || !unit) notFound();
@@ -25,6 +26,12 @@ export default function FlashcardsPage({ params }: FlashcardsPageProps) {
     const profile = getUserProfile();
     if (profile) setUserName(profile.name);
   }, []);
+
+  // ?cards=id1,id2 narrows the deck to one topic (linked from a missed quiz question).
+  const wanted = new Set((searchParams.get('cards') ?? '').split(',').filter(Boolean));
+  const focused = unit.flashcards.filter(f => wanted.has(f.id));
+  const isFocused = focused.length > 0;
+  const cards = isFocused ? focused : unit.flashcards;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -43,12 +50,18 @@ export default function FlashcardsPage({ params }: FlashcardsPageProps) {
           <span className="text-2xl">🃏</span>
           <div>
             <h1 className="text-2xl font-bold text-gray-900">Flashcards</h1>
-            <p className="text-gray-500 text-sm">Unit {unit.number}: {unit.title} — {unit.flashcards.length} cards</p>
+            <p className="text-gray-500 text-sm">Unit {unit.number}: {unit.title} — {cards.length} cards</p>
           </div>
         </div>
       </div>
 
-      <FlashcardDeck courseId={courseId} unitId={unitId} flashcards={unit.flashcards} />
+      <FlashcardDeck
+        key={isFocused ? 'focused' : 'all'}
+        courseId={courseId}
+        unitId={unitId}
+        flashcards={cards}
+        focusLabel={isFocused ? 'this topic' : undefined}
+      />
     </div>
   );
 }

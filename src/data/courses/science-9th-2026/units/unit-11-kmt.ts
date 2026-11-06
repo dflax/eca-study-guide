@@ -57,6 +57,15 @@ export const unit11Kmt: Unit = {
         'On KE distribution graph: higher T curve = shifted right = more particles in high-KE region',
       ],
     },
+    {
+      heading: "Explaining Gas Behavior with KMT",
+      content: "You should be able to explain gas behaviors by referencing the postulates.\n\n• Gases are easily compressed: particles have negligible volume and are far apart, so there is mostly empty space (postulate 2).\n• Gases expand to fill any container: particles move constantly and randomly with no attractions holding them together (postulates 1 and 3).\n• Gas pressure: particles collide with the container walls; many collisions per second add up to pressure (postulates 1 and 4).\n• Raising temperature at constant volume raises pressure: particles have more kinetic energy, move faster, and hit the walls more often and harder (postulate 5).\n• Gases mix (diffuse) quickly: particles move fast, randomly, and independently (postulates 1 and 3).\n• Gases do not settle or slow down on their own: collisions are elastic, so no energy is lost (postulate 4).",
+      bullets: [
+        "Low density: the particles are far apart",
+        "Pressure comes from particle collisions with the walls",
+        "At the same temperature, lighter gas particles move faster than heavier ones",
+      ],
+    },
   ],
   flashcards: [
     {
@@ -118,6 +127,21 @@ export const unit11Kmt: Unit = {
       id: 'unit-11-kmt-fc-12',
       front: 'According to KMT, what is the relationship between temperature and average kinetic energy?',
       back: 'Average kinetic energy of gas particles is directly proportional to the ABSOLUTE temperature (in Kelvin). Higher temperature = higher average KE = faster-moving particles. At the same temperature, all gases have the same average KE.',
+    },
+    {
+      id: 'unit-11-kmt-fc-13',
+      front: "How does KMT explain why gases can be compressed?",
+      back: "Gas particles have negligible volume and are far apart, so the gas is mostly empty space that particles can be squeezed into (postulate 2).",
+    },
+    {
+      id: 'unit-11-kmt-fc-14',
+      front: "How does KMT explain gas pressure?",
+      back: "Gas particles in constant random motion collide with the container walls. The combined force of many collisions per unit area is the pressure (postulates 1 and 4).",
+    },
+    {
+      id: 'unit-11-kmt-fc-15',
+      front: "Why does heating a gas in a rigid container increase its pressure?",
+      back: "Higher temperature means higher average kinetic energy (postulate 5), so particles move faster and hit the walls more often and with more force.",
     },
   ],
   quiz: [

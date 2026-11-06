@@ -43,6 +43,25 @@ export const unit03AtomicTheory: Unit = {
         'To check Law of Multiple Proportions: compare ratios across different compounds for whole numbers',
       ],
     },
+    {
+      heading: "Particle Diagrams of Matter",
+      content: "Particle diagrams use circles (atoms) to show what a sample is made of. Ask two questions: are all the particles the same, and are atoms joined together?\n\n1) Element: all particles are identical single atoms (or identical molecules of one atom type, like O₂).\n2) Compound: all particles are identical molecules, each containing two or more DIFFERENT atoms joined together.\n3) Mixture of elements: two or more kinds of separate atoms or element molecules, not bonded to each other.\n4) Mixture of compounds: two or more kinds of compound molecules.\n5) Mixture of a compound and elements: compound molecules plus separate atoms or element molecules.",
+      bullets: [
+        "One kind of particle = pure substance (element or compound); more than one kind = mixture",
+        "Atoms of different colors bonded in one particle = compound",
+        "Different kinds of particles NOT bonded together = mixture",
+        "Mixtures keep the separate particles; compounds make a new particle",
+      ],
+    },
+    {
+      heading: "History and Scientific Reasoning",
+      content: "The development of chemistry shows how science works. Alchemists wanted to turn metals into gold and the phlogiston theory said burning released a substance called phlogiston. These ideas were reasonable given the observations available, but they were limited by what could be measured.\n\nKey ideas to be ready to discuss:\n• Limits of observations: people can only draw conclusions from what they can observe with the tools of their time.\n• Observations vs. conclusions: an observation is what you see or measure; a conclusion is the explanation you infer from it. Different people can draw different conclusions from the same observation.\n• New technologies: better instruments (such as precise balances) gave new data that overturned old ideas. Careful measurement of mass led to the laws of definite and multiple proportions.\n• Scientific discourse: scientists test, challenge, and revise each other's ideas, so theories change as evidence grows.",
+      bullets: [
+        "Wrong early ideas (like phlogiston) were still useful steps toward better theories",
+        "New technology can produce new evidence that forces a theory to change",
+        "Quantitative (measured) evidence made chemistry more reliable",
+      ],
+    },
   ],
   flashcards: [
     {
@@ -104,6 +123,31 @@ export const unit03AtomicTheory: Unit = {
       id: 'unit-03-atomic-theory-fc-12',
       front: 'What were alchemists trying to do, and what is the phlogiston theory?',
       back: 'Alchemists sought to transform base metals into gold. Phlogiston theory was an early (incorrect) idea that a substance called "phlogiston" was released during burning. This was disproven when Lavoisier showed combustion involves oxygen.',
+    },
+    {
+      id: 'unit-03-atomic-theory-fc-13',
+      front: "How can you tell from a particle diagram that a sample is a compound and not a mixture?",
+      back: "In a compound, every particle is the same molecule and contains two or more different atoms bonded together. In a mixture, the different kinds of particles are separate and not bonded to each other.",
+    },
+    {
+      id: 'unit-03-atomic-theory-fc-14',
+      front: "How does a particle diagram of a mixture of compounds differ from one of a mixture of elements?",
+      back: "A mixture of compounds shows two or more kinds of molecules, each made of different bonded atoms. A mixture of elements shows two or more kinds of separate atoms (or element molecules) with no bonds between different kinds.",
+    },
+    {
+      id: 'unit-03-atomic-theory-fc-15',
+      front: "What is the difference between an observation and a conclusion in the history of chemistry?",
+      back: "An observation is what is directly seen or measured. A conclusion is the explanation inferred from it. Early chemists often made reasonable conclusions that later evidence disproved.",
+    },
+    {
+      id: 'unit-03-atomic-theory-fc-16',
+      front: "How do new technologies change scientific ideas?",
+      back: "Better instruments give new, more precise evidence beyond the limits of earlier observations. When the new evidence disagrees with a theory, scientists revise or replace the theory.",
+    },
+      {
+      id: 'unit-03-atomic-theory-fc-17',
+      front: 'Describe the four states of matter.',
+      back: 'Solid: definite shape and volume, particles tightly packed and vibrating in place. Liquid: definite volume, no definite shape, particles slide past each other. Gas: no definite shape or volume, particles far apart and moving rapidly. Plasma: high-energy ionized gas, common in stars.',
     },
   ],
   quiz: [
