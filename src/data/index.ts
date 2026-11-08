@@ -6,6 +6,7 @@ import { humanitiesNinth2026 } from './courses/humanities-9th-2026';
 import { integratedScienceTenth2027 } from './courses/integrated-science-10th-2027';
 import { integratedScienceEnergyTenth2027 } from './courses/integrated-science-energy-10th-2027';
 import { historyTenth2027 } from './courses/history-10th-2027';
+import { historyReformationTenth2027 } from './courses/history-reformation-10th-2027';
 import { nyDriversPermit } from './courses/ny-drivers-permit';
 
 export const allCourses: Course[] = [
@@ -16,6 +17,7 @@ export const allCourses: Course[] = [
   integratedScienceTenth2027,
   integratedScienceEnergyTenth2027,
   historyTenth2027,
+  historyReformationTenth2027,
   nyDriversPermit,
 ];
 

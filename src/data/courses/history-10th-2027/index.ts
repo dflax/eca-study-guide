@@ -10,7 +10,7 @@ import { unit08QuizFocus } from './units/unit-08-quiz-focus-and-comparisons';
 
 export const historyTenth2027: Course = {
   id: 'history-10th-2027',
-  displayName: '2026–2027 · 10th Grade History · Dr. Levine',
+  displayName: '2026–2027 · 10th Grade History · Module 002: Renaissance & New Monarchies · Dr. Levine',
   year: '2026-2027',
   category: 'school-year',
   subject: '10th Grade History',

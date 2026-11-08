@@ -158,7 +158,7 @@ Each subject gets a distinct color (Tailwind color name set in the course `color
 - Integrated Humanities: `purple`
 - NY State Driver's Permit Test Prep: `sky`
 - Bible: TBD (planned)
-- 10th Grade History (2026–2027): `red`
+- 10th Grade History (2026–2027): `red` (used for both Module 002 Renaissance and Module 003 Reformation)
 
 School-year courses use the `displayName` format: `'YYYY–YYYY · Subject · Teacher'`. General Topics courses (no fixed school year — `category: 'general'`, `year: 'general'`) use a plain subject-only `displayName` with `teacher: 'Self-Study'`.
 Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
@@ -184,7 +184,8 @@ Example: `'2025–2026 · 9th Grade Science · Dr. Shulman'`
 | `humanities-9th-2026` | 2025–2026 · Integrated Humanities | Ms. Attar | 6 |
 | `integrated-science-10th-2027` | 2026–2027 · 10th Grade Integrated Science II · Unit 1: Chemistry of Life · Dr. Shulman | Dr. Shulman | 7 |
 | `integrated-science-energy-10th-2027` | 2026–2027 · 10th Grade Integrated Science II · Unit 2: Energy · Dr. Shulman | Dr. Shulman | 6 |
-| `history-10th-2027` | 2026–2027 · 10th Grade History · Dr. Levine | Dr. Levine | 8 (expanding) |
+| `history-10th-2027` | 2026–2027 · 10th Grade History · Module 002: Renaissance & New Monarchies · Dr. Levine | Dr. Levine | 8 (expanding) |
+| `history-reformation-10th-2027` | 2026–2027 · 10th Grade History · Module 003: The Protestant Reformation · Dr. Levine | Dr. Levine | 6 |
 | `ny-drivers-permit` | NY State Driver's Permit Test Prep | Self-Study | 12 |
 
 ---

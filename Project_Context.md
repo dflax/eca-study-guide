@@ -94,12 +94,24 @@ Built from the Unit 2 study guide and review sheet PDFs (`documentation/20261021
 | Field | Value |
 |-------|-------|
 | `id` | `history-10th-2027` |
-| `displayName` | 2026–2027 · 10th Grade History · Dr. Levine |
+| `displayName` | 2026–2027 · 10th Grade History · Module 002: Renaissance & New Monarchies · Dr. Levine |
 | `teacher` | Dr. Levine |
 | `color` | `red` |
 | Units | 8 (Renaissance & New Monarchies, Module 002), 250 flashcards, 110 quiz questions, 432-question summary pool from units 1–6 (24 per attempt) |
 
 Built from `documentation/20261021 Jack History Quiz Review Materials.pdf` plus the 002A, 002A.3, 002B, 002B.2, 002C, 002C.1, 002C.2 and 002C.3 class scans (same folder) (quiz Oct 26, 2026). Units map to guide sections 002A.1–2, 002A.3, 002B, 002C.1, 002C.2, 002C.3; the guide's 36 numbered review questions are flashcards in the matching unit. More units expected as the course continues.
+
+### History — Reformation · 2026–2027 (Module 003)
+
+| Field | Value |
+|-------|-------|
+| `id` | `history-reformation-10th-2027` |
+| `displayName` | 2026–2027 · 10th Grade History · Module 003: The Protestant Reformation · Dr. Levine |
+| `teacher` | Dr. Levine |
+| `color` | `red` |
+| Units | 6, 204 flashcards, 61 unit-quiz questions, 312-question bank (30 per summary-quiz attempt) |
+
+Built from `documentation/20261108-history-reformation/` (003QSG study guide, vocab and key terms PDF, Flippity sheet 003R1, P&C pp. 75–93, 003B1 Luther, 003D, 003H05–H07, 001A). Test: Thursday, November 12, 2026. Units follow the study-guide sections (Q1–8 Luther, Q9–13 Scripture/rulers/peasants, Q14–18 Calvin, Q19–23 England, Q24–29 Catholic reform, Q30–31 source paragraph). Kept separate from `history-10th-2027` so each test has its own summary quiz. Flashcard and question source rows live in the unit files (`units/*.ts`, `bank/unit-0N.ts`) and share `helpers.ts`; the bank's topic data is derived from them, so there is no `summary-pool/` and `summaryUnitIds` lists every unit.
 
 ## Data Model
 
@@ -164,4 +176,4 @@ A unit is considered "complete" when: notes viewed + ≥80% of flashcards learne
 - The summary quiz draws from the course question bank (see Adaptive Practice), restricted to `CourseBank.summaryUnitIds` (units present in the course's `summary-pool`; History units 7–8 are excluded on purpose).
 - `src/lib/summary-quiz.ts` samples after mount: units get an even share (30 across 7 units = 4 each, 2 random units get 5), questions from the previous attempt are skipped when possible, and option order is shuffled.
 - Attempts are saved under unit id `summary-quiz` (does not affect unit completion).
-- `integrated-science-10th-2027` (500-question pool), `integrated-science-energy-10th-2027` (328-question pool) and `history-10th-2027` (432-question pool, units 1–6): existing unit quizzes + `summary-pool/unit-0N.ts`.
+- `integrated-science-10th-2027` (500-question pool), `integrated-science-energy-10th-2027` (328-question pool) and `history-10th-2027` (432-question pool, units 1–6): existing unit quizzes + `summary-pool/unit-0N.ts`. `history-reformation-10th-2027` has no pool; its summary quiz draws from the whole bank (all six units).

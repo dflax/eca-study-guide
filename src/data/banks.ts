@@ -10,6 +10,7 @@ const loaders: Record<string, () => Promise<CourseBank>> = {
   'integrated-science-10th-2027': () => import('./courses/integrated-science-10th-2027/bank').then(m => m.courseBank),
   'integrated-science-energy-10th-2027': () => import('./courses/integrated-science-energy-10th-2027/bank').then(m => m.courseBank),
   'history-10th-2027': () => import('./courses/history-10th-2027/bank').then(m => m.courseBank),
+  'history-reformation-10th-2027': () => import('./courses/history-reformation-10th-2027/bank').then(m => m.courseBank),
   'ny-drivers-permit': () => import('./courses/ny-drivers-permit/bank').then(m => m.courseBank),
 };
 

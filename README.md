@@ -25,7 +25,8 @@ Courses are organized on the homepage into sections by school year (newest first
 |--------|---------|-------|------------|----------------|
 | 10th Grade Integrated Science II — Unit 1: Chemistry of Life | Dr. Shulman | 7 | 88 | 59 (500, incl. 500-question summary pool) |
 | 10th Grade Integrated Science II — Unit 2: Energy | Dr. Shulman | 6 | 172 | 64 (356, incl. 328-question summary pool) |
-| 10th Grade History | Dr. Levine | 8 | 250 | 110 (573, incl. 432-question summary pool) |
+| 10th Grade History — Module 002: Renaissance & New Monarchies | Dr. Levine | 8 | 250 | 110 (573, incl. 432-question summary pool) |
+| 10th Grade History — Module 003: The Protestant Reformation | Dr. Levine | 6 | 204 | 61 (312, incl. summary quiz drawn from the whole bank) |
 
 ### General Topics
 
@@ -84,7 +85,18 @@ Built from the Module 002 study guide and the class packets 002A–002C (quiz Oc
 
 **Summary Quiz — Units 1–6:** 24 questions drawn at random from a 432-question pool (the unit-quiz questions from units 1–6 plus summary-only questions), balanced across units 1–6 (units 7–8 are study-only) and reshuffled on every attempt. Pool lives in `src/data/courses/history-10th-2027/summary-pool/`.
 
-> More History units will be added as the course continues.
+> More History modules will be added as the course continues.
+
+### 10th Grade History — The Protestant Reformation (2026–2027, Dr. Levine)
+Built from the Module 003 study guide (003QSG, test Thursday, November 12, 2026), the Reformation vocabulary and key terms sheet, the Flippity review sheet (003R1), P&C pp. 75–93, Luther's Three Walls (003B1), and the 003D, 003H05, 003H06, 003H07 and 001A class packets. A separate course from Module 002 so the Reformation test has its own summary quiz. Flashcards include model answers to study-guide Questions 1–31 and every vocabulary term; each note section has 6+ quiz questions for topic practice.
+1. Luther and Justification (Questions 1–8)
+2. Scripture, Rulers, and the Peasants — Twelve Articles, Luther's response, Augsburg (Questions 9–13)
+3. Calvin (Questions 14–18)
+4. England (Questions 19–23)
+5. Catholic Reform — Trent, Jesuits, enforcement (Questions 24–29)
+6. Source Paragraph and Synthesis (Questions 30–31)
+
+**Summary Quiz — Reformation:** 30 questions drawn at random from the 312-question bank (the 61 unit-quiz questions plus 251 bank questions), balanced across all six units and reshuffled on every attempt. There is no separate `summary-pool/`: the summary quiz draws from `bank/` for every unit.
 
 ### Hebrew Units (Morah Gabay)
 1. Vocabulary — City & School (bidirectional flashcards: Hebrew ↔ English)
